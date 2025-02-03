@@ -1,0 +1,16 @@
+{
+	"name": "Théorie des groupes",
+	"slug": "groupe",
+	"description": "Questions sur les **groupes** et *actions* de groupes $G$",
+	"image": "https://png.pngtree.com/png-vector/20210330/ourmid/pngtree-math-png-image_3166138.jpg",
+	"questions": [
+		{
+			"type": "mcq",
+			"title": "Qu'est ce qu'une action de groupe",
+			"image": "https://png.pngtree.com/png-vector/20210330/ourmid/pngtree-math-png-image_3166138.jpg",
+			"description": "Soit $(G, \\cdot)$ un groupe:",
+			"choices": ["Un truc bien", "bof", "Moi", "Pas lui"],
+			"answers": [0, 2]
+		}
+	]
+}
