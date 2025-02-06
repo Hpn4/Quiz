@@ -1,15 +1,18 @@
 import { Stack } from "expo-router";
 import { View, StatusBar, StyleSheet } from "react-native";
 
+import colors from "@/constants/Color"
+import gStyles from "@/constants/GlobalStyle"
+
 export default function RootLayout() {
   return (
     <>
-    <View style={styles.container}>
-      <StatusBar backgroundColor="#842aff"/>
+    <View style={gStyles.container}>
+      <StatusBar backgroundColor={colors.accentuation}/>
       <View style={styles.circle}/>
       <View style={styles.main}>
-      <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+      <Stack screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="(tabs)"/>
       </Stack>
       </View>
     </View>
@@ -18,10 +21,6 @@ export default function RootLayout() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#1a1919",
-  },
   circle: {
     left: "-5%",
     top: -130,
@@ -30,7 +29,7 @@ const styles = StyleSheet.create({
     marginBottom: -120,
     borderBottomLeftRadius: "50%",
     borderBottomRightRadius: "50%",
-    backgroundColor: "#842aff",
+    backgroundColor: colors.accentuation,
   },
   main: {
     flex: 1,

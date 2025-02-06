@@ -1,4 +1,4 @@
-import { View, StyleSheet } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 
 import colors from "@/constants/Color"
 import TitleCard from "@/components/TitleCard";
@@ -6,7 +6,7 @@ import TitleCard from "@/components/TitleCard";
 export default function Index() {
   return (
     <View style={styles.container}>
-      <TitleCard title={"Statistiques"} content={"Flemme"}/>
+      <TitleCard title={"Fin"} content={"gg"}/>
     </View>
   );
 };

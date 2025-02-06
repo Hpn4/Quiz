@@ -6,11 +6,19 @@
 	"questions": [
 		{
 			"type": "mcq",
-			"title": "Qu'est ce qu'une action de groupe",
+			"title": "Action de groupe ?",
 			"image": "https://png.pngtree.com/png-vector/20210330/ourmid/pngtree-math-png-image_3166138.jpg",
-			"description": "Soit $(G, \\cdot)$ un groupe:",
-			"choices": ["Un truc bien", "bof", "Moi", "Pas lui"],
-			"answers": [0, 2]
+			"description": "Soit (G, .) un **groupe**:",
+			"choices": ["Un truc bien", "bof", "Moi", "Pas lui", "Encore", "Plus", "Moins"],
+			"answers": ["Un truc bien", "Moi"]
+		},
+		{
+			"type": "mcq",
+			"title": "Damn une autre question",
+			"image": "https://png.pngtree.com/png-vector/20210330/ourmid/pngtree-math-png-image_3166138.jpg",
+			"description": "Qu'est ce qu'un groupe monogène",
+			"choices": ["Un groupe d'ordre fini", "Un groupe unifère", "Un groupe muni d'un générateur", "ff"],
+			"answers": ["Un groupe muni d'un générateur"]
 		}
 	]
 }

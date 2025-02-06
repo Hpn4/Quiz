@@ -22,12 +22,10 @@ export function getTopic(slug: string) : Topic
 
 export function getQuizs(topic_slug: string) : Quiz[]
 {
-  console.log(topic_slug);
   return Object.values(topicsToQuiz[topic_slug]);
 }
 
 export function getQuiz(topic_slug: string, quiz_slug: string) : Quiz
 {
-  console.log(topic_slug, quiz_slug);
   return topicsToQuiz[topic_slug][quiz_slug];
 }
