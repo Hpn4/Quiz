@@ -13,6 +13,7 @@ const gStyles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.background,
+    overflow: "hidden",
   },
   text: {
   	fontSize: 20,

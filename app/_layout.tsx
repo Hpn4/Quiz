@@ -11,7 +11,10 @@ export default function RootLayout() {
       <StatusBar backgroundColor={colors.accentuation}/>
       <View style={styles.circle}/>
       <View style={styles.main}>
-      <Stack screenOptions={{ headerShown: false }}>
+      <Stack screenOptions={{
+        headerShown: false,
+        navigationBarColor: colors.background
+      }}>
         <Stack.Screen name="(tabs)"/>
       </Stack>
       </View>
