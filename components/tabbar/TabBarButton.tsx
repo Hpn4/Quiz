@@ -48,6 +48,8 @@ const TabBarButton = (props) => {
         return { opacity }
     })
 
+    var route = routeName != "stats" ? "index" : routeName;
+
     return (
         <Pressable {...props} style={styles.container}>
             <Animated.View style={[animatedIconStyle]}>

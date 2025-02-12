@@ -25,17 +25,19 @@ export default function RootLayout() {
 
 const styles = StyleSheet.create({
   circle: {
-    left: "-5%",
-    top: -130,
-    width: "110%",
-    height: 200,
-    marginBottom: -120,
-    borderBottomLeftRadius: "50%",
-    borderBottomRightRadius: "50%",
+    left: "0%",
+    position: "absolute",
+    top: -15,
+    width: "100%",
+    height: 40,
+    zIndex: -1,
+    borderBottomLeftRadius: "100%",
+    borderBottomRightRadius: "100%",
     backgroundColor: colors.accentuation,
   },
   main: {
     flex: 1,
+    marginTop: 30,
     backgroundColor: "transparent",
   }
 });

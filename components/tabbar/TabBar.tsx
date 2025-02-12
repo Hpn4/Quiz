@@ -8,6 +8,21 @@ import colors from "@/constants/Color"
 const TabBar = ({ state, descriptors, navigation }) => {
   const primaryColor = colors.text;
   const greyColor = colors.title;
+
+  const getActiveRouteName = (state) => {
+    if (!state) return null;
+    let route = state.routes[state.index];
+    while (route.state?.index !== undefined) {
+      route = route.state.routes[route.state.index];
+    }
+    return route.name;
+  };
+
+  const activeRouteName = getActiveRouteName(navigation.getState());
+
+  if (activeRouteName == "[question_slug]/index")
+    return null;
+
   return (
     <View style={styles.tabbar}>
     {state.routes.map((route, index) => {
@@ -20,6 +35,8 @@ const TabBar = ({ state, descriptors, navigation }) => {
       : route.name;
 
       if(['_sitemap', '+not-found'].includes(route.name)) return null;
+
+      if (route.name != "stats" && route.name != "index") return null;
 
       const isFocused = state.index === index;
 

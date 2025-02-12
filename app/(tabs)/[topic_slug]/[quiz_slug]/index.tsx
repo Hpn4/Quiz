@@ -4,6 +4,7 @@ import { View, Text, Button, StyleSheet, StatusBar, TouchableOpacity } from "rea
 
 import { Quiz } from "@/types/Quiz";
 import { getQuiz } from "@/types/Data";
+import { useQuiz } from "@/types/QuizContext";
 
 import TitleCard from "@/components/TitleCard";
 
@@ -15,6 +16,8 @@ export default function Index() {
 
   useEffect(() => {
     setQuiz(getQuiz(local.topic_slug, local.quiz_slug));
+    console.log("aaaa");
+    console.log("bbbb");
   }, []);
 
   return (
@@ -46,6 +49,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "space-between",
     height: "100%",
+    paddingBottom: 80, // Nav bar
     backgroundColor: colors.background,
   },
   button: {

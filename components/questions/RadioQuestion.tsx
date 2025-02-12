@@ -10,9 +10,10 @@ interface RadioEntryProps {
   title: string;
   valid: boolean;
   verify: boolean;
+  setValid: (isValid: boolean) => void;
 }
 
-const RadioEntry: React.FC<RadioEntryProps> = ({ title, valid, verify }) => {
+const RadioEntry: React.FC<RadioEntryProps> = ({ title, valid, verify, setValid }) => {
   const [checked, setChecked] = useState<boolean>(false);
 
   // !checked: gray
@@ -39,6 +40,7 @@ const RadioEntry: React.FC<RadioEntryProps> = ({ title, valid, verify }) => {
   return (
     <TouchableOpacity
       onPress={() => {
+        setValid(!checked && valid);
         setChecked(!checked);
       }}
       style={[gStyles.card, styles.card, {
@@ -60,9 +62,10 @@ const RadioEntry: React.FC<RadioEntryProps> = ({ title, valid, verify }) => {
 interface RadioQuestionProps {
   question: Question;
   verify: boolean;
+  setValid: (isValid: boolean) => void;
 }
 
-const RadioQuestion: React.FC<RadioQuestionProps> = ({ question, verify }) => {
+const RadioQuestion: React.FC<RadioQuestionProps> = ({ question, verify, setValid }) => {
   return (
     <ScrollView style={styles.container} contentContainerStyle={{paddingBottom: 15}}>
       {question?.choices?.map((title, index) => (
@@ -70,6 +73,7 @@ const RadioQuestion: React.FC<RadioQuestionProps> = ({ question, verify }) => {
           key={index}
           title={title}
           valid={question?.answers?.some(a => a == title)}
+          setValid={setValid}
           verify={verify}/>
       ))}
     </ScrollView>
