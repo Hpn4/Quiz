@@ -3,6 +3,12 @@
 # dependencies
 node_modules/
 
+# Assets
+!assets/*
+!assets/node_modules/
+!assets/node_modules/*
+!assets/node_modules/**/*
+
 # Expo
 .expo/
 dist/
