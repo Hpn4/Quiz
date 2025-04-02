@@ -1,5 +1,6 @@
 import { Link, useLocalSearchParams } from 'expo-router';
 import React, { useEffect, useState } from "react";
+import { useFocusEffect } from '@react-navigation/native';
 import { View, Text, Button, StyleSheet, StatusBar, TouchableOpacity } from "react-native";
 
 import { Quiz } from "@/types/Quiz";
@@ -13,11 +14,16 @@ import colors from "@/constants/Color"
 export default function Index() {
   const [quiz, setQuiz] = useState<Quiz>({});
   const local = useLocalSearchParams();
+  const { clearQuizState } = useQuiz();
+
+  useFocusEffect(
+    React.useCallback(() => {
+      clearQuizState();
+    }, [])
+  );
 
   useEffect(() => {
     setQuiz(getQuiz(local.topic_slug, local.quiz_slug));
-    console.log("aaaa");
-    console.log("bbbb");
   }, []);
 
   return (

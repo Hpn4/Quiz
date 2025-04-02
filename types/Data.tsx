@@ -4,6 +4,7 @@ const topics = {
 
 const mathQuiz = {
   "groupe": require('@/assets/content/math/groupe.json'),
+  "proba": require('@/assets/content/math/proba.json'),
 };
 
 const topicsToQuiz = {

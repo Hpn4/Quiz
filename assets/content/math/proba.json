@@ -1,8 +1,8 @@
 {
-	"name": "Théorie des groupes",
-	"slug": "groupe",
-	"description": "Questions sur les **groupes** et *actions* de groupes",
-	"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Rubik%27s_cube.svg/220px-Rubik%27s_cube.svg.png",
+	"name": "Théorie des probabilités",
+	"slug": "proba",
+	"description": "Questions sur les probabilités",
+	"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Logo_proba_4.svg/220px-Logo_proba_4.svg.png",
 	"questions": [
 		{
 			"type": "mcq",

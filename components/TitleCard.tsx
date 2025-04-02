@@ -22,11 +22,29 @@ const TitleCard: React.FC<TitleCardProps> = ({ title, content }) => {
   );
 };
 
+const GenericCard: React.FC<TitleCardProps> = ({ title, children }) => {
+  return (
+    <View style={[gStyles.card, styles.genericCard]}>
+      <View style={styles.titleView}>
+        <Text style={styles.title}>{title || ""}</Text>
+      </View>
+      {children}
+    </View>
+  );
+};
+
 const styles = StyleSheet.create({
   card: {
     margin: 15,
     maxHeight: "30%",
     marginBottom: 15,
+    alignItems: "center",
+  },
+  genericCard: {
+    margin: 15,
+    maxHeight: "80%",
+    marginBottom: 15,
+    paddingBottom: 15,
     alignItems: "center",
   },
   titleView: {
@@ -55,3 +73,6 @@ const styles = StyleSheet.create({
 });
 
 export default TitleCard;
+export {
+  GenericCard,
+};

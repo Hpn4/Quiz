@@ -18,7 +18,7 @@ export default function Index() {
   const [quiz, setQuiz] = useState<Quiz>({});
   const [question, setQuestion] = useState<Question>({});
   const [verify, setVerify] = useState<boolean>(false);
-  const [valid, setValid] = useState<boolean>(false); // Question correctly answered
+  const [validQuestions, setValidQuestions] = useState<boolean[]>([]);
 
   const router = useRouter();
   const local = useLocalSearchParams();
@@ -27,10 +27,21 @@ export default function Index() {
 
   // Get question data and remove navigation header
   useEffect(() => {
-    var local_quiz = getQuiz(local.topic_slug, local.quiz_slug)
+    var local_quiz = getQuiz(local.topic_slug, local.quiz_slug);
+    var local_questions = local_quiz.questions[local.question_slug];
+
     setQuiz(local_quiz);
-    setQuestion(local_quiz.questions[local.question_slug]);
+    setQuestion(local_questions);
+    setValidQuestions(new Array(local_questions.choices.length).fill(false));
   }, []);
+
+  const setValid = (index: number, isValid: boolean) => {
+    setValidQuestions((prev) => {
+      const newValidArray = [...prev];
+      newValidArray[index] = isValid;
+      return newValidArray;
+    });
+  };
 
   // Compute the next question or end if at the end
   var next = Number(local.question_slug) + 1;
@@ -50,7 +61,7 @@ export default function Index() {
           if (!verify)
           {
             setVerify(!verify);
-            updateQuizState(valid);
+            updateQuizState(validQuestions.every((v) => v === true));
           }
           else
             router.replace(`./${next}`);

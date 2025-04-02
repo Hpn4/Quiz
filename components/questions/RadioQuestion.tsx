@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { ScrollView, View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
 
@@ -7,13 +7,14 @@ import colors from "@/constants/Color"
 import gStyles from "@/constants/GlobalStyle"
 
 interface RadioEntryProps {
+  index: number;
   title: string;
   valid: boolean;
   verify: boolean;
   setValid: (isValid: boolean) => void;
 }
 
-const RadioEntry: React.FC<RadioEntryProps> = ({ title, valid, verify, setValid }) => {
+const RadioEntry: React.FC<RadioEntryProps> = ({ index, title, valid, verify, setValid }) => {
   const [checked, setChecked] = useState<boolean>(false);
 
   // !checked: gray
@@ -35,12 +36,15 @@ const RadioEntry: React.FC<RadioEntryProps> = ({ title, valid, verify, setValid 
   const borderColor = borderColors[state];
   const bgColor = bgColors[state];
 
+  useEffect(() => {
+    setValid(index, checked === valid); // no checked && no valid == true, checked && valid == true
+  }, [checked]);
+
   const icons = ["", "", "check", "minus", "xmark"];
 
   return (
     <TouchableOpacity
       onPress={() => {
-        setValid(!checked && valid);
         setChecked(!checked);
       }}
       style={[gStyles.card, styles.card, {
@@ -71,6 +75,7 @@ const RadioQuestion: React.FC<RadioQuestionProps> = ({ question, verify, setVali
       {question?.choices?.map((title, index) => (
         <RadioEntry
           key={index}
+          index={index}
           title={title}
           valid={question?.answers?.some(a => a == title)}
           setValid={setValid}
