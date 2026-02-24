@@ -36,5 +36,13 @@
 			"choices": ["Un groupe d'ordre fini", "Un groupe unifère", "Un monogène fini"],
 			"answers": ["Un monogène fini"]
 		}
+		,
+		{
+			"type": "tf",
+			"title": "L'élément neutre est unique",
+			"image": "https://png.pngtree.com/png-vector/20210330/ourmid/pngtree-math-png-image_3166138.jpg",
+			"description": "Vrai ou Faux : dans un groupe, l'élément neutre est unique.",
+			"answers": ["Vrai"]
+		}
 	]
 }

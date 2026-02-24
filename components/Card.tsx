@@ -51,7 +51,6 @@ const styles = StyleSheet.create({
     borderTopWidth: 1,
     borderRightWidth: 1,
     borderColor: colors.stroke,
-    flex: 1,
     width: "100%",
     backgroundColor: colors.title,
     borderBottomLeftRadius: 10,

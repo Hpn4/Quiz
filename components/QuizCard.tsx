@@ -16,7 +16,7 @@ const QuizCard: React.FC<QuizCardProps> = ({ topic_slug, quiz }) => {
         topic_slug: topic_slug,
         slug: quiz.slug,
       }
-    }} image={quiz.image} title={quiz.name}/>
+    }} image={quiz.image ?? ""} title={quiz.name ?? ""}/>
   );
 };
 

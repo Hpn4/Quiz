@@ -7,8 +7,9 @@ import colors from "@/constants/Color"
 import gStyles from "@/constants/GlobalStyle"
 
 interface TitleCardProps {
-  title: string;
-  content: string;
+  title?: string;
+  content?: string;
+  children?: React.ReactNode;
 }
 
 const TitleCard: React.FC<TitleCardProps> = ({ title, content }) => {
@@ -17,7 +18,7 @@ const TitleCard: React.FC<TitleCardProps> = ({ title, content }) => {
       <View style={styles.titleView}>
         <Text style={styles.title}>{title || ""}</Text>
       </View>
-      <MdText content={content}/>
+      <MdText content={content ?? ""}/>
     </View>
   );
 };

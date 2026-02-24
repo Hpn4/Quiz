@@ -12,25 +12,26 @@ import QuizCard from "@/components/QuizCard";
 import TitleCard from "@/components/TitleCard";
 
 export default function Index() {
-  const [topic, setTopic] = useState<Topic>({});
+  const [topic, setTopic] = useState<Topic | undefined>(undefined);
   const [quizs, setQuizs] = useState<Quiz[]>([]);
   const local = useLocalSearchParams();
+  const topicSlug = String(local.topic_slug);
 
   useEffect(() => {
-    setQuizs(getQuizs(local.topic_slug));
-    setTopic(getTopic(local.topic_slug));
+    setQuizs(getQuizs(topicSlug));
+    setTopic(getTopic(topicSlug));
   }, []);
 
   return (
     <View style={gStyles.container}>
-      <TitleCard title={topic.name} content={topic.description}/>
+      <TitleCard title={topic?.name ?? ""} content={topic?.description ?? ""}/>
 
       <FlatList
         data={quizs}
-        keyExtractor={(item) => item.slug}
+        keyExtractor={(item, idx) => item.slug ?? String(idx)}
         numColumns={2}
         columnWrapperStyle={styles.row}
-        renderItem={({ item }) => <QuizCard topic_slug={local.topic_slug} quiz={item}/>}
+        renderItem={({ item }) => <QuizCard topic_slug={topicSlug} quiz={item}/>}
         contentContainerStyle= {styles.flatList}
       />
     </View>

@@ -5,11 +5,11 @@ import TabBarButton from './TabBarButton';
 
 import colors from "@/constants/Color"
 
-const TabBar = ({ state, descriptors, navigation }) => {
+const TabBar: React.FC<any> = ({ state, descriptors, navigation }: any) => {
   const primaryColor = colors.text;
   const greyColor = colors.title;
 
-  const getActiveRouteName = (state) => {
+  const getActiveRouteName = (state: any) => {
     if (!state) return null;
     let route = state.routes[state.index];
     while (route.state?.index !== undefined) {
@@ -25,7 +25,7 @@ const TabBar = ({ state, descriptors, navigation }) => {
 
   return (
     <View style={styles.tabbar}>
-    {state.routes.map((route, index) => {
+    {state.routes.map((route: any, index: number) => {
       const { options } = descriptors[route.key];
       const label =
       options.tabBarLabel !== undefined
@@ -90,6 +90,11 @@ const styles = StyleSheet.create({
     borderTopLeftRadius: 50,
     borderTopRightRadius: 50,
     boxShadow: "-5px -5px 10px #000",
+  }
+  ,
+  tabbarItem: {
+    flex: 1,
+    alignItems: 'center'
   }
 })
 

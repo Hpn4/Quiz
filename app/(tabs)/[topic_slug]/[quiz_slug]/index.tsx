@@ -12,8 +12,10 @@ import TitleCard from "@/components/TitleCard";
 import colors from "@/constants/Color"
 
 export default function Index() {
-  const [quiz, setQuiz] = useState<Quiz>({});
+  const [quiz, setQuiz] = useState<Quiz | undefined>(undefined);
   const local = useLocalSearchParams();
+  const topicSlug = String(local.topic_slug);
+  const quizSlug = String(local.quiz_slug);
   const { clearQuizState } = useQuiz();
 
   useFocusEffect(
@@ -23,20 +25,20 @@ export default function Index() {
   );
 
   useEffect(() => {
-    setQuiz(getQuiz(local.topic_slug, local.quiz_slug));
+    setQuiz(getQuiz(topicSlug, quizSlug));
   }, []);
 
   return (
     <View style={styles.container}>
-      <TitleCard title={quiz.name} content={quiz.description}/>
+      <TitleCard title={quiz?.name ?? ""} content={quiz?.description ?? ""}/>
 
       <View>
         <Link href={{
-          pathname: '/[topic_slug]/[slug]/[question]/',
+          pathname: '/[topic_slug]/[quiz_slug]/[question_slug]',
           params: {
-            topic_slug: local.topic_slug,
-            slug: quiz.slug,
-            question: 0,
+            topic_slug: topicSlug,
+            quiz_slug: quizSlug,
+            question_slug: '0',
           }
         }} asChild>
           <TouchableOpacity>

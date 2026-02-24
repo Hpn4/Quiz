@@ -19,8 +19,10 @@ export default function Index() {
   const local = useLocalSearchParams();
 
   useEffect(() => {
-    var quiz = getQuiz(local.topic_slug, local.quiz_slug);
-    setQuestionsCount(quiz.questions.length);
+    const topicSlug = String(local.topic_slug);
+    const quizSlug = String(local.quiz_slug);
+    var quiz = getQuiz(topicSlug, quizSlug);
+    setQuestionsCount(quiz?.questions?.length ?? 0);
   }, []);
 
   return (

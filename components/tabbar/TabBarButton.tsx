@@ -4,11 +4,11 @@ import Animated, { interpolate, useAnimatedStyle, useSharedValue, withSpring } f
 import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
 
 const icons = {
-    index: (props)=> <FontAwesome6 name="house" size={20} {...props} />,
-    stats: (props)=> <FontAwesome6 name="chart-line" size={20} {...props} />,
+    index: (props: any)=> <FontAwesome6 name="house" size={20} {...props} />,
+    stats: (props: any)=> <FontAwesome6 name="chart-line" size={20} {...props} />,
 };
 
-const TabBarButton = (props) => {
+const TabBarButton: React.FC<any> = (props: any) => {
     const {isFocused, label, routeName, color} = props;
     const scale = useSharedValue(0);
 
@@ -54,7 +54,7 @@ const TabBarButton = (props) => {
         <Pressable {...props} style={styles.container}>
             <Animated.View style={[animatedIconStyle]}>
             {
-                icons[routeName]({
+                (icons as any)[routeName]({
                     color
                 })
             }

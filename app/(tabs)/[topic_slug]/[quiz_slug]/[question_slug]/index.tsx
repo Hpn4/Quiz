@@ -9,30 +9,39 @@ import { useQuiz } from "@/types/QuizContext";
 
 import TitleCard from "@/components/TitleCard";
 import RadioQuestion from "@/components/questions/RadioQuestion";
+import TrueFalseQuestion from "@/components/questions/TrueFalseQuestion";
 import ProgressBar from "@/components/questions/ProgressBar";
 
 import colors from "@/constants/Color"
 import gStyles from "@/constants/GlobalStyle"
 
 export default function Index() {
-  const [quiz, setQuiz] = useState<Quiz>({});
-  const [question, setQuestion] = useState<Question>({});
+  const [quiz, setQuiz] = useState<Quiz | undefined>(undefined);
+  const [question, setQuestion] = useState<Question | undefined>(undefined);
   const [verify, setVerify] = useState<boolean>(false);
   const [validQuestions, setValidQuestions] = useState<boolean[]>([]);
 
   const router = useRouter();
   const local = useLocalSearchParams();
+  const topicSlug = String(local.topic_slug);
+  const quizSlug = String(local.quiz_slug);
+  const questionSlug = String(local.question_slug);
 
-  const { quizState, updateQuizState } = useQuiz();
+  const { quizState, initializeAnswers, setAnswer } = useQuiz();
 
   // Get question data and remove navigation header
   useEffect(() => {
-    var local_quiz = getQuiz(local.topic_slug, local.quiz_slug);
-    var local_questions = local_quiz.questions[local.question_slug];
+    var local_quiz = getQuiz(topicSlug, quizSlug);
+    var local_questions = local_quiz?.questions ? local_quiz.questions[Number(questionSlug)] : undefined;
 
     setQuiz(local_quiz);
     setQuestion(local_questions);
-    setValidQuestions(new Array(local_questions.choices.length).fill(false));
+    const choiceCount = local_questions?.choices?.length ?? (local_questions?.type === "tf" || local_questions?.type === "truefalse" ? 2 : 0);
+    setValidQuestions(new Array(choiceCount).fill(false));
+    // initialize answers array for the quiz (one slot per question)
+    if ((quizState.answers?.length ?? 0) === 0) {
+      initializeAnswers(local_quiz?.questions?.length ?? 0);
+    }
   }, []);
 
   const setValid = (index: number, isValid: boolean) => {
@@ -44,24 +53,29 @@ export default function Index() {
   };
 
   // Compute the next question or end if at the end
-  var next = Number(local.question_slug) + 1;
-  next = next >= quiz?.questions?.length ? "end" : next;
+  const nextIndex = Number(questionSlug) + 1;
+  const next = nextIndex >= (quiz?.questions?.length ?? 0) ? "end" : String(nextIndex);
 
   return (
     <View style={[gStyles.container, styles.container]}>
       <View style={styles.progressContainer}>
-        <ProgressBar count={quiz?.questions?.length}/>
+        <ProgressBar count={quiz?.questions?.length ?? 0}/>
       </View>
-      <TitleCard title={question?.title} content={question?.description}/>
+      <TitleCard title={question?.title ?? ""} content={question?.description ?? ""}/>
 
-      <RadioQuestion question={question} verify={verify} setValid={setValid}/>
+      {question?.type === "tf" || question?.type === "truefalse" ? (
+        <TrueFalseQuestion question={question} verify={verify} setValid={setValid} />
+      ) : (
+        <RadioQuestion question={question} verify={verify} setValid={setValid}/>
+      )}
 
       <View>
         <TouchableOpacity onPress={() => {
           if (!verify)
           {
             setVerify(!verify);
-            updateQuizState(validQuestions.every((v) => v === true));
+            // set centralized answer for this question index
+            setAnswer(Number(questionSlug), validQuestions.every((v) => v === true));
           }
           else
             router.replace(`./${next}`);
