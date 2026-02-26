@@ -2,6 +2,10 @@
 	"name": "Théorie des probabilités",
 	"slug": "proba",
 	"description": "Questions sur les probabilités",
+	"glossary": [
+		{"term": "groupe", "definition": "En algèbre, un ensemble muni d'une loi de composition interne vérifiant associativité, élément neutre et inverses pour tous les éléments."},
+		{"term": "unifère", "definition": "Terme peu courant; en contexte de groupes pourrait signifier 'muni d'un unique générateur' (monogène)."}
+	],
 	"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Logo_proba_4.svg/220px-Logo_proba_4.svg.png",
 	"questions": [
 		{

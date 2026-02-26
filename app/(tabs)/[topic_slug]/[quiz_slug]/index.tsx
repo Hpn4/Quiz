@@ -7,6 +7,7 @@ import { Quiz } from "@/types/Quiz";
 import { getQuiz } from "@/types/Data";
 import { useQuiz } from "@/types/QuizContext";
 
+import GlossaryBox from "@/components/GlossaryBox";
 import TitleCard from "@/components/TitleCard";
 
 import colors from "@/constants/Color"
@@ -31,8 +32,9 @@ export default function Index() {
   return (
     <View style={styles.container}>
       <TitleCard title={quiz?.name ?? ""} content={quiz?.description ?? ""}/>
+      <GlossaryBox items={quiz?.glossary} />
 
-      <View>
+      <View style={styles.startWrap}>
         <Link href={{
           pathname: '/[topic_slug]/[quiz_slug]/[question_slug]',
           params: {
@@ -55,8 +57,6 @@ export default function Index() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "space-between",
-    height: "100%",
     paddingBottom: 80, // Nav bar
     backgroundColor: colors.background,
   },
@@ -70,5 +70,10 @@ const styles = StyleSheet.create({
     borderRadius: 30,
     backgroundColor: "#0067C6",
     marginBottom: 20
+  }
+  ,
+  startWrap: {
+    marginTop: 'auto',
+    marginBottom: 8,
   }
 });

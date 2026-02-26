@@ -29,3 +29,18 @@ export function getQuizs(topic_slug: string): Quiz[] {
 export function getQuiz(topic_slug: string, quiz_slug: string): Quiz {
   return topicsToQuiz[topic_slug][quiz_slug];
 }
+
+export function getGlossary(): Record<string, string> {
+  const map: Record<string, string> = {};
+  // Aggregate glossary entries defined at the quiz level across all topics
+  Object.values(topicsToQuiz).forEach((qmap: any) => {
+    Object.values(qmap).forEach((q: any) => {
+      if (q && q.glossary && Array.isArray(q.glossary)) {
+        q.glossary.forEach((g: any) => {
+          if (g.term && g.definition) map[g.term] = g.definition;
+        });
+      }
+    });
+  });
+  return map;
+}

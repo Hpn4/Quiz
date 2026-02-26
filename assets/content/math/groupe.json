@@ -2,6 +2,12 @@
 	"name": "Théorie des groupes",
 	"slug": "groupe",
 	"description": "Questions sur les **groupes** et *actions* de groupes",
+	"glossary": [
+		{"term": "groupe", "definition": "En algèbre, un ensemble muni d'une loi de composition interne vérifiant associativité, élément neutre et inverses pour tous les éléments."},
+		{"term": "abélien", "definition": "Un groupe est abélien si sa loi est commutative."},
+		{"term": "monogène", "definition": "Un groupe monogène (ou cyclique) est engendré par un seul élément."},
+		{"term": "cyclique", "definition": "Synonyme de monogène; un groupe engendré par un élément."}
+	],
 	"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Rubik%27s_cube.svg/220px-Rubik%27s_cube.svg.png",
 	"questions": [
 		{
