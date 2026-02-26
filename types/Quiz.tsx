@@ -7,4 +7,5 @@ export interface Quiz {
   image?: string;
   questions?: Question[];
   glossary?: { term: string; definition: string }[];
+  infoTable?: { key: string; value: string }[];
 }

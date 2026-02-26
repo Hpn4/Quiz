@@ -31,7 +31,7 @@ export default function Index() {
 
   return (
     <View style={styles.container}>
-      <TitleCard title={quiz?.name ?? ""} content={quiz?.description ?? ""}/>
+      <TitleCard title={quiz?.name ?? ""} content={quiz?.description ?? ""} infoTable={quiz?.infoTable}/>
       <GlossaryBox items={quiz?.glossary} />
 
       <View style={styles.startWrap}>

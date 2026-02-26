@@ -8,6 +8,7 @@ import { getQuiz } from "@/types/Data";
 import { useQuiz } from "@/types/QuizContext";
 
 import TitleCard from "@/components/TitleCard";
+import CheatSheet from "@/components/CheatSheet";
 import RadioQuestion from "@/components/questions/RadioQuestion";
 import TrueFalseQuestion from "@/components/questions/TrueFalseQuestion";
 import ProgressBar from "@/components/questions/ProgressBar";
@@ -69,7 +70,8 @@ export default function Index() {
         <RadioQuestion question={question} verify={verify} setValid={setValid}/>
       )}
 
-      <View>
+      <View style={styles.actionRow}>
+        <CheatSheet quiz={quiz} />
         <TouchableOpacity onPress={() => {
           if (!verify)
           {
@@ -96,15 +98,21 @@ const styles = StyleSheet.create({
     height: "100%",
   },
   button: {
-    marginHorizontal: "30%",
     color: "white",
     fontWeight: "bold",
     fontSize: 20,
-    padding: 10,
+    padding: 15,
+    paddingHorizontal: 100,
     textAlign: "center",
     borderRadius: 30,
     backgroundColor: "#0067C6",
     margin: 20
+  },
+  actionRow: {
+    flexDirection: 'row',
+    paddingBottom: 10,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   progressContainer: {
     marginTop: 10,

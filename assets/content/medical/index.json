@@ -1,0 +1,7 @@
+{
+	"name": "Médecine",
+	"slug": "medical",
+	"image": "",
+	"description": "Topic de médecine clinique",
+	"quiz": ["lombalgie"]
+}

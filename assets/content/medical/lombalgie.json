@@ -1,0 +1,102 @@
+{
+  "name": "Rachis – Lombalgie mécanique (non spécifique)",
+  "slug": "lombalgie",
+  "description": "",
+  "image": "",
+  "infoTable": [
+    { "key": "DÉFINITION (DEF)", "value": "Douleur du rachis lombaire d'origine mécanique, sans cause spécifique identifiable (absence de pathologie grave, inflammatoire, infectieuse, tumorale ou neurologique), évoluant depuis moins de 3 mois." },
+    { "key": "FACTEURS DE RISQUE (FDR)", "value": "Efforts physiques répétés ; chute ; port de charges ; sédentarité ; posture prolongée ou inadaptée ; faiblesse musculaire du tronc ; surpoids ; stress psycho-émotionnel ; surcharge professionnelle." },
+    { "key": "SIGNES CLINIQUES (SC)", "value": "Douleur lombaire localisée ; douleur mécanique (majorée à l'effort, soulagée au repos) ; raideur lombaire ; limitation fonctionnelle ; absence de signes neurologiques ; irradiation possible." },
+    { "key": "EXAMEN CLINIQUE (EC)", "value": "Inspection posturale ; palpation du rachis lombaire et test de la stabilité lombaire (muscles loco-régionaux en actif et passif); évaluation des amplitudes lombaires (Indice de Schober et évaluation de la DMS) ; tests de mobilité ; examen neurologique normal." },
+    { "key": "EXAMENS PARACLINIQUES (EPC)", "value": "Imagerie uniquement en cas de signes aggravants ou d'évolution défavorable." },
+    { "key": "ÉVOLUTION / COMPLICATIONS", "value": "Guérison spontanée fréquente ; risque de récidive ; chronicisation possible ; retentissement fonctionnel et professionnel." },
+    { "key": "TRAITEMENT (TTT)", "value": "Maintien de l'activité ; exercices et renforcement musculaire ; rééducation fonctionnelle ; prise en charge ostéopathique ou kinésithérapique ; antalgiques si nécessaire ; éducation thérapeutique et gestion des facteurs de risque (ergothérapie)" }
+  ],
+  "glossary": [
+    { "term": "Parafonctions", "definition": "Habitude inconsciente et répétée de la mâchoire, sans fonction utile (ex : serrer ou grincer des dents), pouvant provoquer douleurs et tensions." },
+    { "term": "Bruxisme", "definition": "Habitude involontaire de serrer ou grincer des dents, souvent pendant le sommeil, pouvant provoquer douleurs et usure dentaire." },
+    { "term": "Électromyogramme (EMG)", "definition": "Examen qui mesure l'activité électrique des muscles afin d'évaluer leur fonctionnement." }
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "title": "La lombalgie mécanique correspond à :",
+      "choices": [
+        "Une douleur lombaire liée à une hernie discale compressive",
+        "Une douleur lombaire sans cause spécifique identifiable évoluant depuis moins de 3 mois",
+        "Une lombalgie d'origine inflammatoire chronique",
+        "Une atteinte tumorale du rachis"
+      ],
+      "answers": ["Une douleur lombaire sans cause spécifique identifiable évoluant depuis moins de 3 mois"]
+    },
+    {
+      "type": "mcq",
+      "title": "Quels éléments favorisent la survenue d'une lombalgie mécanique ?",
+      "choices": [
+        "Port de charges répétées",
+        "Sédentarité",
+        "Postures prolongées inadaptées",
+        "Infection bactérienne"
+      ],
+      "answers": ["Port de charges répétées","Sédentarité","Postures prolongées inadaptées"]
+    },
+    {
+      "type": "mcq",
+      "title": "Quels signes sont évocateurs d'une lombalgie mécanique ?",
+      "choices": [
+        "Douleur majorée à l'effort",
+        "Douleur soulagée par le repos",
+        "Douleur nocturne permanente",
+        "Déficit neurologique franc"
+      ],
+      "answers": ["Douleur majorée à l'effort","Douleur soulagée par le repos"]
+    },
+    {
+      "type": "mcq",
+      "title": "Dans la lombalgie mécanique, l'examen neurologique est :",
+      "choices": [
+        "Toujours pathologique",
+        "Normal",
+        "Inutile",
+        "Réservé aux formes chroniques"
+      ],
+      "answers": ["Normal"]
+    },
+    {
+      "type": "mcq",
+      "title": "Concernant le traitement de la lombalgie mécanique :",
+      "choices": [
+        "Le maintien de l'activité est recommandé",
+        "La prise en charge ostéopathique peut être proposée",
+        "L'éducation thérapeutique est importante",
+        "Le repos strict prolongé est indispensable"
+      ],
+      "answers": ["Le maintien de l'activité est recommandé","La prise en charge ostéopathique peut être proposée","L'éducation thérapeutique est importante"]
+    },
+    {
+      "type": "tf",
+      "title": "La lombalgie mécanique est la forme la plus fréquente de lombalgie.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "L'imagerie est utile en première intention en cas de lombalgie mécanique.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "tf",
+      "title": "La douleur mécanique est souvent soulagée par le repos.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Une lombalgie mécanique évoluant depuis moins de 3 mois est dite aiguë ou subaiguë.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Le stress et la surcharge professionnelle peuvent favoriser la lombalgie.",
+      "answers": ["Vrai"]
+    }
+  ]
+}

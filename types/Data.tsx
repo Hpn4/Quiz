@@ -3,6 +3,7 @@ import { Quiz } from "@/types/Quiz";
 
 const topics: Record<string, Topic> = {
   math: require('@/assets/content/math/index.json'),
+  medical: require('@/assets/content/medical/index.json'),
 };
 
 const mathQuiz: Record<string, Quiz> = {
@@ -10,8 +11,13 @@ const mathQuiz: Record<string, Quiz> = {
   proba: require('@/assets/content/math/proba.json'),
 };
 
+const medicalQuiz: Record<string, Quiz> = {
+  lombalgie: require('@/assets/content/medical/lombalgie.json'),
+};
+
 const topicsToQuiz: Record<string, Record<string, Quiz>> = {
   math: mathQuiz,
+  medical: medicalQuiz,
 };
 
 export function getTopics(): Topic[] {
