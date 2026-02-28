@@ -1,12 +1,13 @@
 import { Link } from 'expo-router';
 import React from "react";
 import { View, Text, Image, TouchableOpacity, StyleSheet } from "react-native";
+import { resolveImage } from "@/types/Assets";
 
 import colors from "@/constants/Color"
 
 interface CardProps {
   href: any;
-  image: string;
+  image?: string;
   title: string;
 }
 
@@ -14,7 +15,7 @@ const Card: React.FC<CardProps> = ({ href, image, title }) => {
   return (
     <Link href={href} asChild>
       <TouchableOpacity style={styles.card}>
-        <Image source={{ uri: image }} style={styles.image} />
+        <Image source={resolveImage(image)} style={styles.image} />
 
         <View style={styles.titleView}>
           <Text style={styles.title}>{title}</Text>

@@ -1,27 +1,31 @@
-import { Link, useLocalSearchParams } from 'expo-router';
-import React, { useEffect, useState } from "react";
+import { useLocalSearchParams, useRouter } from 'expo-router';
+import React, { useEffect, useMemo, useState } from "react";
 import { useFocusEffect } from '@react-navigation/native';
-import { View, Text, Button, StyleSheet, StatusBar, TouchableOpacity } from "react-native";
+import { View, StyleSheet } from "react-native";
 
 import { Quiz } from "@/types/Quiz";
-import { getQuiz } from "@/types/Data";
-import { useQuiz } from "@/types/QuizContext";
+import { getQuiz, getQuizFlatQuestions } from "@/types/Data";
+import { useSession } from "@/types/SessionContext";
 
 import GlossaryBox from "@/components/GlossaryBox";
 import TitleCard from "@/components/TitleCard";
+import StartModal from "@/components/StartModal";
+import StartButton from "@/components/StartButton";
 
-import colors from "@/constants/Color"
+import colors from "@/constants/Color";
 
 export default function Index() {
   const [quiz, setQuiz] = useState<Quiz | undefined>(undefined);
+  const [modalVisible, setModalVisible] = useState(false);
   const local = useLocalSearchParams();
   const topicSlug = String(local.topic_slug);
   const quizSlug = String(local.quiz_slug);
-  const { clearQuizState } = useQuiz();
+  const { startSession, clearSession } = useSession();
+  const router = useRouter();
 
   useFocusEffect(
     React.useCallback(() => {
-      clearQuizState();
+      clearSession();
     }, [])
   );
 
@@ -29,27 +33,30 @@ export default function Index() {
     setQuiz(getQuiz(topicSlug, quizSlug));
   }, []);
 
+  const quizQuestions = useMemo(
+    () => getQuizFlatQuestions(topicSlug, quizSlug),
+    [topicSlug, quizSlug]
+  );
+
+  const handleStart = (count: number) => {
+    setModalVisible(false);
+    startSession(quizQuestions, count);
+    router.push("/session/0");
+  };
+
   return (
     <View style={styles.container}>
       <TitleCard title={quiz?.name ?? ""} content={quiz?.description ?? ""} infoTable={quiz?.infoTable}/>
       <GlossaryBox items={quiz?.glossary} />
 
-      <View style={styles.startWrap}>
-        <Link href={{
-          pathname: '/[topic_slug]/[quiz_slug]/[question_slug]',
-          params: {
-            topic_slug: topicSlug,
-            quiz_slug: quizSlug,
-            question_slug: '0',
-          }
-        }} asChild>
-          <TouchableOpacity>
-            <Text style={styles.button}>
-              Commencer
-            </Text>
-          </TouchableOpacity>
-        </Link>
-      </View>
+      <StartButton onPress={() => setModalVisible(true)} bottomOffset={100} />
+
+      <StartModal
+        visible={modalVisible}
+        maxQuestions={quizQuestions.length}
+        onConfirm={handleStart}
+        onClose={() => setModalVisible(false)}
+      />
     </View>
   );
 };
@@ -60,20 +67,4 @@ const styles = StyleSheet.create({
     paddingBottom: 80, // Nav bar
     backgroundColor: colors.background,
   },
-  button: {
-    marginHorizontal: "30%",
-    color: "white",
-    fontWeight: "bold",
-    fontSize: 20,
-    padding: 10,
-    textAlign: "center",
-    borderRadius: 30,
-    backgroundColor: "#0067C6",
-    marginBottom: 20
-  }
-  ,
-  startWrap: {
-    marginTop: 'auto',
-    marginBottom: 8,
-  }
 });

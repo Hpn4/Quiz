@@ -1,6 +1,5 @@
-import { View, Text, TouchableOpacity, StyleSheet } from 'react-native'
+import { View, StyleSheet } from 'react-native'
 import React from 'react'
-import { AntDesign, Feather } from '@expo/vector-icons';
 import TabBarButton from './TabBarButton';
 
 import colors from "@/constants/Color"
@@ -20,7 +19,15 @@ const TabBar: React.FC<any> = ({ state, descriptors, navigation }: any) => {
 
   const activeRouteName = getActiveRouteName(navigation.getState());
 
-  if (activeRouteName == "[question_slug]/index")
+  const HIDDEN_ROUTES = new Set([
+    "[question_slug]/index",
+    "session/[index]",
+    "session/end",
+    "[index]",
+    "end",
+  ]);
+
+  if (activeRouteName && HIDDEN_ROUTES.has(activeRouteName))
     return null;
 
   return (

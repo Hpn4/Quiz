@@ -1,11 +1,13 @@
 import { Stack } from "expo-router";
 import { View, StatusBar, StyleSheet } from "react-native";
 
+import { SessionProvider } from "@/types/SessionContext";
 import colors from "@/constants/Color"
 import gStyles from "@/constants/GlobalStyle"
 
 export default function RootLayout() {
   return (
+    <SessionProvider>
     <>
     <View style={gStyles.container}>
       <StatusBar backgroundColor={colors.accentuation}/>
@@ -20,6 +22,7 @@ export default function RootLayout() {
       </View>
     </View>
     </>
+    </SessionProvider>
   );
 }
 

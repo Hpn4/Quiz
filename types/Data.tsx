@@ -1,5 +1,6 @@
 import { Topic } from "@/types/Topic";
 import { Quiz } from "@/types/Quiz";
+import { FlatQuestion } from "@/types/Session";
 
 const topics: Record<string, Topic> = {
   math: require('@/assets/content/math/index.json'),
@@ -38,7 +39,7 @@ export function getQuiz(topic_slug: string, quiz_slug: string): Quiz {
 
 export function getGlossary(): Record<string, string> {
   const map: Record<string, string> = {};
-  // Aggregate glossary entries defined at the quiz level across all topics
+
   Object.values(topicsToQuiz).forEach((qmap: any) => {
     Object.values(qmap).forEach((q: any) => {
       if (q && q.glossary && Array.isArray(q.glossary)) {
@@ -49,4 +50,39 @@ export function getGlossary(): Record<string, string> {
     });
   });
   return map;
+}
+
+function quizToFlat(topicSlug: string, quizSlug: string, quiz: Quiz): FlatQuestion[] {
+  return (quiz.questions ?? []).map((question, questionIndex) => ({
+    topicSlug,
+    quizSlug,
+    questionIndex,
+    question,
+  }));
+}
+
+export function getQuizFlatQuestions(topicSlug: string, quizSlug: string): FlatQuestion[] {
+  const quiz = topicsToQuiz[topicSlug]?.[quizSlug];
+  return quiz ? quizToFlat(topicSlug, quizSlug, quiz) : [];
+}
+
+export function getTopicFlatQuestions(topicSlug: string): FlatQuestion[] {
+  const quizMap = topicsToQuiz[topicSlug] ?? {};
+  return Object.entries(quizMap).flatMap(([quizSlug, quiz]) =>
+    quizToFlat(topicSlug, quizSlug, quiz)
+  );
+}
+
+export function getAllFlatQuestions(): FlatQuestion[] {
+  return Object.entries(topicsToQuiz).flatMap(([topicSlug, quizMap]) =>
+    Object.entries(quizMap).flatMap(([quizSlug, quiz]) =>
+      quizToFlat(topicSlug, quizSlug, quiz)
+    )
+  );
+}
+
+export function getAllQuizList(): { topicSlug: string; quizSlug: string }[] {
+  return Object.entries(topicsToQuiz).flatMap(([topicSlug, quizMap]) =>
+    Object.keys(quizMap).map((quizSlug) => ({ topicSlug, quizSlug }))
+  );
 }

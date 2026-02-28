@@ -2,7 +2,7 @@
   "name": "Rachis – Lombalgie mécanique (non spécifique)",
   "slug": "lombalgie",
   "description": "",
-  "image": "",
+  "image": "first.png",
   "infoTable": [
     { "key": "DÉFINITION (DEF)", "value": "Douleur du rachis lombaire d'origine mécanique, sans cause spécifique identifiable (absence de pathologie grave, inflammatoire, infectieuse, tumorale ou neurologique), évoluant depuis moins de 3 mois." },
     { "key": "FACTEURS DE RISQUE (FDR)", "value": "Efforts physiques répétés ; chute ; port de charges ; sédentarité ; posture prolongée ou inadaptée ; faiblesse musculaire du tronc ; surpoids ; stress psycho-émotionnel ; surcharge professionnelle." },

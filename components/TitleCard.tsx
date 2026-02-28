@@ -91,6 +91,9 @@ const styles = StyleSheet.create({
     width: "100%",
   }
   ,
+  tableScroll: {
+    width: "100%",
+  },
   table: {
     width: '100%',
     paddingHorizontal: 10,
@@ -99,6 +102,9 @@ const styles = StyleSheet.create({
   tableRow: {
     marginBottom: 30,
     paddingHorizontal: 4,
+  },
+  tableRowLast: {
+    marginBottom: 0,
   },
   tableKey: {
     color: colors.accentuation,

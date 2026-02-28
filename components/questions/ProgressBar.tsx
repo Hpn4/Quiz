@@ -1,35 +1,43 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
 
-import { useQuiz } from "@/types/QuizContext";
-import colors from "@/constants/Color"
+import { useSession } from "@/types/SessionContext";
+import colors from "@/constants/Color";
 
-interface ProgressBarProps {
-  count: number;
-}
+const ProgressBar: React.FC = () => {
+  const { session } = useSession();
 
-const ProgressBar: React.FC<ProgressBarProps> = ({ count }) => {
-  const { quizState } = useQuiz();
-  const { answers } = quizState;
+  if (!session || session.pool.length === 0) return null;
+
+  const { pool, currentIndex, answers } = session;
+  const count = pool.length;
 
   return (
     <View style={styles.container}>
       {Array.from({ length: count }).map((_, index) => {
+        const isCurrent = index === currentIndex;
         const color =
           answers[index] === undefined
-            ? colors.card // Gray for unanswered
+            ? isCurrent
+              ? colors.accentuation
+              : colors.card
             : answers[index] === true
             ? colors.green
             : colors.red;
 
-        const borderStyle = 
-          index == 0
+        const borderStyle =
+          index === 0
             ? styles.segment0
-            : index == count - 1
+            : index === count - 1
             ? styles.segment1
             : {};
 
-        return <View key={index} style={[styles.segment, borderStyle, { backgroundColor: color}]} />;
+        return (
+          <View
+            key={index}
+            style={[styles.segment, borderStyle, { backgroundColor: color }]}
+          />
+        );
       })}
     </View>
   );
@@ -64,3 +72,4 @@ const styles = StyleSheet.create({
 });
 
 export default ProgressBar;
+
