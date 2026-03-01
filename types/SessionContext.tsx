@@ -52,8 +52,10 @@ interface SessionContextValue {
   /**
    * Build a pool from `scope`, taking up to `count` questions ordered by
    * spaced-repetition priority, then shuffle, and activate the session.
+   * @param returnPath  Route path to navigate back to when the session is dismissed.
+   * @param autoClose   Skip the end screen; go straight back to returnPath.
    */
-  startSession: (scope: FlatQuestion[], count: number, allowCasClinique?: boolean) => void;
+  startSession: (scope: FlatQuestion[], count: number, allowCasClinique?: boolean, returnPath?: string, autoClose?: boolean) => void;
 
   /** Clear all persisted stats (useful for testing migrations) */
   resetAllStats: () => Promise<void>;
@@ -100,7 +102,7 @@ export const SessionProvider: React.FC<{ children: React.ReactNode }> = ({
   }, []);
 
   const startSession = useCallback(
-    (scope: FlatQuestion[], count: number, allowCasClinique: boolean = true) => {
+    (scope: FlatQuestion[], count: number, allowCasClinique: boolean = true, returnPath?: string, autoClose?: boolean) => {
       const currentStats = statsRef.current;
       const filteredScope = allowCasClinique
         ? scope
@@ -120,6 +122,8 @@ export const SessionProvider: React.FC<{ children: React.ReactNode }> = ({
         pool: picked,
         currentIndex: 0,
         answers: new Array(picked.length).fill(undefined),
+        returnPath,
+        autoClose,
       });
     },
     []
@@ -150,6 +154,9 @@ export const SessionProvider: React.FC<{ children: React.ReactNode }> = ({
       const next = { ...prevStats };
 
       s.pool.forEach((fq, poolIdx) => {
+        // Only update stats for questions the user actually answered.
+        if (s.answers[poolIdx] === undefined) return;
+
         const key = statsKey(fq.topicSlug, fq.quizSlug);
         const arr: QuestionStats[] = next[key]
           ? [...next[key]]

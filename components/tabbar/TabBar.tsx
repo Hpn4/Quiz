@@ -25,6 +25,7 @@ const TabBar: React.FC<any> = ({ state, descriptors, navigation }: any) => {
     "session/end",
     "[index]",
     "end",
+    "session", // hides the tab bar when the session group is active but nested state not yet resolved
   ]);
 
   if (activeRouteName && HIDDEN_ROUTES.has(activeRouteName))

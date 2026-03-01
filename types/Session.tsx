@@ -25,4 +25,6 @@ export interface ActiveSession {
   pool: FlatQuestion[];
   currentIndex: number;
   answers: (boolean | undefined)[];
+  returnPath?: string;  // where to navigate when session is dismissed
+  autoClose?: boolean;  // if true, skip end screen and go back to returnPath
 }

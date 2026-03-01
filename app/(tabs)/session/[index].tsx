@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter, useLocalSearchParams } from "expo-router";
-import { View, Text, StyleSheet, TouchableOpacity, Animated } from "react-native";
+import { View, Text, StyleSheet, TouchableOpacity, Animated, BackHandler } from "react-native";
 
 import { useSession } from "@/types/SessionContext";
 import { statsKey } from "@/utils/statsStorage";
@@ -19,7 +19,7 @@ import gStyles from "@/constants/GlobalStyle";
 import { playCorrect, playWrong, playNext } from "@/utils/sounds";
 
 export default function SessionQuestion() {
-  const { session, recordAnswer, setCurrentIndex, stats } = useSession();
+  const { session, recordAnswer, setCurrentIndex, finishSession, clearSession, stats } = useSession();
   const router = useRouter();
   const local = useLocalSearchParams();
   const poolIndex = Number(local.index ?? 0);
@@ -27,6 +27,20 @@ export default function SessionQuestion() {
   const [verify, setVerify] = useState(false);
   const [validQuestions, setValidQuestions] = useState<boolean[]>([]);
   const anim = useRef(new Animated.Value(0)).current;
+
+  // Hardware back button: navigate back to the originating screen.
+  useEffect(() => {
+    const returnPath = session?.returnPath;
+    const sub = BackHandler.addEventListener('hardwareBackPress', () => {
+      if (returnPath) {
+        clearSession();
+        router.navigate(returnPath as any);
+        return true;
+      }
+      return false;
+    });
+    return () => sub.remove();
+  }, [session?.returnPath]);
 
   const flatQ: FlatQuestion | undefined = session?.pool[poolIndex];
   const question = flatQ?.question;
@@ -69,7 +83,7 @@ export default function SessionQuestion() {
     });
   };
 
-  const handleAction = () => {
+  const handleAction = async () => {
     if (!verify) {
       setVerify(true);
       const allValid = validQuestions.every((v) => v === true);
@@ -78,7 +92,19 @@ export default function SessionQuestion() {
     } else {
       playNext();
       if (isLast) {
-        router.replace("/session/end");
+        if (session?.autoClose) {
+          // Single-question mode: save stats and go back, skip end screen.
+          await finishSession();
+          const dest = session?.returnPath;
+          clearSession();
+          if (dest) {
+            router.navigate(dest as any);
+          } else {
+            router.back();
+          }
+        } else {
+          router.replace("/session/end");
+        }
       } else {
         router.replace(`/session/${nextIndex}`);
       }
@@ -136,7 +162,7 @@ export default function SessionQuestion() {
         <CheatSheet quiz={quiz} />
         <TouchableOpacity onPress={handleAction}>
           <Text style={styles.button}>
-            {!verify ? "Vérifier" : isLast ? "Terminer" : "Suivant"}
+            {!verify ? "Vérifier" : isLast ? (session?.autoClose ? "Fermer" : "Terminer") : "Suivant"}
           </Text>
         </TouchableOpacity>
       </View>

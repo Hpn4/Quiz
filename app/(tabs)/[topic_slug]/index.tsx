@@ -1,4 +1,4 @@
-import { useLocalSearchParams, useRouter } from 'expo-router';
+import { useLocalSearchParams, useRouter, usePathname } from 'expo-router';
 import React, { useEffect, useMemo, useState } from "react";
 import { View, FlatList, StyleSheet } from "react-native";
 
@@ -21,6 +21,7 @@ export default function Index() {
   const topicSlug = String(local.topic_slug);
   const { startSession } = useSession();
   const router = useRouter();
+  const pathname = usePathname();
 
   useEffect(() => {
     setQuizs(getQuizs(topicSlug));
@@ -34,7 +35,7 @@ export default function Index() {
 
   const handleStart = (count: number, allowCasClinique: boolean) => {
     setModalVisible(false);
-    startSession(topicQuestions, count, allowCasClinique);
+    startSession(topicQuestions, count, allowCasClinique, pathname);
     router.push("/session/0");
   };
 

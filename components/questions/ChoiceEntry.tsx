@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
+import { View, TouchableOpacity, StyleSheet } from "react-native";
 import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
 
 import colors from "@/constants/Color";
 import gStyles from "@/constants/GlobalStyle";
 import { playSelect } from "@/utils/sounds";
+import GlossaryInlineText from "@/components/GlossaryInlineText";
 
 interface ChoiceEntryProps {
   index: number;
@@ -57,7 +58,7 @@ const ChoiceEntry: React.FC<ChoiceEntryProps> = ({ index, title, valid, verify, 
       }]}>
         <FontAwesome6 style={styles.icon} name={icons[state]} size={25}/>
       </View>
-      <Text style={gStyles.text}>{title}</Text>
+      <GlossaryInlineText text={title} style={gStyles.text} />
     </TouchableOpacity>
   );
 };

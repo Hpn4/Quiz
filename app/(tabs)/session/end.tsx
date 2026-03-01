@@ -17,6 +17,8 @@ export default function SessionEnd() {
   const { session, finishSession, clearSession } = useSession();
   const router = useRouter();
   const [saved, setSaved] = useState(false);
+  // Capture returnPath before session is cleared.
+  const returnPath = session?.returnPath;
 
   const answers = session?.answers ?? [];
   const total = answers.length;
@@ -121,6 +123,17 @@ export default function SessionEnd() {
       </ScrollView>
 
       <View style={styles.actions}>
+        {returnPath ? (
+          <TouchableOpacity
+            style={styles.primaryBtn}
+            onPress={() => {
+              clearSession();
+              router.navigate(returnPath as any);
+            }}
+          >
+            <Text style={styles.primaryTxt}>Retour</Text>
+          </TouchableOpacity>
+        ) : null}
         <TouchableOpacity
           style={styles.secondaryBtn}
           onPress={() => {
@@ -228,6 +241,17 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   secondaryTxt: {
+    color: "white",
+    fontWeight: "bold",
+    fontSize: 16,
+  },
+  primaryBtn: {
+    backgroundColor: colors.accentuation,
+    borderRadius: 30,
+    paddingVertical: 15,
+    alignItems: "center",
+  },
+  primaryTxt: {
     color: "white",
     fontWeight: "bold",
     fontSize: 16,
