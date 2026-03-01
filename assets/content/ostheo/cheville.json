@@ -1,0 +1,140 @@
+{
+  "name": "Cheville - Entorse latérale",
+  "slug": "cheville",
+  "description": "",
+  "image": "first.png",
+  "infoTable": [
+    { "key": "DÉFINITION (DEF)", "value": "Lésion traumatique des ligaments latéraux de la cheville (faisceau talo-fibulaire antérieur le plus souvent), secondaire à un mécanisme d'inversion forcée du pied." },
+    { "key": "FACTEURS DE RISQUE (FDR)", "value": "Activités sportives avec changements d'appui ; terrain irrégulier ; antécédent d'entorse ; instabilité ligamentaire ; déficit proprioceptif." },
+    { "key": "SIGNES CLINIQUES (SC)", "value": "Douleur latérale de la cheville ; œdème ; hématome ; douleur à la mise en charge ; limitation fonctionnelle ; parfois sensation de craquement lors du traumatisme." },
+    { "key": "EXAMEN CLINIQUE (EC)", "value": "Inspection (œdème, ecchymose) ; palpation douloureuse des ligaments latéraux ; évaluation de la stabilité (tiroir antérieur et laxité) ; examen neurovasculaire distal." },
+    { "key": "EXAMENS PARACLINIQUES (EPC)", "value": "Radiographie selon règles d'Ottawa pour éliminer une fracture ou arrachement osseux ; imagerie complémentaire si doute diagnostique ou évolution défavorable." },
+    { "key": "ÉVOLUTION / COMPLICATIONS", "value": "Guérison le plus souvent favorable ; récidives possibles ; instabilité chronique de cheville ; douleurs persistantes." },
+    { "key": "TRAITEMENT (TTT)", "value": "Traitement fonctionnel : protocole GREC, contention ou orthèse ; reprise progressive de l'appui ; rééducation proprioceptive ; prise en charge ostéopathique ou kinésithérapique ; chirurgie exceptionnelle." }
+  ],
+  "glossary": [
+    { "term": "Proprioception", "definition": "Sensibilité proprioceptive, capacité à se percevoir dans l'espace participant à l'équilibration." }
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "title": "Définition",
+      "description": "L'entorse latérale de cheville correspond à :",
+      "choices": [
+        "Une fracture du talus",
+        "Une lésion traumatique des ligaments latéraux de la cheville par inversion forcée",
+        "Une atteinte inflammatoire chronique de la cheville",
+        "Une luxation tibio-talienne"
+      ],
+      "answers": ["Une lésion traumatique des ligaments latéraux de la cheville par inversion forcée"]
+    },
+    {
+      "type": "mcq",
+      "title": "Facteurs de risque",
+      "description": "Quels éléments favorisent une entorse latérale de cheville ?",
+      "choices": [
+        "Activités sportives avec changements d'appui",
+        "Antécédent d'entorse",
+        "Déficit de proprioception",
+        "Lombalgie mécanique"
+      ],
+      "answers": ["Activités sportives avec changements d'appui","Antécédent d'entorse","Déficit de proprioception"]
+    },
+    {
+      "type": "mcq",
+      "title": "Signes typiques",
+      "description": "Quels signes sont typiques d'une entorse latérale de cheville ?",
+      "choices": [
+        "Douleur latérale de la cheville",
+        "Œdème et hématome",
+        "Déficit neurologique distal constant",
+        "Fièvre élevée"
+      ],
+      "answers": ["Douleur latérale de la cheville","Œdème et hématome"]
+    },
+    {
+      "type": "mcq",
+      "title": "Tests cliniques",
+      "description": "Quel test clinique explore la stabilité ligamentaire antérieure de la cheville ?",
+      "choices": [
+        "Tiroir antérieur",
+        "Test de Phalen",
+        "Test de Jobe",
+        "Test de laxité"
+      ],
+      "answers": ["Tiroir antérieur","Test de laxité"]
+    },
+    {
+      "type": "mcq",
+      "title": "Traitement",
+      "description": "Concernant le traitement de l'entorse latérale de cheville :",
+      "choices": [
+        "Le traitement fonctionnel est privilégié",
+        "La rééducation proprioceptive est essentielle",
+        "La reprise progressive de l'appui est recommandée",
+        "La chirurgie est systématique"
+      ],
+      "answers": ["Le traitement fonctionnel est privilégié","La rééducation proprioceptive est essentielle","La reprise progressive de l'appui est recommandée"]
+    },
+    {
+      "type": "tf",
+      "title": "Ligament le plus atteint",
+      "description": "Le faisceau talo-fibulaire antérieur est le ligament le plus souvent atteint lors d'une entorse latérale.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Radiographies",
+      "description": "Les radiographies sont systématiques pour les entorses, quelle que soit la présentation clinique.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "tf",
+      "title": "Instabilité chronique",
+      "description": "Une entorse mal rééduquée peut évoluer vers une instabilité chronique.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Œdème",
+      "description": "Lors d'une entorse, la douleur est souvent associée à un œdème et un hématome.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Rééducation",
+      "description": "La rééducation proprioceptive permet de diminuer le risque de récidive d'entorses.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 24 ans, footballeur, se tord la cheville lors d'un changement d'appui, avec douleur latérale immédiate et apparition rapide d'un œdème.",
+      "answers": ["Entorse latérale"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 30 ans chutant sur un terrain irrégulier, présentant une douleur à la mise en charge, un hématome latéral et une limitation fonctionnelle.",
+      "answers": ["Entorse latérale"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 35 ans avec antécédents d'entorses répétées, consultant pour une instabilité de cheville et des douleurs persistantes à l'effort.",
+      "answers": ["Entorse latérale"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 28 ans, sportive loisir, ressentant un craquement lors d'un faux pas, suivi d'une douleur latérale intense et d'une gêne à la marche.",
+      "answers": ["Entorse latérale"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 40 ans présentant une récidive d'entorse, avec déficit proprioceptif et appréhension à la reprise sportive.",
+      "answers": ["Entorse latérale"]
+    }
+  ]
+}

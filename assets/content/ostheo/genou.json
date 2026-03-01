@@ -1,0 +1,138 @@
+{
+  "name": "Genou - Syndrome fémoro-patellaire",
+  "slug": "femoro-patellaire",
+  "description": "",
+  "image": "first.png",
+  "infoTable": [
+    { "key": "DÉFINITION (DEF)", "value": "Douleur antérieure du genou liée à un déséquilibre biomécanique entre la rotule et la trochlée fémorale, sans lésion structurale spécifique, survenant principalement lors des activités sollicitant l'appareil fémoro-patellaire." },
+    { "key": "FACTEURS DE RISQUE (FDR)", "value": "Surmenage sportif ; augmentation brutale de l'activité physique ; déséquilibres musculaires (quadriceps, fessiers) ; troubles statiques du membre inférieur ; hyper-inversion du pied ; facteurs morphologiques ; adolescence et jeune adulte." },
+    { "key": "SIGNES CLINIQUES (SC)", "value": "Douleur antérieure du genou ; douleur à la montée/descente des escaliers ; douleur à la station assise prolongée ; gêne à l'accroupissement ; absence d'épanchement important." },
+    { "key": "EXAMEN CLINIQUE (EC)", "value": "Inspection de l'axe du membre inférieur ; palpation péri-rotulienne douloureuse ; tests de provocation fémoro-patellaires positifs ; évaluation de la mobilité patellaire ; examen de la hanche et du pied associé." },
+    { "key": "EXAMENS PARACLINIQUES (EPC)", "value": "Imagerie uniquement en cas de doute diagnostique ou d'évolution défavorable." },
+    { "key": "ÉVOLUTION / COMPLICATIONS", "value": "Récidives possibles ; chronicisation en cas de persistance des facteurs de risque ; retentissement fonctionnel." },
+    { "key": "TRAITEMENT (TTT)", "value": "Adaptation des activités ; rééducation fonctionnelle (renforcement musculaire et contrôle neuromusculaire) ; prise en charge ostéopathique ou kinésithérapique ; correction des facteurs biomécaniques ; antalgiques si nécessaire." }
+  ],
+  "glossary": [],
+  "questions": [
+    {
+      "type": "mcq",
+      "title": "Définition",
+      "description": "Le syndrome fémoro-patellaire correspond à :",
+      "choices": [
+        "Une arthrose fémoro-patellaire confirmée",
+        "Une douleur antérieure du genou liée à un déséquilibre biomécanique sans lésion structurale",
+        "Une rupture ligamentaire du genou",
+        "Une pathologie inflammatoire systémique"
+      ],
+      "answers": ["Une douleur antérieure du genou liée à un déséquilibre biomécanique sans lésion structurale"]
+    },
+    {
+      "type": "mcq",
+      "title": "Facteurs de risque",
+      "description": "Quels éléments favorisent un syndrome fémoro-patellaire ?",
+      "choices": [
+        "Augmentation brutale de l'activité physique",
+        "Déséquilibres musculaires (quadriceps, fessiers)",
+        "Hyperinversion du pied",
+        "Fracture du fémur"
+      ],
+      "answers": ["Augmentation brutale de l'activité physique","Déséquilibres musculaires (quadriceps, fessiers)","Hyperinversion du pied"]
+    },
+    {
+      "type": "mcq",
+      "title": "Signes typiques",
+      "description": "Quels signes sont typiques du syndrome fémoro-patellaire ?",
+      "choices": [
+        "Douleur antérieure du genou",
+        "Douleur à la descente des escaliers",
+        "Blocage articulaire avec épanchement massif",
+        "Douleur nocturne inflammatoire"
+      ],
+      "answers": ["Douleur antérieure du genou","Douleur à la descente des escaliers"]
+    },
+    {
+      "type": "mcq",
+      "title": "Examen clinique",
+      "description": "Quel élément est classiquement retrouvé à l'examen clinique du syndrome fémoro-patellaire ?",
+      "choices": [
+        "Palpation péri-rotulienne douloureuse",
+        "Instabilité ligamentaire franche",
+        "Déficit neurologique distal",
+        "Douleur à la palpation du creux poplité"
+      ],
+      "answers": ["Palpation péri-rotulienne douloureuse"]
+    },
+    {
+      "type": "mcq",
+      "title": "Traitement",
+      "description": "Concernant le traitement du syndrome fémoro-patellaire :",
+      "choices": [
+        "La rééducation fonctionnelle est essentielle",
+        "L'adaptation des activités est recommandée",
+        "La correction des facteurs biomécaniques est nécessaire",
+        "La chirurgie est le traitement de première intention"
+      ],
+      "answers": ["La rééducation fonctionnelle est essentielle","L'adaptation des activités est recommandée","La correction des facteurs biomécaniques est nécessaire"]
+    },
+    {
+      "type": "tf",
+      "title": "Population",
+      "description": "Le syndrome fémoro-patellaire est fréquent chez l'adolescent et le jeune adulte.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Station assise",
+      "description": "La douleur d'un syndrome fémoro-patellaire est souvent majorée lors de la station assise prolongée.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Épanchement",
+      "description": "Un épanchement articulaire important est caractéristique d'un syndrome fémoro-patellaire.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "tf",
+      "title": "Biomécanique",
+      "description": "Les troubles biomécaniques du membre inférieur peuvent favoriser un syndrome fémoro-patellaire.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Imagerie",
+      "description": "L'imagerie d'un syndrome fémoro-patellaire est systématique dès le premier épisode douloureux.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 22 ans, étudiante sportive, consultant pour une douleur antérieure du genou, majorée lors de la descente des escaliers et des séances de course.",
+      "answers": ["Syndrome fémoro-patellaire"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 30 ans, reprise récente du sport, présentant une douleur du genou apparaissant après l'effort, sans traumatisme ni épanchement.",
+      "answers": ["Syndrome fémoro-patellaire"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 18 ans décrivant une douleur antérieure lors de la station assise prolongée en cours.",
+      "answers": ["Syndrome fémoro-patellaire"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 28 ans, hyper-inversion du pied droit, consultant pour une gêne à l'accroupissement et une douleur péri-rotulienne reproduite à l'examen.",
+      "answers": ["Syndrome fémoro-patellaire"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 35 ans, sportive loisir, présentant une récidive de douleurs antérieures du genou, sans anomalie à l'imagerie, évoquant une chronicisation fonctionnelle.",
+      "answers": ["Syndrome fémoro-patellaire"]
+    }
+  ]
+}

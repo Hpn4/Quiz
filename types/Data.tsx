@@ -4,7 +4,7 @@ import { FlatQuestion } from "@/types/Session";
 
 const topics: Record<string, Topic> = {
   math: require('@/assets/content/math/index.json'),
-  medical: require('@/assets/content/medical/index.json'),
+  ostheo: require('@/assets/content/ostheo/index.json'),
 };
 
 const mathQuiz: Record<string, Quiz> = {
@@ -13,13 +13,22 @@ const mathQuiz: Record<string, Quiz> = {
   textinput: require('@/assets/content/math/textinput.json'),
 };
 
-const medicalQuiz: Record<string, Quiz> = {
-  lombalgie: require('@/assets/content/medical/lombalgie.json'),
+const ostheoQuiz: Record<string, Quiz> = {
+  lombalgie: require('@/assets/content/ostheo/lombalgie.json'),
+  dtm: require('@/assets/content/ostheo/dtm.json'),
+  epaule: require('@/assets/content/ostheo/epaule.json'),
+  coude: require('@/assets/content/ostheo/coude.json'),
+  poignet: require('@/assets/content/ostheo/poignet.json'),
+  main: require('@/assets/content/ostheo/main.json'),
+  hanche: require('@/assets/content/ostheo/hanche.json'),
+  genou: require('@/assets/content/ostheo/genou.json'),
+  cheville: require('@/assets/content/ostheo/cheville.json'),
+  pied: require('@/assets/content/ostheo/pied.json'),
 };
 
 const topicsToQuiz: Record<string, Record<string, Quiz>> = {
   math: mathQuiz,
-  medical: medicalQuiz,
+  ostheo: ostheoQuiz,
 };
 
 export function getTopics(): Topic[] {

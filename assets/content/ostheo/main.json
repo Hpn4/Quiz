@@ -1,0 +1,140 @@
+{
+  "name": "Main - Ténosynovite de De Quervain",
+  "slug": "main",
+  "description": "",
+  "image": "first.png",
+  "infoTable": [
+    { "key": "DÉFINITION (DEF)", "value": "Inflammation ou dégénérescence des tendons du long abducteur du pouce et du court extenseur du pouce, responsable de douleurs radiales du poignet et du pouce." },
+    { "key": "FACTEURS DE RISQUE (FDR)", "value": "Gestes répétitifs du pouce et du poignet ; mouvements de préhension forcée ; activités professionnelles ou domestiques répétées ; post-partum ; port fréquent de charges ; microtraumatismes répétés." },
+    { "key": "SIGNES CLINIQUES (SC)", "value": "Douleur de la base du pouce et du bord radial du poignet ; douleur à la préhension ; irradiation possible vers l’avant-bras ; tuméfaction locale ; diminution fonctionnelle du pouce." },
+    { "key": "EXAMEN CLINIQUE (EC)", "value": "Douleur à la palpation de la face latérale du pouce et du poignet ; test de Finkelstein et Brunelli positif ; limitation douloureuse des mouvements du pouce et du poignet ; examen neurologique normal." },
+    { "key": "EXAMENS PARACLINIQUES (EPC)", "value": "Non nécessaires en première intention ; échographie en cas de doute diagnostique ou de résistance au traitement." },
+    { "key": "ÉVOLUTION / COMPLICATIONS", "value": "Risque de chronicisation ; gêne fonctionnelle persistante ; impact sur les activités quotidiennes." },
+    { "key": "TRAITEMENT (TTT)", "value": "Repos relatif et adaptation des gestes ; attelle de repos du pouce ; rééducation fonctionnelle ; prise en charge ostéopathique ou kinésithérapique ; antalgiques ± anti-inflammatoires ; infiltration cortisonée si échec du traitement conservateur." }
+  ],
+  "glossary": [
+    { "term": "Infiltration cortisonée", "definition": "L'infiltration de cortisone sert principalement à contrôler la douleur reliée à une crise inflammatoire aiguë localisée. Elle est souvent utilisée au niveau du genou, des hanches ou des épaules, que ce soit dans des cas d'arthrose ou d'inflammation." }
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "title": "Définition",
+      "description": "La ténosynovite de De Quervain correspond à :",
+      "choices": [
+        "Une neuropathie compressive du nerf médian",
+        "Une inflammation ou dégénérescence des tendons du long abducteur et du court extenseur du pouce",
+        "Une arthrose de la trapézo-métacarpienne",
+        "Une atteinte ligamentaire du carpe"
+      ],
+      "answers": ["Une inflammation ou dégénérescence des tendons du long abducteur et du court extenseur du pouce"]
+    },
+    {
+      "type": "mcq",
+      "title": "Facteurs de risque",
+      "description": "Quels éléments favorisent une ténosynovite de De Quervain ?",
+      "choices": [
+        "Gestes répétitifs du pouce",
+        "Post-partum",
+        "Port répété de charges",
+        "Scoliose lombaire"
+      ],
+      "answers": ["Gestes répétitifs du pouce","Post-partum","Port répété de charges"]
+    },
+    {
+      "type": "mcq",
+      "title": "Signes évocateurs",
+      "description": "Quels signes sont évocateurs de la ténosynovite de De Quervain ?",
+      "choices": [
+        "Douleur de la base du pouce",
+        "Douleur à la préhension",
+        "Paresthésies des trois premiers doigts",
+        "Déficit moteur neurologique"
+      ],
+      "answers": ["Douleur de la base du pouce","Douleur à la préhension"]
+    },
+    {
+      "type": "mcq",
+      "title": "Test clinique",
+      "description": "Quel test clinique est classiquement positif dans la ténosynovite de De Quervain ?",
+      "choices": [
+        "Test de Finkelstein",
+        "Test de Phalen",
+        "Test de Brunelli",
+        "Test de Tinel"
+      ],
+      "answers": ["Test de Finkelstein"]
+    },
+    {
+      "type": "mcq",
+      "title": "Traitement",
+      "description": "Concernant le traitement de la ténosynovite de De Quervain :",
+      "choices": [
+        "Le repos relatif est recommandé",
+        "Une attelle du pouce peut être proposée",
+        "Une infiltration cortisonée peut être indiquée en cas d'échec",
+        "La chirurgie est systématique"
+      ],
+      "answers": ["Le repos relatif est recommandé","Une attelle du pouce peut être proposée","Une infiltration cortisonée peut être indiquée en cas d'échec"]
+    },
+    {
+      "type": "tf",
+      "title": "Localisation",
+      "description": "La douleur siège de la ténosynovite de De Quervain est classiquement sur le bord radial du poignet.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Finkelstein",
+      "description": "Le test de Finkelstein est spécifique de la ténosynovite de De Quervain.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Origine neurologique",
+      "description": "L'atteinte est d'origine neurologique.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "tf",
+      "title": "Post-partum",
+      "description": "Les tendinites sont fréquentes en post-partum.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Radiographie",
+      "description": "La radiographie constitue l'examen d'imagerie de référence pour poser le diagnostic d'une tendinite.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 30 ans, en post-partum, consultant pour une douleur du bord radial du poignet, majorée lors du port de son nourrisson et des gestes de préhension.",
+      "answers": ["Ténosynovite de De Quervain"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 45 ans, travail manuel répétitif, présentant une douleur à la base du pouce, avec test de Finkelstein positif, sans trouble neurologique.",
+      "answers": ["Ténosynovite de De Quervain"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 38 ans décrivant une douleur progressive du pouce dominant, irradiant parfois vers l’avant-bras, associée à une gêne fonctionnelle quotidienne.",
+      "answers": ["Ténosynovite de De Quervain"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 50 ans consultant pour une tuméfaction douloureuse du bord radial du poignet, majorée à l’effort, résistante au repos simple.",
+      "answers": ["Ténosynovite de De Quervain"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 34 ans, employée de bureau et mère d’un jeune enfant, consultant pour une douleur progressive du bord radial du poignet dominant, majorée lors des gestes de préhension répétée (porter son enfant, ouvrir des bocaux). Le test de Finkelstein est positif, sans trouble neurologique associé.",
+      "answers": ["Ténosynovite de De Quervain"]
+    }
+  ]
+}

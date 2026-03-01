@@ -16,6 +16,7 @@ import ProgressBar from "@/components/questions/ProgressBar";
 
 import colors from "@/constants/Color";
 import gStyles from "@/constants/GlobalStyle";
+import { playCorrect, playWrong, playNext } from "@/utils/sounds";
 
 export default function SessionQuestion() {
   const { session, recordAnswer, setCurrentIndex, stats } = useSession();
@@ -71,8 +72,11 @@ export default function SessionQuestion() {
   const handleAction = () => {
     if (!verify) {
       setVerify(true);
-      recordAnswer(poolIndex, validQuestions.every((v) => v === true));
+      const allValid = validQuestions.every((v) => v === true);
+      recordAnswer(poolIndex, allValid);
+      if (allValid) playCorrect(); else playWrong();
     } else {
+      playNext();
       if (isLast) {
         router.replace("/session/end");
       } else {

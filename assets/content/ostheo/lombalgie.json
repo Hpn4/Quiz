@@ -1,5 +1,5 @@
 {
-  "name": "Rachis – Lombalgie mécanique (non spécifique)",
+  "name": "Rachis - Lombalgie mécanique",
   "slug": "lombalgie",
   "description": "",
   "image": "first.png",
@@ -13,14 +13,13 @@
     { "key": "TRAITEMENT (TTT)", "value": "Maintien de l'activité ; exercices et renforcement musculaire ; rééducation fonctionnelle ; prise en charge ostéopathique ou kinésithérapique ; antalgiques si nécessaire ; éducation thérapeutique et gestion des facteurs de risque (ergothérapie)" }
   ],
   "glossary": [
-    { "term": "Parafonctions", "definition": "Habitude inconsciente et répétée de la mâchoire, sans fonction utile (ex : serrer ou grincer des dents), pouvant provoquer douleurs et tensions." },
-    { "term": "Bruxisme", "definition": "Habitude involontaire de serrer ou grincer des dents, souvent pendant le sommeil, pouvant provoquer douleurs et usure dentaire." },
-    { "term": "Électromyogramme (EMG)", "definition": "Examen qui mesure l'activité électrique des muscles afin d'évaluer leur fonctionnement." }
+    { "term": "Sédentarité", "definition": "La sédentarité est une situation d'éveil caractérisée par une très faible dépense d'énergie. Elle correspond au temps passé, assis, couché ou debout sans bouger (sans mouvement conduisant à une dépense d'énergie)." }
   ],
   "questions": [
     {
       "type": "mcq",
-      "title": "La lombalgie mécanique correspond à :",
+      "title": "Définition",
+      "description": "La lombalgie mécanique correspond à :",
       "choices": [
         "Une douleur lombaire liée à une hernie discale compressive",
         "Une douleur lombaire sans cause spécifique identifiable évoluant depuis moins de 3 mois",
@@ -31,7 +30,8 @@
     },
     {
       "type": "mcq",
-      "title": "Quels éléments favorisent la survenue d'une lombalgie mécanique ?",
+      "title": "Facteurs de risque",
+      "description": "Quels éléments favorisent la survenue d'une lombalgie mécanique ?",
       "choices": [
         "Port de charges répétées",
         "Sédentarité",
@@ -42,7 +42,8 @@
     },
     {
       "type": "mcq",
-      "title": "Quels signes sont évocateurs d'une lombalgie mécanique ?",
+      "title": "Signes cliniques",
+      "description": "Quels signes sont évocateurs d'une lombalgie mécanique ?",
       "choices": [
         "Douleur majorée à l'effort",
         "Douleur soulagée par le repos",
@@ -53,7 +54,8 @@
     },
     {
       "type": "mcq",
-      "title": "Dans la lombalgie mécanique, l'examen neurologique est :",
+      "title": "Examen neurologique",
+      "description": "Dans la lombalgie mécanique, l'examen neurologique est :",
       "choices": [
         "Toujours pathologique",
         "Normal",
@@ -64,7 +66,8 @@
     },
     {
       "type": "mcq",
-      "title": "Concernant le traitement de la lombalgie mécanique :",
+      "title": "Traitement",
+      "description": "Concernant le traitement de la lombalgie mécanique :",
       "choices": [
         "Le maintien de l'activité est recommandé",
         "La prise en charge ostéopathique peut être proposée",
@@ -75,28 +78,69 @@
     },
     {
       "type": "tf",
-      "title": "La lombalgie mécanique est la forme la plus fréquente de lombalgie.",
+      "title": "Fréquence",
+      "description": "La lombalgie mécanique est la forme la plus fréquente de lombalgie.",
       "answers": ["Vrai"]
     },
     {
       "type": "tf",
-      "title": "L'imagerie est utile en première intention en cas de lombalgie mécanique.",
+      "title": "Imagerie",
+      "description": "L'imagerie est utile en première intention en cas de lombalgie mécanique.",
       "answers": ["Faux"]
     },
     {
       "type": "tf",
-      "title": "La douleur mécanique est souvent soulagée par le repos.",
+      "title": "Douleur mécanique",
+      "description": "La douleur mécanique est souvent soulagée par le repos.",
       "answers": ["Vrai"]
     },
     {
       "type": "tf",
-      "title": "Une lombalgie mécanique évoluant depuis moins de 3 mois est dite aiguë ou subaiguë.",
+      "title": "Durée",
+      "description": "Une lombalgie mécanique évoluant depuis moins de 3 mois est dite aiguë ou subaiguë.",
       "answers": ["Vrai"]
     },
     {
       "type": "tf",
-      "title": "Le stress et la surcharge professionnelle peuvent favoriser la lombalgie.",
+      "title": "Stress",
+      "description": "Le stress et la surcharge professionnelle peuvent favoriser la lombalgie.",
       "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Stress",
+      "description": "Le stress et la surcharge professionnelle peuvent favoriser la lombalgie.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 35 ans, manutentionnaire, consultant pour une douleur lombaire apparue après une petite chute, majorée à l'effort et soulagée par le repos, sans irradiation franche.",
+      "answers": ["Lombalgie mécanique"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 42 ans, travail sédentaire, présentant une raideur lombaire matinale, une douleur augmentée après position assise prolongée, sans déficit neurologique.",
+      "answers": ["Lombalgie mécanique"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 50 ans, en surcharge pondérale, consultant pour des douleurs lombaires récidivantes, déclenchées par le port de charges, avec examen neurologique normal.",
+      "answers": ["Lombalgie mécanique"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 28 ans, stress professionnel important, décrivant une lombalgie localisée, fluctuante selon l'activité, soulagée lors des périodes de repos.",
+      "answers": ["Lombalgie mécanique"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 45 ans, sportif occasionnel, consultant pour une douleur lombaire mécanique apparue progressivement après reprise d'activité, sans signe d'alarme ni irradiation systématisée.",
+      "answers": ["Lombalgie mécanique"]
     }
   ]
 }

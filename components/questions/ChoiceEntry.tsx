@@ -4,6 +4,7 @@ import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
 
 import colors from "@/constants/Color";
 import gStyles from "@/constants/GlobalStyle";
+import { playSelect } from "@/utils/sounds";
 
 interface ChoiceEntryProps {
   index: number;
@@ -42,6 +43,7 @@ const ChoiceEntry: React.FC<ChoiceEntryProps> = ({ index, title, valid, verify, 
       onPress={() => {
         const next = !isChecked;
         setChecked(next);
+        playSelect();
         if (onToggle) onToggle(index, next, next === valid);
       }}
       style={[gStyles.card, styles.card, {

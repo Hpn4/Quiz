@@ -1,0 +1,138 @@
+{
+  "name": "Pied - Fasciite plantaire",
+  "slug": "pied",
+  "description": "",
+  "image": "first.png",
+  "infoTable": [
+    { "key": "DÉFINITION (DEF)", "value": "Atteinte dégénérative ou inflammatoire de l'aponévrose plantaire, le plus souvent au niveau de son insertion calcanéenne médiale, responsable de douleurs plantaires du talon." },
+    { "key": "FACTEURS DE RISQUE (FDR)", "value": "Station debout prolongée ; surpoids ; reprise ou augmentation brutale d'activité physique ; course à pied ; troubles statiques du pied (pied plat ou creux) ; chaussage inadapté ; raideur du triceps sural." },
+    { "key": "SIGNES CLINIQUES (SC)", "value": "Douleur plantaire ; douleur vive au premier pas le matin ou après repos prolongé ; douleur déclenchée à la palpation de l'insertion calcanéenne ; amélioration transitoire à l'échauffement." },
+    { "key": "EXAMEN CLINIQUE (EC)", "value": "Palpation douloureuse de l'aponévrose plantaire ; douleur à l'étirement passif de l'aponévrose ; analyse statique et dynamique du pied ; examen de la cheville et du mollet associé." },
+    { "key": "EXAMENS PARACLINIQUES (EPC)", "value": "Echographie ou IRM en cas de doute diagnostique ou de résistance au traitement." },
+    { "key": "ÉVOLUTION / COMPLICATIONS", "value": "Douleur chronique possible ; limitation fonctionnelle prolongée ; impact sur la marche et l'activité physique." },
+    { "key": "TRAITEMENT (TTT)", "value": "Repos relatif ; adaptation des activités ; étirements du triceps sural et de l'aponévrose ; semelles orthopédiques si besoin ; prise en charge ostéopathique ou kinésithérapique ; antalgiques ± anti-inflammatoires ; infiltrations en cas d'échec." }
+  ],
+  "glossary": [],
+  "questions": [
+    {
+      "type": "mcq",
+      "title": "Définition",
+      "description": "La fasciite plantaire correspond à :",
+      "choices": [
+        "Une compression nerveuse plantaire",
+        "Une atteinte dégénérative ou inflammatoire de l'aponévrose plantaire",
+        "Une fracture de fatigue du calcanéum",
+        "Une arthrite de la cheville"
+      ],
+      "answers": ["Une atteinte dégénérative ou inflammatoire de l'aponévrose plantaire"]
+    },
+    {
+      "type": "mcq",
+      "title": "Facteurs de risque",
+      "description": "Quels éléments favorisent une fasciite plantaire ?",
+      "choices": [
+        "Station debout prolongée",
+        "Surpoids",
+        "Reprise brutale d'activité sportive",
+        "Entorse latérale de cheville récente"
+      ],
+      "answers": ["Station debout prolongée","Surpoids","Reprise brutale d'activité sportive"]
+    },
+    {
+      "type": "mcq",
+      "title": "Signes typiques",
+      "description": "Quels signes sont typiques d'une fasciite plantaire ?",
+      "choices": [
+        "Douleur vive au premier pas le matin",
+        "Douleur à la palpation de l'insertion calcanéenne médiale",
+        "Douleur nocturne inflammatoire permanente",
+        "Déficit neurologique distal"
+      ],
+      "answers": ["Douleur vive au premier pas le matin","Douleur à la palpation de l'insertion calcanéenne médiale"]
+    },
+    {
+      "type": "mcq",
+      "title": "Examen clinique",
+      "description": "À l'examen clinique de la fasciite plantaire, on retrouve classiquement :",
+      "choices": [
+        "Une douleur à l'étirement passif de l'aponévrose plantaire",
+        "Un tiroir antérieur positif",
+        "Une instabilité ligamentaire de cheville",
+        "Un épanchement articulaire important"
+      ],
+      "answers": ["Une douleur à l'étirement passif de l'aponévrose plantaire"]
+    },
+    {
+      "type": "mcq",
+      "title": "Traitement",
+      "description": "Concernant le traitement de la fasciite plantaire :",
+      "choices": [
+        "Les étirements du triceps sural sont recommandés",
+        "L'adaptation des activités est nécessaire",
+        "Des semelles orthopédiques peuvent être proposées",
+        "La chirurgie est le traitement de première intention"
+      ],
+      "answers": ["Les étirements du triceps sural sont recommandés","L'adaptation des activités est nécessaire","Des semelles orthopédiques peuvent être proposées"]
+    },
+    {
+      "type": "tf",
+      "title": "Douleur matinale",
+      "description": "La douleur d'une fasciite plantaire est souvent maximale lors des premiers pas après un repos prolongé.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Inflammation aiguë",
+      "description": "La fasciite plantaire est uniquement une pathologie inflammatoire aiguë.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "tf",
+      "title": "Troubles statiques",
+      "description": "Les troubles statiques du pied peuvent favoriser la fasciite plantaire.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Imagerie",
+      "description": "L'imagerie est systématique pour poser le diagnostic d'une fasciite plantaire.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "tf",
+      "title": "Chronicisation",
+      "description": "Une évolution chronique de la fasciite plantaire est possible en l'absence de prise en charge adaptée.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 45 ans, surpoids, consultant pour une douleur plantaire du talon, très vive lors des premiers pas le matin, diminuant après quelques minutes de marche.",
+      "answers": ["Fasciite plantaire"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 38 ans, reprise récente de la course à pied, présentant une douleur calcanéenne médiale, majorée après l'effort et à la palpation.",
+      "answers": ["Fasciite plantaire"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 50 ans, station debout prolongée professionnelle, se plaignant d'une douleur plantaire chronique, avec gêne à la marche prolongée.",
+      "answers": ["Fasciite plantaire"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 42 ans, pied plat, consultant pour une douleur du talon, améliorée transitoirement à l'échauffement mais récidivant après repos.",
+      "answers": ["Fasciite plantaire"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 35 ans, sportif loisir, décrivant une douleur plantaire persistante, associée à une raideur du mollet, résistante au repos simple.",
+      "answers": ["Fasciite plantaire"]
+    }
+  ]
+}

@@ -87,10 +87,10 @@ const StartSheet: React.FC<StartSheetProps> = ({
         <Text style={styles.title}>Nombre de questions</Text>
 
         <View style={styles.optionRow}>
-          <Text style={styles.optionText}>Accepter les cas clinique (questions texte)</Text>
+          <Text style={styles.optionText}>Inclure les cas clinique</Text>
           <TouchableOpacity onPress={() => setAllowCasClinique((v) => !v)}>
             <View style={[styles.checkbox, { backgroundColor: allowCasClinique ? colors.accentuation : colors.card, borderColor: colors.stroke }]}>
-              <Text style={{ color: "white", fontWeight: "bold" }}>{allowCasClinique ? "✓" : ""}</Text>
+              <Text style={{ color: "white", fontWeight: "100", fontSize: 25 }}>{allowCasClinique ? "x" : ""}</Text>
             </View>
           </TouchableOpacity>
         </View>
@@ -150,7 +150,7 @@ const styles = StyleSheet.create({
   },
   title: {
     color: "white",
-    fontSize: 16,
+    fontSize: 24,
     fontWeight: "600",
     marginBottom: 18,
     textAlign: "center",
@@ -158,7 +158,7 @@ const styles = StyleSheet.create({
   pillRow: {
     flexDirection: "row",
     flexWrap: "wrap",
-    gap: 10,
+    gap: 15,
     justifyContent: "center",
   },
   optionRow: {
@@ -167,15 +167,16 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     marginVertical: 12,
     paddingHorizontal: 6,
+    paddingBottom: 18,
   },
   optionText: {
     color: "white",
-    fontSize: 14,
+    fontSize: 18,
     flex: 1,
     paddingRight: 10,
   },
   checkbox: {
-    width: 34,
+    width: 26,
     height: 26,
     borderRadius: 6,
     borderWidth: 1,
@@ -184,10 +185,10 @@ const styles = StyleSheet.create({
   },
   pill: {
     backgroundColor: colors.accentuation,
-    paddingVertical: 12,
-    paddingHorizontal: 22,
+    paddingVertical: 8,
+    paddingHorizontal: 28,
     borderRadius: 30,
-    minWidth: 64,
+    minWidth: 70,
     alignItems: "center",
   },
   pillAll: {
@@ -198,6 +199,7 @@ const styles = StyleSheet.create({
   pillText: {
     color: "white",
     fontWeight: "bold",
-    fontSize: 16,
+    paddingTop: 5,
+    fontSize: 18,
   },
 });

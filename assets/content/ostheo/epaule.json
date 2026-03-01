@@ -1,0 +1,138 @@
+{
+  "name": "Épaule - Tendinite de la coiffe des rotateurs",
+  "slug": "epaule",
+  "description": "",
+  "image": "first.png",
+  "infoTable": [
+    { "key": "DÉFINITION (DEF)", "value": "Atteinte dégénérative ou inflammatoire des tendons de la coiffe des rotateurs (sus-épineux le plus souvent), liée à une surcharge mécanique, responsable de douleurs et d'une limitation fonctionnelle de l'épaule." },
+    { "key": "FACTEURS DE RISQUE (FDR)", "value": "Gestes répétitifs, souvent au-dessus de l'épaule ; activités professionnelles ou sportives sollicitant le membre supérieur ; vieillissement tendineux ; déséquilibres musculaires ; posture en enroulement des épaules ; diabète ; tabagisme." },
+    { "key": "SIGNES CLINIQUES (SC)", "value": "Douleur de l'épaule à l'élévation ou à l'abduction ; douleur nocturne fréquente ; douleur à l'effort ; diminution de la force ; limitation fonctionnelle sans déficit neurologique." },
+    { "key": "EXAMEN CLINIQUE (EC)", "value": "Inspection de l'épaule ; palpation des tendons de la coiffe ; tests spécifiques positifs supra-épineux (full can test, jobe et drop arm test), infra-épineux et petit-rond (patte / retour-auto), long biceps (palm up et yegarson test), sous-scapulaire (bear hug test) ; évaluation des amplitudes actives et passives ; examen cervical associé." },
+    { "key": "EXAMENS PARACLINIQUES (EPC)", "value": "Echographie ou IRM en cas de doute diagnostique, de suspicion de rupture ou d'évolution défavorable." },
+    { "key": "ÉVOLUTION / COMPLICATIONS", "value": "Risque de chronicisation ; limitation fonctionnelle majorée ; rupture tendineuse partielle ou complète si surcharge persistante." },
+    { "key": "TRAITEMENT (TTT)", "value": "Repos relatif ; adaptation des activités ; rééducation fonctionnelle (renforcement) ; prise en charge ostéopathique ou kinésithérapique ; antalgiques ± anti-inflammatoires ; infiltration possible." }
+  ],
+  "glossary": [],
+  "questions": [
+    {
+      "type": "mcq",
+      "title": "Définition",
+      "description": "La tendinite de la coiffe des rotateurs correspond à :",
+      "choices": [
+        "Une rupture traumatique aiguë de l'épaule",
+        "Une atteinte dégénérative ou inflammatoire des tendons de la coiffe",
+        "Une pathologie neurologique périphérique",
+        "Une arthrite infectieuse de l'épaule"
+      ],
+      "answers": ["Une atteinte dégénérative ou inflammatoire des tendons de la coiffe"]
+    },
+    {
+      "type": "mcq",
+      "title": "Facteurs de risque",
+      "description": "Quels éléments favorisent une tendinite de la coiffe ?",
+      "choices": [
+        "Gestes répétitifs au-dessus de l'épaule",
+        "Vieillissement tendineux",
+        "Déséquilibres musculaires",
+        "Lombalgie mécanique"
+      ],
+      "answers": ["Gestes répétitifs au-dessus de l'épaule","Vieillissement tendineux","Déséquilibres musculaires"]
+    },
+    {
+      "type": "mcq",
+      "title": "Signes typiques",
+      "description": "Quels signes sont typiques d'une tendinite de la coiffe des rotateurs ?",
+      "choices": [
+        "Douleur à l'élévation du bras",
+        "Douleur nocturne",
+        "Déficit sensitif distal",
+        "Fièvre persistante"
+      ],
+      "answers": ["Douleur à l'élévation du bras","Douleur nocturne"]
+    },
+    {
+      "type": "mcq",
+      "title": "Tests cliniques",
+      "description": "Quel test est classiquement positif dans une atteinte du supra-épineux ?",
+      "choices": [
+        "Test de Jobe",
+        "Test de Lasègue",
+        "Drop arm test",
+        "Spurling"
+      ],
+      "answers": ["Test de Jobe","Drop arm test"]
+    },
+    {
+      "type": "mcq",
+      "title": "Traitement",
+      "description": "Concernant le traitement de la tendinite de la coiffe :",
+      "choices": [
+        "La rééducation fonctionnelle est un pilier du traitement",
+        "Le repos relatif est recommandé",
+        "Une infiltration peut être proposée en cas d'échec du traitement conservateur",
+        "Le repos strict prolongé est obligatoire"
+      ],
+      "answers": ["La rééducation fonctionnelle est un pilier du traitement","Le repos relatif est recommandé","Une infiltration peut être proposée en cas d'échec du traitement conservateur"]
+    },
+    {
+      "type": "tf",
+      "title": "Douleur nocturne",
+      "description": "La douleur nocturne est fréquente dans les tendinites de la coiffe des rotateurs.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Imagerie",
+      "description": "L'imagerie est systématiquement nécessaire pour poser le diagnostic.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "tf",
+      "title": "Sus-épineux",
+      "description": "Le sus-épineux est le tendon le plus souvent atteint.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Rupture",
+      "description": "Une surcharge mécanique persistante peut conduire à une rupture tendineuse.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Sportifs uniquement",
+      "description": "Les tendinopathies de la coiffe touchent uniquement les sportifs.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 52 ans, peintre en bâtiment, consultant pour une douleur de l'épaule droite lors des gestes au-dessus de la tête, associée à une douleur nocturne.",
+      "answers": ["Tendinite de la coiffe des rotateurs"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 45 ans, sportive amateur (tennis), présentant une douleur à l'abduction du bras, avec diminution de la force, sans déficit neurologique.",
+      "answers": ["Tendinite de la coiffe des rotateurs"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 60 ans, diabétique, consultant pour une douleur chronique de l'épaule, majorée à l'effort et lors du port de charges, avec tests de coiffe positifs.",
+      "answers": ["Tendinite de la coiffe des rotateurs"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 38 ans travaillant sur ordinateur, posture en enroulement des épaules, se plaignant de douleurs mécaniques de l'épaule, irradiant parfois vers le bras.",
+      "answers": ["Tendinite de la coiffe des rotateurs"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 55 ans consultant pour une limitation fonctionnelle progressive de l'épaule, douleur nocturne et gêne lors de l'habillage, évoquant une évolution chronique.",
+      "answers": ["Tendinite de la coiffe des rotateurs"]
+    }
+  ]
+}

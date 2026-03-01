@@ -1,0 +1,140 @@
+{
+  "name": "Coude - Épicondylite latérale",
+  "slug": "coude",
+  "description": "",
+  "image": "first.png",
+  "infoTable": [
+    { "key": "DÉFINITION (DEF)", "value": "Atteinte dégénérative des tendons des muscles épicondyliens latéraux liée à une surcharge mécanique répétée, responsable de douleurs latérales du coude." },
+    { "key": "FACTEURS DE RISQUE (FDR)", "value": "Gestes répétitifs de préhension et d'extension du poignet ; activités professionnelles manuelles ; sports de raquette ; surmenage musculaire ; déséquilibres biomécaniques du membre supérieur ; âge 35–55 ans." },
+    { "key": "SIGNES CLINIQUES (SC)", "value": "Douleur localisée à l'épicondyle latéral ; douleur déclenchée par l'extension résistée du poignet ou des doigts ; diminution de la force de préhension ; douleur mécanique sans signes neurologiques." },
+    { "key": "EXAMEN CLINIQUE (EC)", "value": "Palpation douloureuse de l'épicondyle latéral ; tests spécifiques positifs (Cozen, Mill, Maudsley) ; évaluation de la force et de la fonction du membre supérieur ; examen cervical associé." },
+    { "key": "EXAMENS PARACLINIQUES (EPC)", "value": "Echographie ou IRM en cas d'évolution défavorable ou de doute diagnostique." },
+    { "key": "ÉVOLUTION / COMPLICATIONS", "value": "Évolution le plus souvent favorable ; risque de chronicisation ; limitation fonctionnelle prolongée ; impact professionnel possible." },
+    { "key": "TRAITEMENT (TTT)", "value": "Repos relatif et adaptation des gestes ; rééducation fonctionnelle (exercices excentriques) ; prise en charge ostéopathique ou kinésithérapique ; orthèse de décharge ; antalgiques ± anti-inflammatoires ; infiltration si échec du traitement conservateur." }
+  ],
+  "glossary": [
+    { "term": "Préhension", "definition": "Action de saisir et tenir un objet avec la main." }
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "title": "Définition",
+      "description": "L'épicondylite latérale correspond à :",
+      "choices": [
+        "Une inflammation aiguë de l'articulation du coude",
+        "Une atteinte dégénérative des tendons épicondyliens latéraux",
+        "Une compression nerveuse du nerf ulnaire",
+        "Une arthrite infectieuse"
+      ],
+      "answers": ["Une atteinte dégénérative des tendons épicondyliens latéraux"]
+    },
+    {
+      "type": "mcq",
+      "title": "Facteurs de risque",
+      "description": "Quels éléments favorisent une épicondylite latérale ?",
+      "choices": [
+        "Gestes répétitifs d'extension du poignet",
+        "Sports de raquette",
+        "Surmenage musculaire",
+        "Lombalgie chronique"
+      ],
+      "answers": ["Gestes répétitifs d'extension du poignet","Sports de raquette","Surmenage musculaire"]
+    },
+    {
+      "type": "mcq",
+      "title": "Signes typiques",
+      "description": "Quels signes sont typiques d'une épicondylite latérale ?",
+      "choices": [
+        "Douleur à la palpation de l'épicondyle latéral",
+        "Douleur à l'extension résistée du poignet",
+        "Déficit sensitif de la main",
+        "Douleur nocturne fébrile"
+      ],
+      "answers": ["Douleur à la palpation de l'épicondyle latéral","Douleur à l'extension résistée du poignet"]
+    },
+    {
+      "type": "mcq",
+      "title": "Tests cliniques",
+      "description": "Quel test est classiquement positif dans l'épicondylite latérale ?",
+      "choices": [
+        "Test de Cozen",
+        "Test de Phalen",
+        "Test de Maudsley",
+        "Test de Lasègue"
+      ],
+      "answers": ["Test de Cozen","Test de Maudsley"]
+    },
+    {
+      "type": "mcq",
+      "title": "Traitement",
+      "description": "Concernant le traitement de l'épicondylite latérale :",
+      "choices": [
+        "Les exercices excentriques sont recommandés",
+        "Le repos relatif est conseillé",
+        "Une orthèse de décharge peut être proposée",
+        "Le repos strict prolongé est indispensable"
+      ],
+      "answers": ["Les exercices excentriques sont recommandés","Le repos relatif est conseillé","Une orthèse de décharge peut être proposée"]
+    },
+    {
+      "type": "tf",
+      "title": "Surcharge mécanique",
+      "description": "L'épicondylite latérale est souvent liée à une surcharge mécanique répétée.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Tennis uniquement",
+      "description": "L'épicondylite latérale touche exclusivement les joueurs de tennis.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "tf",
+      "title": "Force de préhension",
+      "description": "La diminution de la force de préhension est fréquente lors d'une épicondylite latérale.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "AINS",
+      "description": "Les anti-inflammatoires sont inutiles en cas de tendinites.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "tf",
+      "title": "Chronicisation",
+      "description": "Une chronicisation de la tendinite est possible en l'absence de prise en charge adaptée.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 45 ans, ouvrier du bâtiment, consultant pour une douleur du coude latéral, majorée lors du port d'objets et de l'extension du poignet.",
+      "answers": ["Épicondylite latérale"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 38 ans, joueuse de tennis amateur, présentant une douleur progressive au niveau du coude, avec diminution de la force de préhension.",
+      "answers": ["Épicondylite latérale"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 50 ans, travail manuel répétitif, se plaignant d'une douleur mécanique localisée, reproduite par le test de Cozen.",
+      "answers": ["Épicondylite latérale"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 42 ans travaillant sur ordinateur, décrivant une douleur du coude lors de la saisie prolongée et des gestes répétitifs de la main dominante.",
+      "answers": ["Épicondylite latérale"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 55 ans consultant pour une douleur chronique du coude latéral, évoluant depuis plusieurs mois, avec retentissement fonctionnel professionnel.",
+      "answers": ["Épicondylite latérale"]
+    }
+  ]
+}

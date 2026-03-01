@@ -1,0 +1,142 @@
+{
+  "name": "ATM - Dysfonction temporo-mandibulaire",
+  "slug": "dtm",
+  "description": "",
+  "image": "first.png",
+  "infoTable": [
+    { "key": "DÉFINITION (DEF)", "value": "Ensemble de troubles fonctionnels affectant l'articulation temporo-mandibulaire, les muscles masticateurs et les structures associées. Ils entraînent généralement des douleurs et/ou des limitations des mouvements mandibulaires." },
+    { "key": "FACTEURS DE RISQUE (FDR)", "value": "Stress et bruxisme ; parafonctions ; traumatismes cervicales ou faciaux ; hypertonie musculaire ; troubles posturaux ; surcharge psycho-émotionnelle." },
+    { "key": "SIGNES CLINIQUES (SC)", "value": "Douleurs pré-auriculaires ou faciales ; douleurs à la mastication ; craquements, claquements ou crépitations de l'ATM ; limitation ou déviation des mouvements buccaux ; céphalées ; cervicalgies." },
+    { "key": "EXAMEN CLINIQUE (EC)", "value": "Inspection et palpation des ATM et des muscles masticateurs ; évaluation de l'ouverture / fermeture buccale et de la cinétique mandibulaire ; recherche de bruits articulaires ; examen cervical associé." },
+    { "key": "EXAMENS PARACLINIQUES (EPC)", "value": "Imagerie (IRM, scanner ou radiographie) en cas de suspicion de pathologie articulaire, discale ou traumatique." },
+    { "key": "ÉVOLUTION / COMPLICATIONS", "value": "Douleurs chroniques ; limitation fonctionnelle persistante ; aggravation des céphalées et des douleurs cervicales ; altération de la qualité de vie." },
+    { "key": "TRAITEMENT (TTT)", "value": "Rééducation fonctionnelle, kinésithérapie ou ostéopathie ; gestion du stress ; correction des parafonctions ; gouttière occlusale si indiquée ; médication antalgique ou myorelaxante." }
+  ],
+  "glossary": [
+    { "term": "Parafonctions", "definition": "Habitude inconsciente et répétée de la mâchoire, sans fonction utile (ex : serrer ou grincer des dents), pouvant provoquer douleurs et tensions." },
+    { "term": "Bruxisme", "definition": "Habitude involontaire de serrer ou grincer des dents, souvent pendant le sommeil, pouvant provoquer douleurs et usure dentaire." },
+    { "term": "Électromyogramme (EMG)", "definition": "Examen qui mesure l'activité électrique des muscles afin d'évaluer leur fonctionnement." }
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "title": "Définition",
+      "description": "Les dysfonctions temporo-mandibulaires correspondent :",
+      "choices": [
+        "À une atteinte inflammatoire systémique des articulations",
+        "À un ensemble de troubles fonctionnels de l'ATM et des muscles masticateurs",
+        "À une pathologie exclusivement dentaire",
+        "À une atteinte neurologique centrale"
+      ],
+      "answers": ["À un ensemble de troubles fonctionnels de l'ATM et des muscles masticateurs"]
+    },
+    {
+      "type": "mcq",
+      "title": "Facteurs de risque",
+      "description": "Quels éléments favorisent les DTM ?",
+      "choices": [
+        "Stress chronique",
+        "Bruxisme",
+        "Parafonctions mandibulaires",
+        "Insuffisance cardiaque"
+      ],
+      "answers": ["Stress chronique","Bruxisme","Parafonctions mandibulaires"]
+    },
+    {
+      "type": "mcq",
+      "title": "Signes fréquents",
+      "description": "Quels signes sont fréquemment retrouvés dans les DTM ?",
+      "choices": [
+        "Douleurs pré-auriculaires",
+        "Craquements ou claquements de l'ATM",
+        "Fièvre élevée persistante",
+        "Paralysie faciale"
+      ],
+      "answers": ["Douleurs pré-auriculaires","Craquements ou claquements de l'ATM"]
+    },
+    {
+      "type": "mcq",
+      "title": "Examen clinique",
+      "description": "L'examen clinique des DTM repose principalement sur :",
+      "choices": [
+        "La palpation des muscles masticateurs et l'évaluation de l'ouverture buccale",
+        "Le dosage de marqueurs inflammatoires",
+        "Une imagerie systématique",
+        "Un électromyogramme obligatoire"
+      ],
+      "answers": ["La palpation des muscles masticateurs et l'évaluation de l'ouverture buccale"]
+    },
+    {
+      "type": "mcq",
+      "title": "Traitement",
+      "description": "Concernant le traitement des DTM :",
+      "choices": [
+        "L'approche est souvent pluridisciplinaire",
+        "La gestion du stress est un élément clé",
+        "Une gouttière occlusale peut être une alternative",
+        "La chirurgie est le traitement de première intention"
+      ],
+      "answers": ["L'approche est souvent pluridisciplinaire","La gestion du stress est un élément clé","Une gouttière occlusale peut être une alternative"]
+    },
+    {
+      "type": "tf",
+      "title": "Douleurs associées",
+      "description": "Les DTM peuvent associer des douleurs mandibulaires et cervicales.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Gravité des bruits articulaires",
+      "description": "Les bruits articulaires de l'ATM sont toujours synonymes de gravité.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "tf",
+      "title": "Stress",
+      "description": "Le stress et la surcharge psycho-émotionnelle jouent un rôle important dans les DTM.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Imagerie",
+      "description": "L'imagerie est systématiquement nécessaire pour poser le diagnostic de DTM.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "tf",
+      "title": "Qualité de vie",
+      "description": "Les DTM peuvent altérer la qualité de vie des patients.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 32 ans consultant pour des douleurs pré-auriculaires bilatérales, majorées à la mastication, associées à des claquements de la mâchoire lors de l'ouverture buccale.",
+      "answers": ["Dysfonction temporo-mandibulaire"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 40 ans, très stressé professionnellement, présentant des céphalées fréquentes, des douleurs mandibulaires matinales et un bruxisme rapporté par son entourage.",
+      "answers": ["Dysfonction temporo-mandibulaire"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 28 ans se plaignant d'une limitation de l'ouverture buccale, avec déviation mandibulaire à l'ouverture et douleurs des muscles masticateurs à la palpation.",
+      "answers": ["Dysfonction temporo-mandibulaire"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 45 ans consultant pour des douleurs faciales diffuses, associées à des cervicalgies chroniques et une mastication préférentielle d'un seul côté.",
+      "answers": ["Dysfonction temporo-mandibulaire"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 35 ans présentant une chronicisation des douleurs de l'ATM, un retentissement sur le sommeil et une gêne fonctionnelle dans les activités quotidiennes.",
+      "answers": ["Dysfonction temporo-mandibulaire"]
+    }
+  ]
+}

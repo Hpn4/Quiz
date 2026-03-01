@@ -11,6 +11,7 @@ import { AnimatedCircularProgress } from "react-native-circular-progress";
 
 import { useSession } from "@/types/SessionContext";
 import colors from "@/constants/Color";
+import { playPerfect } from "@/utils/sounds";
 
 export default function SessionEnd() {
   const { session, finishSession, clearSession } = useSession();
@@ -27,6 +28,7 @@ export default function SessionEnd() {
     if (!saved) {
       setSaved(true);
       finishSession();
+      if (percent === 100) playPerfect();
     }
   }, []);
 

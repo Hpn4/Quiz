@@ -1,0 +1,141 @@
+{
+  "name": "Hanche - Fracture de l'extrémité supérieure du fémur (FESF)",
+  "slug": "hanche",
+  "description": "",
+  "image": "first.png",
+  "infoTable": [
+    { "key": "DÉFINITION (DEF)", "value": "Fracture de l'extrémité supérieure du fémur (col fémoral ou région trochantérienne), survenant le plus souvent à la suite d'une chute chez le sujet âgé, entraînant une perte d'appui du membre inférieur." },
+    { "key": "FACTEURS DE RISQUE (FDR)", "value": "Âge avancé ; ostéoporose ; chutes répétées ; troubles de l'équilibre ; déficit visuel ; polymédication ; dénutrition ; sexe féminin." },
+    { "key": "SIGNES CLINIQUES (SC)", "value": "Douleur aiguë de la hanche ou de l'aine ; impossibilité ou difficulté à la mise en charge ; impotence fonctionnelle ; raccourcissement et rotation externe du membre inférieur ; douleur à la mobilisation." },
+    { "key": "EXAMEN CLINIQUE (EC)", "value": "Inspection du membre inférieur (attitude vicieuse) ; palpation douloureuse de la hanche ; impossibilité de lever le membre ; évaluation neurovasculaire distale ; recherche de complications associées, prise de tension et du pouls." },
+    { "key": "EXAMENS PARACLINIQUES (EPC)", "value": "Radiographie standard du bassin et de la hanche ; scanner ou IRM en cas de doute diagnostique ; bilan biologique préopératoire." },
+    { "key": "ÉVOLUTION / COMPLICATIONS", "value": "Complications thromboemboliques ; complications infectieuses ; perte d'autonomie ; escarres ; mortalité accrue à court et moyen terme." },
+    { "key": "TRAITEMENT (TTT)", "value": "Chirurgical en urgence (ostéosynthèse ou prothèse de hanche selon le type de fracture) ; prise en charge antalgique ; prévention thromboembolique ; rééducation précoce ; prise en charge de l'ostéoporose et prévention des chutes." }
+  ],
+  "glossary": [
+    { "term": "Polymédication", "definition": "Prise simultanée de plusieurs médicaments par une même personne." },
+    { "term": "Thromboemboliques", "definition": "Relatif à la formation d'un caillot sanguin (thrombus) pouvant migrer dans la circulation et obstruer un vaisseau." }
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "title": "Définition",
+      "description": "La fracture de l'extrémité supérieure du fémur correspond à :",
+      "choices": [
+        "Une fracture diaphysaire du fémur",
+        "Une fracture du col fémoral ou de la région trochantérienne",
+        "Une luxation isolée de la hanche",
+        "Une entorse sévère de la hanche"
+      ],
+      "answers": ["Une fracture du col fémoral ou de la région trochantérienne"]
+    },
+    {
+      "type": "mcq",
+      "title": "Facteurs de risque",
+      "description": "Quels facteurs favorisent la survenue d'une FESF ?",
+      "choices": [
+        "Ostéoporose",
+        "Chutes répétées",
+        "Âge avancé",
+        "Activité sportive intense"
+      ],
+      "answers": ["Ostéoporose","Chutes répétées","Âge avancé"]
+    },
+    {
+      "type": "mcq",
+      "title": "Signes évocateurs",
+      "description": "Quels signes sont évocateurs d'une fracture de l'extrémité supérieure du fémur ?",
+      "choices": [
+        "Douleur aiguë de la hanche",
+        "Raccourcissement et rotation externe du membre inférieur",
+        "Douleur mécanique calmée par le repos",
+        "Absence d'impotence fonctionnelle"
+      ],
+      "answers": ["Douleur aiguë de la hanche","Raccourcissement et rotation externe du membre inférieur"]
+    },
+    {
+      "type": "mcq",
+      "title": "Examen d'imagerie",
+      "description": "Quel examen est réalisé en première intention pour confirmer le diagnostic de FESF ?",
+      "choices": [
+        "Échographie de la hanche",
+        "Radiographie standard du bassin et de la hanche",
+        "IRM systématique",
+        "Scanner lombaire"
+      ],
+      "answers": ["Radiographie standard du bassin et de la hanche"]
+    },
+    {
+      "type": "mcq",
+      "title": "Traitement",
+      "description": "Concernant le traitement de la FESF :",
+      "choices": [
+        "La prise en charge est chirurgicale en urgence",
+        "Une prévention thromboembolique est nécessaire",
+        "La rééducation précoce est recommandée",
+        "Le traitement est exclusivement conservateur"
+      ],
+      "answers": ["La prise en charge est chirurgicale en urgence","Une prévention thromboembolique est nécessaire","La rééducation précoce est recommandée"]
+    },
+    {
+      "type": "tf",
+      "title": "Chute chez le sujet âgé",
+      "description": "La fracture de l'extrémité supérieure du fémur survient le plus souvent après une chute chez le sujet âgé.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Ostéoporose",
+      "description": "L'ostéoporose est un facteur de risque majeur de FESF.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Rotation externe",
+      "description": "La rotation externe du membre inférieur est un signe fréquent de la FESF.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Délai chirurgical",
+      "description": "La prise en charge chirurgicale de la FESF peut être différée sans conséquence.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "tf",
+      "title": "Autonomie",
+      "description": "Une FESF peut entraîner une perte d'autonomie durable.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 85 ans, ostéoporotique, retrouvée au sol après une chute domestique, présentant une douleur aiguë de la hanche et une impossibilité de se relever.",
+      "answers": ["Fracture de l'extrémité supérieure du fémur (FESF)"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 78 ans consultant pour une impotence fonctionnelle immédiate après une chute, avec raccourcissement et rotation externe du membre inférieur.",
+      "answers": ["Fracture de l'extrémité supérieure du fémur (FESF)"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 90 ans, institutionnalisée, présentant une douleur inguinale intense et une impossibilité de mise en charge, sans traumatisme violent rapporté.",
+      "answers": ["Fracture de l'extrémité supérieure du fémur (FESF)"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 82 ans, polymédiqué, chutant lors d'un lever nocturne, avec douleur à toute mobilisation de la hanche et attitude vicieuse du membre inférieur.",
+      "answers": ["Fracture de l'extrémité supérieure du fémur (FESF)"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 88 ans présentant une fracture de fragilité après une chute de sa hauteur, compliquée d'un alitement prolongé et d'un risque de perte d'autonomie.",
+      "answers": ["Fracture de l'extrémité supérieure du fémur (FESF)"]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "name": "Poignet - Syndrome du canal carpien",
+  "slug": "poignet",
+  "description": "",
+  "image": "first.png",
+  "infoTable": [
+    { "key": "DÉFINITION (DEF)", "value": "Neuropathie compressive du nerf médian au niveau du canal carpien, secondaire à une augmentation de la pression intracanalaire, responsable de troubles sensitifs et moteurs de la main." },
+    { "key": "FACTEURS DE RISQUE (FDR)", "value": "Gestes répétitifs du poignet ; travail prolongé sur clavier/souris ; vibrations ; grossesse ; diabète ; hypothyroïdie ; obésité ; maladies inflammatoires." },
+    { "key": "SIGNES CLINIQUES (SC)", "value": "Paresthésies des 3 premiers doigts et de la moitié radiale de l'annulaire ; douleurs nocturnes ; réveils nocturnes avec besoin de secouer la main ; diminution de la force de préhension ; maladresse." },
+    { "key": "EXAMEN CLINIQUE (EC)", "value": "Tests cliniques positifs (Tinel, Phalen) ; évaluation de la sensibilité du territoire du nerf médian ; recherche d'un déficit moteur (amyotrophie thénarienne aux stades avancés)." },
+    { "key": "EXAMENS PARACLINIQUES (EPC)", "value": "Électromyogramme (EMG) pour confirmation diagnostique et évaluation de la sévérité ; échographie ou IRM en cas de doute ou de forme atypique." },
+    { "key": "ÉVOLUTION / COMPLICATIONS", "value": "Aggravation progressive sans traitement ; déficit sensitif et moteur irréversible ; amyotrophie thénarienne ; retentissement fonctionnel important." },
+    { "key": "TRAITEMENT (TTT)", "value": "Mesures ergonomiques ; attelle nocturne ; adaptation des activités ; prise en charge rééducative (kinésithérapie/ostéopathie) ; infiltration de corticoïdes ; traitement chirurgical en cas d'échec du traitement conservateur." }
+  ],
+  "glossary": [
+    { "term": "Amyotrophie", "definition": "Diminution du volume des muscles provoquée par une immobilisation prolongée ou à un traitement. On parle aussi d'atrophie ou de fonte musculaire." },
+    { "term": "Paresthésie", "definition": "Trouble de la sensibilité se traduisant par des sensations de fourmillements ou de brûlures." }
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "title": "Définition",
+      "description": "Le syndrome du canal carpien correspond à :",
+      "choices": [
+        "Une atteinte inflammatoire des tendons fléchisseurs",
+        "Une neuropathie compressive du nerf médian au poignet",
+        "Une pathologie vasculaire de la main",
+        "Une atteinte du nerf ulnaire"
+      ],
+      "answers": ["Une neuropathie compressive du nerf médian au poignet"]
+    },
+    {
+      "type": "mcq",
+      "title": "Facteurs de risque",
+      "description": "Quels éléments favorisent un syndrome du canal carpien ?",
+      "choices": [
+        "Gestes répétitifs du poignet",
+        "Grossesse",
+        "Diabète",
+        "Lombalgie chronique"
+      ],
+      "answers": ["Gestes répétitifs du poignet","Grossesse","Diabète"]
+    },
+    {
+      "type": "mcq",
+      "title": "Signes évocateurs",
+      "description": "Quels signes sont évocateurs d'un syndrome du canal carpien ?",
+      "choices": [
+        "Paresthésies des 3 premiers doigts",
+        "Douleurs nocturnes avec réveils",
+        "Douleur de l'épicondyle latéral",
+        "Fièvre persistante"
+      ],
+      "answers": ["Paresthésies des 3 premiers doigts","Douleurs nocturnes avec réveils"]
+    },
+    {
+      "type": "mcq",
+      "title": "Test clinique",
+      "description": "Quel test clinique est classiquement positif dans le syndrome du canal carpien ?",
+      "choices": [
+        "Test de Phalen",
+        "Test de Lasègue",
+        "Test de Jobe",
+        "Test de Cozen"
+      ],
+      "answers": ["Test de Phalen"]
+    },
+    {
+      "type": "mcq",
+      "title": "Traitement",
+      "description": "Concernant le traitement du syndrome du canal carpien :",
+      "choices": [
+        "L'attelle nocturne peut être proposée",
+        "Les mesures ergonomiques sont importantes",
+        "Une chirurgie peut être indiquée en cas d'échec du traitement conservateur",
+        "Le repos strict prolongé est systématique"
+      ],
+      "answers": ["L'attelle nocturne peut être proposée","Les mesures ergonomiques sont importantes","Une chirurgie peut être indiquée en cas d'échec du traitement conservateur"]
+    },
+    {
+      "type": "tf",
+      "title": "Nerf médian",
+      "description": "Le nerf médian est comprimé au niveau du poignet dans le cas d'un canal carpien.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Symptômes nocturnes",
+      "description": "Les symptômes du canal carpien sont souvent majorés la nuit.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Atteinte digitale",
+      "description": "L'atteinte sensitive du canal carpien concerne préférentiellement le 5ᵉ doigt.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "tf",
+      "title": "Amyotrophie",
+      "description": "Une amyotrophie thénarienne peut apparaître aux stades avancés du canal carpien.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "EMG",
+      "description": "L'électromyogramme permet d'évaluer la sévérité de l'atteinte du canal carpien.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 34 ans, enceinte, consultant pour des fourmillements nocturnes des pouces, index et majeurs, avec réveils nocturnes l'obligeant à secouer la main.",
+      "answers": ["Syndrome du canal carpien"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 50 ans, diabétique, travail prolongé sur clavier, présentant une diminution de la force de préhension et des paresthésies persistantes de la main dominante.",
+      "answers": ["Syndrome du canal carpien"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 42 ans, travail répétitif manuel, décrivant une maladresse progressive de la main et une douleur nocturne, avec test de Phalen positif.",
+      "answers": ["Syndrome du canal carpien"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 60 ans consultant pour une perte de sensibilité des trois premiers doigts, associée à une amyotrophie thénarienne, évoquant une forme évoluée.",
+      "answers": ["Syndrome du canal carpien"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Une enseignante de 50 ans vient consulter pour des paresthésies de la main droite. Cette gêne devient insupportable lorsqu'elle écrit longtemps. Elle signale également que ces douleurs la réveillent la nuit. A quoi pensez-vous?",
+      "answers": ["Syndrome du canal carpien"]
+    }
+  ]
+}

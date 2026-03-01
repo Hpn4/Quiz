@@ -1,0 +1,7 @@
+{
+	"name": "Osthéopathie",
+	"slug": "ostheo",
+	"image": "first.png",
+	"description": "Topic de médecine clinique",
+	"quiz": ["dtm", "lombalgie", "epaule", "coude", "poignet", "main", "hanche", "genou", "cheville", "pied"]
+}
