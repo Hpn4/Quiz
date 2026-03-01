@@ -1,0 +1,19 @@
+{
+  "name": "Texte - Input Test",
+  "slug": "textinput",
+  "description": "Quiz de test pour la question texte",
+  "questions": [
+    {
+      "type": "text",
+      "title": "Tapez le mot suivant:",
+      "description": "Mot à taper: Lombalgie",
+      "answers": ["lombalgie"]
+    },
+    {
+      "type": "text",
+      "title": "Tapez le mot suivant:",
+      "description": "Mot à taper: a",
+      "answers": ["a"]
+    }
+  ]
+}

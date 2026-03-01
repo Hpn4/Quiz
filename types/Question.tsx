@@ -5,4 +5,5 @@ export interface Question {
   image?: string;
   choices?: string[];
   answers?: string[];
+  id?: string;
 }

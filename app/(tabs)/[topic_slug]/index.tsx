@@ -32,9 +32,9 @@ export default function Index() {
     [topicSlug]
   );
 
-  const handleStart = (count: number) => {
+  const handleStart = (count: number, allowCasClinique: boolean) => {
     setModalVisible(false);
-    startSession(topicQuestions, count);
+    startSession(topicQuestions, count, allowCasClinique);
     router.push("/session/0");
   };
 
@@ -58,6 +58,8 @@ export default function Index() {
         maxQuestions={topicQuestions.length}
         onConfirm={handleStart}
         onClose={() => setModalVisible(false)}
+        defaultAllowCasClinique={true}
+        scope={topicQuestions}
       />
     </View>
   );

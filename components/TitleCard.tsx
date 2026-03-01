@@ -13,7 +13,7 @@ interface TitleCardProps {
   infoTable?: { key: string; value: string }[];
 }
 
-const TitleCard: React.FC<TitleCardProps> = ({ title, content, infoTable }) => {
+const TitleCard: React.FC<TitleCardProps> = ({ title, content, infoTable, children }) => {
   const windowHeight = Dimensions.get('window').height;
   const maxTableHeight = Math.min(480, windowHeight * 0.45);
 
@@ -22,6 +22,7 @@ const TitleCard: React.FC<TitleCardProps> = ({ title, content, infoTable }) => {
       <View style={styles.titleView}>
         <Text style={styles.title}>{title || ""}</Text>
       </View>
+      {children ? <View style={styles.childrenWrap}>{children}</View> : null}
       {infoTable && infoTable.length > 0 ? (
         <ScrollView style={[styles.tableScroll, { maxHeight: maxTableHeight }]}>
           <View style={styles.table}>
@@ -117,7 +118,24 @@ const styles = StyleSheet.create({
     lineHeight: 22,
     fontSize: 20,
   }
+  ,
+  childrenWrap: {
+    width: '100%',
+    paddingHorizontal: 12,
+    marginBottom: 8,
+    alignItems: 'flex-end',
+  },
+  statsSmall: {
+    fontSize: 12,
+    color: '#999',
+  },
+  statsCorrect: {
+    fontSize: 12,
+    color: colors.green,
+    fontWeight: '700',
+  }
 });
+
 
 export default TitleCard;
 export {

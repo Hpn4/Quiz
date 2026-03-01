@@ -3,6 +3,7 @@ import { useRouter, useLocalSearchParams } from "expo-router";
 import { View, Text, StyleSheet, TouchableOpacity, Animated } from "react-native";
 
 import { useSession } from "@/types/SessionContext";
+import { statsKey } from "@/utils/statsStorage";
 import { FlatQuestion } from "@/types/Session";
 import { getQuiz } from "@/types/Data";
 
@@ -10,13 +11,14 @@ import TitleCard from "@/components/TitleCard";
 import CheatSheet from "@/components/CheatSheet";
 import RadioQuestion from "@/components/questions/RadioQuestion";
 import TrueFalseQuestion from "@/components/questions/TrueFalseQuestion";
+import TextQuestion from "@/components/questions/TextQuestion";
 import ProgressBar from "@/components/questions/ProgressBar";
 
 import colors from "@/constants/Color";
 import gStyles from "@/constants/GlobalStyle";
 
 export default function SessionQuestion() {
-  const { session, recordAnswer, setCurrentIndex } = useSession();
+  const { session, recordAnswer, setCurrentIndex, stats } = useSession();
   const router = useRouter();
   const local = useLocalSearchParams();
   const poolIndex = Number(local.index ?? 0);
@@ -38,7 +40,7 @@ export default function SessionQuestion() {
     setCurrentIndex(poolIndex);
     const choiceCount =
       question?.choices?.length ??
-      (question?.type === "tf" || question?.type === "truefalse" ? 2 : 0);
+      (question?.type === "tf" || question?.type === "truefalse" ? 2 : question?.type === "text" ? 1 : 0);
     setValidQuestions(new Array(choiceCount).fill(false));
     anim.setValue(0);
     Animated.spring(anim, { toValue: 1, useNativeDriver: true, friction: 8, tension: 90 }).start();
@@ -95,10 +97,32 @@ export default function SessionQuestion() {
         <TitleCard
           title={question?.title ?? ""}
           content={question?.description ?? ""}
-        />
+        >
+          {(() => {
+            const key = statsKey(flatQ?.topicSlug ?? "", flatQ?.quizSlug ?? "");
+            const quizStats = stats[key] ?? [];
+            const stat = quizStats.find((s) => (question?.id ? s.id === question?.id : s.questionIndex === flatQ?.questionIndex));
+            const correct = stat?.correctCount ?? 0;
+            const seen = stat?.seenCount ?? 0;
+            const last = stat?.lastSeen ?? null;
+            const fmtLast = last ? new Date(last).toLocaleDateString("fr-FR", { day: "numeric", month: "short" }) : "Jamais";
+            return (
+              <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+                <View style={{ flexDirection: 'row', alignItems: 'center', gap: 4 }}>
+                  <Text style={{ color: colors.green, fontSize: 12, fontWeight: '700' }}>{correct}</Text>
+                  <Text style={{ color: '#999', fontSize: 12 }}>/</Text>
+                  <Text style={{ color: '#999', fontSize: 12 }}>{seen}</Text>
+                </View>
+                <Text style={{ color: '#777', fontSize: 10 }}>{fmtLast}</Text>
+              </View>
+            );
+          })()}
+        </TitleCard>
 
         {question?.type === "tf" || question?.type === "truefalse" ? (
           <TrueFalseQuestion question={question} verify={verify} setValid={setValid} />
+        ) : question?.type === "text" ? (
+          <TextQuestion question={question} verify={verify} setValid={setValid} />
         ) : (
           <RadioQuestion question={question} verify={verify} setValid={setValid} />
         )}

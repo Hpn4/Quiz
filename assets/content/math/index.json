@@ -1,7 +1,7 @@
 {
 	"name": "Mathématiques",
 	"slug": "math",
-	"image": "https://png.pngtree.com/png-vector/20210330/ourmid/pngtree-math-png-image_3166138.jpg",
+	"image": "https://cdn-icons-png.flaticon.com/512/4720/4720458.png",
 	"description": "Couvre l'algèbre et des trucs bien.",
-	"quiz": ["groupe", "proba"]
+	"quiz": ["groupe", "proba", "textinput"]
 }

@@ -24,6 +24,18 @@ export async function loadAllStats(
   return map;
 }
 
+/** Remove all stats entries for the provided quiz list. */
+export async function clearAllStats(
+  quizList: { topicSlug: string; quizSlug: string }[]
+) {
+  await Promise.all(
+    quizList.map(async ({ topicSlug, quizSlug }) => {
+      const key = statsKey(topicSlug, quizSlug);
+      await AsyncStorage.removeItem(key);
+    })
+  );
+}
+
 /** Persist a stats map to AsyncStorage. */
 export async function saveStats(map: StatsMap): Promise<void> {
   await Promise.all(
@@ -34,6 +46,6 @@ export async function saveStats(map: StatsMap): Promise<void> {
 }
 
 /** Return default (empty) stats for a question index. */
-export function defaultStats(questionIndex: number): QuestionStats {
-  return { questionIndex, seenCount: 0, correctCount: 0, lastSeen: null };
+export function defaultStats(questionIndex: number, id?: string): QuestionStats {
+  return { questionIndex, id, seenCount: 0, correctCount: 0, lastSeen: null };
 }

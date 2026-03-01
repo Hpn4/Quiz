@@ -10,6 +10,7 @@ const topics: Record<string, Topic> = {
 const mathQuiz: Record<string, Quiz> = {
   groupe: require('@/assets/content/math/groupe.json'),
   proba: require('@/assets/content/math/proba.json'),
+  textinput: require('@/assets/content/math/textinput.json'),
 };
 
 const medicalQuiz: Record<string, Quiz> = {

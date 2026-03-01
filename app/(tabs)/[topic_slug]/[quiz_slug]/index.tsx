@@ -38,9 +38,9 @@ export default function Index() {
     [topicSlug, quizSlug]
   );
 
-  const handleStart = (count: number) => {
+  const handleStart = (count: number, allowCasClinique: boolean) => {
     setModalVisible(false);
-    startSession(quizQuestions, count);
+    startSession(quizQuestions, count, allowCasClinique);
     router.push("/session/0");
   };
 
@@ -56,6 +56,8 @@ export default function Index() {
         maxQuestions={quizQuestions.length}
         onConfirm={handleStart}
         onClose={() => setModalVisible(false)}
+        defaultAllowCasClinique={false}
+        scope={quizQuestions}
       />
     </View>
   );

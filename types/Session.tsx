@@ -11,6 +11,7 @@ export interface FlatQuestion {
 // Persisted stats for one question
 export interface QuestionStats {
   questionIndex: number;
+  id?: string;
   seenCount: number;
   correctCount: number;
   lastSeen: number | null;

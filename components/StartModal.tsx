@@ -10,12 +10,16 @@ import {
 } from "react-native";
 
 import colors from "@/constants/Color";
+import { FlatQuestion } from "@/types/Session";
 
 interface StartSheetProps {
   visible: boolean;
   maxQuestions: number;
   /** Called immediately when the user taps a count pill. */
-  onConfirm: (count: number) => void;
+  onConfirm: (count: number, allowCasClinique: boolean) => void;
+  /** Default value for allowing "cas clinique" text questions when the modal opens. */
+  defaultAllowCasClinique?: boolean;
+  scope?: FlatQuestion[];
   onClose: () => void;
 }
 
@@ -25,6 +29,8 @@ const StartSheet: React.FC<StartSheetProps> = ({
   visible,
   maxQuestions,
   onConfirm,
+  defaultAllowCasClinique = true,
+  scope,
   onClose,
 }) => {
   const slideAnim = useRef(new Animated.Value(300)).current;
@@ -46,7 +52,25 @@ const StartSheet: React.FC<StartSheetProps> = ({
   }, [visible]);
 
   // Standard counts that are strictly less than max, plus an "all" pill
-  const pills = COUNTS.filter((c) => c < maxQuestions);
+  const pillsFor = (count: number) => COUNTS.filter((c) => c < count);
+
+  const [allowCasClinique, setAllowCasClinique] = React.useState<boolean>(defaultAllowCasClinique);
+
+  // Keep internal default in sync if prop changes
+  React.useEffect(() => setAllowCasClinique(defaultAllowCasClinique), [defaultAllowCasClinique]);
+
+  // compute available question count considering the optional scope
+  const computeAvailableCount = (allow: boolean) => {
+    if (!scope || scope.length === 0) return maxQuestions;
+    if (allow) return scope.length;
+    return scope.filter((fq) => !(fq.question?.type === "text")).length;
+  };
+
+  const availableCount = computeAvailableCount(allowCasClinique);
+  const pills = pillsFor(availableCount);
+
+  // Keep internal default in sync if prop changes
+  React.useEffect(() => setAllowCasClinique(defaultAllowCasClinique), [defaultAllowCasClinique]);
 
   return (
     <Modal transparent visible={visible} animationType="none" onRequestClose={onClose}>
@@ -62,12 +86,21 @@ const StartSheet: React.FC<StartSheetProps> = ({
         <View style={styles.handle} />
         <Text style={styles.title}>Nombre de questions</Text>
 
+        <View style={styles.optionRow}>
+          <Text style={styles.optionText}>Accepter les cas clinique (questions texte)</Text>
+          <TouchableOpacity onPress={() => setAllowCasClinique((v) => !v)}>
+            <View style={[styles.checkbox, { backgroundColor: allowCasClinique ? colors.accentuation : colors.card, borderColor: colors.stroke }]}>
+              <Text style={{ color: "white", fontWeight: "bold" }}>{allowCasClinique ? "✓" : ""}</Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+
         <View style={styles.pillRow}>
           {pills.map((c) => (
             <TouchableOpacity
               key={c}
               style={styles.pill}
-              onPress={() => onConfirm(c)}
+              onPress={() => onConfirm(c, allowCasClinique)}
               activeOpacity={0.75}
             >
               <Text style={styles.pillText}>{c}</Text>
@@ -76,10 +109,10 @@ const StartSheet: React.FC<StartSheetProps> = ({
           {/* "All" pill */}
           <TouchableOpacity
             style={[styles.pill, styles.pillAll]}
-            onPress={() => onConfirm(maxQuestions)}
+            onPress={() => onConfirm(availableCount, allowCasClinique)}
             activeOpacity={0.75}
           >
-            <Text style={styles.pillText}>Tout ({maxQuestions})</Text>
+            <Text style={styles.pillText}>{`Tout (${availableCount})`}</Text>
           </TouchableOpacity>
         </View>
       </Animated.View>
@@ -126,6 +159,27 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     flexWrap: "wrap",
     gap: 10,
+    justifyContent: "center",
+  },
+  optionRow: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    marginVertical: 12,
+    paddingHorizontal: 6,
+  },
+  optionText: {
+    color: "white",
+    fontSize: 14,
+    flex: 1,
+    paddingRight: 10,
+  },
+  checkbox: {
+    width: 34,
+    height: 26,
+    borderRadius: 6,
+    borderWidth: 1,
+    alignItems: "center",
     justifyContent: "center",
   },
   pill: {

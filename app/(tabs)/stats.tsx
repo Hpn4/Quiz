@@ -7,6 +7,7 @@ import {
 } from "react-native";
 
 import { useSession } from "@/types/SessionContext";
+import { TouchableOpacity } from "react-native";
 import { getAllQuizList, getQuiz, getTopic } from "@/types/Data";
 import { statsKey } from "@/utils/statsStorage";
 import colors from "@/constants/Color";
@@ -42,7 +43,7 @@ const bar = StyleSheet.create({
 });
 
 export default function StatsScreen() {
-  const { stats, statsLoaded } = useSession();
+  const { stats, statsLoaded, resetAllStats } = useSession();
   const quizList = useMemo(() => getAllQuizList(), []);
 
   const { global, byTopic } = useMemo(() => {
@@ -128,7 +129,23 @@ export default function StatsScreen() {
         contentContainerStyle={styles.scroll}
         showsVerticalScrollIndicator={false}
       >
-        <Text style={styles.pageTitle}>Statistiques</Text>
+        <View style={{ flexDirection: "row", alignItems: "center", justifyContent: "space-between" }}>
+          <Text style={styles.pageTitle}>Statistiques</Text>
+          <TouchableOpacity
+            onPress={() => {
+              (async () => {
+                try {
+                  await resetAllStats();
+                } catch (err) {
+                  console.error("resetAllStats failed:", err);
+                }
+              })();
+            }}
+            style={{ padding: 8, marginRight: 4 }}
+          >
+            <Text style={{ color: colors.accentuation, fontWeight: "600" }}>Réinitialiser</Text>
+          </TouchableOpacity>
+        </View>
 
         <View style={styles.card}>
           <View style={styles.globalRow}>

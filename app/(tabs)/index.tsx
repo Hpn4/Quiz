@@ -23,9 +23,9 @@ export default function Index() {
 
   const allQuestions = getAllFlatQuestions();
 
-  const handleStart = (count: number) => {
+  const handleStart = (count: number, allowCasClinique: boolean) => {
     setModalVisible(false);
-    startSession(allQuestions, count);
+    startSession(allQuestions, count, allowCasClinique);
     router.push("/session/0");
   };
 
@@ -47,6 +47,8 @@ export default function Index() {
         maxQuestions={allQuestions.length}
         onConfirm={handleStart}
         onClose={() => setModalVisible(false)}
+        defaultAllowCasClinique={true}
+        scope={allQuestions}
       />
     </View>
   );

@@ -31,7 +31,6 @@ const ChoiceEntry: React.FC<ChoiceEntryProps> = ({ index, title, valid, verify, 
   const borderColor = borderColors[state];
   const bgColor = bgColors[state];
 
-  // keep internal state in sync with controlled `checked` prop
   useEffect(() => {
     setChecked(checked);
   }, [checked]);

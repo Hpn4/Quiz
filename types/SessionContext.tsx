@@ -18,6 +18,7 @@ import {
   loadAllStats,
   saveStats,
   statsKey,
+  clearAllStats,
 } from "@/utils/statsStorage";
 import { getAllQuizList } from "@/types/Data";
 
@@ -52,7 +53,10 @@ interface SessionContextValue {
    * Build a pool from `scope`, taking up to `count` questions ordered by
    * spaced-repetition priority, then shuffle, and activate the session.
    */
-  startSession: (scope: FlatQuestion[], count: number) => void;
+  startSession: (scope: FlatQuestion[], count: number, allowCasClinique?: boolean) => void;
+
+  /** Clear all persisted stats (useful for testing migrations) */
+  resetAllStats: () => Promise<void>;
 
   /** Keep currentIndex in sync with the visible question screen. */
   setCurrentIndex: (index: number) => void;
@@ -96,11 +100,13 @@ export const SessionProvider: React.FC<{ children: React.ReactNode }> = ({
   }, []);
 
   const startSession = useCallback(
-    (scope: FlatQuestion[], count: number) => {
+    (scope: FlatQuestion[], count: number, allowCasClinique: boolean = true) => {
       const currentStats = statsRef.current;
+      const filteredScope = allowCasClinique
+        ? scope
+        : scope.filter((fq) => !(fq.question?.type === "text"));
 
-      // Sort by descending priority (unseen / long-ago-wrong come first)
-      const sorted = [...scope].sort((a, b) => {
+      const sorted = [...filteredScope].sort((a, b) => {
         const keyA = statsKey(a.topicSlug, a.quizSlug);
         const keyB = statsKey(b.topicSlug, b.quizSlug);
         const sA = currentStats[keyA]?.find((s) => s.questionIndex === a.questionIndex);
@@ -108,7 +114,6 @@ export const SessionProvider: React.FC<{ children: React.ReactNode }> = ({
         return computePriority(sB) - computePriority(sA);
       });
 
-      // Take top N, then shuffle so the quiz order feels natural
       const picked = shuffle(sorted.slice(0, count));
 
       setSession({
@@ -150,7 +155,8 @@ export const SessionProvider: React.FC<{ children: React.ReactNode }> = ({
           ? [...next[key]]
           : [];
 
-        const existing = arr.find((x) => x.questionIndex === fq.questionIndex);
+        const qid = fq.question?.id;
+        const existing = qid ? arr.find((x) => x.id === qid) : arr.find((x) => x.questionIndex === fq.questionIndex);
         if (existing) {
           const idx = arr.indexOf(existing);
           arr[idx] = {
@@ -162,7 +168,7 @@ export const SessionProvider: React.FC<{ children: React.ReactNode }> = ({
           };
         } else {
           arr.push({
-            ...defaultStats(fq.questionIndex),
+            ...defaultStats(fq.questionIndex, fq.question?.id),
             seenCount: 1,
             correctCount: s.answers[poolIdx] === true ? 1 : 0,
             lastSeen: now,
@@ -195,6 +201,13 @@ export const SessionProvider: React.FC<{ children: React.ReactNode }> = ({
     setSession(null);
   }, []);
 
+  const resetAllStats = useCallback(async () => {
+    const quizList = getAllQuizList();
+    await clearAllStats(quizList);
+    setStats({});
+    setStatsLoaded(true);
+  }, []);
+
   return (
     <SessionContext.Provider
       value={{
@@ -205,6 +218,7 @@ export const SessionProvider: React.FC<{ children: React.ReactNode }> = ({
         setCurrentIndex,
         recordAnswer,
         finishSession: finishSessionWrapped,
+        resetAllStats,
         clearSession,
       }}
     >
