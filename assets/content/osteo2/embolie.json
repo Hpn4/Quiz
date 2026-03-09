@@ -1,0 +1,122 @@
+{
+  "name": "Embolie pulmonaire",
+  "slug": "embolie",
+  "description": "",
+  "image": "osteo2.png",
+  "infoTable": [
+    { "key": "DÉFINITION (DEF)", "value": "Obstruction aiguë d’une ou plusieurs artères pulmonaires par un caillot sanguin, le plus souvent issu d’une thrombose veineuse profonde (phlébite) des membres inférieurs ayant migré jusqu’aux poumons." },
+    { "key": "FACTEURS DE RISQUE / TERRAIN", "value": "Post-opératoire ; post-accouchement ; post-avortement ; immobilisation prolongée (plâtre, alitement) ; insuffisance veineuse ; phlébite ; contraception orale ; troubles de la coagulation ; antécédents thromboemboliques." },
+    { "key": "SIGNES CLINIQUES (SC)", "value": "Douleur thoracique/dorsale aiguë en point de côté/coup poignard ; Dyspnée brutale ; Essoufflement soudain ; Tachycardie ; Toux ; Malaise au lever ; Fièvre modérée (38–38,5 °C) ; Angoisse ; Amélioration partielle au repos." },
+    { "key": "EXAMEN CLINIQUE (EC)", "value": "URGENCE VITALE ; polypnée ; tachycardie ; percussion parfois discrètement mate ; auscultation parfois pauvre ou râles sous-crépitants ; recherche systématique de signes de phlébite et d’insuffisance cardiaque droite." },
+    { "key": "EXAMENS PARACLINIQUES (EPC)", "value": "Scanner thoracique injecté (angio-TDM) ; échodoppler veineux des membres inférieurs ; scintigraphie pulmonaire ; radiographie thoracique souvent peu spécifique." },
+    { "key": "ÉVOLUTION / COMPLICATIONS", "value": "Variable selon l’importance de l’obstruction ; risque d’insuffisance cardiaque droite aiguë ; infarctus pulmonaire ; insuffisance respiratoire aiguë ; récidive embolique ; décès dans les formes massives." },
+    { "key": "TRAITEMENT (TTT)", "value": "Anticoagulants ; oxygénothérapie ; thrombolyse ou embolectomie dans les formes graves ; prévention : mobilisation précoce, bas de contention, traitement anticoagulant préventif en péri-opératoire." }
+  ],
+  "glossary": [
+    { "term": "Râles sous-crépitants", "definition": "Bruits issus de l'appareil respiratoire au temps inspiratoire évoquant la présence de liquide dans les alvéoles pulmonaires." },
+    { "term": "Cyanose", "definition": "Coloration bleue ou noirâtre de la peau due à diverses maladies (notamment troubles circulatoires)." },
+    { "term": "Phlébite", "definition": "Formation d'un caillot de sang (thrombus) dans une veine." }
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "title": "Définition",
+      "description": "L’embolie pulmonaire correspond à :",
+      "choices": [
+        "Une infection aiguë du parenchyme pulmonaire",
+        "Une obstruction aiguë d’une ou plusieurs artères pulmonaires par un caillot",
+        "Une inflammation chronique des bronches",
+        "Une fibrose pulmonaire diffuse"
+      ],
+      "answers": ["Une obstruction aiguë d’une ou plusieurs artères pulmonaires par un caillot"]
+    },
+    {
+      "type": "mcq",
+      "title": "Origine la plus fréquente",
+      "description": "Concernant l’origine la plus fréquente de l’embolie pulmonaire :",
+      "choices": ["Thrombose veineuse profonde des membres inférieurs","Phlébite des membres inférieurs","Thrombose des artères pulmonaires primitives","Rupture d’une plaque d’athérome coronaire"],
+      "answers": ["Thrombose veineuse profonde des membres inférieurs","Phlébite des membres inférieurs"]
+    },
+    {
+      "type": "mcq",
+      "title": "Facteurs de risque",
+      "description": "Quels sont des facteurs de risque reconnus d’embolie pulmonaire ?",
+      "choices": ["Immobilisation prolongée","Post-opératoire récent","Contraception orale","Asthme allergique"],
+      "answers": ["Immobilisation prolongée","Post-opératoire récent","Contraception orale"]
+    },
+    {
+      "type": "mcq",
+      "title": "Signes cliniques évocateurs",
+      "description": "Quels signes cliniques sont évocateurs d’une embolie pulmonaire ?",
+      "choices": ["Douleur thoracique aiguë en point de côté","Dyspnée brutale d’apparition soudaine","Toux chronique nocturne isolée","Expectoration purulente abondante"],
+      "answers": ["Douleur thoracique aiguë en point de côté","Dyspnée brutale d’apparition soudaine"]
+    },
+    {
+      "type": "mcq",
+      "title": "Examen clinique",
+      "description": "Lors de l’examen clinique d’une embolie pulmonaire :",
+      "choices": ["La situation correspond à une urgence vitale","L’auscultation est toujours strictement normale","La percussion est systématiquement mate sur les deux champs pulmonaires","La douleur thoracique irradie typiquement vers le bras gauche"],
+      "answers": ["La situation correspond à une urgence vitale"]
+    },
+    {
+      "type": "tf",
+      "title": "Urgence",
+      "description": "L’embolie pulmonaire est une urgence vitale.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Immobilisation",
+      "description": "Une embolie pulmonaire peut survenir après une immobilisation prolongée.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Fièvre",
+      "description": "La fièvre élevée à 40 °C est constante dans l’embolie pulmonaire.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "tf",
+      "title": "Complication",
+      "description": "L’embolie pulmonaire peut évoluer vers une insuffisance cardiaque droite aiguë.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Ostéopathie",
+      "description": "Une prise en charge ostéopathique est indiquée en phase aiguë d’embolie pulmonaire.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 58 ans, opéré du genou il y a 10 jours, consultant pour une dyspnée brutale, une douleur thoracique droite en point de côté, une tachycardie et une angoisse intense. La douleur est apparue soudainement au lever.",
+      "answers": ["Embolie pulmonaire"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 34 ans, en post-partum récent, présentant un essoufflement soudain, une douleur thoracique dorsale, une fièvre à 38,3 °C et un malaise. L’examen retrouve une tachycardie.",
+      "answers": ["Embolie pulmonaire"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Patient de 46 ans, immobilisé par un plâtre depuis 3 semaines, consultant pour une douleur thoracique aiguë, une dyspnée d’apparition brutale et une toux. L’auscultation retrouve quelques râles sous-crépitants.",
+      "answers": ["Embolie pulmonaire"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 62 ans, aux antécédents de phlébite, hospitalisé pour dyspnée sévère, hypotension, tachycardie et signes d’insuffisance cardiaque droite aiguë, évoquant une forme grave.",
+      "answers": ["Embolie pulmonaire"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Jeune accouchée de 15 jours présente une douleur thoracique gauche avec dyspnée et cyanose discrète des extrémités. Le pouls est très accéléré, la température à 38,5 °C.",
+      "answers": ["Embolie pulmonaire"]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "name": "AVC",
+  "slug": "avc",
+  "description": "",
+  "image": "osteo2.png",
+  "infoTable": [
+    { "key": "DÉFINITION (DEF)", "value": "Déficit neurologique d’installation brutale ou rapidement progressive, secondaire à une atteinte focale cérébrale d’origine vasculaire, responsable d’une souffrance transitoire ou permanente du parenchyme cérébral." },
+    { "key": "MÉCANISME PHYSIOPATHOLOGIQUE", "value": "Lésion vasculaire cérébrale entraînant une souffrance neuronale par ischémie (obstruction artérielle) ou hémorragie (rupture vasculaire)." },
+    { "key": "FACTEURS DE RISQUE / TERRAIN", "value": "Hypertension artérielle +++ ; athérosclérose ; âge ; tabagisme ; diabète ; dyslipidémie ; fibrillation atriale ; contraception orale (terrain thrombotique) ; sédentarité." },
+    { "key": "TYPES D’AVC", "value": "AVC ischémique (≈ 80 %) : athérosclérose des grosses artères (carotides) ou petites artères (lacunes) ; AVC cardio-embolique ; causes diverses (dissection, hypercoagulabilité) ; AVC hémorragique (≈ 20 %) : HTA chronique ; rupture d’anévrisme ; complications des traitements antithrombotiques." },
+    { "key": "SIGNES CLINIQUES (SC)", "value": "Asymétrie faciale ; déficit moteur ou sensitif unilatéral (hémiplégie/hémiparésie) ; Troubles de la parole (aphasie, dysarthrie) ; Paresthésies ; Troubles visuels (cécité monoculaire transitoire) ; Difficultés à la marche ; Céphalée brutale (formes hémorragiques)." },
+    { "key": "EXAMEN CLINIQUE (EC)", "value": "URGENCE ABSOLUE ; examen neurologique complet ; ROT vifs, diffus, poly cinétique ; déficit focal ; mesure systématique de la tension artérielle." },
+    { "key": "EXAMENS PARACLINIQUES (EPC)", "value": "Scanner cérébral en urgence (différencie ischémique/hémorragique) ; IRM cérébrale ; ECG ; Doppler carotidien ; bilan cardiovasculaire selon le contexte." },
+    { "key": "ÉVOLUTION / COMPLICATIONS", "value": "Handicap moteur ou cognitif ; troubles du langage ; troubles de la déglutition ; épilepsie post-AVC ; récidive ; mortalité précoce dans les formes sévères." },
+    { "key": "TRAITEMENT (TTT)", "value": "AVC ischémique : thrombolyse ou thrombectomie selon délai ; antiagrégants ou anticoagulants selon étiologie. AVC hémorragique : prise en charge neurovasculaire spécialisée. Prévention secondaire : contrôle strict des facteurs de risque." }
+  ],
+  "glossary": [
+    { "term": "Fibrillation atriale", "definition": "Trouble du rythme cardiaque qui accélère le cœur et le fait battre de manière irrégulière." }
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "title": "Définition",
+      "description": "Un AVC correspond à :",
+      "choices": ["Une dégénérescence progressive du tissu cérébral","Un déficit neurologique d’origine vasculaire d’installation brutale","Une infection aiguë du cerveau","Une tumeur cérébrale évolutive"],
+      "answers": ["Un déficit neurologique d’origine vasculaire d’installation brutale"]
+    },
+    {
+      "type": "mcq",
+      "title": "Mécanismes",
+      "description": "Concernant les mécanismes de l’AVC :",
+      "choices": ["Il peut être lié à une ischémie cérébrale","Il peut être lié à une hémorragie cérébrale","Il est toujours secondaire à une embolie pulmonaire","Il est toujours réversible"],
+      "answers": ["Il peut être lié à une ischémie cérébrale","Il peut être lié à une hémorragie cérébrale"]
+    },
+    {
+      "type": "mcq",
+      "title": "Facteurs de risque",
+      "description": "Quels sont des facteurs de risque majeurs d’AVC ?",
+      "choices": ["Hypertension artérielle","Fibrillation atriale","Tabagisme","Asthme allergique"],
+      "answers": ["Hypertension artérielle","Fibrillation atriale","Tabagisme"]
+    },
+    {
+      "type": "mcq",
+      "title": "AVC ischémiques",
+      "description": "Concernant les AVC ischémiques :",
+      "choices": ["Ils représentent environ 80 % des AVC","Ils peuvent être d’origine cardio-embolique","Ils sont toujours liés à une rupture d’anévrisme","Ils sont toujours associés à une hémorragie"],
+      "answers": ["Ils représentent environ 80 % des AVC","Ils peuvent être d’origine cardio-embolique"]
+    },
+    {
+      "type": "mcq",
+      "title": "Conduite à tenir",
+      "description": "Face à un AVC suspecté, la conduite à tenir est :",
+      "choices": ["Attendre l’évolution clinique","Orienter en urgence vers une prise en charge spécialisée","Administrer des anti-inflammatoires","Réaliser une séance de rééducation immédiate"],
+      "answers": ["Orienter en urgence vers une prise en charge spécialisée"]
+    },
+    {
+      "type": "tf",
+      "title": "Urgence",
+      "description": "L’AVC constitue une urgence médicale absolue.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Majorité ischémique",
+      "description": "La majorité des AVC sont de nature ischémique.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Céphalées",
+      "description": "Les céphalées brutales sont surtout évocatrices d’un AVC hémorragique.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Troubles de la déglutition",
+      "description": "Un AVC n’entraîne jamais de troubles de la déglutition.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "tf",
+      "title": "Prévention",
+      "description": "La prévention secondaire liée à l’AVC repose notamment sur le contrôle strict des facteurs de risque.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 72 ans, hypertendu, présentant brutalement une faiblesse du bras et de la jambe droite, une déviation de la bouche et des difficultés à parler.",
+      "answers": ["AVC"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 65 ans, suivie pour fibrillation atriale, retrouvée avec une hémiparésie gauche, une aphasie brutale et une altération rapide de l’autonomie.",
+      "answers": ["AVC"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 58 ans consultant pour une perte brutale de la vision d’un œil, associée à des paresthésies du bras, dans un contexte d’HTA mal contrôlée.",
+      "answers": ["AVC"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 60 ans présentant une céphalée brutale intense, des vomissements, puis une altération de la vigilance, évoquant une forme hémorragique.",
+      "answers": ["AVC"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 82 ans trouvé allongé, présentant une asymétrie de la face avec lèvre tombante à gauche et une TA élevée.",
+      "answers": ["AVC"]
+    }
+  ]
+}

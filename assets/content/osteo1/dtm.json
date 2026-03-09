@@ -2,7 +2,7 @@
   "name": "ATM - Dysfonction temporo-mandibulaire",
   "slug": "dtm",
   "description": "",
-  "image": "first.png",
+  "image": "osteo1.png",
   "infoTable": [
     { "key": "DÉFINITION (DEF)", "value": "Ensemble de troubles fonctionnels affectant l'articulation temporo-mandibulaire, les muscles masticateurs et les structures associées. Ils entraînent généralement des douleurs et/ou des limitations des mouvements mandibulaires." },
     { "key": "FACTEURS DE RISQUE (FDR)", "value": "Stress et bruxisme ; parafonctions ; traumatismes cervicales ou faciaux ; hypertonie musculaire ; troubles posturaux ; surcharge psycho-émotionnelle." },

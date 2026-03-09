@@ -1,0 +1,124 @@
+{
+  "name": "Pneumonie",
+  "slug": "pneumonie",
+  "description": "",
+  "image": "osteo2.png",
+  "infoTable": [
+    { "key": "DÉFINITION (DEF)", "value": "Infection aiguë du parenchyme pulmonaire, le plus souvent d’origine bactérienne, touchant un ou plusieurs lobes pulmonaires. Peut survenir seule ou en surinfection d’une infection virale. Fréquente chez le jeune adulte, le sujet immunodéprimé ou après un épisode ORL." },
+    { "key": "FACTEURS DE RISQUE / TERRAIN", "value": "Immunodépression ; tabagisme ; infection virale récente ; sujet âgé ou jeune adulte ; comorbidités respiratoires ; contexte ORL récent." },
+    { "key": "SIGNES CLINIQUES (SC)", "value": "Douleur thoracique unilatérale (point de côté) ; Fièvre élevée (39–40 °C) ; Frissons ; Toux initialement sèche puis productive ; Expectoration purulente ; Polypnée ; Tachycardie ; Asthénie importante." },
+    { "key": "EXAMEN CLINIQUE (EC)", "value": "Percussion : matité localisée ; auscultation : râles crépitants, souffle tubaire ; diminution du murmure vésiculaire ; observation : visage congestif, herpès labial possible, signes généraux infectieux." },
+    { "key": "EXAMENS PARACLINIQUES (EPC)", "value": "Radiographie thoracique : opacité alvéolaire homogène lobaire ou segmentaire ; hémocultures ; examen cytobactériologique des expectorations ; bilan inflammatoire biologique." },
+    { "key": "FORME CLINIQUE TYPIQUE (bactérienne)", "value": "Début brutal ; hyperthermie ; frissons intenses ; malaise ; douleur thoracique franche ; opacité radiologique pouvant persister jusqu’à 1 mois malgré amélioration clinique." },
+    { "key": "ÉVOLUTION / COMPLICATIONS", "value": "Guérison sous traitement adapté ; complications possibles : pleurésie, abcès pulmonaire, insuffisance respiratoire aiguë ; formes graves chez sujets fragiles." },
+    { "key": "TRAITEMENT (TTT)", "value": "Antibiothérapie probabiliste (amélioration en 48–72 h) ; antipyrétiques ; hydratation ; repos ; surveillance clinique." }
+  ],
+  "glossary": [
+    { "term": "Polypnée", "definition": "La polypnée est une augmentation de la fréquence respiratoire au-delà de 20 mouvements respiratoires par minute avec diminution du volume courant (ventilation rapide et superficielle)." },
+    { "term": "Hémocultures", "definition": "Prélèvement sanguin aseptique qui, une fois mis en culture, va permettre la mise en évidence de la présence de germes aérobies et/ou anaérobies." },
+    { "term": "Examen cytobactériologique", "definition": "Recherche la présence de germes dans les expectorations." },
+    { "term": "Pleurésie", "definition": "Inflammation de la plèvre." }
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "title": "Nature de la pneumonie",
+      "description": "La pneumonie est :",
+      "choices": [
+        "Une inflammation chronique des bronches",
+        "Une infection aiguë du parenchyme pulmonaire",
+        "Une pathologie vasculaire pulmonaire",
+        "Une maladie obstructive irréversible"
+      ],
+      "answers": ["Une infection aiguë du parenchyme pulmonaire"]
+    },
+    {
+      "type": "mcq",
+      "title": "Origine et contexte",
+      "description": "Concernant la pneumonie aiguë communautaire :",
+      "choices": ["Elle est le plus souvent d’origine bactérienne","Elle survient uniquement chez le sujet âgé","Elle peut faire suite à une infection virale","Elle est toujours liée au tabagisme"],
+      "answers": ["Elle est le plus souvent d’origine bactérienne","Elle peut faire suite à une infection virale"]
+    },
+    {
+      "type": "mcq",
+      "title": "Signes évocateurs",
+      "description": "Quels signes sont évocateurs d’une pneumonie bactérienne ?",
+      "choices": ["Fièvre élevée avec frissons","Douleur thoracique unilatérale en point de côté","Toux chronique sèche depuis plusieurs mois","Expectoration purulente"],
+      "answers": ["Fièvre élevée avec frissons","Douleur thoracique unilatérale en point de côté","Expectoration purulente"]
+    },
+    {
+      "type": "mcq",
+      "title": "Examen clinique",
+      "description": "À l’examen clinique d’une pneumonie, on peut retrouver :",
+      "choices": ["Une matité localisée à la percussion","Des râles crépitants à l’auscultation","Un murmure vésiculaire augmenté","Un souffle continu diffus bilatéral"],
+      "answers": ["Une matité localisée à la percussion","Des râles crépitants à l’auscultation"]
+    },
+    {
+      "type": "mcq",
+      "title": "Examens diagnostiques",
+      "description": "Quels examens participent au diagnostic de pneumonie ?",
+      "choices": ["Radiographie thoracique","Hémocultures","Examen cytobactériologique des expectorations","Épreuve d’effort"],
+      "answers": ["Radiographie thoracique","Hémocultures","Examen cytobactériologique des expectorations"]
+    },
+    {
+      "type": "tf",
+      "title": "Aiguë",
+      "description": "La pneumonie est le plus souvent une pathologie aiguë.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Complication",
+      "description": "Une pneumonie peut évoluer vers une pleurésie.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Opacité radiologique",
+      "description": "L’opacité radiologique disparaît toujours dès l’amélioration de la pneumonie.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "tf",
+      "title": "Ostéopathie",
+      "description": "Une prise en charge ostéopathique est indiquée en phase aiguë de pneumonie.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "tf",
+      "title": "Population touchée",
+      "description": "La pneumonie touche préférentiellement le sujet jeune, âgé ou immunodéprimé.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Un homme de 27 ans consulte pour une fièvre à 39,5 °C, associée à des frissons intenses, une douleur thoracique droite en point de côté et une toux devenue productive. L’auscultation révèle des râles crépitants localisés, et la percussion est mate.",
+      "answers": ["Pneumonie"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Une femme de 62 ans, diabétique, présente depuis 48 heures une asthénie marquée, une polypnée, une tachycardie et une expectoration purulente. L’examen retrouve un visage congestif et une diminution du murmure vésiculaire à gauche.",
+      "answers": ["Pneumonie"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Un patient de 35 ans consulte après un épisode grippal récent pour une reprise brutale de la fièvre, une douleur thoracique franche, et une toux productive purulante. La radiographie thoracique montre une opacité alvéolaire lobaire homogène.",
+      "answers": ["Pneumonie"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Un homme de 48 ans est hospitalisé pour fièvre élevée, dyspnée, tachycardie et altération rapide de l’état général. Malgré le début de l’antibiothérapie, une surveillance rapprochée est mise en place en raison du risque d’insuffisance respiratoire aiguë.",
+      "answers": ["Pneumonie"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Un patient de 25 ans vous consulte avec une douleur thoracique installée depuis 2 jours avec un début brutal accompagné de frissons et d’une fièvre de 39°C. A l’interrogatoire vous retrouvez une toux sèche, polypnée et une tachycardie. A l’examen clinique vous retrouvez une matité pulmonaire, des râles crépitants et un souffle tubaire.",
+      "answers": ["Pneumonie"]
+    }
+  ]
+}

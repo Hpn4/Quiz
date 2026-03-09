@@ -1,0 +1,118 @@
+{
+  "name": "Angor",
+  "slug": "angor",
+  "description": "",
+  "image": "osteo2.png",
+  "infoTable": [
+    { "key": "DÉFINITION (DEF)", "value": "Pathologie ischémique du myocarde liée à un déséquilibre entre les besoins en oxygène du cœur et les apports coronaires. Secondaire à un rétrécissement significatif des artères coronaires. L’ischémie est transitoire et réversible, sans nécrose myocardique (≠ infarctus)." },
+    { "key": "FACTEURS DE RISQUE / TERRAIN", "value": "Hypertension artérielle ; athérosclérose ; tabagisme ; diabète ; dyslipidémie ; surpoids/obésité ; âge ; antécédents familiaux ; stress chronique ; sédentarité." },
+    { "key": "SIGNES CLINIQUES (SC)", "value": "Douleur thoracique rétro-sternale constrictive ; Localisation haute thoracique ou épigastrique ; Irradiation vers le bras gauche, l’épaule, le cou ou la mâchoire ; Déclenchée à l’effort ou au stress ; Cédant au repos ou à la trinitrine ; durée : < 20 minutes ; possible dyspnée, palpitations, anxiété." },
+    { "key": "FORME ATYPIQUE", "value": "Douleurs thoraciques peu spécifiques, isolées ou mal systématisées ; diagnostic plus difficile en l’absence de facteurs de risque cardiovasculaires." },
+    { "key": "EXAMEN CLINIQUE (EC)", "value": "Souvent normal hors crise ; recherche des facteurs de risque cardiovasculaires ; élimination des diagnostics différentiels (digestif, musculosquelettique, pulmonaire)." },
+    { "key": "EXAMENS PARACLINIQUES (EPC)", "value": "ECG (souvent normal hors crise) ; épreuve d’effort ; échocardiographie ; scintigraphie myocardique ; coronarographie selon indication." },
+    { "key": "ÉVOLUTION / COMPLICATIONS", "value": "Stabilisation possible sous traitement ; aggravation vers un syndrome coronarien aigu ; risque d’infarctus du myocarde en cas de rupture de plaque athéromateuse." },
+    { "key": "TRAITEMENT (TTT)", "value": "Traitement de crise : trinitrine sublinguale ; traitement de fond : bêtabloquants, antiagrégants plaquettaires (aspirine), statines, IEC ; contrôle strict des facteurs de risque." }
+  ],
+  "glossary": [
+    { "term": "Nécrose", "definition": "Terme médical désignant la mort des tissus de l'organisme." },
+    { "term": "Ischémie", "definition": "Arrêt ou insuffisance de la circulation sanguine privant ainsi les cellules de leur apport nécessaire." },
+    { "term": "Bêtabloquant", "definition": "Médicament visant à ralentir la fréquence cardiaque, diminuer la consommation en oxygène du cœur et abaisser la pression artérielle." }
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "title": "Définition",
+      "description": "L’angor correspond à :",
+      "choices": ["Une nécrose irréversible du myocarde","Une ischémie myocardique transitoire et réversible","Une inflammation aiguë du muscle cardiaque","Une pathologie rythmique primitive"],
+      "answers": ["Une ischémie myocardique transitoire et réversible"]
+    },
+    {
+      "type": "mcq",
+      "title": "Mécanisme",
+      "description": "Concernant le mécanisme de l’angor :",
+      "choices": ["Il existe un déséquilibre entre besoins du coeur et apports en oxygène du myocarde","Il est lié à une occlusion coronaire complète","Il est secondaire à un rétrécissement significatif des coronaires","Il entraîne systématiquement une nécrose myocardique"],
+      "answers": ["Il existe un déséquilibre entre besoins du coeur et apports en oxygène du myocarde","Il est secondaire à un rétrécissement significatif des coronaires"]
+    },
+    {
+      "type": "mcq",
+      "title": "Signes typiques",
+      "description": "Quels signes sont évocateurs d’un angor typique ?",
+      "choices": ["Douleur thoracique constrictive rétro-sternale","Irradiation vers le bras gauche ou la mâchoire","Douleur déclenchée à l’effort et cédant au repos","Douleur thoracique en coup de poignard permanente"],
+      "answers": ["Douleur thoracique constrictive rétro-sternale","Irradiation vers le bras gauche ou la mâchoire","Douleur déclenchée à l’effort et cédant au repos"]
+    },
+    {
+      "type": "mcq",
+      "title": "Angor atypique",
+      "description": "L’angor atypique se caractérise par :",
+      "choices": ["Des douleurs thoraciques peu spécifiques","Une douleur toujours déclenchée par l’effort","Une valeur diagnostique élevée en l’absence de facteurs de risque","Une évolution systématique vers l’infarctus"],
+      "answers": ["Des douleurs thoraciques peu spécifiques"]
+    },
+    {
+      "type": "mcq",
+      "title": "Traitement",
+      "description": "Concernant la prise en charge thérapeutique de l’angor :",
+      "choices": ["La trinitrine sublinguale est utilisée en cas de crise","Les bêtabloquants font partie du traitement de fond","Les antibiotiques sont indiqués","Le traitement est uniquement chirurgical"],
+      "answers": ["La trinitrine sublinguale est utilisée en cas de crise","Les bêtabloquants font partie du traitement de fond"]
+    },
+    {
+      "type": "tf",
+      "title": "Réversibilité",
+      "description": "L’angor est une pathologie ischémique réversible du myocarde.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Durée de la douleur",
+      "description": "La douleur angineuse dure généralement moins de 20 minutes.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "ECG",
+      "description": "L’ECG est toujours pathologique chez un patient ayant une angine de poitrine.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "tf",
+      "title": "Évolution",
+      "description": "L’angor peut évoluer vers un infarctus du myocarde.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Ostéopathie",
+      "description": "Une prise en charge ostéopathique est indiquée pendant la crise douloureuse de l’angine de poitrine.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 56 ans, hypertendu et fumeur, consultant pour une douleur rétro-sternale constrictive survenant à l’effort, irradiant vers le bras gauche, disparaissant après quelques minutes de repos.",
+      "answers": ["ANGOR"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 62 ans présentant une oppression thoracique déclenchée par le stress, associée à une anxiété et des palpitations, cédant spontanément sans laisser de séquelle.",
+      "answers": ["ANGOR"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 48 ans, diabétique, décrivant des douleurs thoraciques atypiques, mal systématisées, apparaissant de façon intermittente, sans caractère clairement déclenché par l’effort.",
+      "answers": ["ANGOR"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Patient de 60 ans suivi pour dyslipidémie, consultant pour une douleur épigastrique constrictive irradiant vers la mâchoire, survenant lors de la marche rapide et disparaissant à l’arrêt.",
+      "answers": ["ANGOR"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Un homme de 42 ans hypertendu, traité, portant des charges lourdes dans son travail, souffre de cervicalgies chroniques. Lors d’un effort, il présente une douleur dans le haut de la poitrine irradiant dans le cou et la face interne du bras gauche.",
+      "answers": ["ANGOR"]
+    }
+  ]
+}

@@ -108,15 +108,30 @@ export const SessionProvider: React.FC<{ children: React.ReactNode }> = ({
         ? scope
         : scope.filter((fq) => !(fq.question?.type === "text"));
 
-      const sorted = [...filteredScope].sort((a, b) => {
-        const keyA = statsKey(a.topicSlug, a.quizSlug);
-        const keyB = statsKey(b.topicSlug, b.quizSlug);
-        const sA = currentStats[keyA]?.find((s) => s.questionIndex === a.questionIndex);
-        const sB = currentStats[keyB]?.find((s) => s.questionIndex === b.questionIndex);
-        return computePriority(sB) - computePriority(sA);
+      // Compute priority for each question, group by priority value,
+      // shuffle within each equal-priority group so selection among ties
+      // isn't deterministic, then flatten groups ordered by priority.
+      const withPriority = filteredScope.map((fq) => {
+        const key = statsKey(fq.topicSlug, fq.quizSlug);
+        const s = currentStats[key]?.find((x) => x.questionIndex === fq.questionIndex);
+        return { fq, p: computePriority(s) };
       });
 
-      const picked = shuffle(sorted.slice(0, count));
+      const groups = new Map<number, FlatQuestion[]>();
+      withPriority.forEach(({ fq, p }) => {
+        const g = groups.get(p);
+        if (g) g.push(fq);
+        else groups.set(p, [fq]);
+      });
+
+      const priorities = Array.from(groups.keys()).sort((a, b) => b - a);
+
+      let flattened: FlatQuestion[] = [];
+      priorities.forEach((p) => {
+        flattened = flattened.concat(shuffle(groups.get(p)!));
+      });
+
+      const picked = shuffle(flattened.slice(0, count));
 
       setSession({
         pool: picked,

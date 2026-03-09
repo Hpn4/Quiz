@@ -1,0 +1,119 @@
+{
+  "name": "Insuffisance cardiaque",
+  "slug": "insuffisance",
+  "description": "",
+  "image": "osteo2.png",
+  "infoTable": [
+    { "key": "DÉFINITION (DEF)", "value": "Incapacité du muscle cardiaque à assurer un débit sanguin suffisant pour couvrir les besoins de l’organisme, ou uniquement au prix d’une élévation des pressions de remplissage." },
+    { "key": "MÉCANISMES PHYSIOPATHOLOGIQUES", "value": "Diminution de la fonction systolique (défaut d’éjection) ; altération de la fonction diastolique (défaut de remplissage par rigidité/fibrose) ; dilatation ventriculaire ; stase veineuse et congestion." },
+    { "key": "ÉTIOLOGIES FRÉQUENTES", "value": "Cardiopathie ischémique ; hypertension artérielle chronique ; valvulopathies ; cardiomyopathies ; troubles du rythme (fibrillation atriale) ; surcharge chronique hydrosodée." },
+    { "key": "FORMES CLINIQUES", "value": "Atteinte prédominante du ventricule gauche ou droit, souvent évolutives l’une vers l’autre." },
+    { "key": "SIGNES CLINIQUES (SC)", "value": "Insuffisance cardiaque gauche : dyspnée d’effort puis de repos ; orthopnée ; dyspnée paroxystique nocturne ; œdème aigu pulmonaire ; fatigue. Insuffisance cardiaque droite : œdèmes des membres inférieurs ; turgescence jugulaire ; hépatomégalie congestive ; prise de poids rapide ; asthénie ; tachycardie." },
+    { "key": "EXAMEN CLINIQUE (EC)", "value": "Dyspnée ; œdèmes déclives ; crépitants pulmonaires (forme gauche) ; reflux hépato-jugulaire ; tachycardie ; signes de congestion pulmonaire ou systémique." },
+    { "key": "EXAMENS PARACLINIQUES (EPC)", "value": "Échocardiographie (examen clé) ; ECG ; radiographie thoracique ; bilan biologique ; ± IRM cardiaque selon le contexte." },
+    { "key": "ÉVOLUTION / COMPLICATIONS", "value": "Décompensations aiguës ; œdème aigu pulmonaire ; troubles du rythme ; insuffisance rénale fonctionnelle ; hospitalisations répétées ; aggravation progressive." },
+    { "key": "TRAITEMENT (TTT)", "value": "Médicamenteux : diurétiques, IEC/ARA II, bêtabloquants, antagonistes de l’aldostérone. Mesures associées : restriction sodée, surveillance du poids, activité physique adaptée, éducation thérapeutique." }
+  ],
+  "glossary": [
+    { "term": "Pression systolique", "definition": "Pression la plus élevée dans les artères lorsque le cœur se contracte et envoie le sang dans l’aorte." },
+    { "term": "Pression diastolique", "definition": "Pression la plus basse dans les artères lorsque le cœur se relâche et se remplit de sang entre deux battements." },
+    { "term": "Turgescence", "definition": "Augmentation de volume par rétention de sang veineux." }
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "title": "Définition",
+      "description": "L’insuffisance cardiaque correspond à :",
+      "choices": ["Une obstruction aiguë des artères coronaires","Une incapacité du cœur à assurer un débit sanguin suffisant","Une pathologie rythmique isolée","Une inflammation aiguë du myocarde"],
+      "answers": ["Une incapacité du cœur à assurer un débit sanguin suffisant"]
+    },
+    {
+      "type": "mcq",
+      "title": "Mécanismes",
+      "description": "Quels mécanismes peuvent être en cause dans l’insuffisance cardiaque ?",
+      "choices": ["Diminution de la fonction systolique","Altération de la fonction diastolique","Dilatable ventriculaire","Thrombose veineuse profonde"],
+      "answers": ["Diminution de la fonction systolique","Altération de la fonction diastolique","Dilatable ventriculaire"]
+    },
+    {
+      "type": "mcq",
+      "title": "Causes fréquentes",
+      "description": "Parmi les causes fréquentes d’insuffisance cardiaque :",
+      "choices": ["Cardiopathie ischémique","Hypertension artérielle chronique","Pneumonie aiguë isolée","Asthme allergique"],
+      "answers": ["Cardiopathie ischémique","Hypertension artérielle chronique"]
+    },
+    {
+      "type": "mcq",
+      "title": "Signes droite",
+      "description": "Quels signes orientent vers une insuffisance cardiaque droite ?",
+      "choices": ["Œdèmes des membres inférieurs","Turgescence des veines jugulaires","Dyspnée paroxystique nocturne","Crépitants pulmonaires bilatéraux"],
+      "answers": ["Œdèmes des membres inférieurs","Turgescence des veines jugulaires"]
+    },
+    {
+      "type": "mcq",
+      "title": "Examen central",
+      "description": "Quel examen est central pour le diagnostic d’insuffisance cardiaque ?",
+      "choices": ["Radiographie thoracique","ECG","Échocardiographie","Épreuve d’effort"],
+      "answers": ["Échocardiographie"]
+    },
+    {
+      "type": "tf",
+      "title": "Mécanismes",
+      "description": "L’insuffisance cardiaque peut être liée à une altération systolique ou diastolique.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Œdème pulmonaire",
+      "description": "L’insuffisance cardiaque gauche peut entraîner un œdème pulmonaire.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Œdèmes périphériques",
+      "description": "Les œdèmes des membres inférieurs sont plus évocateurs d’une insuffisance cardiaque droite.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Aiguë",
+      "description": "L’insuffisance cardiaque est toujours une pathologie aiguë.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "tf",
+      "title": "Traitement",
+      "description": "Les diurétiques font partie du traitement de l’insuffisance cardiaque.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 68 ans, hypertendu de longue date, consultant pour une dyspnée d’effort devenue dyspnée de repos, associée à des crépitants pulmonaires bilatéraux et une fatigue marquée.",
+      "answers": ["INSUFFISANCE CARDIAQUE GAUCHE"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 72 ans présentant une prise de poids rapide, des œdèmes des membres inférieurs et une turgescence des veines jugulaires, avec sensation de fatigue constante.",
+      "answers": ["INSUFFISANCE CARDIAQUE DROITE"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 60 ans, antécédent d’infarctus du myocarde, hospitalisé pour dyspnée paroxystique nocturne et orthopnée, nécessitant plusieurs oreillers pour dormir.",
+      "answers": ["INSUFFISANCE CARDIAQUE GAUCHE"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Patient de 65 ans suivi pour cardiomyopathie, consultant pour asthénie, tachycardie et reflux hépato-jugulaire positif, évoquant une congestion systémique.",
+      "answers": ["INSUFFISANCE CARDIAQUE DROITE"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 70 ans présentant des décompensations répétées, avec hospitalisations fréquentes pour œdème aigu pulmonaire et troubles du rythme associés.",
+      "answers": ["INSUFFISANCE CARDIAQUE GAUCHE"]
+    }
+  ]
+}

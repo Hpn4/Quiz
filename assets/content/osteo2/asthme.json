@@ -1,0 +1,143 @@
+{
+  "name": "Asthme",
+  "slug": "asthme",
+  "description": "",
+  "image": "osteo2.png",
+  "infoTable": [
+    { "key": "DÉFINITION (DEF)", "value": "Maladie inflammatoire chronique des bronches, caractérisée par une hyperréactivité bronchique responsable d’une obstruction bronchique variable et réversible, évoluant par crises. Deux phases : phase sèche (sibilants, allongement du temps expiratoire, thorax bloqué en inspiration) et phase humide (hypersécrétion muqueuse avec expectoration visqueuse)." },
+    { "key": "FACTEURS DE RISQUE / TERRAIN", "value": "Terrain atopique ; rhinite allergique ; exposition aux allergènes (acariens, poussières, animaux) ; tabagisme actif ou passif ; stress ; enfant ++ ; antécédents familiaux d’atopie ; eczéma associé possible." },
+    { "key": "SIGNES CLINIQUES (SC)", "value": "Sibilants expiratoires ; Toux sèche nocturne ; Crises nocturnes ; Dyspnée expiratoire ; Troubles du sommeil ; Expectoration visqueuse en phase humide ; Oppression thoracique." },
+    { "key": "EXAMEN CLINIQUE (EC)", "value": "Auscultation : râles sibilants expiratoires (phase sèche), puis râles ronflants en phase humide ; respiration prédominant sur le haut du thorax ; utilisation des muscles respiratoires accessoires ; allongement du temps expiratoire." },
+    { "key": "EXAMENS PARACLINIQUES (EPC)", "value": "Exploration fonctionnelle respiratoire (EFR) montrant un trouble ventilatoire obstructif réversible ; mesure de la saturation en O₂ ; tests allergologiques cutanés ; radiographie thoracique (diagnostic différentiel) ; test de provocation bronchique." },
+    { "key": "ÉVOLUTION / COMPLICATIONS", "value": "Asthme intermittent ou persistant ; exacerbations aiguës ; risque d’asthme aigu grave (urgence vitale)." },
+    { "key": "TRAITEMENT (TTT)", "value": "Médicamenteux : β2-mimétiques d’action rapide (ex : Ventoline®) en crise ; corticoïdes inhalés en traitement de fond si crises fréquentes ; Non médicamenteux : éviction des allergènes, arrêt du tabac, relaxation, éducation thérapeutique, prise en charge psychologique si besoin." }
+  ],
+  "glossary": [
+    { "term": "Rhinite", "definition": "Inflammation aiguë de la muqueuse des fosses nasales" },
+    { "term": "Sibilant", "definition": "Bruit relativement aigu à type de sifflement produit par le mouvement de l'air dans des voies respiratoires de petit calibre rétrécies ou comprimées." },
+    { "term": "Dyspnée", "definition": "Sensation d'une respiration difficile et inconfortable ressentie dans une situation qui normalement n'entraîne aucune gêne respiratoire." },
+    { "term": "Terrain atopique / Atopie", "definition": "Prédisposition héréditaire à développer des maladies allergiques liées à une hypersensibilité immunitaire (IgE), comme l’eczéma, l’asthme ou la rhinite allergique." }
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "title": "Nature de la maladie",
+      "description": "Concernant l’asthme, quelles propositions sont justes ?",
+      "choices": [
+        "Il s’agit d’une maladie inflammatoire chronique des bronches",
+        "L’obstruction bronchique est variable et réversible",
+        "L’asthme est une pathologie infectieuse des voies respiratoires",
+        "Il évolue par crises"
+      ],
+      "answers": ["Il s’agit d’une maladie inflammatoire chronique des bronches","L’obstruction bronchique est variable et réversible","Il évolue par crises"]
+    },
+    {
+      "type": "mcq",
+      "title": "Mécanismes",
+      "description": "À propos des mécanismes de l’asthme :",
+      "choices": [
+        "L’hyperréactivité bronchique est un élément central",
+        "L’obstruction bronchique est liée à une fibrose irréversible",
+        "L’inflammation bronchique est chronique",
+        "Les bronches peuvent être totalement détruites"
+      ],
+      "answers": ["L’hyperréactivité bronchique est un élément central","L’inflammation bronchique est chronique"]
+    },
+    {
+      "type": "mcq",
+      "title": "Signes évocateurs",
+      "description": "Quels signes cliniques sont évocateurs d’un asthme ?",
+      "choices": [
+        "Toux sèche nocturne",
+        "Sibilants expiratoires",
+        "Dyspnée brutale avec douleur thoracique en coup de poignard",
+        "Troubles du sommeil lié aux crises nocturnes"
+      ],
+      "answers": ["Toux sèche nocturne","Sibilants expiratoires","Troubles du sommeil lié aux crises nocturnes"]
+    },
+    {
+      "type": "mcq",
+      "title": "Facteurs fréquemment retrouvés",
+      "description": "Quels éléments sont fréquemment retrouvés chez un patient asthmatique ?",
+      "choices": [
+        "Atopie",
+        "Rhinite allergique associée",
+        "Exposition aux allergènes (acariens, animaux)",
+        "Tabagisme chronique isolé comme cause unique"
+      ],
+      "answers": ["Atopie","Rhinite allergique associée","Exposition aux allergènes (acariens, animaux)"]
+    },
+    {
+      "type": "mcq",
+      "title": "Traitement médicamenteux",
+      "description": "Concernant le traitement médicamenteux de l’asthme :",
+      "choices": [
+        "La Ventoline est utilisée lors des crises",
+        "Les corticoïdes inhalés constituent le traitement de fond",
+        "Les corticoïdes inhalés sont réservés à la crise aiguë",
+        "La Ventoline agit en quelques minutes"
+      ],
+      "answers": ["La Ventoline est utilisée lors des crises","Les corticoïdes inhalés constituent le traitement de fond","La Ventoline agit en quelques minutes"]
+    },
+    {
+      "type": "tf",
+      "title": "Chronique et crises",
+      "description": "L’asthme est une maladie respiratoire chronique à évolution par crises.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Âge touché",
+      "description": "L’asthme touche uniquement l’adulte.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "tf",
+      "title": "Sibilants",
+      "description": "Les sibilants expiratoires sont un signe clinique fréquent de l’asthme.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Ventoline action",
+      "description": "La Ventoline a une action rapide en cas de crise d’asthme.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Gravité",
+      "description": "Une crise d’asthme grave constitue une urgence vitale.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Une adolescente de 14 ans présente des accès de toux sèche nocturne associés à des angoisses et à une dyspnée l’incitant à se mettre à la fenêtre. A quoi pensez-vous ?",
+      "answers": ["Asthme"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Enfant de 8 ans présentant une toux sèche nocturne, des sibilants expiratoires, un terrain atopique et une rhinite allergique.",
+      "answers": ["Asthme"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 32 ans avec dyspnée expiratoire nocturne, troubles du sommeil, symptômes majorés par le stress, et sifflements respiratoires.",
+      "answers": ["Asthme"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 40 ans ayant des crises de dyspnée intermittentes avec sibilants, déclenchées par la poussière, suivies d’une expectoration de muqueuse visqueuse.",
+      "answers": ["Asthme"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Adolescente présentant des crises respiratoires nocturnes, un thorax bloqué en inspiration, et une respiration prédominant sur la partie haute du thorax.",
+      "answers": ["Asthme"]
+    }
+  ]
+}

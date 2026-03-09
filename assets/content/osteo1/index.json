@@ -1,0 +1,7 @@
+{
+	"name": "Ostéopathie - P1",
+	"slug": "osteo1",
+	"image": "osteo1.png",
+	"description": "Topic de raisonnement clinique",
+	"quiz": ["dtm", "lombalgie", "epaule", "coude", "poignet", "main", "hanche", "genou", "cheville", "pied"]
+}

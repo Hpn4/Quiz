@@ -3,32 +3,49 @@ import { Quiz } from "@/types/Quiz";
 import { FlatQuestion } from "@/types/Session";
 
 const topics: Record<string, Topic> = {
-  math: require('@/assets/content/math/index.json'),
-  ostheo: require('@/assets/content/ostheo/index.json'),
+  //math: require('@/assets/content/math/index.json'),
+  osteo1: require('@/assets/content/osteo1/index.json'),
+  osteo2: require('@/assets/content/osteo2/index.json'),
 };
 
+/*
 const mathQuiz: Record<string, Quiz> = {
   groupe: require('@/assets/content/math/groupe.json'),
   proba: require('@/assets/content/math/proba.json'),
   textinput: require('@/assets/content/math/textinput.json'),
 };
+*/
 
-const ostheoQuiz: Record<string, Quiz> = {
-  lombalgie: require('@/assets/content/ostheo/lombalgie.json'),
-  dtm: require('@/assets/content/ostheo/dtm.json'),
-  epaule: require('@/assets/content/ostheo/epaule.json'),
-  coude: require('@/assets/content/ostheo/coude.json'),
-  poignet: require('@/assets/content/ostheo/poignet.json'),
-  main: require('@/assets/content/ostheo/main.json'),
-  hanche: require('@/assets/content/ostheo/hanche.json'),
-  genou: require('@/assets/content/ostheo/genou.json'),
-  cheville: require('@/assets/content/ostheo/cheville.json'),
-  pied: require('@/assets/content/ostheo/pied.json'),
+const osteo1Quiz: Record<string, Quiz> = {
+  lombalgie: require('@/assets/content/osteo1/lombalgie.json'),
+  dtm: require('@/assets/content/osteo1/dtm.json'),
+  epaule: require('@/assets/content/osteo1/epaule.json'),
+  coude: require('@/assets/content/osteo1/coude.json'),
+  poignet: require('@/assets/content/osteo1/poignet.json'),
+  main: require('@/assets/content/osteo1/main.json'),
+  hanche: require('@/assets/content/osteo1/hanche.json'),
+  genou: require('@/assets/content/osteo1/genou.json'),
+  cheville: require('@/assets/content/osteo1/cheville.json'),
+  pied: require('@/assets/content/osteo1/pied.json'),
+};
+
+const osteo2Quiz: Record<string, Quiz> = {
+  asthme: require('@/assets/content/osteo2/asthme.json'),
+  bpco: require('@/assets/content/osteo2/bpco.json'),
+  pneumonie: require('@/assets/content/osteo2/pneumonie.json'),
+  embolie: require('@/assets/content/osteo2/embolie.json'),
+  cancer: require('@/assets/content/osteo2/cancer.json'),
+  hta: require('@/assets/content/osteo2/hta.json'),
+  angor: require('@/assets/content/osteo2/angor.json'),
+  infarctus: require('@/assets/content/osteo2/infarctus.json'),
+  insuffisance: require('@/assets/content/osteo2/insuffisance.json'),
+  avc: require('@/assets/content/osteo2/avc.json'),
 };
 
 const topicsToQuiz: Record<string, Record<string, Quiz>> = {
-  math: mathQuiz,
-  ostheo: ostheoQuiz,
+  // math: mathQuiz,
+  osteo1: osteo1Quiz,
+  osteo2: osteo2Quiz,
 };
 
 export function getTopics(): Topic[] {

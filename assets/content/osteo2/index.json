@@ -1,0 +1,7 @@
+{
+	"name": "Ostéopathie - P2",
+	"slug": "osteo2",
+	"image": "osteo2.png",
+	"description": "Topic de raisonnement clinique",
+	"quiz": ["asthme", "bpco", "pneumonie", "embolie", "cancer", "hta", "angor", "infarctus", "insuffisance", "avc"]
+}

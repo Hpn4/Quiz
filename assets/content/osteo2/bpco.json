@@ -1,0 +1,121 @@
+{
+  "name": "BPCO",
+  "slug": "bpco",
+  "description": "",
+  "image": "osteo2.png",
+  "infoTable": [
+    { "key": "DÉFINITION (DEF)", "value": "Maladie respiratoire chronique caractérisée par une obstruction progressive et non totalement réversible des voies aériennes, liée à une réponse inflammatoire anormale à des toxiques inhalés, principalement le tabac." },
+    { "key": "FACTEURS DE RISQUE / TERRAIN", "value": "Tabagisme actif ou ancien +++ ; exposition professionnelle aux poussières et fumées ; pollution ; âge > 40 ans ; infections respiratoires répétées ; terrain fragile respiratoire." },
+    { "key": "SIGNES CLINIQUES (SC)", "value": "Toux chronique ; Expectoration intermittente ou chronique ; Dyspnée progressive d’effort puis de repos ; Sibilant ; Fatigabilité ; Limitation des activités." },
+    { "key": "EXAMEN CLINIQUE (EC)", "value": "Diminution du murmure vésiculaire ; allongement du temps expiratoire ; sibilant expiratoire ; thorax distendu possible ; utilisation des muscles respiratoires accessoires ; respiration superficielle." },
+    { "key": "EXAMENS PARACLINIQUES (EPC)", "value": "Spirométrie : syndrome obstructif non réversible ; gaz du sang selon le stade ; radiographie thoracique ; scanner thoracique en cas de suspicion d’emphysème." },
+    { "key": "ÉVOLUTION / COMPLICATIONS", "value": "Aggravation progressive ; exacerbations aiguës répétées ; emphysème ; insuffisance respiratoire chronique (IRC) ; insuffisance respiratoire aiguë (IRA) ; cœur pulmonaire chronique ; pneumothorax ; perte de poids." },
+    { "key": "TRAITEMENT (TTT)", "value": "Médicamenteux : bronchodilatateurs (β2-mimétiques, anticholinergiques), corticoïdes inhalés selon le stade, oxygénothérapie en cas d’IRC ; Non médicamenteux : arrêt du tabac (fondamental), réhabilitation respiratoire, activité physique adaptée, éducation thérapeutique." }
+  ],
+  "glossary": [
+    { "term": "Bronchodilatateur", "definition": "Qui relâche les muscles des voies respiratoires, facilitant la ventilation pulmonaire." },
+    { "term": "Oxygénothérapie", "definition": "Traitement médical permettant d'apporter de l'oxygène à l'organisme via les voies respiratoires (supplémentation en oxygène)." }
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "title": "Nature de la maladie",
+      "description": "Concernant la BPCO, quelle(s) proposition(s) est/sont juste(s) ?",
+      "choices": [
+        "Maladie respiratoire aiguë infectieuse",
+        "Maladie respiratoire chronique",
+        "Obstruction bronchique progressive et non totalement réversible",
+        "Obstruction bronchique totalement réversible"
+      ],
+      "answers": ["Maladie respiratoire chronique","Obstruction bronchique progressive et non totalement réversible"]
+    },
+    {
+      "type": "mcq",
+      "title": "Facteur principal",
+      "description": "Quel est le principal facteur de risque de la BPCO ?",
+      "choices": ["Atopie","Tabagisme","Infection virale dans l’enfance","Stress chronique"],
+      "answers": ["Tabagisme"]
+    },
+    {
+      "type": "mcq",
+      "title": "Signes typiques",
+      "description": "Quels signes sont typiques d’une BPCO ?",
+      "choices": ["Toux chronique","Dyspnée d’aggravation progressive","Crachats intermittents","Toux sèche nocturne isolée chez l’enfant"],
+      "answers": ["Toux chronique","Dyspnée d’aggravation progressive","Crachats intermittents"]
+    },
+    {
+      "type": "mcq",
+      "title": "Examen clinique",
+      "description": "À l’examen clinique d’un patient atteint de BPCO, on peut retrouver :",
+      "choices": ["Diminution du murmure vésiculaire","Sibilant expiratoire","Râles crépitants fébriles systématiques","Allongement du temps expiratoire"],
+      "answers": ["Diminution du murmure vésiculaire","Sibilant expiratoire","Allongement du temps expiratoire"]
+    },
+    {
+      "type": "mcq",
+      "title": "Traitement",
+      "description": "Concernant le traitement de la BPCO :",
+      "choices": ["L’arrêt du tabac est indispensable","Les bronchodilatateurs font partie du traitement de base","Les corticoïdes inhalés sont toujours prescrits quel que soit le stade","L’oxygénothérapie peut être indiquée en cas d’insuffisance respiratoire chronique"],
+      "answers": ["L’arrêt du tabac est indispensable","Les bronchodilatateurs font partie du traitement de base","L’oxygénothérapie peut être indiquée en cas d’insuffisance respiratoire chronique"]
+    },
+    {
+      "type": "tf",
+      "title": "Chronique",
+      "description": "La BPCO est une maladie respiratoire chronique.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Réversibilité",
+      "description": "L’obstruction bronchique de la BPCO est totalement réversible.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "tf",
+      "title": "Tabac",
+      "description": "Le tabac est le principal facteur de risque de la BPCO.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Évolution",
+      "description": "La BPCO peut évoluer vers une insuffisance respiratoire chronique.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Exacerbation",
+      "description": "La prise en charge ostéopathique est indiquée pendant une exacerbation aiguë de BPCO.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 62 ans, ancien gros fumeur, présentant une toux chronique, une dyspnée d’aggravation progressive et une diminution du murmure vésiculaire.",
+      "answers": ["BPCO"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Patient de 58 ans, tabagisme actif, avec essoufflement à l’effort, sibilant expiratoire et allongement du temps expiratoire.",
+      "answers": ["BPCO"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 65 ans, ex-fumeuse, consultant pour exacerbations respiratoires répétées et expectoration chronique intermittente.",
+      "answers": ["BPCO"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 70 ans, posture en cyphose, thorax rigide, dyspnée chronique et mobilité thoracique diminuée.",
+      "answers": ["BPCO"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Patient présentant une dyspnée chronique, une perte de poids progressive et une évolution vers une insuffisance respiratoire chronique.",
+      "answers": ["BPCO"]
+    }
+  ]
+}

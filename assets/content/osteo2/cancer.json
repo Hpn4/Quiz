@@ -1,0 +1,116 @@
+{
+  "name": "Cancer pulmonaire",
+  "slug": "cancer",
+  "description": "",
+  "image": "osteo2.png",
+  "infoTable": [
+    { "key": "DÉFINITION (DEF)", "value": "Tumeur maligne développée à partir de l’épithélium bronchique, d’évolution souvent insidieuse et longtemps asymptomatique. On distingue les cancers à petites cellules (formes agressives et diffuses) et les cancers non à petites cellules (formes plus localisées)." },
+    { "key": "FACTEURS DE RISQUE / TERRAIN", "value": "Tabagisme actif ou ancien +++ (facteur majeur) ; exposition professionnelle (amiante, hydrocarbures) ; pollution atmosphérique ; antécédents respiratoires ; terrain fragilisé." },
+    { "key": "SIGNES CLINIQUES (SC)", "value": "Début insidieux ; Perte de poids ; Asthénie ; Douleur thoracique persistante ; Toux chronique persistante ; Hémoptysie ; Dyspnée progressive ; Sifflement respiratoire aigu ; Altération de l’état général." },
+    { "key": "EXAMEN CLINIQUE (EC)", "value": "Adénopathies cervicales ou sus-claviculaires ; hippocratisme digital ; diminution du murmure vésiculaire ; signes d’atélectasie ; altération de l’état général." },
+    { "key": "EXAMENS PARACLINIQUES (EPC)", "value": "Radiographie thoracique ; TDM thorax ± abdomen ; fibroscopie bronchique ; biopsie (souvent guidée par TDM) ; exploration fonctionnelle respiratoire (bilan pré-thérapeutique)." },
+    { "key": "FORME PARTICULIÈRE : SYNDROME DE PANCOAST-TOBIAS", "value": "Cancer de l’apex pulmonaire avec extension loco-régionale. Signes : douleur cervico-scapulaire intense, névralgie cervico-brachiale, amyotrophie des muscles intrinsèques de la main, adénopathie sus-claviculaire (ganglion de Troisier), syndrome de Claude Bernard-Horner (ptosis, myosis, énophtalmie)." },
+    { "key": "ÉVOLUTION / COMPLICATIONS", "value": "Diagnostic souvent tardif ; extension loco-régionale ou métastatique (os, cerveau, foie) ; complications respiratoires ; pronostic sombre (médiane de survie ≈ 9 mois tous stades confondus)." },
+    { "key": "TRAITEMENT (TTT)", "value": "Cancer à petites cellules : chimiothérapie + radiothérapie thoracique ; cancer non à petites cellules : chirurgie si opérable ± chimiothérapie/radiothérapie ; prise en charge oncologique spécialisée multidisciplinaire." }
+  ],
+  "glossary": [
+    { "term": "Épithélium bronchique", "definition": "Couche de cellules qui tapisse l’intérieur des bronches et protège les voies respiratoires." }
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "title": "Définition",
+      "description": "Le cancer broncho-pulmonaire est :",
+      "choices": ["Une infection chronique des bronches","Une tumeur maligne développée à partir de l’épithélium bronchique","Une pathologie inflammatoire réversible","Une maladie exclusivement métastatique"],
+      "answers": ["Une tumeur maligne développée à partir de l’épithélium bronchique"]
+    },
+    {
+      "type": "mcq",
+      "title": "Types principaux",
+      "description": "Concernant les principaux types de cancers broncho-pulmonaires :",
+      "choices": ["Les cancers à petites cellules sont généralement agressifs","Les cancers non à petites cellules sont toujours métastatiques d’emblée","Les cancers à petites cellules sont souvent diffus","Les cancers non à petites cellules peuvent être opérables"],
+      "answers": ["Les cancers à petites cellules sont généralement agressifs","Les cancers non à petites cellules peuvent être opérables"]
+    },
+    {
+      "type": "mcq",
+      "title": "Facteurs de risque",
+      "description": "Quels sont des facteurs de risque reconnus du cancer broncho-pulmonaire ?",
+      "choices": ["Tabagisme actif ou ancien","Exposition professionnelle à l’amiante","Pollution atmosphérique","Asthme allergique isolé"],
+      "answers": ["Tabagisme actif ou ancien","Exposition professionnelle à l’amiante","Pollution atmosphérique"]
+    },
+    {
+      "type": "mcq",
+      "title": "Signes évocateurs",
+      "description": "Quels signes doivent faire évoquer un cancer broncho-pulmonaire ?",
+      "choices": ["Toux chronique persistante","Hémoptysie (stries de sang dans les expectorations)","Fièvre élevée aiguë avec frissons","Dyspnée uniquement nocturne réversible"],
+      "answers": ["Toux chronique persistante","Hémoptysie (stries de sang dans les expectorations)"]
+    },
+    {
+      "type": "mcq",
+      "title": "Traitement",
+      "description": "Concernant le traitement du cancer broncho-pulmonaire :",
+      "choices": ["La chirurgie est indiquée dans tous les cas","La prise en charge dépend du type histologique","Les antibiotiques sont le traitement de référence","Le traitement est uniquement palliatif"],
+      "answers": ["La prise en charge dépend du type histologique"]
+    },
+    {
+      "type": "tf",
+      "title": "Asymptomatique",
+      "description": "Le cancer broncho-pulmonaire est souvent longtemps asymptomatique.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Tabagisme",
+      "description": "Le tabagisme est le principal facteur de risque du cancer du poumon.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Hippocratisme",
+      "description": "L’hippocratisme digital peut être un signe clinique associé au cancer du poumon.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Diagnostic tardif",
+      "description": "Le diagnostic du cancer pulmonaire est le plus souvent posé à un stade précoce.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "tf",
+      "title": "Ostéopathie",
+      "description": "Une prise en charge ostéopathique curative est indiquée en cas de cancer du poumon.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 62 ans, grand fumeur, consultant pour une toux chronique persistante, une perte de poids involontaire, une asthénie et des stries de sang dans les expectorations. L’examen retrouve une adénopathie sus-claviculaire.",
+      "answers": ["Cancer pulmonaire"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 55 ans exposée professionnellement à l’amiante, présentant une douleur thoracique persistante, une dyspnée progressivement aggravée et une altération de l’état général. La radiographie thoracique montre une opacité suspecte.",
+      "answers": ["Cancer pulmonaire"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 60 ans hospitalisé pour dyspnée, névralgie cervico-brachiale et la présence d’une masse au niveau sus-claviculaire.",
+      "answers": ["Cancer apex pulmonaire"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Un homme de 55 ans consulte pour une douleur à l’épaule gauche. Il présente des douleurs cervico-scapulaires avec névralgies cervico brachiales gauches. Le complexe articulaire de l’épaule ne présente aucun signe radiologique ou clinique en dehors de la perception d’un gros ganglion sus claviculaire.",
+      "answers": ["Cancer pulmonaire"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Un homme de 60 ans, fumeur, vient vous consulter pour une scapulalgie droite avec irradiation cervicale. A l’interrogatoire vous retrouvez une asthénie marquée, une toux non productive. Vous remarquez une amyotrophie des muscles de la main droite et un syndrome de Claude BERNARD HORNER.",
+      "answers": ["Cancer apex pulmonaire"]
+    }
+  ]
+}

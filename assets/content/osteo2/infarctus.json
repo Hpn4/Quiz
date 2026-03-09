@@ -1,0 +1,116 @@
+{
+  "name": "Infarctus du myocarde",
+  "slug": "infarctus",
+  "description": "",
+  "image": "osteo2.png",
+  "infoTable": [
+    { "key": "DÉFINITION (DEF)", "value": "Nécrose ischémique irréversible d’une partie du muscle cardiaque, consécutive à une occlusion aiguë d’une artère coronaire, le plus souvent par un thrombus formé sur une plaque d’athérome rompue." },
+    { "key": "MÉCANISME", "value": "Rupture de plaque athéromateuse → formation d’un thrombus → interruption brutale du flux sanguin coronaire → ischémie prolongée → nécrose myocardique." },
+    { "key": "FACTEURS DE RISQUE / TERRAIN", "value": "Âge ; antécédents familiaux cardiovasculaires ; tabagisme ; hypertension artérielle ; diabète ; dyslipidémie ; sédentarité ; obésité ; stress chronique." },
+    { "key": "SIGNES CLINIQUES (SC)", "value": "Douleur thoracique rétrosternale brutale, constrictive souvent nocturne ou au réveil ; Irradiation vers le bras gauche, l’épaule ou la mâchoire ; Douleur au repos durant > 20 minutes ; Sueurs froides ; Nausées, vomissements ; Angoisse intense ; Malaise ; Possible fièvre secondaire." },
+    { "key": "EXAMEN CLINIQUE (EC)", "value": "Patient algique, pâle, anxieux ; tachycardie ou bradycardie ; hypotension possible ; signes de défaillance hémodynamique dans les formes graves." },
+    { "key": "EXAMENS PARACLINIQUES (EPC)", "value": "ECG (sus-décalage du segment ST ou autres anomalies) ; élévation des troponines +++ ; CPK ; échocardiographie ; coronarographie (diagnostique et thérapeutique)." },
+    { "key": "ÉVOLUTION / COMPLICATIONS", "value": "Troubles du rythme ventriculaire ; insuffisance cardiaque ; choc cardiogénique ; rupture myocardique ; récidive ischémique ; décès en l’absence de prise en charge rapide." },
+    { "key": "TRAITEMENT (TTT)", "value": "Revascularisation en urgence : angioplastie coronaire (référence) ou thrombolyse si angioplastie non disponible rapidement ; traitement associé : antiagrégants plaquettaires, anticoagulants, bêtabloquants, statines, IEC." }
+  ],
+  "glossary": [
+    { "term": "Plaque d’athérome", "definition": "Dépôt graisseux situé sur une partie de la paroi interne des artères." }
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "title": "Définition",
+      "description": "L’infarctus du myocarde correspond à :",
+      "choices": ["Une ischémie myocardique transitoire","Une nécrose ischémique irréversible du muscle cardiaque","Une inflammation aiguë du myocarde","Un trouble du rythme isolé"],
+      "answers": ["Une nécrose ischémique irréversible du muscle cardiaque"]
+    },
+    {
+      "type": "mcq",
+      "title": "Mécanisme",
+      "description": "Concernant le mécanisme de l’infarctus du myocarde :",
+      "choices": ["Rupture d’une plaque d’athérome","Formation d’un thrombus coronaire","Interruption brutale du flux sanguin coronaire","Spasme bronchique isolé"],
+      "answers": ["Rupture d’une plaque d’athérome","Formation d’un thrombus coronaire","Interruption brutale du flux sanguin coronaire"]
+    },
+    {
+      "type": "mcq",
+      "title": "Facteurs de risque",
+      "description": "Quels sont des facteurs de risque majeurs de l’infarctus du myocarde ?",
+      "choices": ["Tabagisme","Hypertension artérielle","Asthme allergique","Pneumonie bactérienne"],
+      "answers": ["Tabagisme","Hypertension artérielle"]
+    },
+    {
+      "type": "mcq",
+      "title": "Signes évocateurs",
+      "description": "Quels signes sont évocateurs d’un infarctus du myocarde ?",
+      "choices": ["Douleur thoracique constrictive rétrosternale","Irradiation vers le bras gauche ou la mâchoire","Douleur persistante > 20 minutes au repos","Douleur thoracique brève cédant spontanément"],
+      "answers": ["Douleur thoracique constrictive rétrosternale","Irradiation vers le bras gauche ou la mâchoire","Douleur persistante > 20 minutes au repos"]
+    },
+    {
+      "type": "mcq",
+      "title": "Priorité thérapeutique",
+      "description": "Face à un infarctus du myocarde, la priorité est :",
+      "choices": ["Le repos strict sans intervention","La revascularisation coronaire en urgence","La kinésithérapie respiratoire","La surveillance simple"],
+      "answers": ["La revascularisation coronaire en urgence"]
+    },
+    {
+      "type": "tf",
+      "title": "Urgence",
+      "description": "L’infarctus du myocarde est une urgence vitale.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Réponse au repos",
+      "description": "La douleur de l’infarctus cède rapidement au repos.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "tf",
+      "title": "Troponines",
+      "description": "Les troponines sont des marqueurs biologiques spécifiques de la nécrose myocardique.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Complication",
+      "description": "L’infarctus peut entraîner une insuffisance cardiaque secondaire.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Ostéopathie",
+      "description": "Une prise en charge ostéopathique est indiquée en phase aiguë d’infarctus du myocarde.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 58 ans, fumeur, consultant pour une douleur thoracique rétro-sternale intense, constrictive, irradiant vers le bras gauche, apparue brutalement au repos et persistant depuis plus de 30 minutes.",
+      "answers": ["Infarctus du myocarde"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 65 ans, diabétique, présentant une douleur thoracique atypique, associée à des nausées, des sueurs froides et une angoisse intense, survenue au réveil.",
+      "answers": ["Infarctus du myocarde"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 62 ans, hypertendu, retrouvé pâle et anxieux avec une douleur thoracique prolongée, une tachycardie et des signes d’hypotension, évoquant une forme compliquée.",
+      "answers": ["Infarctus du myocarde"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Patient de 55 ans consultant pour un malaise brutal, une douleur thoracique constrictive, irradiant vers la mâchoire, accompagnée de vomissements.",
+      "answers": ["Infarctus du myocarde"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 70 ans avec antécédents coronariens, hospitalisé pour troubles du rythme ventriculaire survenant dans un contexte de douleur thoracique persistante, évoquant une complication d’infarctus.",
+      "answers": ["Infarctus du myocarde"]
+    }
+  ]
+}

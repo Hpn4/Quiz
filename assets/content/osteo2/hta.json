@@ -1,0 +1,115 @@
+{
+  "name": "HTA",
+  "slug": "hta",
+  "description": "",
+  "image": "osteo2.png",
+  "infoTable": [
+    { "key": "DÉFINITION (DEF)", "value": "Élévation persistante de la pression artérielle systolique ≥ 140 mmHg et/ou diastolique ≥ 90 mmHg, mesurée au repos lors de consultations répétées." },
+    { "key": "FACTEURS DE RISQUE / TERRAIN", "value": "Âge ; antécédents familiaux ; diabète ; pathologies rénales ; surpoids ; sédentarité ; alimentation riche en sel ; tabagisme ; stress chronique ; surcharge professionnelle." },
+    { "key": "SIGNES CLINIQUES (SC)", "value": "asymptomatique ++ ; céphalées (fin de journée) ; acouphènes ; vertiges ; fatigue ; (épistaxis)." },
+    { "key": "EXAMEN CLINIQUE (EC)", "value": "Mesure de la pression artérielle ; automesure tensionnelle à domicile ; MAPA (mesure ambulatoire 24 h) ; recherche de signes de retentissement cardiovasculaire." },
+    { "key": "EXAMENS PARACLINIQUES (EPC)", "value": "Mesures répétées de la PA ; MAPA ; bilan biologique (fonction rénale, glycémie, bilan lipidique) ; ECG ± échographie cardiaque selon le contexte." },
+    { "key": "ÉVOLUTION / COMPLICATIONS", "value": "Accident vasculaire cérébral (AVC) ; cardiopathie ischémique ; insuffisance cardiaque ; insuffisance rénale chronique ; rétinopathie hypertensive." },
+    { "key": "TRAITEMENT (TTT)", "value": "Mesures hygiéno-diététiques : activité physique régulière, réduction du sel, perte de poids, gestion du stress ; traitement médicamenteux : antihypertenseurs selon recommandations médicales." }
+  ],
+  "glossary": [
+    { "term": "Surmenage", "definition": "État d'épuisement profond qui s'installe progressivement, rendant difficile la gestion des pressions quotidiennes." }
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "title": "Définition",
+      "description": "L’hypertension artérielle est définie par :",
+      "choices": ["Une élévation ponctuelle de la pression artérielle liée au stress","Une pression artérielle ≥ 140/90 mmHg mesurée de façon persistante","Une augmentation isolée de la fréquence cardiaque","Une hypotension chronique compensée"],
+      "answers": ["Une pression artérielle ≥ 140/90 mmHg mesurée de façon persistante"]
+    },
+    {
+      "type": "mcq",
+      "title": "Facteurs favorisants",
+      "description": "Quels éléments favorisent la survenue d’une HTA ?",
+      "choices": ["Âge avancé","Sédentarité","Stress chronique","Asthme allergique"],
+      "answers": ["Âge avancé","Sédentarité","Stress chronique"]
+    },
+    {
+      "type": "mcq",
+      "title": "Signes retrouvés",
+      "description": "Quels signes peuvent être retrouvés chez un patient hypertendu ?",
+      "choices": ["Céphalées en fin de journée","Bourdonnements d’oreille","Douleur thoracique en coup de poignard","Toux nocturne sifflante"],
+      "answers": ["Céphalées en fin de journée","Bourdonnements d’oreille"]
+    },
+    {
+      "type": "mcq",
+      "title": "Examen indispensable",
+      "description": "Quel examen est indispensable pour confirmer une HTA ?",
+      "choices": ["ECG","Prise répétée de la pression artérielle","Radiographie thoracique","Épreuve d’effort"],
+      "answers": ["Prise répétée de la pression artérielle"]
+    },
+    {
+      "type": "mcq",
+      "title": "Complications",
+      "description": "L’HTA non contrôlée peut entraîner :",
+      "choices": ["Accident vasculaire cérébral","Insuffisance rénale chronique","Pneumonie bactérienne","Asthme aigu grave"],
+      "answers": ["Accident vasculaire cérébral","Insuffisance rénale chronique"]
+    },
+    {
+      "type": "tf",
+      "title": "Asymptomatique",
+      "description": "L’hypertension artérielle peut être longtemps asymptomatique.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Diagnostic",
+      "description": "Une seule mesure de pression artérielle élevée suffit pour poser le diagnostic d’HTA.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "tf",
+      "title": "Stress",
+      "description": "Le stress chronique et le surmenage peuvent favoriser l’HTA.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Complications",
+      "description": "L’hypertension artérielle peut évoluer vers une insuffisance rénale chronique.",
+      "answers": ["Vrai"]
+    },
+    {
+      "type": "tf",
+      "title": "Ostéopathie",
+      "description": "La prise en charge ostéopathique peut se substituer au traitement médicamenteux de l’HTA.",
+      "answers": ["Faux"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 55 ans, cadre très stressé, consultant pour des céphalées fréquentes en fin de journée et des acouphènes. La prise de tension au cabinet retrouve à plusieurs reprises des valeurs autour de 155/95 mmHg.",
+      "answers": ["HTA"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 62 ans, diabétique, suivie pour fatigue chronique. La MAPA sur 24 heures montre une élévation persistante de la pression artérielle, y compris la nuit.",
+      "answers": ["HTA"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Homme de 48 ans, sédentaire, alimentation riche en sel, sans plainte particulière. Une mesure systématique de la tension lors d’un bilan de routine retrouve une PA élevée confirmée à distance.",
+      "answers": ["HTA"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Femme de 70 ans consultant pour vertiges occasionnels. L’examen clinique retrouve une HTA ancienne mal équilibrée, associée à des signes de retentissement cardiovasculaire.",
+      "answers": ["HTA"]
+    },
+    {
+      "type": "text",
+      "title": "Cas clinique",
+      "description": "Un homme de 45 ans, chef d’entreprise se plaint de céphalées surmenage et de bourdonnements d ’oreille.",
+      "answers": ["HTA"]
+    }
+  ]
+}

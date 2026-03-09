@@ -2,7 +2,7 @@
   "name": "Hanche - Fracture de l'extrémité supérieure du fémur (FESF)",
   "slug": "hanche",
   "description": "",
-  "image": "first.png",
+  "image": "osteo1.png",
   "infoTable": [
     { "key": "DÉFINITION (DEF)", "value": "Fracture de l'extrémité supérieure du fémur (col fémoral ou région trochantérienne), survenant le plus souvent à la suite d'une chute chez le sujet âgé, entraînant une perte d'appui du membre inférieur." },
     { "key": "FACTEURS DE RISQUE (FDR)", "value": "Âge avancé ; ostéoporose ; chutes répétées ; troubles de l'équilibre ; déficit visuel ; polymédication ; dénutrition ; sexe féminin." },
