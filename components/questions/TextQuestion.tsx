@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { View, Text, TextInput, StyleSheet } from "react-native";
 
 import colors from "@/constants/Color";
@@ -51,8 +51,11 @@ const TextQuestion: React.FC<TextQuestionProps> = ({ question, verify, setValid 
 
   const correct = isAcceptable(value, expected);
 
+  const lastSent = useRef<boolean | null>(null);
   useEffect(() => {
+    if (lastSent.current === correct) return;
     setValid(0, correct);
+    lastSent.current = correct;
   }, [correct, setValid]);
 
   const state = verify ? (correct ? 2 : 3) : 0;
