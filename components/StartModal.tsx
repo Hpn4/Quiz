@@ -9,8 +9,9 @@ import {
   StyleSheet,
 } from "react-native";
 
-import colors from "@/constants/Color";
+import type { ThemeColors } from "@/constants/Color";
 import { FlatQuestion } from "@/types/Session";
+import { useThemeColors, useThemedStyles } from "@/types/ThemeContext";
 
 interface StartSheetProps {
   visible: boolean;
@@ -34,6 +35,8 @@ const StartSheet: React.FC<StartSheetProps> = ({
   onClose,
 }) => {
   const slideAnim = useRef(new Animated.Value(300)).current;
+  const colors = useThemeColors();
+  const styles = useThemedStyles(createStyles);
 
   useEffect(() => {
     if (visible) {
@@ -90,7 +93,7 @@ const StartSheet: React.FC<StartSheetProps> = ({
           <Text style={styles.optionText}>Inclure les cas clinique</Text>
           <TouchableOpacity onPress={() => setAllowCasClinique((v) => !v)}>
             <View style={[styles.checkbox, { backgroundColor: allowCasClinique ? colors.accentuation : colors.card, borderColor: colors.stroke }]}>
-              <Text style={{ color: "white", fontWeight: "100", fontSize: 25 }}>{allowCasClinique ? "x" : ""}</Text>
+              <Text style={{ color: colors.text, fontWeight: "100", fontSize: 25 }}>{allowCasClinique ? "x" : ""}</Text>
             </View>
           </TouchableOpacity>
         </View>
@@ -122,10 +125,10 @@ const StartSheet: React.FC<StartSheetProps> = ({
 
 export default StartSheet;
 
-const styles = StyleSheet.create({
+const createStyles = (colors: ThemeColors) => StyleSheet.create({
   backdrop: {
     flex: 1,
-    backgroundColor: "rgba(0,0,0,0.5)",
+    backgroundColor: `${colors.shadow}BB`,
   },
   sheet: {
     position: "absolute",
@@ -149,7 +152,7 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   title: {
-    color: "white",
+    color: colors.text,
     fontSize: 24,
     fontWeight: "600",
     marginBottom: 18,
@@ -170,7 +173,7 @@ const styles = StyleSheet.create({
     paddingBottom: 18,
   },
   optionText: {
-    color: "white",
+    color: colors.text,
     fontSize: 18,
     flex: 1,
     paddingRight: 10,
@@ -197,7 +200,7 @@ const styles = StyleSheet.create({
     borderColor: colors.accentuation,
   },
   pillText: {
-    color: "white",
+    color: colors.text,
     fontWeight: "bold",
     paddingTop: 5,
     fontSize: 18,

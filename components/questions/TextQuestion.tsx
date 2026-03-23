@@ -1,8 +1,9 @@
 import React, { useEffect, useState, useRef } from "react";
 import { View, Text, TextInput, StyleSheet } from "react-native";
 
-import colors from "@/constants/Color";
-import gStyles from "@/constants/GlobalStyle";
+import type { ThemeColors } from "@/constants/Color";
+import { useGlobalStyles } from "@/constants/GlobalStyle";
+import { useThemeColors, useThemedStyles } from "@/types/ThemeContext";
 import { Question } from "@/types/Question";
 
 interface TextQuestionProps {
@@ -47,6 +48,9 @@ function isAcceptable(userRaw: string, expectedRaw: string) {
 
 const TextQuestion: React.FC<TextQuestionProps> = ({ question, verify, setValid }) => {
   const [value, setValue] = useState("");
+  const colors = useThemeColors();
+  const styles = useThemedStyles(createStyles);
+  const gStyles = useGlobalStyles();
   const expected = question?.answers && question.answers.length ? question.answers[0] : "";
 
   const correct = isAcceptable(value, expected);
@@ -83,7 +87,7 @@ const TextQuestion: React.FC<TextQuestionProps> = ({ question, verify, setValid 
   );
 };
 
-const styles = StyleSheet.create({
+const createStyles = (colors: ThemeColors) => StyleSheet.create({
   container: {
     margin: 13,
     padding: 20,
@@ -94,7 +98,7 @@ const styles = StyleSheet.create({
     borderWidth: 2,
     borderRadius: 10,
     paddingHorizontal: 12,
-    color: "white",
+    color: colors.text,
     fontSize: 18,
   },
   wrong: {

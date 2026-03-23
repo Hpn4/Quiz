@@ -1,10 +1,10 @@
 import React, { useMemo, useState } from "react";
-import { ScrollView, StyleSheet, Modal, View, Text, Pressable, Platform } from "react-native";
+import { ScrollView, StyleSheet, Modal, Text, Pressable } from "react-native";
 
 import Markdown from 'react-native-markdown-display';
 
-import colors from "@/constants/Color"
-import gStyles from "@/constants/GlobalStyle"
+import type { ThemeColors } from "@/constants/Color";
+import { useThemedStyles } from "@/types/ThemeContext";
 import { getGlossary } from "@/types/Data";
 
 interface MdTextProps {
@@ -12,6 +12,8 @@ interface MdTextProps {
 }
 
 const MdText: React.FC<MdTextProps> = ({ content }) => {
+  const styles = useThemedStyles(createStyles);
+  const markdownStyle = useThemedStyles(createMarkdownStyles);
   const glossary = useMemo(() => getGlossary(), []);
   const [visible, setVisible] = useState(false);
   const [term, setTerm] = useState<string | null>(null);
@@ -46,17 +48,17 @@ const MdText: React.FC<MdTextProps> = ({ content }) => {
   }, [content, glossary]);
 
   const handleLinkPress = (url: string) => {
-    if (!url) return;
+    if (!url) return false;
     if (url.startsWith('glossary://')) {
       const t = decodeURIComponent(url.replace('glossary://', ''));
       const def = glossary[t];
       setTerm(t);
       setDefinition(def);
       setVisible(true);
-      return;
+      return false;
     }
-    // default behaviour: open external links if desired - omitted for compactness
-  }
+    return true;
+  };
 
   return (
     <>
@@ -81,7 +83,7 @@ const MdText: React.FC<MdTextProps> = ({ content }) => {
   );
 };
 
-const styles = StyleSheet.create({
+const createStyles = (colors: ThemeColors) => StyleSheet.create({
   content: {
     paddingHorizontal: 10,
     marginBottom: 10,
@@ -90,7 +92,7 @@ const styles = StyleSheet.create({
   ,
   modalOverlay: {
     flex: 1,
-    backgroundColor: 'rgba(0,0,0,0.5)',
+    backgroundColor: `${colors.shadow}BB`,
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -106,12 +108,12 @@ const styles = StyleSheet.create({
   modalTitle: {
     fontSize: 30,
     fontWeight: 'bold',
-    color: 'white',
+    color: colors.text,
     marginBottom: 20,
   },
   modalBody: {
     fontSize: 20,
-    color: 'white',
+    color: colors.text,
   },
   modalButton: {
     alignSelf: 'flex-end',
@@ -121,14 +123,14 @@ const styles = StyleSheet.create({
     borderRadius: 6,
   },
   modalButtonText: {
-    color: 'white',
+    color: colors.text,
     fontWeight: '600'
   }
 });
 
-const markdownStyle = StyleSheet.create({
+const createMarkdownStyles = (colors: ThemeColors) => StyleSheet.create({
   body: {
-    color: "white",
+    color: colors.text,
     fontSize: 20,
     width: "100%",
   },

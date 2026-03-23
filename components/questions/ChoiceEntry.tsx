@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import { View, TouchableOpacity, StyleSheet } from "react-native";
 import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
 
-import colors from "@/constants/Color";
-import gStyles from "@/constants/GlobalStyle";
+import type { ThemeColors } from "@/constants/Color";
+import { useGlobalStyles } from "@/constants/GlobalStyle";
+import { useThemeColors, useThemedStyles } from "@/types/ThemeContext";
 import { playSelect } from "@/utils/sounds";
 import GlossaryInlineText from "@/components/GlossaryInlineText";
 
@@ -18,6 +19,9 @@ interface ChoiceEntryProps {
 
 const ChoiceEntry: React.FC<ChoiceEntryProps> = ({ index, title, valid, verify, checked = false, onToggle }) => {
   const [isChecked, setChecked] = useState<boolean>(checked);
+  const colors = useThemeColors();
+  const styles = useThemedStyles(createStyles);
+  const gStyles = useGlobalStyles();
 
   var state = isChecked ? 1 : 0;
   if (verify) {
@@ -63,9 +67,9 @@ const ChoiceEntry: React.FC<ChoiceEntryProps> = ({ index, title, valid, verify, 
   );
 };
 
-const styles = StyleSheet.create({
+const createStyles = (colors: ThemeColors) => StyleSheet.create({
   icon: {
-    color: "white",
+    color: colors.text,
   },
   card: {
     height: 70,

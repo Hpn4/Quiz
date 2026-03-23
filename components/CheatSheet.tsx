@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, Pressable, Modal, ScrollView } from 'react-native';
-import colors from '@/constants/Color';
+import type { ThemeColors } from '@/constants/Color';
 import TitleCard from '@/components/TitleCard';
 import GlossaryBox from '@/components/GlossaryBox';
+import { useThemeColors, useThemedStyles } from '@/types/ThemeContext';
 
 interface Props {
   quiz?: any;
@@ -10,6 +11,8 @@ interface Props {
 
 const CheatSheet: React.FC<Props> = ({ quiz }) => {
   const [visible, setVisible] = useState(false);
+  const colors = useThemeColors();
+  const styles = useThemedStyles(createStyles);
 
   return (
     <>
@@ -30,34 +33,35 @@ const CheatSheet: React.FC<Props> = ({ quiz }) => {
   );
 };
 
-const styles = StyleSheet.create({
-  button: {
-    width: 44,
-    height: 44,
-    borderRadius: 22,
-    backgroundColor: colors.card,
-    borderColor: colors.stroke,
-    borderWidth: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginHorizontal: 8,
-  },
-  buttonText: {
-    color: 'white',
-    fontWeight: '700',
-    fontSize: 20,
-  },
-  overlay: {
-    flex: 1,
-    backgroundColor: 'rgba(0,0,0,0.7)',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  cardWrap: {
-    width: '100%',
-    borderRadius: 10,
-    overflow: 'hidden',
-  }
-});
+const createStyles = (colors: ThemeColors) =>
+  StyleSheet.create({
+    button: {
+      width: 44,
+      height: 44,
+      borderRadius: 22,
+      backgroundColor: colors.card,
+      borderColor: colors.stroke,
+      borderWidth: 1,
+      justifyContent: 'center',
+      alignItems: 'center',
+      marginHorizontal: 8,
+    },
+    buttonText: {
+      color: colors.text,
+      fontWeight: '700',
+      fontSize: 20,
+    },
+    overlay: {
+      flex: 1,
+      backgroundColor: `${colors.shadow}BB`,
+      justifyContent: 'center',
+      alignItems: 'center',
+    },
+    cardWrap: {
+      width: '100%',
+      borderRadius: 10,
+      overflow: 'hidden',
+    }
+  });
 
 export default CheatSheet;

@@ -10,7 +10,8 @@ import { useSession } from "@/types/SessionContext";
 import { TouchableOpacity } from "react-native";
 import { getAllQuizList, getQuiz, getTopic } from "@/types/Data";
 import { statsKey } from "@/utils/statsStorage";
-import colors from "@/constants/Color";
+import type { ThemeColors } from "@/constants/Color";
+import { useThemeColors, useThemedStyles } from "@/types/ThemeContext";
 
 function fmtDate(ts: number | null): string {
   if (!ts) return "Jamais";
@@ -18,33 +19,22 @@ function fmtDate(ts: number | null): string {
   return d.toLocaleDateString("fr-FR", { day: "numeric", month: "short" });
 }
 
-function AccuracyBar({ value }: { value: number }) {
-  const color =
-    value >= 70 ? colors.green : value >= 40 ? "#F5A623" : colors.red;
-  return (
-    <View style={bar.track}>
-      <View style={[bar.fill, { width: `${value}%` as any, backgroundColor: color }]} />
-    </View>
-  );
-}
-
-const bar = StyleSheet.create({
-  track: {
-    height: 5,
-    borderRadius: 4,
-    backgroundColor: colors.stroke,
-    overflow: "hidden",
-    flex: 1,
-  },
-  fill: {
-    height: 5,
-    borderRadius: 4,
-  },
-});
-
 export default function StatsScreen() {
+  const colors = useThemeColors();
+  const styles = useThemedStyles(createStyles);
+  const bar = useThemedStyles(createBarStyles);
   const { stats, statsLoaded, resetAllStats } = useSession();
   const quizList = useMemo(() => getAllQuizList(), []);
+
+  const AccuracyBar = ({ value }: { value: number }) => {
+    const color =
+      value >= 70 ? colors.green : value >= 40 ? colors.orange : colors.red;
+    return (
+      <View style={bar.track}>
+        <View style={[bar.fill, { width: `${value}%` as any, backgroundColor: color }]} />
+      </View>
+    );
+  };
 
   const { global, byTopic } = useMemo(() => {
     let totalSeen = 0;
@@ -213,7 +203,7 @@ export default function StatsScreen() {
                                 row.accuracy >= 70
                                   ? colors.green
                                   : row.accuracy >= 40
-                                  ? "#F5A623"
+                                  ? colors.orange
                                   : colors.red,
                             },
                             untouched && styles.dimmed,
@@ -246,7 +236,21 @@ export default function StatsScreen() {
   );
 }
 
-const styles = StyleSheet.create({
+const createBarStyles = (colors: ThemeColors) => StyleSheet.create({
+  track: {
+    height: 5,
+    borderRadius: 4,
+    backgroundColor: colors.stroke,
+    overflow: "hidden",
+    flex: 1,
+  },
+  fill: {
+    height: 5,
+    borderRadius: 4,
+  },
+});
+
+const createStyles = (colors: ThemeColors) => StyleSheet.create({
   root: {
     flex: 1,
     backgroundColor: colors.background,
@@ -257,13 +261,13 @@ const styles = StyleSheet.create({
     paddingBottom: 100,
   },
   loading: {
-    color: "#888",
+    color: colors.desc,
     textAlign: "center",
     marginTop: 60,
     fontSize: 15,
   },
   pageTitle: {
-    color: "white",
+    color: colors.text,
     fontSize: 24,
     fontWeight: "800",
     marginBottom: 20,
@@ -288,12 +292,12 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   bigNum: {
-    color: "white",
+    color: colors.text,
     fontSize: 28,
     fontWeight: "800",
   },
   bigLbl: {
-    color: "#777",
+    color: colors.desc,
     fontSize: 11,
     marginTop: 3,
     fontWeight: "500",
@@ -312,7 +316,7 @@ const styles = StyleSheet.create({
     marginTop: 28,
   },
   sectionTitle: {
-    color: "#666",
+    color: colors.desc,
     fontSize: 11,
     fontWeight: "700",
     letterSpacing: 1.2,
@@ -337,12 +341,12 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   quizName: {
-    color: "white",
+    color: colors.text,
     fontSize: 15,
     fontWeight: "600",
   },
   quizSub: {
-    color: "#666",
+    color: colors.desc,
     fontSize: 12,
     marginTop: 2,
   },
@@ -353,10 +357,10 @@ const styles = StyleSheet.create({
   pctText: {
     fontSize: 18,
     fontWeight: "800",
-    color: "white",
+    color: colors.text,
   },
   seenCount: {
-    color: "#666",
+    color: colors.desc,
     fontSize: 11,
     marginTop: 2,
   },
@@ -365,7 +369,7 @@ const styles = StyleSheet.create({
     paddingBottom: 14,
   },
   dimmed: {
-    color: "#444",
+    color: colors.desc_a,
   },
 });
 

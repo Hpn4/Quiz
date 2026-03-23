@@ -7,15 +7,20 @@ import { getTopics, getAllFlatQuestions } from "@/types/Data";
 import TopicCard from "@/components/TopicCard";
 import StartModal from "@/components/StartModal";
 import StartButton from "@/components/StartButton";
+import HomeHeader from "@/components/HomeHeader";
 import { useSession } from "@/types/SessionContext";
 
-import gStyles from "@/constants/GlobalStyle"
+import type { ThemeColors } from "@/constants/Color";
+import { useThemedStyles } from "@/types/ThemeContext";
+import { useGlobalStyles } from "@/constants/GlobalStyle";
 
 export default function Index() {
   const [topics, setTopics] = useState<Topic[]>([]);
   const [modalVisible, setModalVisible] = useState(false);
   const { startSession } = useSession();
   const router = useRouter();
+  const styles = useThemedStyles(createStyles);
+  const gStyles = useGlobalStyles();
 
   useEffect(() => {
     setTopics(getTopics());
@@ -31,6 +36,7 @@ export default function Index() {
 
   return (
     <View style={gStyles.container}>
+      <HomeHeader />
       <FlatList
         data={topics}
         keyExtractor={(item) => item.slug}
@@ -54,11 +60,12 @@ export default function Index() {
   );
 };
 
-const styles = StyleSheet.create({
+const createStyles = (_colors: ThemeColors) => StyleSheet.create({
   row: {
     justifyContent: "space-between",
   },
   flatList: {
+    paddingTop: 10,
     paddingBottom: 90,
     paddingLeft: 10,
     paddingRight: 10

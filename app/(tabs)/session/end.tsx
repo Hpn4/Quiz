@@ -10,11 +10,14 @@ import { useRouter } from "expo-router";
 import { AnimatedCircularProgress } from "react-native-circular-progress";
 
 import { useSession } from "@/types/SessionContext";
-import colors from "@/constants/Color";
+import type { ThemeColors } from "@/constants/Color";
+import { useThemeColors, useThemedStyles } from "@/types/ThemeContext";
 import { playPerfect } from "@/utils/sounds";
 
 export default function SessionEnd() {
   const { session, finishSession, clearSession } = useSession();
+  const colors = useThemeColors();
+  const styles = useThemedStyles(createStyles);
   const router = useRouter();
   const [saved, setSaved] = useState(false);
   // Capture returnPath before session is cleared.
@@ -51,8 +54,11 @@ export default function SessionEnd() {
             rotation={0}
           >
             {() => (
-              <Text style={styles.pct}>{Math.round(percent)}%</Text>
-            )}
+                <View style={{ alignItems: 'center' }}>
+                  <Text style={styles.pct}>{Math.round(percent)}%</Text>
+                  <Text style={styles.pctSub}>{correct}/{total}</Text>
+                </View>
+              )}
           </AnimatedCircularProgress>
         </View>
 
@@ -72,7 +78,7 @@ export default function SessionEnd() {
           </View>
           <View style={styles.divider} />
           <View style={styles.counter}>
-            <Text style={[styles.counterNum, { color: "white" }]}>
+            <Text style={[styles.counterNum, { color: colors.text }]}>
               {total}
             </Text>
             <Text style={styles.counterLbl}>Total</Text>
@@ -111,7 +117,7 @@ export default function SessionEnd() {
                         ? colors.green
                         : a === false
                         ? colors.red
-                        : "#666",
+                        : colors.desc,
                   },
                 ]}
               >
@@ -148,7 +154,7 @@ export default function SessionEnd() {
   );
 }
 
-const styles = StyleSheet.create({
+const createStyles = (colors: ThemeColors) => StyleSheet.create({
   root: {
     flex: 1,
     backgroundColor: colors.background,
@@ -163,9 +169,14 @@ const styles = StyleSheet.create({
     marginBottom: 36,
   },
   pct: {
-    color: "white",
-    fontSize: 28,
+    color: colors.text,
+    fontSize: 30,
+    marginTop: 8,
     fontWeight: "bold",
+  },
+  pctSub: {
+    color: colors.desc,
+    fontSize: 16
   },
   counters: {
     flexDirection: "row",
@@ -189,7 +200,7 @@ const styles = StyleSheet.create({
     fontWeight: "800",
   },
   counterLbl: {
-    color: "#888",
+    color: colors.desc,
     fontSize: 12,
     marginTop: 2,
     fontWeight: "500",
@@ -200,7 +211,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.stroke,
   },
   stripLabel: {
-    color: "#666",
+    color: colors.desc,
     fontSize: 12,
     fontWeight: "600",
     letterSpacing: 1,
@@ -241,7 +252,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   secondaryTxt: {
-    color: "white",
+    color: colors.text,
     fontWeight: "bold",
     fontSize: 16,
   },
@@ -252,7 +263,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   primaryTxt: {
-    color: "white",
+    color: colors.text,
     fontWeight: "bold",
     fontSize: 16,
   },

@@ -2,9 +2,12 @@ import { View, StyleSheet } from 'react-native'
 import React from 'react'
 import TabBarButton from './TabBarButton';
 
-import colors from "@/constants/Color"
+import type { ThemeColors } from "@/constants/Color";
+import { useThemeColors, useThemedStyles } from "@/types/ThemeContext";
 
 const TabBar: React.FC<any> = ({ state, descriptors, navigation }: any) => {
+  const colors = useThemeColors();
+  const styles = useThemedStyles(createStyles);
   const primaryColor = colors.text;
   const greyColor = colors.title;
 
@@ -84,26 +87,26 @@ const TabBar: React.FC<any> = ({ state, descriptors, navigation }: any) => {
     )
 }
 
-const styles = StyleSheet.create({
-  tabbar: {
-    position: 'absolute', 
-    bottom: 0,
-    flexDirection: 'row',
-    justifyContent: 'space-around',
-    alignItems: 'center',
-    backgroundColor: colors.accentuation,
-    padding: 10,
-    width: "50%",
-    marginHorizontal: "25%",
-    borderTopLeftRadius: 50,
-    borderTopRightRadius: 50,
-    boxShadow: "-5px -5px 10px #000",
-  }
-  ,
-  tabbarItem: {
-    flex: 1,
-    alignItems: 'center'
-  }
-})
+const createStyles = (colors: ThemeColors) =>
+  StyleSheet.create({
+    tabbar: {
+      position: 'absolute',
+      bottom: 0,
+      flexDirection: 'row',
+      justifyContent: 'space-around',
+      alignItems: 'center',
+      backgroundColor: colors.accentuation,
+      padding: 10,
+      width: "50%",
+      marginHorizontal: "25%",
+      borderTopLeftRadius: 50,
+      borderTopRightRadius: 50,
+      boxShadow: `5px 5px 10px ${colors.shadow}`,
+    },
+    tabbarItem: {
+      flex: 1,
+      alignItems: 'center'
+    }
+  })
 
 export default TabBar;

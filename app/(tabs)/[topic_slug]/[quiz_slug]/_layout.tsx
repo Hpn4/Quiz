@@ -1,8 +1,10 @@
 import React from "react";
 import { Stack } from "expo-router";
-import colors from "@/constants/Color";
+import { useThemeColors } from "@/types/ThemeContext";
 
 export default function Layout() {
+  const colors = useThemeColors();
+
   return (
     <Stack screenOptions={{ headerShown: false, navigationBarColor: colors.background }} />
   );

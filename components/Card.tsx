@@ -3,7 +3,8 @@ import React from "react";
 import { View, Text, Image, TouchableOpacity, StyleSheet } from "react-native";
 import { resolveImage } from "@/types/Assets";
 
-import colors from "@/constants/Color"
+import type { ThemeColors } from "@/constants/Color";
+import { useThemedStyles } from "@/types/ThemeContext";
 
 interface CardProps {
   href: any;
@@ -12,6 +13,8 @@ interface CardProps {
 }
 
 const Card: React.FC<CardProps> = ({ href, image, title }) => {
+  const styles = useThemedStyles(createStyles);
+
   return (
     <Link href={href} asChild>
       <TouchableOpacity style={styles.card}>
@@ -25,44 +28,45 @@ const Card: React.FC<CardProps> = ({ href, image, title }) => {
   );
 };
 
-const styles = StyleSheet.create({
-  card: {
-    width: "45%",
-    height: 140,
-    backgroundColor: colors.card,
-    borderColor: colors.stroke,
-    borderWidth: 1,
-    borderRadius: 10,
-    paddingTop: 10,
-    margin: 5,
-    marginBottom: 15,
-    alignItems: "center",
-    boxShadow: "5px 5px 10px #000",
-  },
-  image: {
-    width: 80,
-    height: 80,
-    borderRadius: 30,
-    marginBottom: 8,
-  },
-  titleView: {
-    justifyContent: 'center',
-    flex:1,
-    marginTop: 5,
-    borderTopWidth: 1,
-    borderRightWidth: 1,
-    borderColor: colors.stroke,
-    width: "100%",
-    backgroundColor: colors.title,
-    borderBottomLeftRadius: 10,
-    borderBottomRightRadius: 10,
-  },
-  title: {
-    fontSize: 16,
-    textAlign: 'center',
-    color: "white",
-    fontWeight: "bold",
-  },
-});
+const createStyles = (colors: ThemeColors) =>
+  StyleSheet.create({
+    card: {
+      width: "45%",
+      height: 140,
+      backgroundColor: colors.card,
+      borderColor: colors.stroke,
+      borderWidth: 1,
+      borderRadius: 10,
+      paddingTop: 10,
+      margin: 5,
+      marginBottom: 15,
+      alignItems: "center",
+      boxShadow: `5px 5px 10px ${colors.shadow}`,
+    },
+    image: {
+      width: 80,
+      height: 80,
+      borderRadius: 30,
+      marginBottom: 8,
+    },
+    titleView: {
+      justifyContent: 'center',
+      flex:1,
+      marginTop: 5,
+      borderTopWidth: 1,
+      borderRightWidth: 1,
+      borderColor: colors.stroke,
+      width: "100%",
+      backgroundColor: colors.title,
+      borderBottomLeftRadius: 10,
+      borderBottomRightRadius: 10,
+    },
+    title: {
+      fontSize: 16,
+      textAlign: 'center',
+      color: colors.text,
+      fontWeight: "bold",
+    },
+  });
 
 export default Card;

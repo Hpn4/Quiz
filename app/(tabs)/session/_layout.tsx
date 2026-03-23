@@ -1,12 +1,13 @@
 import React, { useEffect } from "react";
 import { Platform } from "react-native";
 import { Stack, useRouter } from "expo-router";
-import colors from "@/constants/Color";
+import { useThemeColors } from "@/types/ThemeContext";
 import { useSession } from "@/types/SessionContext";
 
 export default function SessionLayout() {
   const { session, clearSession } = useSession();
   const router = useRouter();
+  const colors = useThemeColors();
 
   // On web, the session uses router.replace() so the whole session is a single
   // history entry. Push a sentinel state when a session starts so the

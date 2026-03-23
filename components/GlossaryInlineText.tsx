@@ -2,7 +2,8 @@ import React, { useMemo, useState } from 'react';
 import { Text, TextStyle, Modal, View, Pressable, StyleSheet } from 'react-native';
 
 import { getGlossary } from '@/types/Data';
-import colors from '@/constants/Color';
+import type { ThemeColors } from '@/constants/Color';
+import { useThemedStyles } from '@/types/ThemeContext';
 
 interface Props {
   text: string;
@@ -52,6 +53,7 @@ function parseSegments(text: string, glossary: Record<string, string>): Segment[
 }
 
 const GlossaryInlineText: React.FC<Props> = ({ text, style }) => {
+  const s = useThemedStyles(createStyles);
   const glossary = useMemo(() => getGlossary(), []);
   const segments = useMemo(() => parseSegments(text, glossary), [text, glossary]);
   const [visible, setVisible] = useState(false);
@@ -104,14 +106,14 @@ const GlossaryInlineText: React.FC<Props> = ({ text, style }) => {
   );
 };
 
-const s = StyleSheet.create({
+const createStyles = (colors: ThemeColors) => StyleSheet.create({
   glossaryTerm: {
     color: colors.accentuation,
     fontWeight: '700',
   },
   overlay: {
     flex: 1,
-    backgroundColor: 'rgba(0,0,0,0.5)',
+    backgroundColor: `${colors.shadow}BB`,
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -127,12 +129,12 @@ const s = StyleSheet.create({
   modalTitle: {
     fontSize: 30,
     fontWeight: 'bold',
-    color: 'white',
+    color: colors.text,
     marginBottom: 20,
   },
   modalBody: {
     fontSize: 20,
-    color: 'white',
+    color: colors.text,
   },
 });
 

@@ -6,7 +6,9 @@ import { Quiz } from "@/types/Quiz";
 import { Topic } from "@/types/Topic";
 import { getQuizs, getTopic, getTopicFlatQuestions } from "@/types/Data";
 import { useSession } from "@/types/SessionContext";
-import gStyles from "@/constants/GlobalStyle"
+import type { ThemeColors } from "@/constants/Color";
+import { useThemedStyles } from "@/types/ThemeContext";
+import { useGlobalStyles } from "@/constants/GlobalStyle";
 
 import QuizCard from "@/components/QuizCard";
 import TitleCard from "@/components/TitleCard";
@@ -22,6 +24,8 @@ export default function Index() {
   const { startSession } = useSession();
   const router = useRouter();
   const pathname = usePathname();
+  const styles = useThemedStyles(createStyles);
+  const gStyles = useGlobalStyles();
 
   useEffect(() => {
     setQuizs(getQuizs(topicSlug));
@@ -66,7 +70,7 @@ export default function Index() {
   );
 };
 
-const styles = StyleSheet.create({
+const createStyles = (_colors: ThemeColors) => StyleSheet.create({
   row: {
     justifyContent: "space-between",
   },

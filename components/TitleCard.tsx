@@ -1,10 +1,11 @@
 import React from "react";
-import { View, ScrollView, Text, Image, StyleSheet, Dimensions } from "react-native";
+import { View, ScrollView, Text, StyleSheet, Dimensions } from "react-native";
 
 import MdText from '@/components/Markdown';
 
-import colors from "@/constants/Color"
-import gStyles from "@/constants/GlobalStyle"
+import type { ThemeColors } from "@/constants/Color";
+import { useGlobalStyles } from "@/constants/GlobalStyle";
+import { useThemedStyles } from "@/types/ThemeContext";
 
 interface TitleCardProps {
   title?: string;
@@ -16,6 +17,8 @@ interface TitleCardProps {
 const TitleCard: React.FC<TitleCardProps> = ({ title, content, infoTable, children }) => {
   const windowHeight = Dimensions.get('window').height;
   const maxTableHeight = Math.min(480, windowHeight * 0.45);
+  const styles = useThemedStyles(createStyles);
+  const gStyles = useGlobalStyles();
 
   return (
     <View style={[gStyles.card, styles.card]}>
@@ -45,6 +48,9 @@ const TitleCard: React.FC<TitleCardProps> = ({ title, content, infoTable, childr
 };
 
 const GenericCard: React.FC<TitleCardProps> = ({ title, children }) => {
+  const styles = useThemedStyles(createStyles);
+  const gStyles = useGlobalStyles();
+
   return (
     <View style={[gStyles.card, styles.genericCard]}>
       <View style={styles.titleView}>
@@ -55,7 +61,7 @@ const GenericCard: React.FC<TitleCardProps> = ({ title, children }) => {
   );
 };
 
-const styles = StyleSheet.create({
+const createStyles = (colors: ThemeColors) => StyleSheet.create({
   card: {
     margin: 15,
     marginBottom: 15,
@@ -82,7 +88,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 30,
     textAlign: 'center',
-    color: "white",
+    color: colors.text,
     fontWeight: "bold",
   },
   content: {
@@ -114,25 +120,15 @@ const styles = StyleSheet.create({
     fontSize: 20,
   },
   tableValue: {
-    color: 'white',
+    color: colors.text,
     lineHeight: 22,
     fontSize: 20,
-  }
-  ,
+  },
   childrenWrap: {
     width: '100%',
     paddingHorizontal: 12,
     marginBottom: 8,
     alignItems: 'flex-end',
-  },
-  statsSmall: {
-    fontSize: 12,
-    color: '#999',
-  },
-  statsCorrect: {
-    fontSize: 12,
-    color: colors.green,
-    fontWeight: '700',
   }
 });
 

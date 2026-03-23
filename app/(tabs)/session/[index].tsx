@@ -14,12 +14,16 @@ import TrueFalseQuestion from "@/components/questions/TrueFalseQuestion";
 import TextQuestion from "@/components/questions/TextQuestion";
 import ProgressBar from "@/components/questions/ProgressBar";
 
-import colors from "@/constants/Color";
-import gStyles from "@/constants/GlobalStyle";
+import type { ThemeColors } from "@/constants/Color";
+import { useGlobalStyles } from "@/constants/GlobalStyle";
+import { useThemeColors, useThemedStyles } from "@/types/ThemeContext";
 import { playCorrect, playWrong, playNext } from "@/utils/sounds";
 
 export default function SessionQuestion() {
   const { session, recordAnswer, setCurrentIndex, finishSession, clearSession, stats } = useSession();
+  const colors = useThemeColors();
+  const styles = useThemedStyles(createStyles);
+  const gStyles = useGlobalStyles();
   const router = useRouter();
   const local = useLocalSearchParams();
   const poolIndex = Number(local.index ?? 0);
@@ -64,7 +68,7 @@ export default function SessionQuestion() {
   if (!session || !flatQ) {
     return (
       <View style={[gStyles.container, styles.container]}>
-        <Text style={{ color: "white", margin: 20 }}>
+        <Text style={{ color: colors.text, margin: 20 }}>
           Aucune session active.
         </Text>
       </View>
@@ -140,10 +144,10 @@ export default function SessionQuestion() {
               <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
                 <View style={{ flexDirection: 'row', alignItems: 'center', gap: 4 }}>
                   <Text style={{ color: colors.green, fontSize: 12, fontWeight: '700' }}>{correct}</Text>
-                  <Text style={{ color: '#999', fontSize: 12 }}>/</Text>
-                  <Text style={{ color: '#999', fontSize: 12 }}>{seen}</Text>
+                  <Text style={{ color: colors.desc, fontSize: 12 }}>/</Text>
+                  <Text style={{ color: colors.desc, fontSize: 12 }}>{seen}</Text>
                 </View>
-                <Text style={{ color: '#777', fontSize: 10 }}>{fmtLast}</Text>
+                <Text style={{ color: colors.desc_a, fontSize: 10 }}>{fmtLast}</Text>
               </View>
             );
           })()}
@@ -170,7 +174,7 @@ export default function SessionQuestion() {
   );
 }
 
-const styles = StyleSheet.create({
+const createStyles = (colors: ThemeColors) => StyleSheet.create({
   container: {
     justifyContent: "space-between",
     backgroundColor: colors.background,
@@ -181,7 +185,7 @@ const styles = StyleSheet.create({
     marginHorizontal: "20%",
   },
   button: {
-    color: "white",
+    color: colors.text,
     fontWeight: "bold",
     fontSize: 20,
     padding: 15,
