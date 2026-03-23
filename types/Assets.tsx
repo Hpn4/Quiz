@@ -1,5 +1,5 @@
 const assets: Record<string, any> = {
-  "images/splash-icon.png": require('@/assets/images/splash-icon.png'),
+  "images/logo.png": require('@/assets/images/logo.png'),
   "osteo1.png": require('@/assets/images/topics/osteo1.png'),
   "osteo2.png": require('@/assets/images/topics/osteo2.png'),
 };

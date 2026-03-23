@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, StyleSheet, Pressable } from "react-native";
+import { View, Text, StyleSheet, Pressable, Image } from "react-native";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 
 import { useTheme, useThemeColors } from "@/types/ThemeContext";
@@ -11,7 +11,7 @@ export default function HomeHeader() {
   return (
     <View style={[styles.container, { backgroundColor: colors.card, borderColor: colors.stroke }]}>
       <View style={styles.leftGroup}>
-        <FontAwesome6 name="book-medical" size={18} color={colors.text} />
+        <Image source={require("@/assets/images/logo.png")} style={styles.logo} resizeMode="contain" />
         <Text style={[styles.title, { color: colors.text }]}>Sémio'stéo</Text>
       </View>
 
@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderRadius: 0,
     paddingHorizontal: 16,
-    paddingVertical: 12,
+    paddingVertical: 10,
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
@@ -43,10 +43,16 @@ const styles = StyleSheet.create({
   leftGroup: {
     flexDirection: "row",
     alignItems: "center",
-    gap: 10,
+    gap: 15,
+  },
+  logo: {
+    width: 20,
+    height: 35,
+    borderRadius: 5,
   },
   title: {
     fontSize: 20,
+    paddingTop: 5,
     fontWeight: "800",
   },
   themeButton: {

@@ -72,7 +72,7 @@ const TextQuestion: React.FC<TextQuestionProps> = ({ question, verify, setValid 
         value={value}
         onChangeText={(t) => setValue(t)}
         placeholder="Tapez votre réponse"
-        placeholderTextColor={colors.subtitle}
+        placeholderTextColor={colors.desc}
         style={[styles.input, { borderColor: borderColors[state] }]}
         editable={!verify}
       />

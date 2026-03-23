@@ -65,7 +65,7 @@ export default function Index() {
         <GlossaryBox items={quiz?.glossary} />
 
         {/* Question list */}
-        {quizQuestions.length > 0 && (
+        {false && quizQuestions.length > 0 && (
           <QuizQuestions
             quizQuestions={quizQuestions}
             quizStats={quizStats}

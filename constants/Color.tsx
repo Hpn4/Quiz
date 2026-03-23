@@ -11,7 +11,6 @@ export const darkColors = {
 	card: "#1A1C23",
 	title: "#16181F",
 	text: "#FFFFFF",
-	subtitle: "#999999",
 	desc: "#999999",
 	desc_a: "#666666",
 	shadow: "#000000",
@@ -30,7 +29,6 @@ export const lightColors = {
 	card: "#FFFFFF",
 	title: "#F0F3F8",
 	text: "#0B0D0F",
-	subtitle: "#666666",
 	desc: "#666666",
 	desc_a: "#999999",
 	shadow: "#BBBBBB",
@@ -50,7 +48,6 @@ export type ThemeColors = {
 	card: string;
 	title: string;
 	text: string;
-	subtitle: string;
 	desc: string;
 	desc_a: string;
 	shadow: string;
