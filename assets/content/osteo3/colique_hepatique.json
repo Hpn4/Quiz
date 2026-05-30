@@ -1,0 +1,206 @@
+{
+    "name": "Colique hépatique",
+    "slug": "colique_hepatique",
+    "description": "",
+    "image": "osteo3.png",
+    "infoTable": [
+        {
+            "key": "DÉFINITION (DEF)",
+            "value": "Douleur aiguë liée à une obstruction transitoire des voies biliaires, le plus souvent par une lithiase biliaire, provoquant une distension et une irritation des voies biliaires et de la capsule hépatique."
+        },
+        {
+            "key": "FACTEURS DE RISQUE / TERRAIN",
+            "value": "Lithiase biliaire +++ ; sexe féminin ; âge ; surpoids ; alimentation riche en graisses ; grossesse ; antécédents biliaires ; infection des voies biliaires."
+        },
+        {
+            "key": "SIGNES CLINIQUES (SC)",
+            "value": "Douleur de l'hypochondre droit augmentée à l'inspiration ; irradiation vers l'épaule et l'omoplate droite ; douleur post-prandiale (repas gras) ; nausées ; vomissements ; ictère possible ; prurit des extrémités ; conjonctives ictériques ; langue saburrale/pâteuse ; absence habituelle de fièvre."
+        },
+        {
+            "key": "EXAMEN CLINIQUE (EC)",
+            "value": "Sensibilité de l'hypochondre droit ; signe de Murphy positif ; défense abdominale possible ; recherche de signes de complication infectieuse."
+        },
+        {
+            "key": "EXAMENS PARACLINIQUES (EPC)",
+            "value": "Échographie abdominale (examen de référence) ; bilan hépatique et biologique (bilirubine, NFS, CRP…) ; scanner ou IRM biliaire si besoin."
+        },
+        {
+            "key": "ÉVOLUTION / COMPLICATIONS",
+            "value": "Cholécystite aiguë ; angiocholite ; pancréatite aiguë biliaire ; récidives douloureuses ; obstruction prolongée des voies biliaires."
+        },
+        {
+            "key": "TRAITEMENT (TTT)",
+            "value": "Antalgiques ; antispasmodiques ; régime pauvre en graisses ; traitement de la cause ; cholécystectomie si récidives ou complications ; antibiothérapie si surinfection."
+        }
+    ],
+    "glossary": [
+        {
+            "term": "Ictère",
+            "definition": "Coloration jaune de la peau et des muqueuses, qui révèle la présence de pigments biliaires dans les tissus"
+        }
+    ],
+    "questions": [
+        {
+            "type": "mcq",
+            "title": "Définition",
+            "description": "La colique hépatique correspond à :",
+            "choices": [
+                "Une inflammation du pancréas",
+                "Une infection du côlon",
+                "Une douleur liée à une obstruction transitoire des voies biliaires",
+                "Une obstruction intestinale"
+            ],
+            "answers": [
+                "Une douleur liée à une obstruction transitoire des voies biliaires"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Facteurs favorisants",
+            "description": "Quels facteurs favorisent une colique hépatique ?",
+            "choices": [
+                "Lithiase biliaire",
+                "Alimentation riche en graisses",
+                "Sexe féminin",
+                "Hyperactivité physique"
+            ],
+            "answers": [
+                "Lithiase biliaire",
+                "Alimentation riche en graisses",
+                "Sexe féminin"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Signes cliniques",
+            "description": "La colique hépatique peut se manifester par :",
+            "choices": [
+                "Douleur de l'hypochondre droit",
+                "Irradiation vers l'épaule droite",
+                "Nausées et vomissements",
+                "Hémiplégie"
+            ],
+            "answers": [
+                "Douleur de l'hypochondre droit",
+                "Irradiation vers l'épaule droite",
+                "Nausées et vomissements"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Diagnostic",
+            "description": "Concernant le diagnostic de la colique hépatique :",
+            "choices": [
+                "L'échographie abdominale est l'examen de référence",
+                "Un bilan hépatique peut être réalisé",
+                "L'ECG est l'examen clé",
+                "Aucun bilan biologique n'est utile"
+            ],
+            "answers": [
+                "L'échographie abdominale est l'examen de référence",
+                "Un bilan hépatique peut être réalisé"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Complications",
+            "description": "La colique hépatique peut évoluer vers :",
+            "choices": [
+                "Cholécystite aiguë",
+                "Angiocholite",
+                "Pancréatite aiguë biliaire",
+                "Polyarthrite rhumatoïde"
+            ],
+            "answers": [
+                "Cholécystite aiguë",
+                "Angiocholite",
+                "Pancréatite aiguë biliaire"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Repas gras",
+            "description": "La douleur de la colique hépatique est souvent déclenchée après un repas gras.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Irradiation",
+            "description": "La douleur peut irradier vers l'omoplate droite lors d'une colique hépatique.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Fièvre",
+            "description": "Lors d'une colique hépatique, la fièvre élevée est constamment présente.",
+            "answers": [
+                "Faux"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Signe de Murphy",
+            "description": "Le signe de Murphy peut être positif lors d'une crise de colique.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Cause fréquente",
+            "description": "Une lithiase biliaire est la cause la plus fréquente de la colique hépatique.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 48 ans présentant une douleur brutale de l'hypochondre droit après un repas gras, avec irradiation vers l'épaule droite et nausées.",
+            "answers": [
+                "Colique hépatique",
+                "Colique hepatique"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Patiente de 55 ans consultant pour douleur intense sous-costale droite augmentée à l'inspiration, sans fièvre, avec antécédents de lithiase biliaire.",
+            "answers": [
+                "Colique hépatique",
+                "Colique hepatique"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 60 ans présentant douleur post-prandiale de l'hypochondre droit, vomissements et signe de Murphy positif à l'examen.",
+            "answers": [
+                "Colique hépatique",
+                "Colique hepatique"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 50 ans avec douleurs récidivantes de l'hypochondre droit et échographie montrant plusieurs calculs vésiculaires.",
+            "answers": [
+                "Colique hépatique",
+                "Colique hepatique"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Patient de 65 ans consultant pour douleur hépatique aiguë avec ictère discret et prurit des extrémités, évoquant une obstruction biliaire.",
+            "answers": [
+                "Colique hépatique",
+                "Colique hepatique"
+            ]
+        }
+    ]
+}

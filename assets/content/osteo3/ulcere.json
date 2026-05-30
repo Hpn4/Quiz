@@ -1,0 +1,206 @@
+{
+    "name": "Ulcère gastro-duodénal",
+    "slug": "ulcere",
+    "description": "",
+    "image": "osteo3.png",
+    "infoTable": [
+        {
+            "key": "DÉFINITION (DEF)",
+            "value": "Lésion de la muqueuse digestive atteignant la paroi de l'estomac ou du duodénum, le plus souvent liée à une infection par Helicobacter pylori ou à la prise d'AINS."
+        },
+        {
+            "key": "FACTEURS DE RISQUE / TERRAIN",
+            "value": "Infection à Helicobacter pylori +++ ; prise d'AINS ; tabagisme ; alcool ; stress ; âge ; terrain digestif fragile."
+        },
+        {
+            "key": "SIGNES CLINIQUES (SC)",
+            "value": "Douleur épigastrique rythmée par les repas ; douleur post-prandiale (ulcère gastrique) ou calmée par l'alimentation (ulcère duodénal) ; brûlures ; nausées ; vomissements ; parfois asymptomatique."
+        },
+        {
+            "key": "EXAMEN CLINIQUE (EC)",
+            "value": "Sensibilité épigastrique ; examen souvent pauvre ; test de Manson ; recherche de signes de gravité (hémorragie, anémie, amaigrissement)."
+        },
+        {
+            "key": "EXAMENS PARACLINIQUES (EPC)",
+            "value": "Endoscopie digestive haute (examen de référence) avec biopsies ; test de détection de H. pylori (test respiratoire, biopsie, sérologie) ; bilan biologique si complication."
+        },
+        {
+            "key": "ÉVOLUTION / COMPLICATIONS",
+            "value": "Hémorragie digestive ; perforation ; sténose pylorique ; récidive ; risque de transformation maligne (ulcère gastrique)."
+        },
+        {
+            "key": "TRAITEMENT (TTT)",
+            "value": "Médicamenteux : inhibiteurs de la pompe à protons (IPP) ; antibiothérapie d'éradication si H. pylori ; arrêt des AINS ; mesures hygiéno-diététiques."
+        }
+    ],
+    "glossary": [],
+    "questions": [
+        {
+            "type": "mcq",
+            "title": "Définition",
+            "description": "L'ulcère gastro-duodénal correspond à :",
+            "choices": [
+                "Une inflammation simple de la muqueuse gastrique",
+                "Une lésion profonde de la muqueuse digestive",
+                "Une infection intestinale aiguë",
+                "Une obstruction œsophagienne"
+            ],
+            "answers": [
+                "Une lésion profonde de la muqueuse digestive"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Facteurs favorisants",
+            "description": "Quels facteurs favorisent un ulcère gastro-duodénal ?",
+            "choices": [
+                "Helicobacter pylori",
+                "Prise d'AINS",
+                "Tabagisme",
+                "Activité physique"
+            ],
+            "answers": [
+                "Helicobacter pylori",
+                "Prise d'AINS",
+                "Tabagisme"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Signes cliniques",
+            "description": "Concernant l'ulcère gastro-duodénal :",
+            "choices": [
+                "Douleur épigastrique",
+                "Douleur rythmée par les repas",
+                "Douleur calmée par l'alimentation (ulcère duodénal)",
+                "Douleur articulaire"
+            ],
+            "answers": [
+                "Douleur épigastrique",
+                "Douleur rythmée par les repas",
+                "Douleur calmée par l'alimentation (ulcère duodénal)"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Diagnostic",
+            "description": "Concernant le diagnostic de l'ulcère :",
+            "choices": [
+                "Endoscopie digestive haute",
+                "Recherche d'Helicobacter pylori",
+                "ECG systématique",
+                "Scanner cérébral"
+            ],
+            "answers": [
+                "Endoscopie digestive haute",
+                "Recherche d'Helicobacter pylori"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Prise en charge",
+            "description": "Concernant la prise en charge de l'ulcère :",
+            "choices": [
+                "IPP",
+                "Antibiothérapie si H. pylori",
+                "Arrêt des AINS",
+                "Antibiotiques systématiques"
+            ],
+            "answers": [
+                "IPP",
+                "Antibiothérapie si H. pylori",
+                "Arrêt des AINS"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Asymptomatique",
+            "description": "L'ulcère peut être asymptomatique.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Douleur rythmée",
+            "description": "La douleur de l'ulcère est toujours continue et non liée aux repas.",
+            "answers": [
+                "Faux"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Hémorragie",
+            "description": "L'ulcère peut entraîner une hémorragie digestive.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Cause fréquente",
+            "description": "Helicobacter pylori est une cause fréquente d'ulcère.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Cancer gastrique",
+            "description": "Un ulcère gastrique peut évoluer vers un cancer.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 48 ans présentant des douleurs épigastriques survenant après les repas, associées à des nausées. Il consomme régulièrement des AINS.",
+            "answers": [
+                "Ulcère",
+                "Ulcère gastro-duodénal",
+                "Ulcere"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 35 ans consultant pour douleurs épigastriques calmées par l'alimentation, avec reprise de la douleur quelques heures après les repas.",
+            "answers": [
+                "Ulcère",
+                "Ulcère gastro-duodénal",
+                "Ulcere"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Patient de 55 ans avec douleurs gastriques chroniques, fatigue et suspicion d'anémie. Une endoscopie est demandée.",
+            "answers": [
+                "Ulcère",
+                "Ulcère gastro-duodénal",
+                "Ulcere"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 60 ans présentant vomissements noirs et douleurs épigastriques, évoquant une complication hémorragique.",
+            "answers": [
+                "Ulcère",
+                "Ulcère gastro-duodénal",
+                "Ulcere"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 45 ans avec douleurs épigastriques récurrentes, test positif à Helicobacter pylori.",
+            "answers": [
+                "Ulcère",
+                "Ulcère gastro-duodénal",
+                "Ulcere"
+            ]
+        }
+    ]
+}

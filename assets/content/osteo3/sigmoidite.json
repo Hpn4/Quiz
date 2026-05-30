@@ -1,0 +1,201 @@
+{
+    "name": "Sigmoïdite",
+    "slug": "sigmoidite",
+    "description": "",
+    "image": "osteo3.png",
+    "infoTable": [
+        {
+            "key": "DÉFINITION (DEF)",
+            "value": "Inflammation du côlon sigmoïde, le plus souvent liée à une diverticulite, une infection ou une colite inflammatoire, responsable de douleurs abdominales et de troubles du transit."
+        },
+        {
+            "key": "FACTEURS DE RISQUE / TERRAIN",
+            "value": "Diverticulose colique ; infection digestive ; alimentation pauvre en fibres ; âge avancé ; antécédents de colite inflammatoire ; constipation chronique."
+        },
+        {
+            "key": "SIGNES CLINIQUES (SC)",
+            "value": "Douleur brutale de la fosse iliaque gauche (FIG) ; troubles du transit (constipation > diarrhée) ; douleur à la miction ; fièvre ; ballonnements ; défense abdominale ; altération de l'état général possible."
+        },
+        {
+            "key": "EXAMEN CLINIQUE (EC)",
+            "value": "Sensibilité importante de la fosse iliaque gauche ; défense abdominale ; douleur à la palpation abdominale ; parfois masse palpable ; recherche de signes de complication péritonéale."
+        },
+        {
+            "key": "EXAMENS PARACLINIQUES (EPC)",
+            "value": "Diagnostic clinique ; scanner abdominal (examen de référence) ; coloscopie à distance de la phase aiguë ; bilan inflammatoire biologique ; prélèvements/cultures si suspicion infectieuse."
+        },
+        {
+            "key": "ÉVOLUTION / COMPLICATIONS",
+            "value": "Abcès ; perforation ; péritonite ; fistule ; occlusion ; récidives possibles."
+        },
+        {
+            "key": "TRAITEMENT (TTT)",
+            "value": "Repos digestif ; antibiothérapie selon le contexte ; antalgiques ; adaptation alimentaire ; chirurgie en cas de complication ou récidives sévères."
+        }
+    ],
+    "glossary": [],
+    "questions": [
+        {
+            "type": "mcq",
+            "title": "Définition",
+            "description": "La sigmoïdite correspond à :",
+            "choices": [
+                "Une inflammation du côlon sigmoïde",
+                "Une infection de l'intestin grêle",
+                "Une obstruction gastrique",
+                "Une pathologie hépatique"
+            ],
+            "answers": [
+                "Une inflammation du côlon sigmoïde"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Facteurs favorisants",
+            "description": "Quels facteurs favorisent une sigmoïdite ?",
+            "choices": [
+                "Diverticulose colique",
+                "Constipation chronique",
+                "Alimentation pauvre en fibres",
+                "Hyperthyroïdie"
+            ],
+            "answers": [
+                "Diverticulose colique",
+                "Constipation chronique",
+                "Alimentation pauvre en fibres"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Signes cliniques",
+            "description": "La sigmoïdite peut se manifester par :",
+            "choices": [
+                "Douleur de fosse iliaque gauche",
+                "Fièvre",
+                "Troubles du transit",
+                "Douleur fosse iliaque droite"
+            ],
+            "answers": [
+                "Douleur de fosse iliaque gauche",
+                "Fièvre",
+                "Troubles du transit"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Diagnostic",
+            "description": "Concernant le diagnostic de la sigmoïdite :",
+            "choices": [
+                "Le scanner abdominal est l'examen de référence",
+                "La coloscopie est souvent réalisée à distance de la phase aiguë",
+                "L'IRM cérébrale est systématique",
+                "Aucun bilan biologique n'est utile"
+            ],
+            "answers": [
+                "Le scanner abdominal est l'examen de référence",
+                "La coloscopie est souvent réalisée à distance de la phase aiguë"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Complications",
+            "description": "La sigmoïdite peut entraîner :",
+            "choices": [
+                "Abcès",
+                "Péritonite",
+                "Fistule",
+                "Hypercalcémie"
+            ],
+            "answers": [
+                "Abcès",
+                "Péritonite",
+                "Fistule"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Douleur FIG",
+            "description": "La douleur de la sigmoïdite siège souvent dans la fosse iliaque gauche.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Constipation",
+            "description": "La constipation peut favoriser une sigmoïdite.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Défense abdominale",
+            "description": "Lors d'une sigmoïdite, une défense abdominale peut être présente.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Scanner inutile",
+            "description": "Le scanner abdominal est inutile dans le diagnostic d'une sigmoïdite.",
+            "answers": [
+                "Faux"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Chirurgie",
+            "description": "Une sigmoïdite compliquée peut nécessiter une chirurgie.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 68 ans présentant une douleur brutale de la fosse iliaque gauche avec fièvre et constipation depuis 48 heures. L'examen retrouve une défense abdominale localisée.",
+            "answers": [
+                "Sigmoïdite",
+                "Sigmoidite"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 72 ans consultant pour douleurs abdominales basses, ballonnements et troubles du transit dans un contexte de diverticulose connue.",
+            "answers": [
+                "Sigmoïdite",
+                "Sigmoidite"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Patient de 65 ans présentant douleur FIG, fièvre à 38,5 °C et douleur à la miction. Le scanner abdominal montre une inflammation du sigmoïde.",
+            "answers": [
+                "Sigmoïdite",
+                "Sigmoidite"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 70 ans hospitalisé pour douleurs abdominales intenses avec altération de l'état général et suspicion d'abcès diverticulaire.",
+            "answers": [
+                "Sigmoïdite",
+                "Sigmoidite"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 60 ans présentant épisodes répétés de douleurs FIG associées à constipation chronique et syndrome inflammatoire biologique.",
+            "answers": [
+                "Sigmoïdite",
+                "Sigmoidite"
+            ]
+        }
+    ]
+}

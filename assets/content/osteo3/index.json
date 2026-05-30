@@ -1,0 +1,7 @@
+{
+	"name": "Sémiologie Digestive",
+	"slug": "osteo3",
+	"image": "osteo3.png",
+	"description": "Topic de raisonnement clinique",
+	"quiz": ["rgo", "gastrite", "ulcere", "sii", "mici", "constipation", "sigmoidite", "cancer_colorectal", "colique_hepatique", "steatose"]
+}

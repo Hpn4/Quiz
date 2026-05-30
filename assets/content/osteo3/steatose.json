@@ -1,0 +1,224 @@
+{
+    "name": "Stéatose",
+    "slug": "steatose",
+    "description": "",
+    "image": "osteo3.png",
+    "infoTable": [
+        {
+            "key": "DÉFINITION (DEF)",
+            "value": "Accumulation excessive de graisse (triglycérides) dans les cellules du foie, le plus souvent liée à des troubles métaboliques ou à une consommation excessive d'alcool. On distingue la stéatose hépatique alcoolique et non alcoolique."
+        },
+        {
+            "key": "FACTEURS DE RISQUE / TERRAIN",
+            "value": "Surpoids ; obésité ; diabète ; dyslipidémie ; sédentarité ; alimentation riche en sucres et graisses ; alcool ; syndrome métabolique."
+        },
+        {
+            "key": "SIGNES CLINIQUES (SC)",
+            "value": "Souvent asymptomatique ; fatigue ; lourdeur ou douleur de l'hypochondre droit ; ballonnements ; hépatomégalie possible ; troubles digestifs non spécifiques."
+        },
+        {
+            "key": "EXAMEN CLINIQUE (EC)",
+            "value": "Hépatomégalie parfois palpable ; sensibilité de l'hypochondre droit ; recherche de signes de syndrome métabolique (obésité abdominale, HTA)."
+        },
+        {
+            "key": "EXAMENS PARACLINIQUES (EPC)",
+            "value": "Bilan hépatique ; échographie abdominale montrant un foie « brillant » ; Fibroscanner ; IRM hépatique ; bilan métabolique complet."
+        },
+        {
+            "key": "ÉVOLUTION / COMPLICATIONS",
+            "value": "NASH ; fibrose hépatique ; cirrhose ; insuffisance hépatique ; carcinome hépatocellulaire."
+        },
+        {
+            "key": "TRAITEMENT (TTT)",
+            "value": "Perte de poids ; activité physique régulière ; rééquilibrage alimentaire ; arrêt de l'alcool ; prise en charge du diabète et des dyslipidémies ; surveillance hépatique."
+        }
+    ],
+    "glossary": [
+        {
+            "term": "Hépatomégalie",
+            "definition": "Augmentation du volume du foie"
+        },
+        {
+            "term": "Transaminases",
+            "definition": "Enzymes (protéines) qui se situent dans les cellules de l'organisme et qui jouent un rôle dans la désamination des acides aminés et dans la glyconéogenèse"
+        },
+        {
+            "term": "Dyslipidémie",
+            "definition": "Cholestérol et/ou triglycérides élevés"
+        }
+    ],
+    "questions": [
+        {
+            "type": "mcq",
+            "title": "Définition",
+            "description": "La stéatose hépatique correspond à :",
+            "choices": [
+                "Une infection bactérienne du foie",
+                "Une accumulation excessive de graisse dans les cellules hépatiques",
+                "Une obstruction des voies biliaires",
+                "Une destruction auto-immune du foie"
+            ],
+            "answers": [
+                "Une accumulation excessive de graisse dans les cellules hépatiques"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Facteurs de risque",
+            "description": "Quels facteurs favorisent une stéatose hépatique ?",
+            "choices": [
+                "Obésité",
+                "Diabète",
+                "Consommation excessive d'alcool",
+                "Activité physique régulière"
+            ],
+            "answers": [
+                "Obésité",
+                "Diabète",
+                "Consommation excessive d'alcool"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Signes cliniques",
+            "description": "La stéatose hépatique peut se manifester par :",
+            "choices": [
+                "Fatigue",
+                "Douleur de l'hypochondre droit",
+                "Hépatomégalie",
+                "Paralysie faciale"
+            ],
+            "answers": [
+                "Fatigue",
+                "Douleur de l'hypochondre droit",
+                "Hépatomégalie"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Diagnostic",
+            "description": "Concernant le diagnostic de la stéatose :",
+            "choices": [
+                "L'échographie abdominale peut montrer un foie « brillant »",
+                "Un bilan hépatique est souvent réalisé",
+                "L'ECG est l'examen de référence",
+                "Aucun bilan métabolique n'est utile"
+            ],
+            "answers": [
+                "L'échographie abdominale peut montrer un foie « brillant »",
+                "Un bilan hépatique est souvent réalisé"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Complications",
+            "description": "La stéatose hépatique peut évoluer vers :",
+            "choices": [
+                "Fibrose hépatique",
+                "Cirrhose",
+                "Carcinome hépatocellulaire",
+                "Polyarthrite rhumatoïde"
+            ],
+            "answers": [
+                "Fibrose hépatique",
+                "Cirrhose",
+                "Carcinome hépatocellulaire"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Asymptomatique",
+            "description": "La stéatose hépatique est souvent asymptomatique.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Diabète",
+            "description": "Le diabète est un facteur de risque de la stéatose.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Activité physique",
+            "description": "Une activité physique régulière fait partie du traitement de la stéatose.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Évolution",
+            "description": "La stéatose évolue toujours rapidement vers une cirrhose.",
+            "answers": [
+                "Faux"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Alcool",
+            "description": "L'arrêt de l'alcool est important dans les formes alcooliques de la stéatose.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 52 ans en surpoids présentant fatigue chronique et gêne de l'hypochondre droit. L'échographie retrouve un foie hyperéchogène « brillant ».",
+            "answers": [
+                "Stéatose",
+                "Steatose",
+                "Stéatose hépatique",
+                "Steatose hepatique"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 48 ans diabétique et sédentaire consultant pour troubles digestifs modérés et bilan hépatique perturbé.",
+            "answers": [
+                "Stéatose",
+                "Steatose",
+                "Stéatose hépatique",
+                "Steatose hepatique"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Patient de 60 ans avec consommation chronique d'alcool, hépatomégalie à l'examen clinique et anomalies des transaminases.",
+            "answers": [
+                "Stéatose",
+                "Steatose",
+                "Stéatose hépatique",
+                "Steatose hepatique"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme obèse de 45 ans présentant des ballonnements après les repas et des douleurs sous-chondrales calmées par l'arrêt de l'alcool.",
+            "answers": [
+                "Stéatose",
+                "Steatose",
+                "Stéatose hépatique",
+                "Steatose hepatique"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 58 ans avec antécédents de dyslipidémie, douleurs diffuses de l'hypochondre droit et fibroscanner montrant une fibrose débutante.",
+            "answers": [
+                "Stéatose",
+                "Steatose",
+                "Stéatose hépatique",
+                "Steatose hepatique"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,216 @@
+{
+    "name": "Syndrome de l'intestin irritable (SII)",
+    "slug": "sii",
+    "description": "",
+    "image": "osteo3.png",
+    "infoTable": [
+        {
+            "key": "DÉFINITION (DEF)",
+            "value": "Trouble fonctionnel digestif chronique caractérisé par des douleurs abdominales récurrentes associées à des troubles du transit intestinal, sans anomalie organique identifiable."
+        },
+        {
+            "key": "FACTEURS DE RISQUE / TERRAIN",
+            "value": "Stress ; anxiété ; troubles de l'humeur ; alimentation ; hypersensibilité viscérale ; antécédents d'infection digestive ; femme ++ ; fatigue chronique."
+        },
+        {
+            "key": "SIGNES CLINIQUES (SC)",
+            "value": "Douleurs abdominales diffuses ou spasmodiques ; ballonnements ; alternance diarrhée/constipation ; diarrhée ou constipation prédominante ; soulagement après émission de selles ; gêne digestive chronique ; troubles majorés par le stress."
+        },
+        {
+            "key": "EXAMEN CLINIQUE (EC)",
+            "value": "Abdomen sensible sans signe de gravité ; ballonnements ; examen clinique généralement normal ; absence de syndrome inflammatoire ou d'altération majeure de l'état général."
+        },
+        {
+            "key": "EXAMENS PARACLINIQUES (EPC)",
+            "value": "Diagnostic clinique selon les critères de Rome IV ; examens complémentaires réalisés surtout pour éliminer une pathologie organique (NFS, CRP, coloscopie selon contexte)."
+        },
+        {
+            "key": "ÉVOLUTION / COMPLICATIONS",
+            "value": "Évolution chronique fluctuante ; impact important sur la qualité de vie ; absence de complication organique grave."
+        },
+        {
+            "key": "TRAITEMENT (TTT)",
+            "value": "Mesures hygiéno-diététiques ; adaptation alimentaire ; activité physique ; prise en charge du stress ; traitements symptomatiques selon le transit."
+        }
+    ],
+    "glossary": [
+        {
+            "term": "Critères de Rome IV",
+            "definition": "Douleur abdominale récurrente survenant en moyenne au moins un jour par semaine dans les trois derniers mois avec au moins deux critères : associée à la défécation ; associée à une modification de la fréquence des selles ; associée à une modification de la consistance (aspect) des selles."
+        }
+    ],
+    "questions": [
+        {
+            "type": "mcq",
+            "title": "Définition",
+            "description": "Le syndrome de l'intestin irritable correspond à :",
+            "choices": [
+                "Une maladie inflammatoire chronique intestinale",
+                "Un trouble fonctionnel digestif sans anomalie organique identifiable",
+                "Une infection bactérienne chronique du côlon",
+                "Une tumeur digestive bénigne"
+            ],
+            "answers": [
+                "Un trouble fonctionnel digestif sans anomalie organique identifiable"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Facteurs associés",
+            "description": "Quels facteurs sont fréquemment associés au SII ?",
+            "choices": [
+                "Stress chronique",
+                "Anxiété",
+                "Hypersensibilité viscérale",
+                "Hypercalcémie"
+            ],
+            "answers": [
+                "Stress chronique",
+                "Anxiété",
+                "Hypersensibilité viscérale"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Manifestations",
+            "description": "Le SII peut se manifester par :",
+            "choices": [
+                "Ballonnements",
+                "Alternance diarrhée/constipation",
+                "Douleurs abdominales soulagées par les selles",
+                "Hémorragie digestive massive"
+            ],
+            "answers": [
+                "Ballonnements",
+                "Alternance diarrhée/constipation",
+                "Douleurs abdominales soulagées par les selles"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Diagnostic",
+            "description": "Concernant le diagnostic du SII :",
+            "choices": [
+                "Il repose principalement sur les critères de Rome IV",
+                "Les examens servent surtout à éliminer une pathologie organique",
+                "La coloscopie est systématique chez tous les patients jeunes",
+                "Le syndrome inflammatoire est généralement élevé"
+            ],
+            "answers": [
+                "Il repose principalement sur les critères de Rome IV",
+                "Les examens servent surtout à éliminer une pathologie organique"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Prise en charge",
+            "description": "Concernant la prise en charge :",
+            "choices": [
+                "Adaptation alimentaire",
+                "Gestion du stress",
+                "Activité physique régulière",
+                "Antibiothérapie prolongée systématique"
+            ],
+            "answers": [
+                "Adaptation alimentaire",
+                "Gestion du stress",
+                "Activité physique régulière"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "MICI",
+            "description": "Le SII est une maladie inflammatoire chronique intestinale.",
+            "answers": [
+                "Faux"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Stress",
+            "description": "Le stress peut majorer les symptômes du SII.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Qualité de vie",
+            "description": "Le SII peut altérer fortement la qualité de vie.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Examens complémentaires",
+            "description": "Les examens complémentaires de l'intestin irritable sont souvent normaux.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Complications",
+            "description": "Le SII entraîne habituellement des complications organiques graves.",
+            "answers": [
+                "Faux"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 32 ans présentant des douleurs abdominales spasmodiques, des ballonnements et une alternance diarrhée/constipation majorée lors des périodes de stress.",
+            "answers": [
+                "SII",
+                "Intestin irritable",
+                "Syndrome de l'intestin irritable",
+                "Syndrome de l'intestin irritable"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 40 ans consultant pour gêne digestive chronique avec soulagement des douleurs après émission de selles, sans anomalie au bilan biologique.",
+            "answers": [
+                "SII",
+                "Intestin irritable",
+                "Syndrome de l'intestin irritable",
+                "Syndrome de l'intestin irritable"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Patiente de 28 ans avec diarrhées intermittentes, fatigue et douleurs abdominales diffuses évoluant depuis plusieurs mois, aggravées par l'anxiété.",
+            "answers": [
+                "SII",
+                "Intestin irritable",
+                "Syndrome de l'intestin irritable",
+                "Syndrome de l'intestin irritable"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 45 ans présentant constipation prédominante, ballonnements importants et examen clinique normal, sans syndrome inflammatoire.",
+            "answers": [
+                "SII",
+                "Intestin irritable",
+                "Syndrome de l'intestin irritable",
+                "Syndrome de l'intestin irritable"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Patient de 35 ans consultant pour troubles digestifs chroniques fluctuants depuis une gastro-entérite survenue quelques mois auparavant.",
+            "answers": [
+                "SII",
+                "Intestin irritable",
+                "Syndrome de l'intestin irritable",
+                "Syndrome de l'intestin irritable"
+            ]
+        }
+    ]
+}

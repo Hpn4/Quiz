@@ -1,0 +1,201 @@
+{
+    "name": "Cancer colo-rectal",
+    "slug": "cancer_colorectal",
+    "description": "",
+    "image": "osteo3.png",
+    "infoTable": [
+        {
+            "key": "DÉFINITION (DEF)",
+            "value": "Tumeur maligne développée au niveau du côlon ou du rectum, évoluant souvent de manière progressive et silencieuse avant d'être diagnostiquée à un stade avancé."
+        },
+        {
+            "key": "FACTEURS DE RISQUE / TERRAIN",
+            "value": "Antécédents familiaux ; polypes adénomateux ; alimentation riche en viandes rouges et pauvre en fibres ; tabagisme ; alcool ; obésité ; sédentarité ; âge > 50 ans ; maladies inflammatoires chroniques intestinales."
+        },
+        {
+            "key": "SIGNES CLINIQUES (SC)",
+            "value": "Douleurs abdominales ; douleurs pelviennes chroniques ; troubles du transit récent ; rectorragies ; sensation de faux besoins (ténesme) ; hémorroïdes chroniques ; amaigrissement ; altération de l'état général (AEG) ; fatigue ; anémie possible."
+        },
+        {
+            "key": "EXAMEN CLINIQUE (EC)",
+            "value": "Palpation abdominale ; recherche d'une masse abdominale ; toucher rectal ; évaluation de l'état général ; recherche d'adénopathies ou de signes métastatiques."
+        },
+        {
+            "key": "EXAMENS PARACLINIQUES (EPC)",
+            "value": "Coloscopie avec biopsies (examen de référence) ; bilan d'extension par scanner thoraco-abdomino-pelvien et IRM rectale selon localisation ; bilan sanguin (NFS, marqueurs tumoraux type ACE)."
+        },
+        {
+            "key": "ÉVOLUTION / COMPLICATIONS",
+            "value": "Occlusion intestinale ; perforation ; hémorragie digestive ; métastases (foie, poumons, péritoine) ; altération majeure de l'état général."
+        },
+        {
+            "key": "TRAITEMENT (TTT)",
+            "value": "Chirurgie carcinologique ; chimiothérapie ± radiothérapie selon localisation et stade ; prise en charge oncologique multidisciplinaire ; dépistage et surveillance régulière."
+        }
+    ],
+    "glossary": [],
+    "questions": [
+        {
+            "type": "mcq",
+            "title": "Définition",
+            "description": "Le cancer colo-rectal correspond à :",
+            "choices": [
+                "Une inflammation chronique du côlon",
+                "Une tumeur maligne du côlon ou du rectum",
+                "Une infection intestinale aiguë",
+                "Une maladie fonctionnelle digestive"
+            ],
+            "answers": [
+                "Une tumeur maligne du côlon ou du rectum"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Facteurs de risque",
+            "description": "Quels facteurs augmentent le risque de cancer colo-rectal ?",
+            "choices": [
+                "Antécédents familiaux",
+                "Alimentation riche en viandes rouges",
+                "Maladies inflammatoires chroniques intestinales",
+                "Activité physique régulière"
+            ],
+            "answers": [
+                "Antécédents familiaux",
+                "Alimentation riche en viandes rouges",
+                "Maladies inflammatoires chroniques intestinales"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Signes cliniques",
+            "description": "Le cancer colo-rectal peut se manifester par :",
+            "choices": [
+                "Rectorragies",
+                "Troubles récents du transit",
+                "Amaigrissement",
+                "Douleurs thoraciques aiguës"
+            ],
+            "answers": [
+                "Rectorragies",
+                "Troubles récents du transit",
+                "Amaigrissement"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Diagnostic",
+            "description": "Concernant le diagnostic du cancer colo-rectal :",
+            "choices": [
+                "La coloscopie avec biopsies est l'examen de référence",
+                "Un scanner thoraco-abdomino-pelvien peut être réalisé",
+                "Le diagnostic repose uniquement sur la prise de sang",
+                "L'IRM cérébrale est systématique"
+            ],
+            "answers": [
+                "La coloscopie avec biopsies est l'examen de référence",
+                "Un scanner thoraco-abdomino-pelvien peut être réalisé"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Complications",
+            "description": "Le cancer colo-rectal peut entraîner :",
+            "choices": [
+                "Occlusion intestinale",
+                "Métastases hépatiques",
+                "Hémorragie digestive",
+                "Hyperthyroïdie"
+            ],
+            "answers": [
+                "Occlusion intestinale",
+                "Métastases hépatiques",
+                "Hémorragie digestive"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Évolution silencieuse",
+            "description": "Le cancer colo-rectal peut évoluer longtemps de façon silencieuse.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Rectorragies",
+            "description": "Les rectorragies doivent faire évoquer un cancer colo-rectal.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Toucher rectal",
+            "description": "Le toucher rectal peut faire partie de l'examen clinique du cancer colo-rectal.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Altération état général",
+            "description": "Le cancer colo-rectal ne donne jamais d'altération de l'état général.",
+            "answers": [
+                "Faux"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Métastases hépatiques",
+            "description": "Le foie est une localisation fréquente de métastases lors du cancer colo-rectal.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 62 ans consultant pour troubles récents du transit avec alternance diarrhée/constipation, rectorragies et fatigue progressive depuis plusieurs mois.",
+            "answers": [
+                "Cancer colo-rectal",
+                "Cancer colorectal"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 70 ans présentant amaigrissement, douleurs abdominales chroniques et anémie ferriprive découverte au bilan sanguin.",
+            "answers": [
+                "Cancer colo-rectal",
+                "Cancer colorectal"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Patient de 58 ans avec antécédents familiaux de cancer colo-rectal, consultant pour sensation de faux besoins et rectorragies intermittentes.",
+            "answers": [
+                "Cancer colo-rectal",
+                "Cancer colorectal"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 67 ans admis pour douleurs abdominales importantes avec arrêt des matières et des gaz, évoquant une occlusion tumorale.",
+            "answers": [
+                "Cancer colo-rectal",
+                "Cancer colorectal"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 64 ans présentant fatigue chronique, douleurs pelviennes et masse abdominale retrouvée à la palpation clinique.",
+            "answers": [
+                "Cancer colo-rectal",
+                "Cancer colorectal"
+            ]
+        }
+    ]
+}

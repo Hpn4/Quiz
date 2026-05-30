@@ -1,0 +1,206 @@
+{
+    "name": "Constipation fonctionnelle",
+    "slug": "constipation",
+    "description": "",
+    "image": "osteo3.png",
+    "infoTable": [
+        {
+            "key": "DÉFINITION (DEF)",
+            "value": "Trouble fonctionnel digestif caractérisé par une diminution de la fréquence des selles, des difficultés d'évacuation ou une sensation d'évacuation incomplète, sans cause organique identifiable."
+        },
+        {
+            "key": "FACTEURS DE RISQUE / TERRAIN",
+            "value": "Sédentarité ; alimentation pauvre en fibres ; hydratation insuffisante ; stress ; anxiété ; femme ++ ; âge avancé ; prise de certains médicaments (opioïdes, antidépresseurs)."
+        },
+        {
+            "key": "SIGNES CLINIQUES (SC)",
+            "value": "Selles rares et dures ; efforts de poussée ; sensation d'évacuation incomplète ; ballonnements ; douleurs abdominales ; gêne digestive chronique."
+        },
+        {
+            "key": "EXAMEN CLINIQUE (EC)",
+            "value": "Abdomen parfois météorisé ; sensibilité abdominale diffuse ; recherche de signes de gravité (amaigrissement, rectorragies, anémie) ; toucher rectal selon le contexte."
+        },
+        {
+            "key": "EXAMENS PARACLINIQUES (EPC)",
+            "value": "Diagnostic principalement clinique ; examens complémentaires uniquement en cas de signes d'alarme : coloscopie, bilan biologique, transit colique selon le contexte."
+        },
+        {
+            "key": "ÉVOLUTION / COMPLICATIONS",
+            "value": "Chronicisation ; hémorroïdes ; fissures anales ; fécalome ; altération de la qualité de vie."
+        },
+        {
+            "key": "TRAITEMENT (TTT)",
+            "value": "Mesures hygiéno-diététiques : augmentation des fibres et de l'hydratation ; activité physique régulière ; laxatifs si besoin ; rééducation du transit."
+        }
+    ],
+    "glossary": [
+        {
+            "term": "Météorisme",
+            "definition": "Gonflement de la cavité abdominale dû à l'accumulation de gaz dans l'intestin pouvant provoquer des borborygmes, des gargouillis dans le tube digestif, et parfois des douleurs"
+        }
+    ],
+    "questions": [
+        {
+            "type": "mcq",
+            "title": "Définition",
+            "description": "La constipation fonctionnelle correspond à :",
+            "choices": [
+                "Une obstruction intestinale aiguë",
+                "Un trouble fonctionnel digestif sans cause organique identifiable",
+                "Une maladie inflammatoire du côlon",
+                "Une infection digestive chronique"
+            ],
+            "answers": [
+                "Un trouble fonctionnel digestif sans cause organique identifiable"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Facteurs favorisants",
+            "description": "Quels facteurs favorisent une constipation ?",
+            "choices": [
+                "Sédentarité",
+                "Hydratation insuffisante",
+                "Alimentation pauvre en fibres",
+                "Hyperactivité physique"
+            ],
+            "answers": [
+                "Sédentarité",
+                "Hydratation insuffisante",
+                "Alimentation pauvre en fibres"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Signes cliniques",
+            "description": "La constipation fonctionnelle peut se manifester par :",
+            "choices": [
+                "Selles dures et rares",
+                "Sensation d'évacuation incomplète",
+                "Ballonnements",
+                "Rectorragie massive systématique"
+            ],
+            "answers": [
+                "Selles dures et rares",
+                "Sensation d'évacuation incomplète",
+                "Ballonnements"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Diagnostic",
+            "description": "Concernant le diagnostic de la constipation :",
+            "choices": [
+                "Il est principalement clinique",
+                "Une coloscopie peut être réalisée en cas de signes d'alarme",
+                "Une IRM cérébrale est systématique",
+                "Les examens sont toujours anormaux"
+            ],
+            "answers": [
+                "Il est principalement clinique",
+                "Une coloscopie peut être réalisée en cas de signes d'alarme"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Prise en charge",
+            "description": "Concernant la prise en charge de la constipation :",
+            "choices": [
+                "Augmentation des fibres alimentaires",
+                "Hydratation suffisante",
+                "Activité physique régulière",
+                "Antibiothérapie systématique"
+            ],
+            "answers": [
+                "Augmentation des fibres alimentaires",
+                "Hydratation suffisante",
+                "Activité physique régulière"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Chronicité",
+            "description": "La constipation fonctionnelle est souvent chronique.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Opioïdes",
+            "description": "Les opioïdes peuvent favoriser une constipation.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Vigilance",
+            "description": "La présence d'un amaigrissement pendant une phase de constipation impose une vigilance particulière.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Examens complémentaires",
+            "description": "Les examens complémentaires sont toujours nécessaires en cas de constipation.",
+            "answers": [
+                "Faux"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Fibres",
+            "description": "Une alimentation pauvre en fibres favorise la constipation fonctionnelle.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 48 ans présentant des selles rares et dures depuis plusieurs mois, avec ballonnements et sensation d'évacuation incomplète. Elle décrit une faible activité physique et une alimentation pauvre en fibres.",
+            "answers": [
+                "Constipation",
+                "Constipation fonctionnelle"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 70 ans consultant pour constipation chronique avec efforts de poussée importants. Il prend un traitement opioïde depuis plusieurs semaines pour douleurs lombaires.",
+            "answers": [
+                "Constipation",
+                "Constipation fonctionnelle"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 35 ans présentant gêne digestive chronique et constipation aggravée lors des périodes de stress, sans anomalie clinique ni biologique.",
+            "answers": [
+                "Constipation",
+                "Constipation fonctionnelle"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Patient de 60 ans avec constipation récente associée à amaigrissement et rectorragies, motivant la réalisation d'examens complémentaires.",
+            "answers": [
+                "Constipation",
+                "Constipation fonctionnelle"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 55 ans consultant pour douleurs abdominales diffuses, météorisme abdominal et diminution de la fréquence des selles depuis plusieurs mois.",
+            "answers": [
+                "Constipation",
+                "Constipation fonctionnelle"
+            ]
+        }
+    ]
+}

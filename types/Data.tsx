@@ -6,6 +6,7 @@ const topics: Record<string, Topic> = {
   //math: require('@/assets/content/math/index.json'),
   osteo1: require('@/assets/content/osteo1/index.json'),
   osteo2: require('@/assets/content/osteo2/index.json'),
+  osteo3: require('@/assets/content/osteo3/index.json'),
 };
 
 /*
@@ -42,10 +43,24 @@ const osteo2Quiz: Record<string, Quiz> = {
   avc: require('@/assets/content/osteo2/avc.json'),
 };
 
+const osteo3Quiz: Record<string, Quiz> = {
+  rgo: require('@/assets/content/osteo3/rgo.json'),
+  gastrite: require('@/assets/content/osteo3/gastrite.json'),
+  ulcere: require('@/assets/content/osteo3/ulcere.json'),
+  sii: require('@/assets/content/osteo3/sii.json'),
+  mici: require('@/assets/content/osteo3/mici.json'),
+  constipation: require('@/assets/content/osteo3/constipation.json'),
+  sigmoidite: require('@/assets/content/osteo3/sigmoidite.json'),
+  cancer_colorectal: require('@/assets/content/osteo3/cancer_colorectal.json'),
+  colique_hepatique: require('@/assets/content/osteo3/colique_hepatique.json'),
+  steatose: require('@/assets/content/osteo3/steatose.json'),
+};
+
 const topicsToQuiz: Record<string, Record<string, Quiz>> = {
   // math: mathQuiz,
   osteo1: osteo1Quiz,
   osteo2: osteo2Quiz,
+  osteo3: osteo3Quiz,
 };
 
 export function getTopics(): Topic[] {

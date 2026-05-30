@@ -2,6 +2,7 @@ const assets: Record<string, any> = {
   "images/logo.png": require('@/assets/images/logo.png'),
   "osteo1.png": require('@/assets/images/topics/osteo1.png'),
   "osteo2.png": require('@/assets/images/topics/osteo2.png'),
+  "osteo3.png": require('@/assets/images/topics/osteo3.png'),
 };
 
 export function resolveImage(image?: string): any {

@@ -1,0 +1,248 @@
+{
+    "name": "MICI : Crohn + RCH",
+    "slug": "mici",
+    "description": "",
+    "image": "osteo3.png",
+    "infoTable": [
+        {
+            "key": "DÉFINITION (DEF) - Crohn",
+            "value": "Maladie inflammatoire chronique pouvant toucher l'ensemble du tube digestif, de manière segmentaire et discontinue."
+        },
+        {
+            "key": "DÉFINITION (DEF) - RCH",
+            "value": "Maladie inflammatoire chronique limitée au côlon et au rectum, évoluant par poussées inflammatoires continues."
+        },
+        {
+            "key": "FACTEURS DE RISQUE / TERRAIN - Crohn",
+            "value": "Prédisposition génétique ; tabagisme ; environnement ; dysimmunité."
+        },
+        {
+            "key": "FACTEURS DE RISQUE / TERRAIN - RCH",
+            "value": "Prédisposition génétique ; stress ; dysimmunité ; femme ++."
+        },
+        {
+            "key": "LOCALISATION - Crohn",
+            "value": "Tout le tube digestif (iléon terminal fréquent) ; atteinte transmurale."
+        },
+        {
+            "key": "LOCALISATION - RCH",
+            "value": "Rectum et côlon uniquement ; atteinte superficielle de la muqueuse."
+        },
+        {
+            "key": "SIGNES CLINIQUES (SC) - Crohn",
+            "value": "Douleurs abdominales ; diarrhée chronique parfois sanglante ; constipation possible ; amaigrissement ; ulcérations anales ; syndrome inflammatoire ; arthralgies ; fatigue."
+        },
+        {
+            "key": "SIGNES CLINIQUES (SC) - RCH",
+            "value": "Douleurs abdominales à type de crampes ; diarrhées sanglantes ; rectorragies ; ténesme ; arthralgies diffuses ; fatigue ; syndrome inflammatoire."
+        },
+        {
+            "key": "EXAMEN CLINIQUE (EC) - Crohn",
+            "value": "Sensibilité abdominale ; altération de l'état général ; lésions anopérinéales possibles."
+        },
+        {
+            "key": "EXAMEN CLINIQUE (EC) - RCH",
+            "value": "Sensibilité abdominale ; rectorragies ; signes de poussée inflammatoire."
+        },
+        {
+            "key": "EXAMENS PARACLINIQUES (EPC) - Crohn",
+            "value": "Coloscopie ; biopsies intestinales ; scanner/IRM abdominale ; tests sérologiques ; bilan inflammatoire."
+        },
+        {
+            "key": "EXAMENS PARACLINIQUES (EPC) - RCH",
+            "value": "Rectoscopie ; coloscopie ; biopsies coliques ; bilan inflammatoire ; recherche de sang dans les selles."
+        },
+        {
+            "key": "ÉVOLUTION / COMPLICATIONS - Crohn",
+            "value": "Fistules ; sténoses ; abcès ; dénutrition ; chirurgie fréquente ; poussées chroniques."
+        },
+        {
+            "key": "ÉVOLUTION / COMPLICATIONS - RCH",
+            "value": "Mégacôlon toxique ; hémorragie digestive ; risque accru de cancer colorectal ; poussées inflammatoires."
+        },
+        {
+            "key": "TRAITEMENT (TTT) - Crohn",
+            "value": "Corticoïdes ; immunosuppresseurs ; biothérapies ; chirurgie dans certaines formes compliquées ; règles hygiéno-diététiques."
+        },
+        {
+            "key": "TRAITEMENT (TTT) - RCH",
+            "value": "Aminosalicylés ; corticoïdes ; immunosuppresseurs ; biothérapies ; chirurgie dans les formes sévères."
+        }
+    ],
+    "glossary": [
+        {
+            "term": "Fistule digestive",
+            "definition": "Connexion anormale entre le tube digestif et un autre organe"
+        },
+        {
+            "term": "Mégacôlon",
+            "definition": "Dilatation anormale du côlon"
+        }
+    ],
+    "questions": [
+        {
+            "type": "mcq",
+            "title": "Crohn",
+            "description": "Concernant la maladie de Crohn :",
+            "choices": [
+                "Peut toucher tout le tube digestif",
+                "L'atteinte est uniquement rectale",
+                "L'atteinte est segmentaire et discontinue",
+                "Il s'agit d'une atteinte uniquement superficielle"
+            ],
+            "answers": [
+                "Peut toucher tout le tube digestif",
+                "L'atteinte est segmentaire et discontinue"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "RCH",
+            "description": "Concernant la RCH :",
+            "choices": [
+                "Touche le rectum et le côlon",
+                "L'atteinte est continue",
+                "Peut toucher tout le tube digestif",
+                "Atteinte transmurale profonde"
+            ],
+            "answers": [
+                "Touche le rectum et le côlon",
+                "L'atteinte est continue"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Signes communs",
+            "description": "Les MICI peuvent se manifester par :",
+            "choices": [
+                "Douleurs abdominales",
+                "Fatigue chronique",
+                "Arthralgies",
+                "Hyperglycémie constante"
+            ],
+            "answers": [
+                "Douleurs abdominales",
+                "Fatigue chronique",
+                "Arthralgies"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Complications Crohn",
+            "description": "La maladie de Crohn peut entraîner :",
+            "choices": [
+                "Fistules",
+                "Sténoses",
+                "Mégacôlon toxique uniquement",
+                "Calculs urinaires systématiques"
+            ],
+            "answers": [
+                "Fistules",
+                "Sténoses"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Prise en charge",
+            "description": "Concernant la prise en charge des MICI :",
+            "choices": [
+                "Corticoïdes possibles lors des poussées",
+                "Biothérapies possibles",
+                "Immunosuppresseurs possibles",
+                "Antibiotiques systématiques à vie"
+            ],
+            "answers": [
+                "Corticoïdes possibles lors des poussées",
+                "Biothérapies possibles",
+                "Immunosuppresseurs possibles"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Iléon terminal",
+            "description": "La maladie de Crohn peut toucher l'iléon terminal.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Localisation RCH",
+            "description": "La RCH atteint uniquement le côlon et le rectum.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Poussées",
+            "description": "Les MICI sont des maladies inflammatoires chroniques évoluant par poussées.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Rectorragies",
+            "description": "Les rectorragies sont fréquentes dans la RCH.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Retentissement général",
+            "description": "Les MICI sont toujours limitées à une atteinte digestive sans retentissement général.",
+            "answers": [
+                "Faux"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 26 ans présentant diarrhées chroniques, douleurs abdominales et amaigrissement, associés à des lésions anales douloureuses.",
+            "answers": [
+                "Crohn",
+                "Maladie de Crohn"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 34 ans consultant pour diarrhées sanglantes, rectorragies et douleurs abdominales à type de crampes évoluant par poussées.",
+            "answers": [
+                "RCH",
+                "Rectocolite hémorragique",
+                "Rectocolite hemorragique"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Patient de 29 ans avec douleurs de la fosse iliaque droite, fatigue chronique et arthralgies, coloscopie montrant atteinte segmentaire iléale.",
+            "answers": [
+                "Crohn",
+                "Maladie de Crohn"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 40 ans présentant ténesme, diarrhées glairo-sanglantes et syndrome inflammatoire biologique.",
+            "answers": [
+                "RCH",
+                "Rectocolite hémorragique",
+                "Rectocolite hemorragique"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 31 ans hospitalisé pour douleurs abdominales, diarrhées chroniques et suspicion de fistule digestive à l'IRM.",
+            "answers": [
+                "Crohn",
+                "Maladie de Crohn"
+            ]
+        }
+    ]
+}

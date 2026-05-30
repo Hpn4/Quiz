@@ -1,0 +1,201 @@
+{
+    "name": "Gastrite",
+    "slug": "gastrite",
+    "description": "",
+    "image": "osteo3.png",
+    "infoTable": [
+        {
+            "key": "DÉFINITION (DEF)",
+            "value": "Inflammation aiguë ou chronique de la muqueuse gastrique, le plus souvent liée à une infection par Helicobacter pylori ou à des agressions médicamenteuses (AINS)."
+        },
+        {
+            "key": "FACTEURS DE RISQUE / TERRAIN",
+            "value": "Infection à Helicobacter pylori ; prise d'AINS ; alcool ; tabagisme ; stress ; alimentation irritante ; âge ; terrain fragile digestif."
+        },
+        {
+            "key": "SIGNES CLINIQUES (SC)",
+            "value": "Douleurs épigastriques ; brûlures gastriques ; nausées ; vomissements ; sensation de lourdeur post-prandiale ; ballonnements ; parfois asymptomatique."
+        },
+        {
+            "key": "EXAMEN CLINIQUE (EC)",
+            "value": "Sensibilité à la palpation épigastrique ; examen souvent peu spécifique ; recherche de signes de gravité (amaigrissement, anémie, vomissements persistants)."
+        },
+        {
+            "key": "EXAMENS PARACLINIQUES (EPC)",
+            "value": "Endoscopie digestive haute avec biopsies (examen de référence) ; test à l'urée ou sérologie pour H. pylori ; bilan biologique si suspicion de complication."
+        },
+        {
+            "key": "ÉVOLUTION / COMPLICATIONS",
+            "value": "Chronicisation ; ulcère gastro-duodénal ; hémorragie digestive ; gastrite atrophique ; risque accru de cancer gastrique (formes chroniques)."
+        },
+        {
+            "key": "TRAITEMENT (TTT)",
+            "value": "Médicamenteux : inhibiteurs de la pompe à protons (IPP) ; antibiothérapie si H. pylori ; arrêt des AINS si possible ; mesures hygiéno-diététiques (éviction alcool, irritants)."
+        }
+    ],
+    "glossary": [
+        {
+            "term": "Helicobacter pylori",
+            "definition": "Bactérie fréquente qui infecte la paroi interne de l'estomac"
+        }
+    ],
+    "questions": [
+        {
+            "type": "mcq",
+            "title": "Définition",
+            "description": "La gastrite correspond à :",
+            "choices": [
+                "Une infection de l'intestin grêle",
+                "Une inflammation de la muqueuse gastrique",
+                "Une obstruction du côlon",
+                "Une pathologie du foie"
+            ],
+            "answers": [
+                "Une inflammation de la muqueuse gastrique"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Facteurs favorisants",
+            "description": "Quels facteurs favorisent une gastrite ?",
+            "choices": [
+                "Infection à Helicobacter pylori",
+                "Prise d'AINS",
+                "Consommation d'alcool",
+                "Activité physique régulière"
+            ],
+            "answers": [
+                "Infection à Helicobacter pylori",
+                "Prise d'AINS",
+                "Consommation d'alcool"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Signes cliniques",
+            "description": "La gastrite peut se manifester par :",
+            "choices": [
+                "Douleurs épigastriques",
+                "Nausées et vomissements",
+                "Ballonnements",
+                "Douleurs articulaires"
+            ],
+            "answers": [
+                "Douleurs épigastriques",
+                "Nausées et vomissements",
+                "Ballonnements"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Diagnostic",
+            "description": "Concernant le diagnostic de la gastrite :",
+            "choices": [
+                "L'endoscopie digestive haute est l'examen de référence",
+                "La recherche d'Helicobacter pylori est importante",
+                "L'ECG est systématique",
+                "Le scanner cérébral est nécessaire"
+            ],
+            "answers": [
+                "L'endoscopie digestive haute est l'examen de référence",
+                "La recherche d'Helicobacter pylori est importante"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Prise en charge",
+            "description": "Concernant la prise en charge de la gastrite :",
+            "choices": [
+                "IPP",
+                "Antibiothérapie si H. pylori",
+                "Arrêt des AINS",
+                "Antibiotiques systématiques"
+            ],
+            "answers": [
+                "IPP",
+                "Antibiothérapie si H. pylori",
+                "Arrêt des AINS"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Asymptomatique",
+            "description": "La gastrite peut être asymptomatique.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Cause fréquente",
+            "description": "Helicobacter pylori est une cause fréquente de gastrite.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Ulcère",
+            "description": "La gastrite peut évoluer vers un ulcère.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Examen clinique",
+            "description": "L'examen clinique de la gastrite est toujours spécifique.",
+            "answers": [
+                "Faux"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Cancer gastrique",
+            "description": "Une gastrite chronique peut augmenter le risque de cancer gastrique.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 50 ans présentant des douleurs épigastriques brûlantes après les repas, associées à des nausées. Il prend régulièrement des AINS pour des douleurs chroniques. Sensibilité épigastrique à l'examen.",
+            "answers": [
+                "Gastrite"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 42 ans consultant pour lourdeur digestive et ballonnements post-prandiaux, avec consommation régulière de café et alcool dans un contexte de stress.",
+            "answers": [
+                "Gastrite"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 55 ans présentant douleurs épigastriques chroniques, fatigue et perte d'appétit. Une endoscopie avec recherche d'Helicobacter pylori est envisagée.",
+            "answers": [
+                "Gastrite"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 60 ans avec vomissements et douleurs épigastriques intenses, associés à une asthénie récente. Une exploration digestive est indiquée.",
+            "answers": [
+                "Gastrite"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 35 ans présentant douleurs épigastriques diffuses et nausées, elle est alcoolique.",
+            "answers": [
+                "Gastrite"
+            ]
+        }
+    ]
+}

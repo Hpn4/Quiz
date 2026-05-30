@@ -1,0 +1,223 @@
+{
+    "name": "Reflux gastro-œsophagien (RGO)",
+    "slug": "rgo",
+    "description": "",
+    "image": "osteo3.png",
+    "infoTable": [
+        {
+            "key": "DÉFINITION (DEF)",
+            "value": "Pathologie digestive fréquente liée à une défaillance du sphincter œsophagien inférieur entraînant un passage anormal du contenu gastrique acide dans l'œsophage, responsable de symptômes typiques de brûlures (pyrosis). Environ 10 à 20 % de la population occidentale."
+        },
+        {
+            "key": "FACTEURS DE RISQUE / TERRAIN",
+            "value": "Relaxation du sphincter œsophagien inférieur ; alimentation (gras, alcool, café, chocolat) ; surpoids ; grossesse ; tabagisme ; position allongée (décubitus) ; hernie hiatale ; stress."
+        },
+        {
+            "key": "SIGNES CLINIQUES (SC)",
+            "value": "Pyrosis (brûlures rétro-sternales) ; régurgitations acides ; éructations ; toux nocturne ou en décubitus ; toux chronique incessante ; dysphagie possible ; symptômes majorés après les repas ou en position allongée."
+        },
+        {
+            "key": "EXAMEN CLINIQUE (EC)",
+            "value": "Souvent normal ; parfois sensibilité épigastrique ; recherche de complications (amaigrissement, dysphagie) ; signes ORL associés possibles (enrouement, toux chronique)."
+        },
+        {
+            "key": "EXAMENS PARACLINIQUES (EPC)",
+            "value": "pH-métrie œsophagienne (référence) ; endoscopie digestive haute (recherche œsophagite, complications) ; test thérapeutique aux IPP."
+        },
+        {
+            "key": "ÉVOLUTION / COMPLICATIONS",
+            "value": "Œsophagite ; sténose œsophagienne ; risque d'adénocarcinome œsophagien ; chronicisation des symptômes."
+        },
+        {
+            "key": "TRAITEMENT (TTT)",
+            "value": "Médicamenteux : inhibiteurs de la pompe à protons (IPP) en traitement de fond ; antiacides ; mesures hygiéno-diététiques : surélévation de la tête du lit, éviter décubitus post-prandial, adaptation alimentaire, perte de poids."
+        }
+    ],
+    "glossary": [
+        {
+            "term": "Éructations",
+            "definition": "Rejet bruyant, par la bouche, des gaz contenus dans l'estomac"
+        },
+        {
+            "term": "Dysphagie",
+            "definition": "Difficulté à la déglutition"
+        },
+        {
+            "term": "Pyrosis",
+            "definition": "Sensation de brûlure qui part de l'épigastre et remonte l'œsophage, s'accompagnant d'éructation et de renvoi acide"
+        },
+        {
+            "term": "Sténose œsophagienne",
+            "definition": "Rétrécissement anormal du canal œsophagien"
+        }
+    ],
+    "questions": [
+        {
+            "type": "mcq",
+            "title": "Définition",
+            "description": "Le reflux gastro-œsophagien correspond à :",
+            "choices": [
+                "Une infection de l'estomac",
+                "Une remontée du contenu gastrique acide dans l'œsophage liée à une défaillance du sphincter inférieur",
+                "Une obstruction intestinale",
+                "Une inflammation du côlon"
+            ],
+            "answers": [
+                "Une remontée du contenu gastrique acide dans l'œsophage liée à une défaillance du sphincter inférieur"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Facteurs favorisants",
+            "description": "Quels facteurs favorisent le RGO ?",
+            "choices": [
+                "Alimentation riche en gras ou chocolat",
+                "Surpoids",
+                "Position allongée après repas",
+                "Activité physique régulière"
+            ],
+            "answers": [
+                "Alimentation riche en gras ou chocolat",
+                "Surpoids",
+                "Position allongée après repas"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Signes cliniques",
+            "description": "Le RGO peut se manifester par :",
+            "choices": [
+                "Pyrosis rétro-sternal",
+                "Régurgitations acides",
+                "Toux nocturne chronique",
+                "Douleur articulaire"
+            ],
+            "answers": [
+                "Pyrosis rétro-sternal",
+                "Régurgitations acides",
+                "Toux nocturne chronique"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Diagnostic",
+            "description": "Concernant le diagnostic du RGO :",
+            "choices": [
+                "La pH-métrie œsophagienne est un examen de référence",
+                "L'endoscopie permet de rechercher des complications",
+                "Le scanner cérébral est indiqué",
+                "L'ECG est systématique"
+            ],
+            "answers": [
+                "La pH-métrie œsophagienne est un examen de référence",
+                "L'endoscopie permet de rechercher des complications"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Prise en charge",
+            "description": "Concernant la prise en charge du RGO :",
+            "choices": [
+                "IPP en traitement de fond",
+                "Surélévation de la tête du lit",
+                "Éviter de s'allonger après les repas",
+                "Antibiothérapie systématique"
+            ],
+            "answers": [
+                "IPP en traitement de fond",
+                "Surélévation de la tête du lit",
+                "Éviter de s'allonger après les repas"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Prévalence",
+            "description": "Le RGO touche environ 10 à 20 % de la population occidentale.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Décubitus",
+            "description": "Les symptômes du RGO sont souvent aggravés en position allongée.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Toux chronique",
+            "description": "Le RGO peut entraîner une toux chronique.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Examen clinique",
+            "description": "L'examen clinique du RGO est toujours très évocateur.",
+            "answers": [
+                "Faux"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Complications",
+            "description": "Le RGO peut évoluer vers des complications comme la sténose œsophagienne.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 45 ans consultant pour brûlures rétro-sternales survenant après les repas, aggravées en position allongée le soir. Il décrit des remontées acides jusque dans la gorge et une amélioration partielle avec des antiacides en automédication.",
+            "answers": [
+                "RGO",
+                "Reflux gastro-œsophagien",
+                "Reflux gastro-oesophagien"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 38 ans, en surpoids, présentant une toux chronique nocturne persistante, sans infection respiratoire retrouvée. Elle rapporte également des éructations fréquentes et un goût acide dans la bouche au réveil.",
+            "answers": [
+                "RGO",
+                "Reflux gastro-œsophagien",
+                "Reflux gastro-oesophagien"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 50 ans avec antécédent de tabagisme, consultant pour pyrosis quotidien depuis plusieurs mois, associé à une dysphagie progressive et un amaigrissement récent.",
+            "answers": [
+                "RGO",
+                "Reflux gastro-œsophagien",
+                "Reflux gastro-oesophagien"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme enceinte de 30 ans présentant des brûlures œsophagiennes importantes après les repas, majorées en décubitus, sans autre signe digestif associé.",
+            "answers": [
+                "RGO",
+                "Reflux gastro-œsophagien",
+                "Reflux gastro-oesophagien"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 60 ans consultant pour enrouement chronique et sensation de gorge irritée, sans infection ORL. Il décrit des symptômes digestifs discrets mais réguliers après les repas.",
+            "answers": [
+                "RGO",
+                "Reflux gastro-œsophagien",
+                "Reflux gastro-oesophagien"
+            ]
+        }
+    ]
+}
