@@ -1,0 +1,204 @@
+{
+    "name": "Rhumatisme psoriasique",
+    "slug": "rhumatisme_psoriasique",
+    "description": "",
+    "image": "osteo4.png",
+    "infoTable": [
+        {
+            "key": "DÉFINITION (DEF)",
+            "value": "Rhumatisme inflammatoire chronique et maladie auto-immune associé au psoriasis cutané, évoluant par poussées, pouvant toucher les articulations périphériques et/ou le rachis, sur un terrain souvent favorisé par le stress."
+        },
+        {
+            "key": "FACTEURS DE RISQUE / TERRAIN",
+            "value": "Psoriasis cutané ; terrain auto-immun ; stress chronique ; facteurs génétiques ; possible positivité HLA-B27."
+        },
+        {
+            "key": "SIGNES CLINIQUES (SC)",
+            "value": "Atteinte articulaire chronique évoluant par poussées ; douleurs inflammatoires avec recrudescence nocturne ; atteinte des membres supérieurs souvent asymétrique ; forme digitale avec arthrite interphalangienne distale (« doigts en saucisse ») ; atteinte unguéale (dépressions unguéales, onycholyse) ; plaques cutanées érythémateuses et squameuses ; possible atteinte rachidienne et sacro-iliaque ; association possible à une HTA."
+        },
+        {
+            "key": "EXAMEN CLINIQUE (EC)",
+            "value": "Observation des lésions cutanées psoriasiques et des ongles ; palpation douloureuse des articulations atteintes ; limitation des amplitudes articulaires en phase de poussée ; diminution des grands mouvements."
+        },
+        {
+            "key": "EXAMENS PARACLINIQUES (EPC)",
+            "value": "Biologie : syndrome inflammatoire (VS, CRP élevées), HLA-B27 parfois positif, facteur rhumatoïde généralement négatif ; imagerie : radiographies, scanner ou IRM selon la localisation et la sévérité."
+        },
+        {
+            "key": "ÉVOLUTION / COMPLICATIONS",
+            "value": "Évolution chronique ; déformations articulaires possibles ; atteinte fonctionnelle ; impact cutané, articulaire et psychosocial important."
+        },
+        {
+            "key": "TRAITEMENT (TTT)",
+            "value": "Médicamenteux : traitements locaux cutanés (corticoïdes), AINS lors des poussées articulaires, méthotrexate ou traitements de fond selon la sévérité ; suivi médical spécialisé indispensable."
+        }
+    ],
+    "glossary": [
+        {
+            "term": "Psoriasis",
+            "definition": "Maladie inflammatoire de la peau d'évolution chronique, évoluant par poussées de plaques rouges qui desquament"
+        },
+        {
+            "term": "Dactylite",
+            "definition": "Doigt en saucisse"
+        }
+    ],
+    "questions": [
+        {
+            "type": "mcq",
+            "title": "Définition",
+            "description": "Le rhumatisme psoriasique est :",
+            "choices": [
+                "Une infection articulaire secondaire au psoriasis",
+                "Une maladie inflammatoire chronique auto-immune associée au psoriasis",
+                "Une pathologie dégénérative du cartilage",
+                "Une arthrite microcristalline"
+            ],
+            "answers": [
+                "Une maladie inflammatoire chronique auto-immune associée au psoriasis"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Facteurs favorisants",
+            "description": "Le rhumatisme psoriasique est favorisé par :",
+            "choices": [
+                "Psoriasis cutané",
+                "Terrain génétique",
+                "Stress chronique",
+                "Hyperuricémie"
+            ],
+            "answers": [
+                "Psoriasis cutané",
+                "Terrain génétique",
+                "Stress chronique"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Signes cliniques",
+            "description": "Dans le rhumatisme psoriasique, on retrouve fréquemment :",
+            "choices": [
+                "Arthrite asymétrique",
+                "Atteinte des interphalangiennes distales",
+                "Dactylite",
+                "Déviation ulnaire typique"
+            ],
+            "answers": [
+                "Arthrite asymétrique",
+                "Atteinte des interphalangiennes distales",
+                "Dactylite"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Diagnostic",
+            "description": "Concernant le diagnostic du rhumatisme psoriasique :",
+            "choices": [
+                "Le facteur rhumatoïde est généralement négatif",
+                "HLA-B27 peut être positif",
+                "L'hyperuricémie est constante",
+                "Les radiographies sont inutiles"
+            ],
+            "answers": [
+                "Le facteur rhumatoïde est généralement négatif",
+                "HLA-B27 peut être positif"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Évolution",
+            "description": "Concernant le rhumatisme psoriasique :",
+            "choices": [
+                "Il évolue par poussées",
+                "Il peut entraîner des déformations articulaires",
+                "Il guérit spontanément",
+                "Les AINS sont contre-indiqués"
+            ],
+            "answers": [
+                "Il évolue par poussées",
+                "Il peut entraîner des déformations articulaires"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Symétrie",
+            "description": "Le rhumatisme psoriasique est toujours symétrique.",
+            "answers": [
+                "Faux"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Atteinte unguéale",
+            "description": "Le rhumatisme psoriasique peut s'accompagner d'atteintes unguéales.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Facteur rhumatoïde",
+            "description": "Le facteur rhumatoïde du rhumatisme psoriasique est généralement négatif.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Atteinte rachidienne",
+            "description": "Le rhumatisme psoriasique peut toucher le rachis et les sacro-iliaques.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Atteinte cutanée seule",
+            "description": "Le rhumatisme psoriasique s'agit d'une maladie purement cutanée sans atteinte articulaire.",
+            "answers": [
+                "Faux"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Patient de 42 ans présentant plaques érythémateuses squameuses aux coudes et douleurs asymétriques des doigts, avec gonflement d'un orteil entier.",
+            "answers": [
+                "Rhumatisme psoriasique"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 38 ans avec psoriasis connu, douleurs inflammatoires nocturnes du genou gauche et atteinte des interphalangiennes distales.",
+            "answers": [
+                "Rhumatisme psoriasique"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Patiente de 45 ans présentant dépressions unguéales et douleurs articulaires évoluant par poussées.",
+            "answers": [
+                "Rhumatisme psoriasique"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Patient avec psoriasis ancien, douleur lombaire inflammatoire et sacro-iliaque douloureuse, HLA-B27 positif.",
+            "answers": [
+                "Rhumatisme psoriasique"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 50 ans présentant arthrite asymétrique des membres supérieurs, plaques psoriasiques et facteur rhumatoïde négatif.",
+            "answers": [
+                "Rhumatisme psoriasique"
+            ]
+        }
+    ]
+}

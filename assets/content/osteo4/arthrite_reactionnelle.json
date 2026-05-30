@@ -1,0 +1,194 @@
+{
+    "name": "Arthrite réactionnelle",
+    "slug": "arthrite_reactionnelle",
+    "description": "",
+    "image": "osteo4.png",
+    "infoTable": [
+        {
+            "key": "DÉFINITION (DEF)",
+            "value": "L'arthrite réactionnelle, aussi appelée syndrome de Fiessinger–Leroy–Reiter, est une maladie inflammatoire articulaire survenant à distance d'une infection, le plus souvent uro-génitale ou gastro-intestinale, apparaissant quelques semaines après l'épisode infectieux."
+        },
+        {
+            "key": "FACTEURS DE RISQUE / TERRAIN",
+            "value": "Sujet jeune ; sexe masculin ; âge 15–35 ans ; infections génito-urinaires ou digestives (Chlamydia, entérobactéries) ; terrain génétique HLA-B27 positif."
+        },
+        {
+            "key": "SIGNES CLINIQUES (SC)",
+            "value": "Syndrome inflammatoire général (fièvre, asthénie, amaigrissement) ; atteinte uro-génitale (urétrite, polyurie, dysurie, prostatite chez l'homme ; cervicite, salpingite ou vulvo-vaginite chez la femme) ; arthrite asymétrique prédominant aux membres inférieurs (genou, cheville, orteils) avec douleurs et gonflements ; atteinte possible du rachis lombaire ; manifestations ophtalmologiques (conjonctivite, photophobie)."
+        },
+        {
+            "key": "EXAMEN CLINIQUE (EC)",
+            "value": "Articulations inflammatoires douloureuses, chaudes et tuméfiées ; limitation fonctionnelle ; signes urinaires ou génitaux associés ; évaluation des atteintes extra-articulaires."
+        },
+        {
+            "key": "EXAMENS PARACLINIQUES (EPC)",
+            "value": "Diagnostic principalement clinique ; biologie : HLA-B27 positif dans 50 à 80 % des cas ; bilan inflammatoire possible ; examens orientés vers l'identification du germe initial."
+        },
+        {
+            "key": "ÉVOLUTION / COMPLICATIONS",
+            "value": "Évolution le plus souvent favorable ; possible chronicisation ou évolution vers une spondylarthrite ; récidives possibles."
+        },
+        {
+            "key": "TRAITEMENT (TTT)",
+            "value": "Médicamenteux : antibiothérapie ciblée selon le germe responsable ; AINS pour le traitement des manifestations articulaires ; prise en charge médicale spécialisée indispensable."
+        }
+    ],
+    "glossary": [],
+    "questions": [
+        {
+            "type": "mcq",
+            "title": "Définition",
+            "description": "Concernant l'arthrite réactionnelle :",
+            "choices": [
+                "Il s'agit d'une infection bactérienne directe de l'articulation",
+                "Il s'agit d'une maladie inflammatoire articulaire survenant à distance d'une infection",
+                "Il s'agit d'une pathologie dégénérative du cartilage",
+                "Il s'agit d'une maladie métabolique liée aux cristaux"
+            ],
+            "answers": [
+                "Il s'agit d'une maladie inflammatoire articulaire survenant à distance d'une infection"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Terrain",
+            "description": "Les arthrites réactionnelles surviennent le plus souvent chez :",
+            "choices": [
+                "Sujet jeune (15–35 ans)",
+                "Sexe masculin prédominant",
+                "Terrain HLA-B27 positif",
+                "Sujet âgé polymédiqué"
+            ],
+            "answers": [
+                "Sujet jeune (15–35 ans)",
+                "Sexe masculin prédominant",
+                "Terrain HLA-B27 positif"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Signes cliniques",
+            "description": "Dans l'arthrite réactionnelle, on retrouve fréquemment :",
+            "choices": [
+                "Arthrite asymétrique des membres inférieurs",
+                "Conjonctivite ou photophobie",
+                "Urétrite ou dysurie",
+                "Déviation ulnaire des doigts"
+            ],
+            "answers": [
+                "Arthrite asymétrique des membres inférieurs",
+                "Conjonctivite ou photophobie",
+                "Urétrite ou dysurie"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Diagnostic",
+            "description": "Concernant le diagnostic de l'arthrite réactionnelle :",
+            "choices": [
+                "Le diagnostic est essentiellement clinique",
+                "Le HLA-B27 est toujours positif",
+                "Les radiographies montrent toujours des érosions précoces",
+                "La ponction retrouve des cristaux d'urate"
+            ],
+            "answers": [
+                "Le diagnostic est essentiellement clinique"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Évolution",
+            "description": "Concernant l'évolution de l'arthrite réactionnelle :",
+            "choices": [
+                "L'évolution est le plus souvent favorable",
+                "Une évolution vers une spondylarthrite est possible",
+                "Une antibiothérapie est toujours inutile",
+                "Il s'agit d'une maladie purement mécanique"
+            ],
+            "answers": [
+                "L'évolution est le plus souvent favorable",
+                "Une évolution vers une spondylarthrite est possible"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Déclenchement post-infectieux",
+            "description": "L'arthrite réactionnelle survient généralement quelques semaines après une infection génito-urinaire ou digestive.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Atteinte articulaire",
+            "description": "L'arthrite réactionnelle touche préférentiellement les petites articulations des mains de façon symétrique.",
+            "answers": [
+                "Faux"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "HLA-B27",
+            "description": "Le HLA-B27 est fréquemment associé aux arthrites réactionnelles.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Atteinte oculaire",
+            "description": "L'arthrite réactionnelle peut s'accompagner d'atteintes ophtalmologiques.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Évolution",
+            "description": "L'arthrite réactionnelle est toujours chronique et irréversible.",
+            "answers": [
+                "Faux"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 28 ans présentant une douleur et un gonflement du genou droit apparus 3 semaines après un épisode de diarrhée fébrile.",
+            "answers": [
+                "Arthrite réactionnelle"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Patient de 32 ans consultant pour arthrite asymétrique de la cheville associée à une conjonctivite et des brûlures mictionnelles.",
+            "answers": [
+                "Arthrite réactionnelle"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 25 ans avec douleurs lombaires inflammatoires et arthrite du genou, antécédent récent d'infection à Chlamydia.",
+            "answers": [
+                "Arthrite réactionnelle"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Patient de 30 ans présentant fièvre modérée, asthénie, arthrite du pied et dysurie évoluant depuis 10 jours.",
+            "answers": [
+                "Arthrite réactionnelle"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme HLA-B27 positif avec arthrite du genou et atteinte oculaire survenue après infection digestive récente.",
+            "answers": [
+                "Arthrite réactionnelle"
+            ]
+        }
+    ]
+}

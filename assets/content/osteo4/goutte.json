@@ -1,0 +1,204 @@
+{
+    "name": "Goutte",
+    "slug": "goutte",
+    "description": "",
+    "image": "osteo4.png",
+    "infoTable": [
+        {
+            "key": "DÉFINITION (DEF)",
+            "value": "Maladie métabolique chronique liée à une hyperuricémie, caractérisée par des dépôts de cristaux d'urate monosodique dans les articulations, responsables de crises inflammatoires aiguës récidivantes."
+        },
+        {
+            "key": "FACTEURS DE RISQUE / TERRAIN",
+            "value": "Sexe masculin ; âge 35–55 ans ; hyperuricémie ; consommation d'alcool ; alimentation riche en purines (viandes rouges, abats, fruits de mer) ; obésité ; traumatismes ; stress émotionnel ; certains médicaments (diurétiques)."
+        },
+        {
+            "key": "SIGNES CLINIQUES (SC)",
+            "value": "Crise aiguë inflammatoire mono-articulaire ++ au niveau de la MTP de l'hallux ; douleur intense, brutale, nocturne ; hypersensibilité au contact (drap insupportable) ; œdème ; rougeur ; chaleur ; déformation et hypertrophie articulaire ; sensation de déchirure ou de froid intense ; formes plus rares : atteinte du pied, cheville, genou, main ou coude, parfois polyarthrite goutteuse."
+        },
+        {
+            "key": "EXAMEN CLINIQUE (EC)",
+            "value": "Articulation rouge, chaude, tuméfiée et très douloureuse ; orteil déformé et volumineux ; patient agité et insomniaque ; limitation fonctionnelle majeure."
+        },
+        {
+            "key": "EXAMENS PARACLINIQUES (EPC)",
+            "value": "Biologie : hyperuricémie (hors crise parfois normale) ; examens orientés selon le contexte ; ponction articulaire possible montrant des cristaux d'urate (si doute diagnostique)."
+        },
+        {
+            "key": "ÉVOLUTION / COMPLICATIONS",
+            "value": "Crises récidivantes ; évolution vers une goutte chronique tophacée ; destructions articulaires ; atteinte rénale possible (lithiase, néphropathie uratique)."
+        },
+        {
+            "key": "TRAITEMENT (TTT)",
+            "value": "Médicamenteux : colchicine et AINS en phase aiguë ; non médicamenteux : règles hygiéno-diététiques (réduction alcool et purines), hygiène de vie."
+        }
+    ],
+    "glossary": [
+        {
+            "term": "Cristaux d'urate",
+            "definition": "Formations solides de sels d'acide urique qui se forment lors de l'élimination de cette substance par notre organisme"
+        },
+        {
+            "term": "Hyperuricémie",
+            "definition": "Élévation pathologique de l'uricémie (taux d'acide urique dans le sang)"
+        }
+    ],
+    "questions": [
+        {
+            "type": "mcq",
+            "title": "Définition",
+            "description": "La goutte est :",
+            "choices": [
+                "Une infection bactérienne articulaire",
+                "Une maladie métabolique liée à des dépôts de cristaux d'urate",
+                "Une maladie auto-immune systémique",
+                "Une dégénérescence cartilagineuse"
+            ],
+            "answers": [
+                "Une maladie métabolique liée à des dépôts de cristaux d'urate"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Facteurs favorisants",
+            "description": "Quels éléments favorisent la goutte ?",
+            "choices": [
+                "Consommation d'alcool",
+                "Alimentation riche en purines",
+                "Diurétiques",
+                "Carence en calcium"
+            ],
+            "answers": [
+                "Consommation d'alcool",
+                "Alimentation riche en purines",
+                "Diurétiques"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Crise aiguë",
+            "description": "Lors d'une crise aiguë de goutte, quels peuvent être les symptômes ?",
+            "choices": [
+                "Douleur brutale nocturne",
+                "Atteinte fréquente de la MTP du gros orteil",
+                "Articulation rouge et chaude",
+                "Raideur matinale > 1 heure systématique"
+            ],
+            "answers": [
+                "Douleur brutale nocturne",
+                "Atteinte fréquente de la MTP du gros orteil",
+                "Articulation rouge et chaude"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Diagnostic",
+            "description": "Concernant le diagnostic de la goutte :",
+            "choices": [
+                "L'hyperuricémie est toujours élevée pendant la crise",
+                "La ponction articulaire peut montrer des cristaux d'urate",
+                "Le facteur rhumatoïde est spécifique",
+                "L'hyperuricémie peut être normale en phase aiguë"
+            ],
+            "answers": [
+                "La ponction articulaire peut montrer des cristaux d'urate",
+                "L'hyperuricémie peut être normale en phase aiguë"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Traitement",
+            "description": "Quel(s) traitement(s) en phase aiguë de goutte ?",
+            "choices": [
+                "Colchicine",
+                "Antibiotiques",
+                "AINS",
+                "Immobilisation plâtrée systématique"
+            ],
+            "answers": [
+                "Colchicine",
+                "AINS"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Épidémiologie",
+            "description": "La goutte touche plus fréquemment l'homme d'âge moyen.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Hypersensibilité",
+            "description": "La douleur liée à la goutte peut être déclenchée par un simple contact du drap.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Diagnostic",
+            "description": "L'hyperuricémie suffit toujours à poser le diagnostic de la crise de goutte.",
+            "answers": [
+                "Faux"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Complications articulaires",
+            "description": "Une goutte chronique peut entraîner des destructions articulaires.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Complications rénales",
+            "description": "La goutte peut provoquer des complications rénales.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 45 ans consultant pour douleur brutale du gros orteil apparue dans la nuit, articulation rouge, chaude, œdématiée, hypersensible au contact du drap.",
+            "answers": [
+                "Goutte"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Patient de 52 ans avec consommation régulière d'alcool et alimentation riche en viande rouge, présentant une mono-arthrite aiguë de la cheville.",
+            "answers": [
+                "Goutte"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 60 ans sous traitement diurétique pour HTA, présentant crise douloureuse inflammatoire du genou, hyperuricémie connue.",
+            "answers": [
+                "Goutte"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Patient présentant tuméfactions indolores au niveau des coudes et des pavillons d'oreille, avec antécédents de crises répétées du gros orteil.",
+            "answers": [
+                "Goutte"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 55 ans présentant douleurs articulaires récidivantes et antécédent de calculs rénaux uratiques.",
+            "answers": [
+                "Goutte"
+            ]
+        }
+    ]
+}

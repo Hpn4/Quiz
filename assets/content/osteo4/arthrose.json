@@ -1,0 +1,208 @@
+{
+    "name": "Arthrose",
+    "slug": "arthrose",
+    "description": "",
+    "image": "osteo4.png",
+    "infoTable": [
+        {
+            "key": "DÉFINITION (DEF)",
+            "value": "Maladie articulaire chronique dégénérative caractérisée par une altération progressive du cartilage articulaire, associée à des remaniements de l'os sous-chondral et des tissus péri-articulaires, entraînant douleur et limitation fonctionnelle."
+        },
+        {
+            "key": "LOCALISATIONS FRÉQUENTES",
+            "value": "Genou (gonarthrose) ; hanche (coxarthrose) ; rachis lombaire (zygarthrose, discarthrose) ; rachis cervical (cervicarthrose) ; épaule (omarthrose) ; main (rhizarthrose)."
+        },
+        {
+            "key": "FACTEURS DE RISQUE / TERRAIN",
+            "value": "Âge (> 40–45 ans) ; sexe masculin et féminin ; surmenage articulaire ; surcharge pondérale ; troubles statiques ; traumatismes articulaires antérieurs ; facteurs professionnels ou sportifs."
+        },
+        {
+            "key": "SIGNES CLINIQUES (SC)",
+            "value": "Douleurs mécaniques ; raideur articulaire matinale de courte durée ; courbatures ; limitation des amplitudes de mouvement ; gêne dans les activités de la vie quotidienne ; possible crépitation articulaire."
+        },
+        {
+            "key": "EXAMEN CLINIQUE (EC)",
+            "value": "Diminution des amplitudes articulaires ; douleurs à la mobilisation ; parfois déformations articulaires ; absence de signes inflammatoires généraux."
+        },
+        {
+            "key": "EXAMENS PARACLINIQUES (EPC)",
+            "value": "Radiographies montrant un pincement de l'interligne articulaire, des géodes sous-chondrales, une sclérose sous-chondrale et la présence d'ostéophytes."
+        },
+        {
+            "key": "ÉVOLUTION / COMPLICATIONS",
+            "value": "Évolution lente et progressive ; aggravation de la douleur et de la limitation fonctionnelle ; altération de la qualité de vie ; recours possible à la chirurgie prothétique."
+        },
+        {
+            "key": "TRAITEMENT (TTT)",
+            "value": "Non médicamenteux : règles hygiéno-diététiques, activité physique adaptée, kinésithérapie ; médicamenteux : antalgiques / AINS ; traitements complémentaires : infiltrations intra-articulaires de corticoïdes ; chirurgie (prothèses partielles ou totales) en cas d'échec du traitement conservateur."
+        }
+    ],
+    "glossary": [
+        {
+            "term": "Ostéophytes",
+            "definition": "Excroissances osseuses localisées au niveau des articulations"
+        },
+        {
+            "term": "Sclérose sous-chondrale",
+            "definition": "Épaississement et densification anormaux de l'os situé sous le cartilage d'une articulation"
+        }
+    ],
+    "questions": [
+        {
+            "type": "mcq",
+            "title": "Définition",
+            "description": "L'arthrose est :",
+            "choices": [
+                "Une maladie inflammatoire auto-immune",
+                "Une pathologie dégénérative du cartilage articulaire",
+                "Une infection articulaire chronique",
+                "Une tumeur osseuse bénigne"
+            ],
+            "answers": [
+                "Une pathologie dégénérative du cartilage articulaire"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Localisations",
+            "description": "L'arthrose touche fréquemment :",
+            "choices": [
+                "Genou",
+                "Hanche",
+                "Rachis lombaire",
+                "MCP"
+            ],
+            "answers": [
+                "Genou",
+                "Hanche",
+                "Rachis lombaire"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Signes caractéristiques",
+            "description": "Quels signes sont caractéristiques de l'arthrose ?",
+            "choices": [
+                "Douleur mécanique",
+                "Raideur matinale > 1 heure",
+                "Crépitations articulaires",
+                "Syndrome inflammatoire biologique marqué"
+            ],
+            "answers": [
+                "Douleur mécanique",
+                "Crépitations articulaires"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Radiographie",
+            "description": "Dans un contexte d'arthrose, les radiographies peuvent montrer :",
+            "choices": [
+                "Pincement de l'interligne",
+                "Ostéophytes",
+                "Sclérose sous-chondrale",
+                "Érosions marginales inflammatoires typiques"
+            ],
+            "answers": [
+                "Pincement de l'interligne",
+                "Ostéophytes",
+                "Sclérose sous-chondrale"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Traitement",
+            "description": "Concernant le traitement de l'arthrose :",
+            "choices": [
+                "Activité physique adaptée recommandée",
+                "Immobilisation prolongée",
+                "Infiltration intra-articulaire possible",
+                "Antibiothérapie systématique"
+            ],
+            "answers": [
+                "Activité physique adaptée recommandée",
+                "Infiltration intra-articulaire possible"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Inflammatoire",
+            "description": "L'arthrose est une maladie strictement inflammatoire.",
+            "answers": [
+                "Faux"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Douleur mécanique",
+            "description": "La douleur liée à l'arthrose est généralement majorée à l'effort et soulagée au repos.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Ostéophytes",
+            "description": "Les ostéophytes sont des excroissances osseuses visibles à la radiographie en cas d'arthrose.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Raideur matinale",
+            "description": "La raideur matinale dure généralement plus d'une heure dans un contexte d'arthrose.",
+            "answers": [
+                "Faux"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Évolution",
+            "description": "L'évolution de l'arthrose est souvent lente et progressive.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 62 ans présentant douleur du genou droit majorée à la marche et à la descente des escaliers, avec crépitations à la mobilisation.",
+            "answers": [
+                "Arthrose"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 68 ans consultant pour douleur de hanche mécanique évoluant depuis plusieurs années, limitation progressive de la rotation interne.",
+            "answers": [
+                "Arthrose"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 70 ans présentant raideur cervicale modérée le matin (< 15 min) et douleurs augmentant en fin de journée.",
+            "answers": [
+                "Arthrose"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Patiente de 65 ans avec déformation progressive du pouce (rhizarthrose) et douleur à la préhension.",
+            "answers": [
+                "Arthrose"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 75 ans présentant douleur lombaire mécanique chronique, sans syndrome inflammatoire biologique, radiographie montrant pincement discal et ostéophytes.",
+            "answers": [
+                "Arthrose"
+            ]
+        }
+    ]
+}

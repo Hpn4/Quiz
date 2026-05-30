@@ -1,0 +1,229 @@
+{
+    "name": "Pseudo-polyarthrite rhizomélique (PPR) et maladie de Horton",
+    "slug": "ppr",
+    "description": "",
+    "image": "osteo4.png",
+    "infoTable": [
+        {
+            "key": "DÉFINITION (DEF) - PPR",
+            "value": "Rhumatisme inflammatoire chronique touchant préférentiellement les ceintures scapulaires et/ou pelviennes, responsable de douleurs et de raideurs musculaires et articulaires, évoluant de façon bilatérale et symétrique."
+        },
+        {
+            "key": "FACTEURS DE RISQUE / TERRAIN - PPR",
+            "value": "Sujet âgé ; sexe féminin ; âge > 50 ans ; terrain inflammatoire ; parfois contexte infectieux récent ; association possible à une artérite à cellules géantes (maladie de Horton)."
+        },
+        {
+            "key": "SIGNES CLINIQUES (SC) - PPR",
+            "value": "Arthromyalgies inflammatoires des épaules, du rachis cervical et lombaire, du bassin et des cuisses ; douleurs bilatérales et symétriques évoluant depuis ≥ 1 mois ; raideur matinale prolongée (> 45 minutes, surtout en deuxième partie de nuit) ; asthénie ; anorexie ; amaigrissement ; altération de l'état général."
+        },
+        {
+            "key": "EXAMEN CLINIQUE (EC) - PPR",
+            "value": "Douleur à la palpation musculaire proximale ; douleur et limitation des mobilisations articulaires des ceintures ; absence de déformation articulaire ; impotence fonctionnelle prédominant aux mouvements actifs."
+        },
+        {
+            "key": "EXAMENS PARACLINIQUES (EPC) - PPR",
+            "value": "Biologie : syndrome inflammatoire marqué (VS et CRP élevées) ; examens orientés vers l'élimination des diagnostics différentiels (artérite de Horton, chondrocalcinose, rhumatisme à hydroxyapatite)."
+        },
+        {
+            "key": "DIAGNOSTICS DIFFÉRENTIELS - PPR",
+            "value": "Artérite à cellules géantes (Horton) ; chondrocalcinose articulaire ; rhumatisme à dépôts d'hydroxyapatite ; polyarthrite rhumatoïde du sujet âgé."
+        },
+        {
+            "key": "ÉVOLUTION / COMPLICATIONS - PPR",
+            "value": "Évolution généralement favorable sous traitement ; rechutes possibles ; risque d'association à une maladie de Horton nécessitant une surveillance clinique étroite."
+        },
+        {
+            "key": "TRAITEMENT (TTT) - PPR",
+            "value": "Médicamenteux : corticothérapie prolongée (12 à 24 mois) avec réponse clinique rapide ; non médicamenteux : règles hygiéno-diététiques, maintien d'une activité adaptée, prévention de la perte fonctionnelle."
+        },
+        {
+            "key": "DÉFINITION (DEF) - Horton",
+            "value": "Vascularite systémique primitive correspondant à une inflammation touchant l'ensemble de la paroi des artères, principalement les artères de gros et moyen calibre."
+        },
+        {
+            "key": "PRÉVALENCE - Horton",
+            "value": "Sujet > 50 ans ++ ; pathologie fréquente chez la personne âgée."
+        },
+        {
+            "key": "SIGNES CLINIQUES (SC) - Horton",
+            "value": "Céphalées temporales inhabituelles, prédominant la nuit et le matin ; hypersensibilité du cuir chevelu ; douleur sur le trajet des artères temporales ; symptômes oculaires (baisse d'acuité visuelle, flou visuel, diplopie) ; risque de cécité en l'absence de traitement."
+        }
+    ],
+    "glossary": [
+        {
+            "term": "Hyperesthésie",
+            "definition": "Augmentation excessive de la sensibilité à certains stimuli qui se traduit par des sensations désagréables ou douloureuses"
+        },
+        {
+            "term": "Corticothérapie",
+            "definition": "Traitement à base de corticoïdes de synthèse surtout pour leur propriété anti-inflammatoire, immunosuppressive et antiallergique"
+        }
+    ],
+    "questions": [
+        {
+            "type": "mcq",
+            "title": "Définition PPR",
+            "description": "La pseudo-polyarthrite rhizomélique correspond à :",
+            "choices": [
+                "Une polyarthrite destructrice des petites articulations",
+                "Un rhumatisme inflammatoire proximal bilatéral du sujet > 50 ans",
+                "Une myopathie auto-immune primitive",
+                "Une arthrose cervicale inflammatoire"
+            ],
+            "answers": [
+                "Un rhumatisme inflammatoire proximal bilatéral du sujet > 50 ans"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "PPR : terrain",
+            "description": "Concernant la PPR :",
+            "choices": [
+                "Survient avant 40 ans",
+                "Touche principalement les sujets > 50 ans",
+                "Plus fréquente chez la femme",
+                "Associée à une hyperuricémie"
+            ],
+            "answers": [
+                "Touche principalement les sujets > 50 ans",
+                "Plus fréquente chez la femme"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Horton",
+            "description": "Quels signes évoquent une maladie de Horton ?",
+            "choices": [
+                "Céphalées temporales inhabituelles",
+                "Hyperesthésie du cuir chevelu",
+                "Baisse brutale de l'acuité visuelle",
+                "Douleur mécanique cervicale isolée"
+            ],
+            "answers": [
+                "Céphalées temporales inhabituelles",
+                "Hyperesthésie du cuir chevelu",
+                "Baisse brutale de l'acuité visuelle"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Syndrome inflammatoire",
+            "description": "Dans la PPR ou la maladie de Horton :",
+            "choices": [
+                "VS est élevée",
+                "CRP est élevée",
+                "Troponine est élevée",
+                "TSH est diminuée"
+            ],
+            "answers": [
+                "VS est élevée",
+                "CRP est élevée"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Prise en charge",
+            "description": "Concernant la prise en charge de la PPR :",
+            "choices": [
+                "La corticothérapie est le traitement de référence",
+                "L'amélioration clinique sous corticoïdes est rapide",
+                "Les AINS suffisent toujours",
+                "L'absence de traitement dans Horton expose à un risque visuel grave"
+            ],
+            "answers": [
+                "La corticothérapie est le traitement de référence",
+                "L'amélioration clinique sous corticoïdes est rapide",
+                "L'absence de traitement dans Horton expose à un risque visuel grave"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Ceintures",
+            "description": "La PPR touche essentiellement les ceintures scapulaire et pelvienne.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Vascularite",
+            "description": "La maladie de Horton est une vascularite systémique des artères de moyen et gros calibre.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Association",
+            "description": "La PPR peut être associée à une maladie de Horton.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Céphalées",
+            "description": "Les céphalées de Horton sont typiquement mécaniques et soulagées par le repos.",
+            "answers": [
+                "Faux"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Urgence visuelle",
+            "description": "Une baisse brutale de vision dans un contexte de PPR est une urgence thérapeutique.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 72 ans présentant depuis 2 mois des douleurs bilatérales des épaules et des hanches, avec raideur matinale > 1 heure, asthénie et amaigrissement. VS très élevée.",
+            "answers": [
+                "PPR",
+                "Pseudo-polyarthrite rhizomélique"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 68 ans présentant des céphalées temporales nocturnes, une douleur au cuir chevelu au coiffage, et une baisse brutale de la vision de l'œil droit.",
+            "answers": [
+                "Horton",
+                "Maladie de Horton",
+                "Artérite à cellules géantes"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 75 ans consultant pour douleurs scapulaires inflammatoires avec CRP élevée. Depuis quelques jours, apparition de douleurs temporales et flou visuel transitoire.",
+            "answers": [
+                "PPR",
+                "Horton",
+                "Maladie de Horton",
+                "PPR + Horton"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 70 ans présentant des arthromyalgies proximales symétriques, impotence fonctionnelle aux mouvements actifs, sans déformation articulaire.",
+            "answers": [
+                "PPR",
+                "Pseudo-polyarthrite rhizomélique"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Patiente de 74 ans, connue pour PPR, présentant brutalement des céphalées inhabituelles, hyperesthésie du cuir chevelu et diplopie.",
+            "answers": [
+                "Horton",
+                "Maladie de Horton",
+                "Artérite à cellules géantes"
+            ]
+        }
+    ]
+}

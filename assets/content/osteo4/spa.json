@@ -1,0 +1,208 @@
+{
+    "name": "Spondylarthrite ankylosante (SPA)",
+    "slug": "spa",
+    "description": "",
+    "image": "osteo4.png",
+    "infoTable": [
+        {
+            "key": "DÉFINITION (DEF)",
+            "value": "Rhumatisme inflammatoire chronique d'origine auto-immune à prédominance axiale, touchant principalement le rachis, les articulations sacro-iliaques et le bassin, évoluant par poussées inflammatoires vers une raideur progressive pouvant conduire à l'ossification et à l'ankylose articulaire."
+        },
+        {
+            "key": "FACTEURS DE RISQUE / TERRAIN",
+            "value": "Jeune adulte (15–30 ans) ; sexe masculin ; terrain génétique (HLA-B27 positif) ; antécédents familiaux ; dysrégulation du système immunitaire."
+        },
+        {
+            "key": "SIGNES CLINIQUES (SC)",
+            "value": "Lombalgies et douleurs sacro-iliaques inflammatoires (douleurs nocturnes, dérouillage matinal > 30 min) ; raideur rachidienne progressive ; limitation de la mobilité ; poussées inflammatoires ; manifestations extra-articulaires possibles (uvéite antérieure, douleurs thoraciques, talalgies) ; évolution possible vers l'ankylose."
+        },
+        {
+            "key": "EXAMEN CLINIQUE (EC)",
+            "value": "Observation d'une posture antalgique ou d'une boiterie ; palpation douloureuse du rachis et des sacro-iliaques ; diminution globale des mobilités rachidiennes ; raideur marquée hors crise et impotence fonctionnelle en phase de poussée ; tests positifs des sacro-iliaques (cluster de Laslett) ; diminution de la distance doigts-sol ; indice de Schöber diminué."
+        },
+        {
+            "key": "EXAMENS PARACLINIQUES (EPC)",
+            "value": "Imagerie : radiographie, scanner ou IRM du rachis et des sacro-iliaques (IRM utile aux stades précoces) ; biologie : syndrome inflammatoire (VS, CRP élevées), HLA-B27 positif."
+        },
+        {
+            "key": "ÉVOLUTION / COMPLICATIONS",
+            "value": "Évolution chronique par poussées ; raideur progressive ; ankylose rachidienne ; diminution de l'expansion thoracique ; altération fonctionnelle et de la qualité de vie."
+        },
+        {
+            "key": "TRAITEMENT (TTT)",
+            "value": "Médicamenteux : AINS en première intention, corticothérapie lors des poussées, traitements de fond selon évolution (méthotrexate ou biothérapies) ; non médicamenteux : activité physique régulière (marche, étirements, yoga, qi gong, balnéothérapie), kinésithérapie, physiothérapie, hygiène de vie."
+        }
+    ],
+    "glossary": [
+        {
+            "term": "HLA-B27",
+            "definition": "Protéine présente en surface des globules blancs chez certains individus ; un HLA-B27 positif indique un risque plus élevé de développer une maladie auto-immune."
+        },
+        {
+            "term": "Biothérapies",
+            "definition": "Traitements utilisant des médicaments produits à partir de cellules ou de micro-organismes."
+        }
+    ],
+    "questions": [
+        {
+            "type": "mcq",
+            "title": "Définition",
+            "description": "La spondylarthrite ankylosante correspond à :",
+            "choices": [
+                "Une lombalgie mécanique aiguë",
+                "Un rhumatisme inflammatoire chronique à prédominance axiale",
+                "Une infection vertébrale bactérienne",
+                "Une hernie discale lombaire"
+            ],
+            "answers": [
+                "Un rhumatisme inflammatoire chronique à prédominance axiale"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Facteurs associés",
+            "description": "Quels éléments sont associés à la spondylarthrite ankylosante ?",
+            "choices": [
+                "HLA-B27 positif",
+                "Sujet jeune adulte",
+                "Sexe masculin",
+                "Sédentarité isolée"
+            ],
+            "answers": [
+                "HLA-B27 positif",
+                "Sujet jeune adulte",
+                "Sexe masculin"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Lombalgie inflammatoire",
+            "description": "Quels signes orientent vers une lombalgie inflammatoire ?",
+            "choices": [
+                "Douleurs nocturnes",
+                "Dérouillage matinal > 30 minutes",
+                "Douleur majorée à l'effort et calmée au repos",
+                "Disparition totale des symptômes en position couchée"
+            ],
+            "answers": [
+                "Douleurs nocturnes",
+                "Dérouillage matinal > 30 minutes"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Imagerie précoce",
+            "description": "Quel examen est particulièrement utile aux stades précoces de la SPA ?",
+            "choices": [
+                "Radiographie standard uniquement",
+                "IRM des sacro-iliaques",
+                "Échographie abdominale",
+                "Scanner cérébral"
+            ],
+            "answers": [
+                "IRM des sacro-iliaques"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Traitement",
+            "description": "Concernant le traitement de la spondylarthrite ankylosante :",
+            "choices": [
+                "Les AINS sont le traitement de première intention",
+                "L'activité physique régulière est recommandée",
+                "Les biothérapies peuvent être indiquées",
+                "Le repos strict prolongé est conseillé"
+            ],
+            "answers": [
+                "Les AINS sont le traitement de première intention",
+                "L'activité physique régulière est recommandée",
+                "Les biothérapies peuvent être indiquées"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Âge de début",
+            "description": "La spondylarthrite ankylosante débute souvent chez le jeune adulte.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Douleurs mécaniques",
+            "description": "Les douleurs de la SPA sont typiquement mécaniques et calmées par le repos.",
+            "answers": [
+                "Faux"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Uvéite",
+            "description": "Une uvéite antérieure peut être associée à la SPA.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Ankylose",
+            "description": "L'évolution de la SPA peut conduire à une ankylose rachidienne.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "HLA-B27",
+            "description": "Le HLA-B27 est systématiquement présent chez tous les patients atteints de la SPA.",
+            "answers": [
+                "Faux"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 24 ans consultant pour une lombalgie chronique évoluant depuis plusieurs mois, avec douleurs nocturnes et raideur matinale de plus de 45 minutes, améliorée par l'activité physique.",
+            "answers": [
+                "SPA",
+                "Spondylarthrite ankylosante"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Jeune homme de 28 ans présentant une douleur sacro-iliaque bilatérale, une diminution de la mobilité rachidienne et un indice de Schöber diminué.",
+            "answers": [
+                "SPA",
+                "Spondylarthrite ankylosante"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 30 ans, HLA-B27 positif, consultant pour des poussées inflammatoires rachidiennes, associées à un épisode d'uvéite antérieure.",
+            "answers": [
+                "SPA",
+                "Spondylarthrite ankylosante"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Patient de 35 ans présentant une raideur rachidienne progressive, une diminution de l'expansion thoracique et des douleurs thoraciques d'allure inflammatoire.",
+            "answers": [
+                "SPA",
+                "Spondylarthrite ankylosante"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 32 ans consultant pour une talalgie inflammatoire associée à une lombalgie chronique, avec imagerie montrant des atteintes sacro-iliaques.",
+            "answers": [
+                "SPA",
+                "Spondylarthrite ankylosante"
+            ]
+        }
+    ]
+}

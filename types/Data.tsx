@@ -7,6 +7,7 @@ const topics: Record<string, Topic> = {
   osteo1: require('@/assets/content/osteo1/index.json'),
   osteo2: require('@/assets/content/osteo2/index.json'),
   osteo3: require('@/assets/content/osteo3/index.json'),
+  osteo4: require('@/assets/content/osteo4/index.json'),
 };
 
 /*
@@ -56,11 +57,25 @@ const osteo3Quiz: Record<string, Quiz> = {
   steatose: require('@/assets/content/osteo3/steatose.json'),
 };
 
+const osteo4Quiz: Record<string, Quiz> = {
+  spa: require('@/assets/content/osteo4/spa.json'),
+  pr: require('@/assets/content/osteo4/pr.json'),
+  ppr: require('@/assets/content/osteo4/ppr.json'),
+  lupus: require('@/assets/content/osteo4/lupus.json'),
+  osteoporose: require('@/assets/content/osteo4/osteoporose.json'),
+  arthrose: require('@/assets/content/osteo4/arthrose.json'),
+  goutte: require('@/assets/content/osteo4/goutte.json'),
+  fibromyalgie: require('@/assets/content/osteo4/fibromyalgie.json'),
+  arthrite_reactionnelle: require('@/assets/content/osteo4/arthrite_reactionnelle.json'),
+  rhumatisme_psoriasique: require('@/assets/content/osteo4/rhumatisme_psoriasique.json'),
+};
+
 const topicsToQuiz: Record<string, Record<string, Quiz>> = {
   // math: mathQuiz,
   osteo1: osteo1Quiz,
   osteo2: osteo2Quiz,
   osteo3: osteo3Quiz,
+  osteo4: osteo4Quiz,
 };
 
 export function getTopics(): Topic[] {

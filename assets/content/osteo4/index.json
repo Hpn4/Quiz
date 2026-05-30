@@ -1,0 +1,18 @@
+{
+	"name": "Sémiologie Rhumatologique",
+	"slug": "osteo4",
+	"image": "osteo4.png",
+	"description": "Topic de raisonnement clinique",
+	"quiz": [
+		"spa",
+		"pr",
+		"ppr",
+		"lupus",
+		"osteoporose",
+		"arthrose",
+		"goutte",
+		"fibromyalgie",
+		"arthrite_reactionnelle",
+		"rhumatisme_psoriasique"
+	]
+}

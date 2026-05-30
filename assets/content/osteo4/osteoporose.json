@@ -1,0 +1,204 @@
+{
+    "name": "Ostéoporose",
+    "slug": "osteoporose",
+    "description": "",
+    "image": "osteo4.png",
+    "infoTable": [
+        {
+            "key": "DÉFINITION (DEF)",
+            "value": "Maladie squelettique diffuse caractérisée par une diminution de la densité minérale osseuse et une altération de la microarchitecture de l'os, entraînant une fragilité osseuse accrue et un risque élevé de fractures."
+        },
+        {
+            "key": "FACTEURS DE RISQUE / TERRAIN",
+            "value": "Sexe féminin ; âge > 50 ans ; ménopause ; corticothérapie prolongée ; carence en calcium et vitamine D ; sédentarité ; antécédents familiaux de fracture."
+        },
+        {
+            "key": "SIGNES CLINIQUES (SC)",
+            "value": "Asymptomatique ++ ; fractures de fragilité (col du fémur, rachis, poignet) ++ ; douleurs rachidiennes ; cyphose dorsale progressive ; diminution de la taille ; altération de la posture."
+        },
+        {
+            "key": "EXAMEN CLINIQUE (EC)",
+            "value": "Recherche de douleurs osseuses et rachidiennes ; mesure de la taille ; évaluation de la posture et du risque de chute ; dépistage des fractures vertébrales."
+        },
+        {
+            "key": "EXAMENS PARACLINIQUES (EPC)",
+            "value": "Ostéodensitométrie (DEXA) pour mesurer la densité minérale osseuse ; radiographies montrant une radio transparence osseuse et des déformations vertébrales ; bilan biologique selon le contexte ; biopsie osseuse exceptionnelle."
+        },
+        {
+            "key": "ÉVOLUTION / COMPLICATIONS",
+            "value": "Fractures de fragilité récidivantes ; perte d'autonomie ; douleurs chroniques ; augmentation de la morbi-mortalité après fracture du col fémoral."
+        },
+        {
+            "key": "TRAITEMENT (TTT)",
+            "value": "Maladie non curative ; traitement médicamenteux préventif : supplémentation en calcium et vitamine D, traitements anti-résorptifs selon indication médicale ; règles hygiéno-diététiques ; prévention des chutes."
+        }
+    ],
+    "glossary": [
+        {
+            "term": "Traitements anti-résorptifs",
+            "definition": "Préviennent la perte osseuse, peuvent augmenter la densité osseuse et diminuent le risque de fractures"
+        }
+    ],
+    "questions": [
+        {
+            "type": "mcq",
+            "title": "Définition",
+            "description": "L'ostéoporose est :",
+            "choices": [
+                "Une inflammation articulaire chronique",
+                "Une diminution de la densité minérale osseuse avec fragilité accrue",
+                "Une infection osseuse diffuse",
+                "Une tumeur bénigne de l'os"
+            ],
+            "answers": [
+                "Une diminution de la densité minérale osseuse avec fragilité accrue"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Facteurs de risque",
+            "description": "Quels éléments favorisent l'ostéoporose ?",
+            "choices": [
+                "Ménopause",
+                "Corticothérapie prolongée",
+                "Carence en vitamine D",
+                "Hyperactivité physique"
+            ],
+            "answers": [
+                "Ménopause",
+                "Corticothérapie prolongée",
+                "Carence en vitamine D"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Signes cliniques",
+            "description": "L'ostéoporose peut se manifester par :",
+            "choices": [
+                "Fracture du col du fémur",
+                "Douleur lombaire inflammatoire aiguë",
+                "Diminution progressive de la taille",
+                "Déformation des MCP"
+            ],
+            "answers": [
+                "Fracture du col du fémur",
+                "Diminution progressive de la taille"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Diagnostic",
+            "description": "L'examen de référence pour le diagnostic de l'ostéoporose est :",
+            "choices": [
+                "IRM lombaire",
+                "Scanner thoracique",
+                "Ostéodensitométrie (DEXA)",
+                "Échographie abdominale"
+            ],
+            "answers": [
+                "Ostéodensitométrie (DEXA)"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Traitement",
+            "description": "Concernant le traitement de l'ostéoporose :",
+            "choices": [
+                "Supplémentation en calcium et vitamine D",
+                "Prévention des chutes",
+                "Traitements anti-résorptifs selon indication",
+                "Immobilisation prolongée"
+            ],
+            "answers": [
+                "Supplémentation en calcium et vitamine D",
+                "Prévention des chutes",
+                "Traitements anti-résorptifs selon indication"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Asymptomatique",
+            "description": "L'ostéoporose est souvent asymptomatique avant la survenue d'une fracture.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Sexe",
+            "description": "L'ostéoporose touche exclusivement les femmes.",
+            "answers": [
+                "Faux"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Fractures vertébrales",
+            "description": "Les fractures vertébrales sont fréquentes dans un contexte d'ostéoporose.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "DEXA",
+            "description": "L'ostéodensitométrie permet de mesurer la densité minérale osseuse.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Mortalité",
+            "description": "Une fracture du col du fémur augmente la mortalité à court terme.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 68 ans présentant une fracture du poignet après une chute de sa hauteur, sans traumatisme majeur.",
+            "answers": [
+                "Ostéoporose",
+                "Osteoporose"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Patiente de 72 ans avec diminution progressive de la taille, cyphose dorsale et douleurs rachidiennes chroniques.",
+            "answers": [
+                "Ostéoporose",
+                "Osteoporose"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme ménopausée de 60 ans sous corticothérapie prolongée pour maladie inflammatoire, consultant pour bilan osseux.",
+            "answers": [
+                "Ostéoporose",
+                "Osteoporose"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 70 ans avec antécédents familiaux de fracture, sédentaire, présentant une fracture vertébrale découverte fortuitement à la radiographie.",
+            "answers": [
+                "Ostéoporose",
+                "Osteoporose"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Patiente de 75 ans hospitalisée pour fracture du col fémoral après chute à domicile, avec DEXA montrant un T-score ≤ -2,5.",
+            "answers": [
+                "Ostéoporose",
+                "Osteoporose"
+            ]
+        }
+    ]
+}

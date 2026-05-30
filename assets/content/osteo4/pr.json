@@ -1,0 +1,225 @@
+{
+    "name": "Polyarthrite rhumatoïde (PR)",
+    "slug": "pr",
+    "description": "",
+    "image": "osteo4.png",
+    "infoTable": [
+        {
+            "key": "DÉFINITION (DEF)",
+            "value": "Maladie inflammatoire chronique et auto-immune caractérisée par une atteinte synoviale persistante, responsable de poussées inflammatoires articulaires entraînant douleurs, gonflements, raideurs et déformations articulaires progressives, symétriques et bilatérales."
+        },
+        {
+            "key": "FACTEURS DE RISQUE / TERRAIN",
+            "value": "Sexe féminin ; âge > 50 ans ; terrain génétique ; dysrégulation du système immunitaire ; facteurs environnementaux (tabac)."
+        },
+        {
+            "key": "LOCALISATIONS ARTICULAIRES",
+            "value": "Atteinte préférentielle des petites articulations : mains et poignets (MCP et IPP) ++ ; également coudes, épaules, rachis cervical, hanches, genoux et pieds."
+        },
+        {
+            "key": "SIGNES CLINIQUES (SC)",
+            "value": "Douleurs articulaires inflammatoires ; gonflements articulaires ; raideur matinale prolongée (> 1 h) ; recrudescence nocturne ; fatigue importante ; troubles du sommeil ; déformations articulaires progressives (déviation ulnaire des doigts, « coup de vent cubital »)."
+        },
+        {
+            "key": "MANIFESTATIONS EXTRA-ARTICULAIRES",
+            "value": "Nodules rhumatoïdes sous-cutanés ; artérite digitale ; atteinte pleuropulmonaire ; péricardite ; syndrome de Gougerot-Sjögren."
+        },
+        {
+            "key": "EXAMEN CLINIQUE (EC)",
+            "value": "Inspection des déformations et tuméfactions articulaires ; palpation douloureuse des articulations ; limitation fonctionnelle progressive ; diminution de la force de préhension ; atteinte bilatérale et symétrique."
+        },
+        {
+            "key": "EXAMENS PARACLINIQUES (EPC)",
+            "value": "Biologie : syndrome inflammatoire (VS, CRP élevées), facteur rhumatoïde positif, auto-anticorps (anti-CCP, anti-kératine, anti-filaggrine, anti-RA33) ; imagerie : radiographies montrant érosions osseuses et pincements articulaires ; échographie révélant synovites, ténosynovites et épanchements intra-articulaires."
+        },
+        {
+            "key": "ÉVOLUTION / COMPLICATIONS",
+            "value": "Évolution chronique par poussées ; destruction articulaire progressive ; déformations irréversibles ; handicap fonctionnel ; atteinte systémique possible."
+        },
+        {
+            "key": "TRAITEMENT (TTT)",
+            "value": "Médicamenteux : traitement de fond par méthotrexate ; AINS ou corticothérapie lors des poussées ; biothérapies si échec ; non médicamenteux : kinésithérapie, physiothérapie, ergothérapie, podologie, éducation thérapeutique."
+        }
+    ],
+    "glossary": [
+        {
+            "term": "Synoviale",
+            "definition": "Membrane qui tapisse l'intérieur d'une articulation"
+        },
+        {
+            "term": "Anti-CCP",
+            "definition": "Anticorps qui apparaissent spécifiquement dans la polyarthrite rhumatoïde"
+        },
+        {
+            "term": "Troponine",
+            "definition": "Protéine du muscle cardiaque permettant la contraction musculaire"
+        },
+        {
+            "term": "D-dimères",
+            "definition": "Molécules issues de la destruction de la fibrine, protéine produite lors de la coagulation du sang"
+        }
+    ],
+    "questions": [
+        {
+            "type": "mcq",
+            "title": "Définition",
+            "description": "La polyarthrite rhumatoïde est :",
+            "choices": [
+                "Une arthrose inflammatoire du sujet âgé",
+                "Une maladie auto-immune touchant la synoviale articulaire",
+                "Une infection bactérienne articulaire chronique",
+                "Une atteinte uniquement mécanique des articulations"
+            ],
+            "answers": [
+                "Une maladie auto-immune touchant la synoviale articulaire"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Facteurs associés",
+            "description": "Concernant la PR :",
+            "choices": [
+                "Plus fréquente chez la femme",
+                "Survient essentiellement avant 20 ans",
+                "Associée au tabagisme",
+                "Exclusivement d'origine traumatique"
+            ],
+            "answers": [
+                "Plus fréquente chez la femme",
+                "Associée au tabagisme"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Articulations atteintes",
+            "description": "Quelles articulations sont préférentiellement atteintes dans la PR ?",
+            "choices": [
+                "MCP",
+                "IPP",
+                "Poignets",
+                "Interphalangiennes distales (IPD)"
+            ],
+            "answers": [
+                "MCP",
+                "IPP",
+                "Poignets"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Marqueurs",
+            "description": "Quels marqueurs sont caractéristiques de la PR ?",
+            "choices": [
+                "Facteur rhumatoïde",
+                "Anti-CCP",
+                "Troponine",
+                "D-dimères"
+            ],
+            "answers": [
+                "Facteur rhumatoïde",
+                "Anti-CCP"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Prise en charge",
+            "description": "Concernant la prise en charge de la PR :",
+            "choices": [
+                "Le méthotrexate est le traitement de fond de référence",
+                "Les biothérapies peuvent être indiquées",
+                "Les AINS traitent la cause de la maladie",
+                "La rééducation fait partie de la prise en charge"
+            ],
+            "answers": [
+                "Le méthotrexate est le traitement de fond de référence",
+                "Les biothérapies peuvent être indiquées",
+                "La rééducation fait partie de la prise en charge"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Bilatérale",
+            "description": "La PR entraîne une atteinte bilatérale et symétrique.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Raideur matinale",
+            "description": "La raideur matinale est généralement inférieure à 10 minutes.",
+            "answers": [
+                "Faux"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Nodules",
+            "description": "La PR peut donner des nodules sous-cutanés.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "IPD",
+            "description": "Les IPD sont classiquement les premières articulations atteintes dans la PR.",
+            "answers": [
+                "Faux"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Complications systémiques",
+            "description": "La PR peut entraîner des complications systémiques (péricardite, atteinte pulmonaire).",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 54 ans présentant depuis 6 mois des douleurs bilatérales des mains, avec raideur matinale de 1h30, gonflement des MCP et fatigue importante.",
+            "answers": [
+                "PR",
+                "Polyarthrite rhumatoïde"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Homme de 60 ans consultant pour douleurs inflammatoires des poignets et IPP, avec déviation ulnaire progressive des doigts.",
+            "answers": [
+                "PR",
+                "Polyarthrite rhumatoïde"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 48 ans présentant douleurs articulaires symétriques des mains, CRP élevée, facteur rhumatoïde positif et anti-CCP positif.",
+            "answers": [
+                "PR",
+                "Polyarthrite rhumatoïde"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Patiente de 65 ans avec gonflement bilatéral des genoux et des poignets, nodules sous-cutanés et diminution de la force de préhension.",
+            "answers": [
+                "PR",
+                "Polyarthrite rhumatoïde"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 58 ans présentant douleurs inflammatoires nocturnes des mains, fatigue chronique et atteinte pleuropulmonaire associée.",
+            "answers": [
+                "PR",
+                "Polyarthrite rhumatoïde"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,201 @@
+{
+    "name": "Fibromyalgie",
+    "slug": "fibromyalgie",
+    "description": "",
+    "image": "osteo4.png",
+    "infoTable": [
+        {
+            "key": "DÉFINITION (DEF)",
+            "value": "Affection chronique caractérisée par des douleurs musculaires et articulaires diffuses, persistantes et généralisées, associées à une hypersensibilité douloureuse, souvent décrite comme la maladie du « mal partout » et du « mal tout le temps »."
+        },
+        {
+            "key": "FACTEURS DE RISQUE / TERRAIN",
+            "value": "Sexe féminin ; âge autour de 30–50 ans ; stress chronique ; troubles du sommeil ; antécédents anxio-dépressifs ; dérégulation des systèmes de la douleur."
+        },
+        {
+            "key": "SIGNES CLINIQUES (SC)",
+            "value": "Douleurs chroniques diffuses musculo-articulaires présentes de jour comme de nuit ; fatigue intense ; raideur ; tremblements ; céphalées ; troubles du sommeil ; troubles digestifs ; troubles de l'humeur et anxiété ; altération de la qualité de vie."
+        },
+        {
+            "key": "EXAMEN CLINIQUE (EC)",
+            "value": "Douleur diffuse à la palpation ; hypersensibilité généralisée ; absence de signes inflammatoires objectifs ; examen articulaire et neurologique généralement normal."
+        },
+        {
+            "key": "EXAMENS PARACLINIQUES (EPC)",
+            "value": "Diagnostic clinique ; ancien critère des points douloureux (≥ 11 points sensibles sur 18) ; examens complémentaires normaux, réalisés surtout pour éliminer d'autres pathologies."
+        },
+        {
+            "key": "ÉVOLUTION / COMPLICATIONS",
+            "value": "Évolution chronique fluctuante ; majoration possible lors de stress ou de fatigue ; retentissement fonctionnel, psychologique et social important."
+        },
+        {
+            "key": "TRAITEMENT (TTT)",
+            "value": "Pas de traitement curatif spécifique ; hygiène de vie (alimentation équilibrée, activité physique régulière adaptée) ; thérapies non médicamenteuses : kinésithérapie, yoga, relaxation, méditation, éducation thérapeutique."
+        }
+    ],
+    "glossary": [
+        {
+            "term": "VS",
+            "definition": "Vitesse à laquelle les globules rouges, principalement, tombent dans un tube de laboratoire. Si VS augmentée = inflammation"
+        }
+    ],
+    "questions": [
+        {
+            "type": "mcq",
+            "title": "Définition",
+            "description": "La fibromyalgie est :",
+            "choices": [
+                "Une maladie auto-immune destructrice articulaire",
+                "Une affection chronique caractérisée par des douleurs diffuses sans lésion inflammatoire objective",
+                "Une infection musculaire chronique",
+                "Une arthrite métabolique"
+            ],
+            "answers": [
+                "Une affection chronique caractérisée par des douleurs diffuses sans lésion inflammatoire objective"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Facteurs associés",
+            "description": "Quels éléments sont fréquemment associés à la fibromyalgie ?",
+            "choices": [
+                "Sexe féminin",
+                "Stress chronique",
+                "Troubles du sommeil",
+                "Hyperuricémie"
+            ],
+            "answers": [
+                "Sexe féminin",
+                "Stress chronique",
+                "Troubles du sommeil"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Manifestations cliniques",
+            "description": "Lors d'une fibromyalgie on retrouve fréquemment :",
+            "choices": [
+                "Douleurs diffuses jour et nuit",
+                "Fatigue intense",
+                "Troubles digestifs fonctionnels",
+                "Érosions articulaires radiologiques"
+            ],
+            "answers": [
+                "Douleurs diffuses jour et nuit",
+                "Fatigue intense",
+                "Troubles digestifs fonctionnels"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Diagnostic",
+            "description": "Concernant le diagnostic de la fibromyalgie :",
+            "choices": [
+                "Les examens biologiques sont souvent normaux",
+                "Le diagnostic est principalement clinique",
+                "La VS est toujours élevée",
+                "Une IRM montre des lésions articulaires spécifiques"
+            ],
+            "answers": [
+                "Les examens biologiques sont souvent normaux",
+                "Le diagnostic est principalement clinique"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Traitement",
+            "description": "Concernant le traitement de la fibromyalgie :",
+            "choices": [
+                "Activité physique adaptée recommandée",
+                "Thérapies non médicamenteuses (relaxation, yoga)",
+                "Éducation thérapeutique",
+                "Antibiothérapie prolongée"
+            ],
+            "answers": [
+                "Activité physique adaptée recommandée",
+                "Thérapies non médicamenteuses (relaxation, yoga)",
+                "Éducation thérapeutique"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Destructions articulaires",
+            "description": "La fibromyalgie entraîne des destructions articulaires visibles à la radiographie.",
+            "answers": [
+                "Faux"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Troubles du sommeil",
+            "description": "La douleur liée à la fibromyalgie est souvent associée à des troubles du sommeil.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Examen clinique",
+            "description": "L'examen clinique, en cas de fibromyalgie, retrouve des signes inflammatoires objectifs.",
+            "answers": [
+                "Faux"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Retentissement psychologique",
+            "description": "Le retentissement psychologique de la fibromyalgie peut être important.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Évolution",
+            "description": "L'évolution de la fibromyalgie est souvent chronique et fluctuante.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 42 ans présentant douleurs diffuses depuis plusieurs mois, fatigue intense et troubles du sommeil, bilan biologique normal.",
+            "answers": [
+                "Fibromyalgie"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Patiente de 38 ans consultant pour douleurs musculaires généralisées, anxiété, céphalées fréquentes et troubles digestifs fonctionnels, sans anomalies à l'examen.",
+            "answers": [
+                "Fibromyalgie"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 50 ans décrivant sensation de « mal partout » jour et nuit, majoration lors de périodes de stress professionnel.",
+            "answers": [
+                "Fibromyalgie"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Patiente présentant hypersensibilité diffuse à la palpation sans signes inflammatoires objectifs ni anomalies radiologiques.",
+            "answers": [
+                "Fibromyalgie"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 45 ans avec douleurs chroniques diffuses évoluant depuis plus d'un an, retentissement social et professionnel important, examens complémentaires normaux.",
+            "answers": [
+                "Fibromyalgie"
+            ]
+        }
+    ]
+}

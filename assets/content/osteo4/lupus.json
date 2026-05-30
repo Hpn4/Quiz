@@ -1,0 +1,214 @@
+{
+    "name": "Lupus érythémateux disséminé",
+    "slug": "lupus",
+    "description": "",
+    "image": "osteo4.png",
+    "infoTable": [
+        {
+            "key": "DÉFINITION (DEF)",
+            "value": "Maladie auto-immune systémique caractérisée par une dysrégulation du système immunitaire, qui se retourne contre les propres constituants de l'organisme, entraînant une atteinte inflammatoire pouvant toucher de nombreux organes."
+        },
+        {
+            "key": "FACTEURS DE RISQUE / TERRAIN",
+            "value": "Sexe féminin ; âge adulte jeune à moyen (> 30 ans) ; terrain génétique ; facteurs hormonaux ; exposition solaire ; facteurs environnementaux."
+        },
+        {
+            "key": "SIGNES CLINIQUES (SC)",
+            "value": "Fièvre ; fatigue chronique ; céphalées ; anorexie ; malaise général ; arthralgies ou polyarthrite non érosive ; manifestations neuropsychiatriques possibles (crises d'épilepsie, troubles psychotiques) ; atteintes cutanées caractéristiques (érythème malaire en « masque de loup ») ; atteinte possible de tout organe (rénale, cardiaque, pulmonaire, hématologique)."
+        },
+        {
+            "key": "EXAMEN CLINIQUE (EC)",
+            "value": "Évaluation globale du patient ; recherche de signes cutanés, articulaires et neurologiques ; dépistage des atteintes viscérales associées ; appréciation du retentissement fonctionnel et de la fatigue."
+        },
+        {
+            "key": "EXAMENS PARACLINIQUES (EPC)",
+            "value": "Biologie : anomalies de numération de la formule sanguine (anémie, leucopénie, thrombopénie) ; présence d'auto-anticorps (anticorps antinucléaires, antiphospholipides, anti-ADN natif) ; bilan immunologique et viscéral selon les atteintes."
+        },
+        {
+            "key": "ÉVOLUTION / COMPLICATIONS",
+            "value": "Évolution chronique par poussées ; atteintes multiviscérales ; risque thromboembolique (syndrome des antiphospholipides) ; atteinte rénale ou neurologique engageant le pronostic."
+        },
+        {
+            "key": "TRAITEMENT (TTT)",
+            "value": "Médicamenteux : antipaludéens de synthèse (hydroxychloroquine) ; corticothérapie ; immunosuppresseurs selon les atteintes ; suivi médical spécialisé indispensable."
+        }
+    ],
+    "glossary": [
+        {
+            "term": "Érythème",
+            "definition": "Rougeur de la peau"
+        },
+        {
+            "term": "Anticorps antiphospholipides",
+            "definition": "Anticorps pouvant provoquer la formation de caillots sanguins dans les artères et les veines et donc d'événements thrombotiques"
+        }
+    ],
+    "questions": [
+        {
+            "type": "mcq",
+            "title": "Définition",
+            "description": "Le lupus érythémateux systémique est :",
+            "choices": [
+                "Une infection chronique multisystémique",
+                "Une maladie auto-immune systémique inflammatoire",
+                "Une arthrose inflammatoire diffuse",
+                "Une vascularite exclusivement cérébrale"
+            ],
+            "answers": [
+                "Une maladie auto-immune systémique inflammatoire"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Terrain",
+            "description": "Concernant le lupus :",
+            "choices": [
+                "Plus fréquent chez la femme",
+                "Survient préférentiellement chez l'adulte jeune",
+                "Favorisé par l'exposition solaire",
+                "Exclusivement lié au vieillissement"
+            ],
+            "answers": [
+                "Plus fréquent chez la femme",
+                "Survient préférentiellement chez l'adulte jeune",
+                "Favorisé par l'exposition solaire"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Signes évocateurs",
+            "description": "Quels signes peuvent orienter vers un lupus ?",
+            "choices": [
+                "Érythème malaire en « masque de loup »",
+                "Polyarthrite non érosive",
+                "Déformation articulaire irréversible précoce",
+                "Fièvre isolée sans autre symptôme"
+            ],
+            "answers": [
+                "Érythème malaire en « masque de loup »",
+                "Polyarthrite non érosive"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Biologie",
+            "description": "Quels éléments biologiques sont évocateurs d'un lupus ?",
+            "choices": [
+                "Anomalie de la numération sanguine",
+                "Anti-ADN natif",
+                "Anticorps antiphospholipides",
+                "Troponine élevée"
+            ],
+            "answers": [
+                "Anomalie de la numération sanguine",
+                "Anti-ADN natif",
+                "Anticorps antiphospholipides"
+            ]
+        },
+        {
+            "type": "mcq",
+            "title": "Prise en charge",
+            "description": "Concernant la prise en charge du lupus :",
+            "choices": [
+                "Antipaludéen en traitement de fond",
+                "La corticothérapie peut être utilisée lors des poussées",
+                "Les antibiotiques sont systématiques",
+                "L'absence de suivi spécialisé est possible en phase stable"
+            ],
+            "answers": [
+                "Antipaludéen en traitement de fond",
+                "La corticothérapie peut être utilisée lors des poussées"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Atteintes d'organes",
+            "description": "Le lupus peut toucher plusieurs organes (rein, cœur, poumon).",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Atteinte articulaire",
+            "description": "L'atteinte articulaire du lupus est classiquement érosive et destructrice.",
+            "answers": [
+                "Faux"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Antiphospholipides",
+            "description": "Le syndrome des antiphospholipides expose à un risque thrombotique.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Poussées",
+            "description": "Le lupus évolue par poussées.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "tf",
+            "title": "Soleil",
+            "description": "L'exposition solaire peut aggraver un lupus.",
+            "answers": [
+                "Vrai"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 32 ans présentant fatigue chronique, arthralgies diffuses, fièvre modérée et éruption malaire photosensible.",
+            "answers": [
+                "Lupus",
+                "Lupus érythémateux",
+                "Lupus erythemateux"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Patiente de 35 ans avec anémie, leucopénie, anticorps antinucléaires positifs et protéinurie récente.",
+            "answers": [
+                "Lupus",
+                "Lupus érythémateux",
+                "Lupus erythemateux"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 40 ans consultant pour douleurs articulaires non érosives, céphalées, et antécédent de thrombose veineuse avec anticorps antiphospholipides positifs.",
+            "answers": [
+                "Lupus",
+                "Lupus érythémateux",
+                "Lupus erythemateux"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Patiente de 29 ans présentant rash cutané après exposition solaire, arthralgies, et fatigue persistante.",
+            "answers": [
+                "Lupus",
+                "Lupus érythémateux",
+                "Lupus erythemateux"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cas clinique",
+            "description": "Femme de 38 ans hospitalisée pour convulsions, avec antécédents de lupus connu, CRP modérément élevée et auto-anticorps positifs.",
+            "answers": [
+                "Lupus",
+                "Lupus érythémateux",
+                "Lupus erythemateux"
+            ]
+        }
+    ]
+}
