@@ -4,16 +4,40 @@
   "description": "",
   "image": "osteo1.png",
   "infoTable": [
-    { "key": "DÉFINITION (DEF)", "value": "Douleur du rachis lombaire d'origine mécanique, sans cause spécifique identifiable (absence de pathologie grave, inflammatoire, infectieuse, tumorale ou neurologique), évoluant depuis moins de 3 mois." },
-    { "key": "FACTEURS DE RISQUE (FDR)", "value": "Efforts physiques répétés ; chute ; port de charges ; sédentarité ; posture prolongée ou inadaptée ; faiblesse musculaire du tronc ; surpoids ; stress psycho-émotionnel ; surcharge professionnelle." },
-    { "key": "SIGNES CLINIQUES (SC)", "value": "Douleur lombaire localisée ; douleur mécanique (majorée à l'effort, soulagée au repos) ; raideur lombaire ; limitation fonctionnelle ; absence de signes neurologiques ; irradiation possible." },
-    { "key": "EXAMEN CLINIQUE (EC)", "value": "Inspection posturale ; palpation du rachis lombaire et test de la stabilité lombaire (muscles loco-régionaux en actif et passif); évaluation des amplitudes lombaires (Indice de Schober et évaluation de la DMS) ; tests de mobilité ; examen neurologique normal." },
-    { "key": "EXAMENS PARACLINIQUES (EPC)", "value": "Imagerie uniquement en cas de signes aggravants ou d'évolution défavorable." },
-    { "key": "ÉVOLUTION / COMPLICATIONS", "value": "Guérison spontanée fréquente ; risque de récidive ; chronicisation possible ; retentissement fonctionnel et professionnel." },
-    { "key": "TRAITEMENT (TTT)", "value": "Maintien de l'activité ; exercices et renforcement musculaire ; rééducation fonctionnelle ; prise en charge ostéopathique ou kinésithérapique ; antalgiques si nécessaire ; éducation thérapeutique et gestion des facteurs de risque (ergothérapie)" }
+    {
+      "key": "DÉFINITION (DEF)",
+      "value": "Douleur du rachis lombaire d'origine mécanique, sans cause spécifique identifiable (absence de pathologie grave, inflammatoire, infectieuse, tumorale ou neurologique), évoluant depuis moins de 3 mois."
+    },
+    {
+      "key": "FACTEURS DE RISQUE (FDR)",
+      "value": "Efforts physiques répétés ; chute ; port de charges ; sédentarité ; posture prolongée ou inadaptée ; faiblesse musculaire du tronc ; surpoids ; stress psycho-émotionnel ; surcharge professionnelle."
+    },
+    {
+      "key": "SIGNES CLINIQUES (SC)",
+      "value": "Douleur lombaire localisée ; douleur mécanique (majorée à l'effort, soulagée au repos) ; raideur lombaire ; limitation fonctionnelle ; absence de signes neurologiques ; irradiation possible."
+    },
+    {
+      "key": "EXAMEN CLINIQUE (EC)",
+      "value": "Inspection posturale ; palpation du rachis lombaire et test de la stabilité lombaire (muscles loco-régionaux en actif et passif); évaluation des amplitudes lombaires (Indice de Schober et évaluation de la DMS) ; tests de mobilité ; examen neurologique normal."
+    },
+    {
+      "key": "EXAMENS PARACLINIQUES (EPC)",
+      "value": "Imagerie uniquement en cas de signes aggravants ou d'évolution défavorable."
+    },
+    {
+      "key": "ÉVOLUTION / COMPLICATIONS",
+      "value": "Guérison spontanée fréquente ; risque de récidive ; chronicisation possible ; retentissement fonctionnel et professionnel."
+    },
+    {
+      "key": "TRAITEMENT (TTT)",
+      "value": "Maintien de l'activité ; exercices et renforcement musculaire ; rééducation fonctionnelle ; prise en charge ostéopathique ou kinésithérapique ; antalgiques si nécessaire ; éducation thérapeutique et gestion des facteurs de risque (ergothérapie)"
+    }
   ],
   "glossary": [
-    { "term": "Sédentarité", "definition": "La sédentarité est une situation d'éveil caractérisée par une très faible dépense d'énergie. Elle correspond au temps passé, assis, couché ou debout sans bouger (sans mouvement conduisant à une dépense d'énergie)." }
+    {
+      "term": "Sédentarité",
+      "definition": "La sédentarité est une situation d'éveil caractérisée par une très faible dépense d'énergie. Elle correspond au temps passé, assis, couché ou debout sans bouger (sans mouvement conduisant à une dépense d'énergie)."
+    }
   ],
   "questions": [
     {
@@ -26,7 +50,9 @@
         "Une lombalgie d'origine inflammatoire chronique",
         "Une atteinte tumorale du rachis"
       ],
-      "answers": ["Une douleur lombaire sans cause spécifique identifiable évoluant depuis moins de 3 mois"]
+      "answers": [
+        "Une douleur lombaire sans cause spécifique identifiable évoluant depuis moins de 3 mois"
+      ]
     },
     {
       "type": "mcq",
@@ -38,7 +64,11 @@
         "Postures prolongées inadaptées",
         "Infection bactérienne"
       ],
-      "answers": ["Port de charges répétées","Sédentarité","Postures prolongées inadaptées"]
+      "answers": [
+        "Port de charges répétées",
+        "Sédentarité",
+        "Postures prolongées inadaptées"
+      ]
     },
     {
       "type": "mcq",
@@ -50,7 +80,10 @@
         "Douleur nocturne permanente",
         "Déficit neurologique franc"
       ],
-      "answers": ["Douleur majorée à l'effort","Douleur soulagée par le repos"]
+      "answers": [
+        "Douleur majorée à l'effort",
+        "Douleur soulagée par le repos"
+      ]
     },
     {
       "type": "mcq",
@@ -62,7 +95,9 @@
         "Inutile",
         "Réservé aux formes chroniques"
       ],
-      "answers": ["Normal"]
+      "answers": [
+        "Normal"
+      ]
     },
     {
       "type": "mcq",
@@ -74,73 +109,104 @@
         "L'éducation thérapeutique est importante",
         "Le repos strict prolongé est indispensable"
       ],
-      "answers": ["Le maintien de l'activité est recommandé","La prise en charge ostéopathique peut être proposée","L'éducation thérapeutique est importante"]
+      "answers": [
+        "Le maintien de l'activité est recommandé",
+        "La prise en charge ostéopathique peut être proposée",
+        "L'éducation thérapeutique est importante"
+      ]
     },
     {
       "type": "tf",
       "title": "Fréquence",
       "description": "La lombalgie mécanique est la forme la plus fréquente de lombalgie.",
-      "answers": ["Vrai"]
+      "answers": [
+        "Vrai"
+      ]
     },
     {
       "type": "tf",
       "title": "Imagerie",
       "description": "L'imagerie est utile en première intention en cas de lombalgie mécanique.",
-      "answers": ["Faux"]
+      "answers": [
+        "Faux"
+      ]
     },
     {
       "type": "tf",
       "title": "Douleur mécanique",
       "description": "La douleur mécanique est souvent soulagée par le repos.",
-      "answers": ["Vrai"]
+      "answers": [
+        "Vrai"
+      ]
     },
     {
       "type": "tf",
       "title": "Durée",
       "description": "Une lombalgie mécanique évoluant depuis moins de 3 mois est dite aiguë ou subaiguë.",
-      "answers": ["Vrai"]
+      "answers": [
+        "Vrai"
+      ]
     },
     {
       "type": "tf",
       "title": "Stress",
       "description": "Le stress et la surcharge professionnelle peuvent favoriser la lombalgie.",
-      "answers": ["Vrai"]
+      "answers": [
+        "Vrai"
+      ]
     },
     {
       "type": "tf",
       "title": "Stress",
       "description": "Le stress et la surcharge professionnelle peuvent favoriser la lombalgie.",
-      "answers": ["Vrai"]
+      "answers": [
+        "Vrai"
+      ]
     },
     {
       "type": "text",
       "title": "Cas clinique",
       "description": "Homme de 35 ans, manutentionnaire, consultant pour une douleur lombaire apparue après une petite chute, majorée à l'effort et soulagée par le repos, sans irradiation franche.",
-      "answers": ["Lombalgie mécanique"]
+      "answers": [
+        "Lombalgie mécanique",
+        "Lombalgie"
+      ]
     },
     {
       "type": "text",
       "title": "Cas clinique",
       "description": "Femme de 42 ans, travail sédentaire, présentant une raideur lombaire matinale, une douleur augmentée après position assise prolongée, sans déficit neurologique.",
-      "answers": ["Lombalgie mécanique"]
+      "answers": [
+        "Lombalgie mécanique",
+        "Lombalgie"
+      ]
     },
     {
       "type": "text",
       "title": "Cas clinique",
       "description": "Homme de 50 ans, en surcharge pondérale, consultant pour des douleurs lombaires récidivantes, déclenchées par le port de charges, avec examen neurologique normal.",
-      "answers": ["Lombalgie mécanique"]
+      "answers": [
+        "Lombalgie mécanique",
+        "Lombalgie"
+      ]
     },
     {
       "type": "text",
       "title": "Cas clinique",
       "description": "Femme de 28 ans, stress professionnel important, décrivant une lombalgie localisée, fluctuante selon l'activité, soulagée lors des périodes de repos.",
-      "answers": ["Lombalgie mécanique"]
+      "answers": [
+        "Lombalgie mécanique",
+        "Lombalgie"
+      ]
     },
     {
       "type": "text",
       "title": "Cas clinique",
       "description": "Homme de 45 ans, sportif occasionnel, consultant pour une douleur lombaire mécanique apparue progressivement après reprise d'activité, sans signe d'alarme ni irradiation systématisée.",
-      "answers": ["Lombalgie mécanique"]
+      "answers": [
+        "Lombalgie mécanique",
+        "Lombalgie"
+      ]
     }
   ]
 }

@@ -111,31 +111,31 @@
       "type": "text",
       "title": "Cas clinique",
       "description": "Femme de 34 ans, enceinte, consultant pour des fourmillements nocturnes des pouces, index et majeurs, avec réveils nocturnes l'obligeant à secouer la main.",
-      "answers": ["Syndrome du canal carpien"]
+      "answers": ["Syndrome du canal carpien", "Canal carpien"]
     },
     {
       "type": "text",
       "title": "Cas clinique",
       "description": "Homme de 50 ans, diabétique, travail prolongé sur clavier, présentant une diminution de la force de préhension et des paresthésies persistantes de la main dominante.",
-      "answers": ["Syndrome du canal carpien"]
+      "answers": ["Syndrome du canal carpien", "Canal carpien"]
     },
     {
       "type": "text",
       "title": "Cas clinique",
       "description": "Femme de 42 ans, travail répétitif manuel, décrivant une maladresse progressive de la main et une douleur nocturne, avec test de Phalen positif.",
-      "answers": ["Syndrome du canal carpien"]
+      "answers": ["Syndrome du canal carpien", "Canal carpien"]
     },
     {
       "type": "text",
       "title": "Cas clinique",
       "description": "Homme de 60 ans consultant pour une perte de sensibilité des trois premiers doigts, associée à une amyotrophie thénarienne, évoquant une forme évoluée.",
-      "answers": ["Syndrome du canal carpien"]
+      "answers": ["Syndrome du canal carpien", "Canal carpien"]
     },
     {
       "type": "text",
       "title": "Cas clinique",
       "description": "Une enseignante de 50 ans vient consulter pour des paresthésies de la main droite. Cette gêne devient insupportable lorsqu'elle écrit longtemps. Elle signale également que ces douleurs la réveillent la nuit. A quoi pensez-vous?",
-      "answers": ["Syndrome du canal carpien"]
+      "answers": ["Syndrome du canal carpien", "Canal carpien"]
     }
   ]
 }
