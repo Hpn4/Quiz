@@ -143,3 +143,20 @@ export function getAllQuizList(): { topicSlug: string; quizSlug: string }[] {
     Object.keys(quizMap).map((quizSlug) => ({ topicSlug, quizSlug }))
   );
 }
+
+export function getAllTextAnswers(): string[] {
+  const seen = new Set<string>();
+  const result: string[] = [];
+  Object.values(topicsToQuiz).forEach((qmap) => {
+    Object.values(qmap).forEach((quiz: any) => {
+      (quiz.questions ?? []).forEach((q: any) => {
+        if (q.type === "text" && Array.isArray(q.answers)) {
+          q.answers.forEach((a: string) => {
+            if (!seen.has(a)) { seen.add(a); result.push(a); }
+          });
+        }
+      });
+    });
+  });
+  return result;
+}
