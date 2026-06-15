@@ -7,9 +7,8 @@ import {
   ScrollView,
 } from "react-native";
 import { useRouter } from "expo-router";
-import { AnimatedCircularProgress } from "react-native-circular-progress";
-
 import { useSession } from "@/types/SessionContext";
+import CircularProgress from "@/components/CircularProgress";
 import type { ThemeColors } from "@/constants/Color";
 import { useThemeColors, useThemedStyles } from "@/types/ThemeContext";
 import { playPerfect } from "@/utils/sounds";
@@ -44,22 +43,19 @@ export default function SessionEnd() {
         showsVerticalScrollIndicator={false}
       >
         <View style={styles.heroRow}>
-          <AnimatedCircularProgress
-            size={160}
-            width={14}
-            fill={percent}
-            lineCap="round"
-            tintColor={colors.accentuation}
-            backgroundColor={colors.card}
-            rotation={0}
-          >
-            {() => (
-                <View style={{ alignItems: 'center' }}>
-                  <Text style={styles.pct}>{Math.round(percent)}%</Text>
-                  <Text style={styles.pctSub}>{correct}/{total}</Text>
-                </View>
-              )}
-          </AnimatedCircularProgress>
+          <View style={styles.circleWrapper}>
+            <CircularProgress
+              size={160}
+              thickness={14}
+              progress={percent / 100}
+              color={colors.accentuation}
+              unfilledColor={colors.card}
+            />
+            <View style={styles.circleLabel}>
+              <Text style={styles.pct}>{Math.round(percent)}%</Text>
+              <Text style={styles.pctSub}>{correct}/{total}</Text>
+            </View>
+          </View>
         </View>
 
         <View style={styles.counters}>
@@ -167,6 +163,16 @@ const createStyles = (colors: ThemeColors) => StyleSheet.create({
   },
   heroRow: {
     marginBottom: 36,
+  },
+  circleWrapper: {
+    width: 160,
+    height: 160,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  circleLabel: {
+    position: "absolute",
+    alignItems: "center",
   },
   pct: {
     color: colors.text,

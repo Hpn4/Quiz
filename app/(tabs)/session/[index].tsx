@@ -1,7 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter, useLocalSearchParams } from "expo-router";
-import { View, Text, StyleSheet, TouchableOpacity, Animated, BackHandler } from "react-native";
-
+import { View, Text, StyleSheet, TouchableOpacity, Animated, BackHandler, Platform } from "react-native";
 import { useSession } from "@/types/SessionContext";
 import { statsKey } from "@/utils/statsStorage";
 import { FlatQuestion } from "@/types/Session";
@@ -62,7 +61,7 @@ export default function SessionQuestion() {
       (question?.type === "tf" || question?.type === "truefalse" ? 2 : question?.type === "text" ? 1 : 0);
     setValidQuestions(new Array(choiceCount).fill(false));
     anim.setValue(0);
-    Animated.spring(anim, { toValue: 1, useNativeDriver: true, friction: 8, tension: 90 }).start();
+    Animated.spring(anim, { toValue: 1, useNativeDriver: Platform.OS !== 'web', friction: 8, tension: 90 }).start();
   }, [poolIndex]);
 
   if (!session || !flatQ) {

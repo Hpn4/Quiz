@@ -39,10 +39,7 @@ const createStyles = (colors: ThemeColors) =>
       paddingVertical: 16,
       alignItems: "center",
       elevation: 6,
-      shadowColor: colors.background,
-      shadowOffset: { width: 0, height: 4 },
-      shadowOpacity: 0.35,
-      shadowRadius: 8,
+      boxShadow: `0px 4px 8px ${colors.shadow}59`,
     },
     txt: {
       color: colors.text,

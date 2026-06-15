@@ -1,6 +1,6 @@
 import { useLocalSearchParams, useRouter, usePathname } from 'expo-router';
 import React, { useEffect, useMemo, useState } from "react";
-import { useFocusEffect } from '@react-navigation/native';
+import { useFocusEffect } from 'expo-router';
 import { View, ScrollView, StyleSheet } from "react-native";
 
 import { Quiz } from "@/types/Quiz";
@@ -61,7 +61,7 @@ export default function Index() {
   return (
     <View style={styles.container}>
       <ScrollView contentContainerStyle={styles.scroll} showsVerticalScrollIndicator={false}>
-        <TitleCard title={quiz?.name ?? ""} content={quiz?.description ?? ""} infoTable={quiz?.infoTable}/>
+        <TitleCard title={quiz?.name ?? ""} content={quiz?.description ?? ""} infoTable={quiz?.infoTable} />
         <GlossaryBox items={quiz?.glossary} />
 
         {/* Question list */}

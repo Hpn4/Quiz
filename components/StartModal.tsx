@@ -4,9 +4,10 @@ import {
   View,
   Text,
   TouchableOpacity,
-  TouchableWithoutFeedback,
+  Pressable,
   Animated,
   StyleSheet,
+  Platform,
 } from "react-native";
 
 import type { ThemeColors } from "@/constants/Color";
@@ -42,14 +43,14 @@ const StartSheet: React.FC<StartSheetProps> = ({
     if (visible) {
       Animated.spring(slideAnim, {
         toValue: 0,
-        useNativeDriver: true,
+        useNativeDriver: Platform.OS !== 'web',
         bounciness: 4,
       }).start();
     } else {
       Animated.timing(slideAnim, {
         toValue: 300,
         duration: 220,
-        useNativeDriver: true,
+        useNativeDriver: Platform.OS !== 'web',
       }).start();
     }
   }, [visible]);
@@ -78,9 +79,7 @@ const StartSheet: React.FC<StartSheetProps> = ({
   return (
     <Modal transparent visible={visible} animationType="none" onRequestClose={onClose}>
       {/* Backdrop – tap to dismiss */}
-      <TouchableWithoutFeedback onPress={onClose}>
-        <View style={styles.backdrop} />
-      </TouchableWithoutFeedback>
+      <Pressable style={styles.backdrop} onPress={onClose} />
 
       {/* Sliding sheet */}
       <Animated.View
